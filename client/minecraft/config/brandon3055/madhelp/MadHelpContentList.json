@@ -1,0 +1,32 @@
+[
+	{
+		"displayName": "Example World",
+		"fileName": "ExampleWorld.zip",
+		"description": "This is an example of a world download entry",
+		"info": [
+			"[c]This is an example map info page",
+			"Ok so this is just a page where the pack maker can dump a LOT of information about the map",
+			"Each individual string you add to the json file is turned into a new paragraph like this!. You can add §0c§1o§2l§3o§4u§5r§6s§7.§8.§9.§a.§b.§c.§d.§e.§f.§r And §l§n§oFormatting!§r §k\\\"Secret Text!\\\"\"",
+			"To add formatting you simply add the selector symbol \"§\" then any of the standard minecraft formatting codes",
+			"[c]You can also center a paragraph by adding \"[c]\" to the start of it (before any formatting)"
+		],
+		"releaseNumber": "0",
+		"downloadURL": "www.somedirectdownload.com/map.zip",
+		"isRegional": false,
+		"regionInputPath": "",
+		"regionOutputPath": ""
+	},
+	{
+		"displayName": "Another Example World",
+		"fileName": "ExampleWorld.zip",
+		"description": "This is an example of a world download entry",
+		"info": [
+			"[c]Example info"
+		],
+		"releaseNumber": "0",
+		"downloadURL": "www.somedirectdownload.com/map.zip",
+		"isRegional": true,
+		"regionInputPath": "region",
+		"regionOutputPath": "region"
+	}
+]

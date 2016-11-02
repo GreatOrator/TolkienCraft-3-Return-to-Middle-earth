@@ -116,7 +116,7 @@
     {		
         "version":
         {
-            "text" : "v0.1.0 - Alpha",
+            "text" : "v0.2.0 - Alpha",
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
@@ -171,6 +171,30 @@
 			}
         },
 		
+	"teagan":
+        {
+            "text" : "Teagan75",
+            "posX" : -145,
+            "posY" : 106,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Thank you for your inspiration!"
+		},
+     "sponsor":
+        {
+            "text" : "Aim2Game Hosting",
+            "posX" : -145,
+            "posY" : 116,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Game Server Hosting!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://clients.aim2game.com/aff.php?aff=383"
+			}
+        },
+        		
 	"sn0w":
         {
             "text" : "Alecia (Sn0w) Shepherd",
@@ -186,15 +210,6 @@
 			}
         },
 	
-	"separator":
-        {
-            "text" : "------------------------------------------------",
-            "posX" : -145,
-            "posY" : 86,
-            "color" : 14329120,
-            "alignment" : "center"
-        },
-	
 	"thankheader":
         {
             "text" : "Special Thanks To:",
@@ -208,7 +223,7 @@
         {
             "text" : "------------------------------------------------",
             "posX" : -145,
-            "posY" : 106,
+            "posY" : 90,
             "color" : 14329120,
             "alignment" : "center"
         },
@@ -217,7 +232,7 @@
         {
             "text" : "My Patrons, ValsNoisyToys, and you!",
             "posX" : -145,
-            "posY" : 116,
+            "posY" : 126,
             "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Thank you everyone! Please visit my patreon page.",

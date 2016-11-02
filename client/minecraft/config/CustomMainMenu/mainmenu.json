@@ -20,7 +20,17 @@
             "width" : 450,
             "height" : 128,
             "alignment" : "top_center"
-        }
+        },
+       
+        "a2game":
+		{
+			"image" : "textures:tolkiencraft/gui/A2G.png",
+            "posX" : -120,
+            "posY" : -78,
+            "width" : 100,
+            "height" : 57,
+            "alignment" : "bottom_right"
+		}
     },
     
     "buttons":
@@ -197,7 +207,7 @@
     {		
         "version":
         {
-            "text" : "v0.1.0 - Alpha",
+            "text" : "v0.2.0 - Alpha",
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
