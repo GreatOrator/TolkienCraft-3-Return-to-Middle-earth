@@ -13,6 +13,4 @@ Sadly, one by one, the free peoples were defeated as the growing evil was strong
 
 It will be up to you to help fight back this evil and see what can be done to help the Fellowship succeed in a new task.  Be strong traveler and know that if ever a Hero was needed, the Hero of Draconis shall be the one to answer that call!
 
- 
-
-                                                                                               **...hope shall not fade.**
+**...hope shall not fade.**
