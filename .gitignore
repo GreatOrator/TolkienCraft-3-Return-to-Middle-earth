@@ -4,13 +4,14 @@
 
 **/logs
 **/asm
-**/reports
+**/*reports
 **/mods/ruins_log.txt
 **/natives
 **/stats/player.uid
 **/backups
 **/template
 **/usernamecache.json
+**/journeymap/server
 **/journeymap/data
 **/journeymap/config
 **/journeymap/icon/entity
