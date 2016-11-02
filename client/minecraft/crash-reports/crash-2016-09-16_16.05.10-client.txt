@@ -1,0 +1,207 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  DepLoader (BrandonsCore-1.10.2-2.1.0.40-universal.jar)
+  StreamsCoreMod (Streams-1.9.4-0.2.1.jar)
+  Default Options (DefaultOptions_1.10.2-6.1.5.jar)
+  LoadingPlugin (Quark-r1.0-55.jar)
+  FarseekCoreMod (Farseek-1.9.4-1.1.jar)
+  LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  CCCDeobfPlugin (unknown)
+  CodeChickenCorePlugin (CodeChickenCore-1.10.2-2.1.8.79-universal.jar)
+  CCLCorePlugin (CodeChickenLib-1.10.2-2.2.3.73-universal.jar)
+  PSLoadingPlugin (PerfectSpawn-MC1.10.2-1.4.jar)
+Contact their authors BEFORE contacting forge
+
+// Shall we play a game?
+
+Time: 9/16/16 4:05 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException: Cannot set property PropertyInteger{name=rotation, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8]} to 12 on block customnpcs:npcMailbox, it is not an allowed value
+	at net.minecraftforge.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:499)
+	at net.minecraftforge.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:455)
+	at noppes.npcs.CommonProxy.registerBlock(CommonProxy.java:179)
+	at noppes.npcs.client.ClientProxy.registerBlock(ClientProxy.java:785)
+	at noppes.npcs.CommonProxy.registerBlock(CommonProxy.java:183)
+	at noppes.npcs.CustomItems.load(CustomItems.java:390)
+	at noppes.npcs.CustomNpcs.load(CustomNpcs.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:595)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:239)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:142)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:607)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:255)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:439)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:191)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:252)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:162)
+	at org.multimc.EntryPoint.main(EntryPoint.java:53)
+Caused by: java.lang.IllegalArgumentException: Cannot set property PropertyInteger{name=rotation, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8]} to 12 on block customnpcs:npcMailbox, it is not an allowed value
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.func_177226_a(BlockStateContainer.java:222)
+	at noppes.npcs.blocks.BlockMailbox.func_176203_a(BlockMailbox.java:75)
+	at net.minecraftforge.fml.common.registry.GameData$BlockCallbacks.onAdd(GameData.java:309)
+	at net.minecraftforge.fml.common.registry.GameData$BlockCallbacks.onAdd(GameData.java:284)
+	at net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry.addObjectRaw(FMLControlledNamespacedRegistry.java:585)
+	at net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry.add(FMLControlledNamespacedRegistry.java:483)
+	at net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry.register(FMLControlledNamespacedRegistry.java:830)
+	at net.minecraftforge.fml.common.registry.GameData.register_impl(GameData.java:254)
+	at net.minecraftforge.fml.common.registry.GameRegistry.register(GameRegistry.java:153)
+	at net.minecraftforge.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:492)
+	... 50 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_65, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 232277040 bytes (221 MB) / 659779584 bytes (629 MB) up to 3664183296 bytes (3494 MB)
+	JVM Flags: 20 total; -XX:+TieredCompilation -XX:CompileThreshold=1500 -XX:-DontCompileHugeMethods -XX:+UseCodeCacheFlushing -XX:ReservedCodeCacheSize=256m -XX:+UseBiasedLocking -XX:BiasedLockingStartupDelay=0 -XX:NewRatio=3 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+DisableExplicitGC -XX:+CMSIncrementalMode -XX:+CMSIncrementalPacing -XX:+CMSParallelRemarkEnabled -XX:+UseCompressedOops -XX:CMSInitiatingOccupancyFraction=30 -XX:+UseCMSInitiatingOccupancyOnly -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx3584m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.1.2087 60 mods loaded, 60 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{8.0.99.99} [Forge Mod Loader] (forge-1.10.2-12.18.1.2087-universal.jar) 
+	UCH	Forge{12.18.1.2087} [Minecraft Forge] (forge-1.10.2-12.18.1.2087-universal.jar) 
+	UCH	CodeChickenCore{2.1.8.79} [CodeChicken Core] (minecraft.jar) 
+	UCH	anssrpg{v1.1.3} [A Not So Simple RPG] (ANSSRPG-1.10.2-v1.1.3.jar) 
+	UCH	Quark{r1.0-55} [Quark] (Quark-r1.0-55.jar) 
+	UCH	AutoRegLib{1.0-2} [AutoRegLib] (AutoRegLib-1.0-2.jar) 
+	UCH	BetterAchievements{0.3.0.30} [Better Achievements] (BetterAchievements-1.10.2-0.3.0.30.jar) 
+	UCH	betteragriculture{0.16} [Better Agriculture] (BetterAgriculture_(MC-1.10)-0.16.jar) 
+	UCH	betterquesting{1.3.161} [Better Questing] (BetterQuesting-1.3.161.jar) 
+	UCH	guideapi{@VERSION@} [Guide-API] (Guide-API-1.10.2-2.0.2-45.jar) 
+	UCH	ExtraUtils2{1.0} [ExtraUtils2] (extrautils2-1.10.2-alpha-1.0.1.jar) 
+	UCH	mantle{1.10.2-1.0.0.jenkins170} [Mantle] (Mantle-1.10.2-1.0.0.jar) 
+	UCH	tconstruct{1.10.2-2.5.1.jenkins349} [Tinkers' Construct] (TConstruct-1.10.2-2.5.1.jar) 
+	UCH	immersiveengineering{0.10-42} [Immersive Engineering] (ImmersiveEngineering-0.10-42.jar) 
+	UCH	JEI{3.9.0.244} [Just Enough Items] (jei_1.10.2-3.9.0.244.jar) 
+	UCH	BloodMagic{1.9.4-2.0.4-58} [Blood Magic: Alchemical Wizardry] (BloodMagic-1.9.4-2.0.4-58.jar) 
+	UCH	brandonscore{2.1.0} [Brandon's Core] (BrandonsCore-1.10.2-2.1.0.40-universal.jar) 
+	UCH	Chameleon{1.10-2.1.7} [Chameleon] (Chameleon-1.10-2.1.7.jar) 
+	UCH	ChickenChunks{2.1.3.36} [ChickenChunks] (ChickenChunks-1.10.2-2.1.3.36-universal.jar) 
+	UCH	chisel{MC1.9.4-0.0.6.33} [Chisel] (Chisel-MC1.9.4-0.0.6.33.jar) 
+	UCH	chiselsandbits{12.1} [Chisels & Bits] (chiselsandbits-12.1.jar) 
+	UCH	craftingtweaks{6.1.12} [Crafting Tweaks] (CraftingTweaks_1.10.2-6.1.12.jar) 
+	UCH	crashlogadditions{1.1} [Crash Log Additions] (CrashLogAdditions-1.10.2-1.1.jar) 
+	UCH	CustomMainMenu{2.0.2} [Custom Main Menu] (CustomMainMenu-MC1.10.2-2.0.2.jar) 
+	UCE	customnpcs{1.9.0_beta} [CustomNPCs] (CustomNPCs_1.10.2_beta(16sep16).jar) 
+	UCH	forestry{5.2.9.242} [Forestry] (forestry_1.10.2-5.2.9.242.jar) 
+	UCH	ElecCore{1.5.311} [ElecCore] (ElecCore-1.9.4-1.5.311.jar) 
+	UCH	deepresonance{1.2.2} [DeepResonance] (deepresonance-1.10-1.2.2.jar) 
+	UCH	defaultoptions{6.1.5} [Default Options] (DefaultOptions_1.10.2-6.1.5.jar) 
+	UCH	draconicevolution{2.0.0} [Draconic Evolution] (Draconic-Evolution-1.10.2-2.0.0.92-universal.jar) 
+	UCH	lootablebodies{2.2.0} [DrCyano's Lootable Bodies] (DrCyanosLootableBodies_1.10.2-2.2.0.jar) 
+	UCH	EnderStorage{2.1.3.72} [EnderStorage] (EnderStorage-1.10.2-2.1.3.72-universal.jar) 
+	UCH	expandablebackpack{1.1} [Expandable Backpacks] (expandableBackpacks1.1.8.jar) 
+	UCH	Farseek{1.9.4} [Farseek] (Farseek-1.9.4-1.1.jar) 
+	UCH	FastLeaveDecay{1.1} [Fast Leave Decay] (FastLeaveDecay-MC1.9.4-1.2.1.jar) 
+	UCH	ironchest{1.10.2-7.0.9.796} [Iron Chest] (ironchest-1.10.2-7.0.9.796.jar) 
+	UCH	journeymap{1.10.2-5.2.4} [JourneyMap] (journeymap-1.10.2-5.2.4-unlimited.jar) 
+	UCH	jeresources{0.4.8.48} [Just Enough Resources] (JustEnoughResources-1.10.2-0.4.8.48.jar) 
+	UCH	llor{1.1.0-mc[1.9-1.10.2]} [Light Level Overlay Reloaded] (LLOverlayReloaded-1.1.0-mc[1.9-1.10.2].jar) 
+	UCH	RadixCore{1.10.2-2.1.3} [RadixCore] (RadixCore-1.10.2-2.1.3-universal.jar) 
+	UCH	MCA{1.10.2-5.2.3} [Minecraft Comes Alive] (MCA-1.10.2-5.2.3-universal.jar) 
+	UCH	harvestcraft{1.9.4-pre} [Pam's HarvestCraft] (Pam's HarvestCraft 1.9.4-1.10.2b.jar) 
+	UCH	PerfectSpawn{1.4} [Perfect Spawn] (PerfectSpawn-MC1.10.2-1.4.jar) 
+	UCH	randomrestockablecrates{1.2.6} [Rando Restockable Crates] (randomrestockablecrates-1.10.2-1.2.6.jar) 
+	UCH	xreliquary{1.10.2-1.3.3.543} [Reliquary] (Reliquary-1.10.2-1.3.3.543.jar) 
+	UCH	ResourceLoader{1.5.1} [Resource Loader] (ResourceLoader-MC1.9.4-1.5.1.jar) 
+	UCH	corerm{1.2e-1.9.4} [RikMuld's Core] (RikMuldsCore_1.2e-1.10.2.jar) 
+	UCH	Roguelike{1.5.4} [Roguelike Dungeons] (RoguelikeDungeons-1.10.2-1.5.4.jar) 
+	UCH	roots{0.202} [Roots] (roots-1.10.2-0.202.0.jar) 
+	UCH	RTG{1.10.2} [Realistic Terrain Generation] (RTG-1.10.2-4.1.1.2-snapshot-4.jar) 
+	UCH	AS_Ruins{16.2} [Ruins Spawning System] (Ruins-1.10.2.jar) 
+	UCH	bq_standard{1.3.98} [Standard Expansion] (StandardExpansion-1.3.98.jar) 
+	UCH	StorageDrawers{1.10.2-3.2.7} [Storage Drawers] (StorageDrawers-1.10.2-3.2.7.jar) 
+	UCH	Streams{1.9.4} [Streams] (Streams-1.9.4-0.2.1.jar) 
+	UCH	camping{2.3d-1.9.4} [The Camping Mod 2] (TheCampingMod_2.3d-1.10.2.jar) 
+	UCH	tinkertoolleveling{1.10.2-0.1.0.DEV.b5240c7} [Tinkers Tool Leveling] (TinkerToolLeveling-1.10.2-0.1.0.jar) 
+	UCH	Translocator{2.1.2.29} [Translocator] (Translocators-1.10.2-2.1.2.29-universal.jar) 
+	UCH	icse{1.1.0.0} [I Can See Everything] (Wawla-1.10.2-2.3.0.203.jar) 
+	UCH	wawla{2.3.0.202} [What Are We Looking At] (Wawla-1.10.2-2.3.0.203.jar) 
+	Loaded coremods (and transformers): 
+DepLoader (BrandonsCore-1.10.2-2.1.0.40-universal.jar)
+  
+StreamsCoreMod (Streams-1.9.4-0.2.1.jar)
+  streams.core.StreamsClassTransformer
+Default Options (DefaultOptions_1.10.2-6.1.5.jar)
+  net.blay09.mods.defaultoptions.coremod.DefaultOptionsClassTransformer
+LoadingPlugin (Quark-r1.0-55.jar)
+  vazkii.quark.base.asm.ClassTransformer
+FarseekCoreMod (Farseek-1.9.4-1.1.jar)
+  farseek.core.FarseekClassTransformer
+LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  lumien.resourceloader.asm.ClassTransformer
+CCCDeobfPlugin (unknown)
+  
+CodeChickenCorePlugin (CodeChickenCore-1.10.2-2.1.8.79-universal.jar)
+  codechicken.core.asm.TweakTransformer
+  codechicken.core.asm.DelegatedTransformer
+  codechicken.core.asm.DefaultImplementationTransformer
+CCLCorePlugin (CodeChickenLib-1.10.2-2.2.3.73-universal.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.RenderHookTransformer
+PSLoadingPlugin (PerfectSpawn-MC1.10.2-1.4.jar)
+  lumien.perfectspawn.asm.PSClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 372.70' Renderer: 'GeForce GTX 650/PCIe/SSE2'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- chiselsandbitsIntegration (Enabled/Not Forced)
+		- craftingtweaksIntegration (Enabled/Not Forced)
+
+	CodeChickenCore: ignoreInvalidMCVersion state: false
+	TolkienCraft III - Return to Middle-earth - 0.1.0: 
+			30 years have passed
+			and things are not well.
