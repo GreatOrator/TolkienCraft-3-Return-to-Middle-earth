@@ -1,0 +1,273 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "textures:tolkiencraft/gui/tcbackground.png",
+            "posX" : 0,
+            "posY" : -20,
+            "width" : 200,
+            "height" : 512,
+			"imageWidth" : 200,
+			"imageHeight" : 512,
+			"alignment" : "top_left"
+        },
+        "title3":
+        {
+            "image" : "textures:tolkiencraft/gui/minecraft2.png",
+            "posX" : -225,
+            "posY" : 0,
+            "width" : 450,
+            "height" : 128,
+            "alignment" : "top_center"
+        },
+
+        "title4":
+        {
+            "image" : "textures:tolkiencraft/gui/blacktransparent.png",
+            "posX" : -150,
+            "posY" : 35,
+            "width" : 300,
+            "height" : 256,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {		
+        "mainmenu":
+        {
+            "text" : "Main Menu",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+            "posX" : -75,
+            "posY" : 10,
+            "width" : 150,
+            "height" : 30,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"normalTextColor" : 16777215,
+			"hoverTextColor" : 16711680,
+			"alignment" : "center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "custom.mainmenu"
+            }
+        },
+		
+        "options":
+        {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate4.png",
+			"posX" : 5,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "Choose your Settings",
+             "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+		},
+       
+        "quit":
+       {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate1.png",
+            "posX" : 55,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "Adventure another day.",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+        "language":
+        {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate2.png",
+            "posX" : 30,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "How shall I address thee?",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {		
+        "version":
+        {
+            "text" : "v0.2.0 - Alpha",
+            "posX" : -100,
+            "posY" : -15,
+            "color" : 14329120,
+            "alignment" : "bottom_right"
+        },
+	
+	"musicheader":
+        {
+            "text" : "Music:",
+            "posX" : -30,
+            "posY" : 40,
+            "color" : 14329120,
+            "alignment" : "center"
+        },
+	
+	"separator":
+        {
+            "text" : "------------------------------------------------",
+            "posX" : -145,
+            "posY" : 46,
+            "color" : 14329120,
+            "alignment" : "center"
+        },
+		
+	"macleod":
+        {
+            "text" : "Kevin MacLeod",
+            "posX" : -145,
+            "posY" : 56,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Download his music!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://incompetech.com/"
+			}
+        },
+		
+	"clarke":
+        {
+            "text" : "Christopher Lloyd Clarke",
+            "posX" : -145,
+            "posY" : 66,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Download his music!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://www.The-Guided-Meditation-Site.com/"
+			}
+        },
+		
+	"teagan":
+        {
+            "text" : "Teagan75",
+            "posX" : -145,
+            "posY" : 106,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Thank you for your inspiration!"
+		},
+     "sponsor":
+        {
+            "text" : "Aim2Game Hosting",
+            "posX" : -145,
+            "posY" : 116,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Game Server Hosting!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://clients.aim2game.com/aff.php?aff=383"
+			}
+        },
+        		
+	"sn0w":
+        {
+            "text" : "Alecia (Sn0w) Shepherd",
+            "posX" : -145,
+            "posY" : 76,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Download her music!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://www.aleciashepherd.com/"
+			}
+        },
+	
+	"thankheader":
+        {
+            "text" : "Special Thanks To:",
+            "posX" : -60,
+            "posY" : 96,
+            "color" : 14329120,
+            "alignment" : "center"
+        },
+	
+	"separator":
+        {
+            "text" : "------------------------------------------------",
+            "posX" : -145,
+            "posY" : 90,
+            "color" : 14329120,
+            "alignment" : "center"
+        },
+		
+	"creditlist":
+        {
+            "text" : "My Patrons, ValsNoisyToys, and you!",
+            "posX" : -145,
+            "posY" : 126,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Thank you everyone! Please visit my patreon page.",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "https://www.patreon.com/greatorator?ty=a"
+			}
+        },
+       
+    "greeting":
+        {
+            "text" : "#username# has returned!",
+            "posX" : 5,
+            "posY" : 5,
+            "color" : 14329120,
+            "alignment" : "top_left"
+        }
+    },    
+    "other":
+    {
+        "splash-text":
+        {
+			"posX" : 190,
+            "posY" : 120,
+            "color" : 13055,
+            "alignment" : "top_center",
+			"texts" : "Adventure\nOne ring to build them all\nand in the darkness mine them\nRoads Go Ever On\nHome is behind\nthe world ahead\nDug too deep\nDarker and fouler things\nPipe weed\nelevensies\nsecond breakfast\nRiddle Game\nSo our path is laid\nNo living man am I!\nMany dark places\nCaras Galadhon\nKazad Dum\nBarad Dur\nCirith Ungol\nMinas Tirith\nEdoras\nEsgaroth\nErebor\nWeathertop\nIsengard\nArgonath\nHobbiton\nBrandybuck\nBeorn\nHelm’s Deep\nDale\nWaterworks\nOsgiliath\nRivendell\nThranduil\nLand of Bree\nMinas Morgul\nShelob\nThe Black Gates\nMount Doom"
+        },
+		
+        "panorama":
+        {
+            "images" : "textures:tolkiencraft/gui/panorama_%c.png",
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

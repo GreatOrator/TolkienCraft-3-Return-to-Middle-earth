@@ -1,0 +1,255 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "textures:tolkiencraft/gui/tcbackground.png",
+            "posX" : 0,
+            "posY" : -20,
+            "width" : 200,
+            "height" : 512,
+			"imageWidth" : 200,
+			"imageHeight" : 512,
+			"alignment" : "top_left"
+        },
+		"title3":
+        {
+            "image" : "textures:tolkiencraft/gui/minecraft2.png",
+            "posX" : -225,
+            "posY" : 0,
+            "width" : 450,
+            "height" : 128,
+            "alignment" : "top_center"
+        },
+       
+        "a2game":
+		{
+			"image" : "textures:tolkiencraft/gui/A2G.png",
+            "posX" : -120,
+            "posY" : -78,
+            "width" : 100,
+            "height" : 57,
+            "alignment" : "bottom_right"
+		}
+    },
+    
+    "buttons":
+    {
+        "madhelp":
+        {
+            "text" : "gui.mad.download.button",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+            "posX" : -75,
+            "posY" : 10,
+            "width" : 150,
+            "height" : 30,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"normalTextColor" : 16777215,
+			"hoverTextColor" : 16711680,
+			"alignment" : "center",
+			"wrappedButton" : 426            
+        },
+		
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+            "posX" : -75,
+            "posY" : 35,
+            "width" : 75,
+            "height" : 30,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"normalTextColor" : 16777215,
+			"hoverTextColor" : 16711680,
+			"alignment" : "center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+            "posX" : 0,
+            "posY" : 35,
+            "width" : 75,
+            "height" : 30,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"normalTextColor" : 16777215,
+			"hoverTextColor" : 16711680,
+			"alignment" : "center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+		
+        "extras":
+        {
+            "text" : "Credits",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+            "posX" : -75,
+            "posY" : 60,
+            "width" : 150,
+            "height" : 30,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"normalTextColor" : 16777215,
+			"hoverTextColor" : 16711680,
+			"alignment" : "center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "custom.thankyou"
+            }
+        },
+		
+        "server":
+        {
+            "text" : "Server Download",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+            "posX" : -75,
+            "posY" : 85,
+            "width" : 150,
+            "height" : 30,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"normalTextColor" : 16777215,
+			"hoverTextColor" : 16711680,
+			"alignment" : "center",
+            "action" :
+                        {
+                "type" : "openLink",
+                                "link" : "https://github.com/GreatOrator/TolkienCraftII/releases"
+			}
+        },
+		
+        "options":
+        {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate4.png",
+			"posX" : 5,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "Choose your Settings",
+             "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+		},
+		       
+        "openeye":
+        {
+            "text" : "",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate5.png",
+            "posX" : 80,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "What happened?",
+			"wrappedButton" : 666
+        },
+       
+        "quit":
+       {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate1.png",
+            "posX" : 55,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "Adventure another day.",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+        "language":
+        {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate2.png",
+            "posX" : 30,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "How shall I address thee?",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {		
+        "version":
+        {
+            "text" : "v0.2.0 - Alpha",
+            "posX" : -100,
+            "posY" : -15,
+            "color" : 14329120,
+            "alignment" : "bottom_right"
+        },
+       
+        "mods":
+        {
+            "text" : "#modsloaded# total mods with #modsactive# active",
+            "posX" : -75,
+            "posY" : -15,
+            "color" : 14329120,
+            "alignment" : "bottom_center"
+        },
+       
+        "greeting":
+        {
+            "text" : "#username# has returned!",
+            "posX" : 5,
+            "posY" : 5,
+            "color" : 14329120,
+            "alignment" : "top_left"
+        }
+		
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+			"posX" : 190,
+            "posY" : 120,
+            "color" : 13055,
+            "alignment" : "top_center",
+			"texts" : "Adventure\nOne ring to build them all\nand in the darkness mine them\nRoads Go Ever On\nHome is behind\nthe world ahead\nDug too deep\nDarker and fouler things\nPipe weed\nelevensies\nsecond breakfast\nRiddle Game\nSo our path is laid\nNo living man am I!\nMany dark places\nCaras Galadhon\nKazad Dum\nBarad Dur\nCirith Ungol\nMinas Tirith\nEdoras\nEsgaroth\nErebor\nWeathertop\nIsengard\nArgonath\nHobbiton\nBrandybuck\nBeorn\nHelm’s Deep\nDale\nWaterworks\nOsgiliath\nRivendell\nThranduil\nLand of Bree\nMinas Morgul\nShelob\nThe Black Gates\nMount Doom"
+        },
+		
+        "panorama":
+        {
+            "images" : "textures:tolkiencraft/gui/panorama_%c.png",
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
