@@ -116,11 +116,7 @@
     {		
         "version":
         {
-<<<<<<< HEAD
-            "text" : "v0.1.0 - Alpha",
-=======
             "text" : "v0.2.0 - Alpha",
->>>>>>> refs/remotes/origin/Dev
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
@@ -175,8 +171,6 @@
 			}
         },
 		
-<<<<<<< HEAD
-=======
 	"teagan":
         {
             "text" : "Teagan75",
@@ -201,7 +195,6 @@
 			}
         },
         		
->>>>>>> refs/remotes/origin/Dev
 	"sn0w":
         {
             "text" : "Alecia (Sn0w) Shepherd",
@@ -217,18 +210,6 @@
 			}
         },
 	
-<<<<<<< HEAD
-	"separator":
-        {
-            "text" : "------------------------------------------------",
-            "posX" : -145,
-            "posY" : 86,
-            "color" : 14329120,
-            "alignment" : "center"
-        },
-	
-=======
->>>>>>> refs/remotes/origin/Dev
 	"thankheader":
         {
             "text" : "Special Thanks To:",
@@ -242,11 +223,7 @@
         {
             "text" : "------------------------------------------------",
             "posX" : -145,
-<<<<<<< HEAD
-            "posY" : 106,
-=======
             "posY" : 90,
->>>>>>> refs/remotes/origin/Dev
             "color" : 14329120,
             "alignment" : "center"
         },
@@ -255,11 +232,7 @@
         {
             "text" : "My Patrons, ValsNoisyToys, and you!",
             "posX" : -145,
-<<<<<<< HEAD
-            "posY" : 116,
-=======
             "posY" : 126,
->>>>>>> refs/remotes/origin/Dev
             "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Thank you everyone! Please visit my patreon page.",

@@ -20,9 +20,6 @@
             "width" : 450,
             "height" : 128,
             "alignment" : "top_center"
-<<<<<<< HEAD
-        }
-=======
         },
        
         "a2game":
@@ -34,7 +31,6 @@
             "height" : 57,
             "alignment" : "bottom_right"
 		}
->>>>>>> refs/remotes/origin/Dev
     },
     
     "buttons":
@@ -211,11 +207,7 @@
     {		
         "version":
         {
-<<<<<<< HEAD
-            "text" : "v0.1.0 - Alpha",
-=======
             "text" : "v0.2.0 - Alpha",
->>>>>>> refs/remotes/origin/Dev
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
