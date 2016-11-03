@@ -1,3 +1,90 @@
 {
-
+  "songs.allthatglittersinerebor": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/All That Glitters", "stream": true}]
+  },
+  "songs.willowsong": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/For A Touch Of Shade", "stream": true}]
+  },
+  "misc.ambient.medieval.city.daytime": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/Medieval city - Daytime", "stream": true}]
+  },
+  "misc.ambient.medieval.city.market": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/Medieval city market", "stream": true}]
+  },
+  "misc.ambient.medieval.city.tavern": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/Medieval Tavern", "stream": true}]
+  },
+  "songs.minastirith": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/Minas Tirith", "stream": true}]
+  },
+  "songs.newmymoria": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/New My Moria", "stream": true}]
+  },
+  "songs.ridersofrivendell": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/Riders Of Rivendel", "stream": true}]
+  },  
+  "misc.medieval.seaport": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/Seaport", "stream": true}]
+  },
+  "songs.thelightoflothlorien": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/The Light Of Lothlorien", "stream": true}]
+  },
+  "songs.wakeofedoras": {
+    "category": "ambient",
+    "sounds": [{"name": "Ambient/Wake Of Edoras", "stream": true}]
+  },
+  "songs.cathedral_bell": {
+    "category": "block",
+    "sounds": [{"name": "Block/Cathedral Bell", "stream": true}]
+  },
+    "human.male.evil.demon_laugh": {
+    "category": "hostile",
+    "sounds": [{"name": "Hostile/Demonic Laughter", "stream": true}]
+  },
+  "songs.witchessong": {
+    "category": "hostile",
+    "sounds": [{"name": "Hostile/Witch Ephalba", "stream": true}]
+  },
+    "human.female.evil.witch_laugh": {
+    "category": "hostile",
+    "sounds": [{"name": "Hostile/Evil Witch Laugh", "stream": true}]
+  },
+  "songs.hellsong": {
+    "category": "hostile",
+    "sounds": [{"name": "Hostile/Hellsong", "stream": true}]
+  },
+  "songs.murderfrog": {
+    "category": "hostile",
+    "sounds": [{"name": "Hostile/Murder Frog", "stream": true}]
+  },
+  "songs.rederssong": {
+    "category": "hostile",
+    "sounds": [{"name": "Hostile/Reders Song", "stream": true}]
+  },
+  "songs.tyltransserenade": {
+    "category": "hostile",
+    "sounds": [{"name": "Hostile/Troll Fumble", "stream": true}]
+  },
+  "songs.concerning_hobbits": {
+    "category": "music",
+    "sounds": [{"name": "Music/Concerning Hobbits", "stream": true}]
+  },
+	"misc.ghostlylament": {
+    "category": "neutral",
+    "sounds": [{"name": "Neutral/Ghostly Lament", "stream": true}]
+  },
+   "songs.TomBombadil": {
+    "category": "neutral",
+    "sounds": [{"name": "Neutral/Mystery of Tom Bombadil", "stream": true}]
+  }
 }
