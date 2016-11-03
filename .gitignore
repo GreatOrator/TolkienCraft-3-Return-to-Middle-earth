@@ -4,14 +4,14 @@
 
 **/logs
 **/asm
-**/*reports
+**/reports
 **/mods/ruins_log.txt
 **/natives
 **/stats/player.uid
 **/backups
+**/crash-reports
 **/template
 **/usernamecache.json
-**/journeymap/server
 **/journeymap/data
 **/journeymap/config
 **/journeymap/icon/entity
@@ -69,16 +69,13 @@ client/minecraft/icon.png
 **/customnpcs/assets/customnpcs/textures/cache
 **/usercache.json
 
+
 # Created by https://www.gitignore.io
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
-Icon
-
 
 # Thumbnails
 ._*

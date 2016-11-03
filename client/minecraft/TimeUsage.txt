@@ -1,1 +1,0 @@
-Weighting  on proportion 0.0 max depth 512
