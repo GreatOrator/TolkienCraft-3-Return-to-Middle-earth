@@ -13,6 +13,7 @@
 **/template
 **/usernamecache.json
 **/journeymap/data
+**/journeymap/server
 **/journeymap/config
 **/journeymap/icon/entity
 **/journeymap/icon/theme/Vault

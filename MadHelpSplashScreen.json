@@ -1,0 +1,8 @@
+{
+	"revision": 0,
+	"infoText": [
+		"[c]This is an example splash screen",
+		"If you are seeing this then ether MadHelp has just been loaded for the first time or the splash screen has not been properly configured by the pack creator.",
+		"This screen uses the same formatting options as the map info screens."
+	]
+}
