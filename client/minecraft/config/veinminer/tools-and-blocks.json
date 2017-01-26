@@ -1,0 +1,164 @@
+{
+  "tools": {
+    "axe": {
+      "name": "Axe",
+      "icon": "minecraft:diamond_axe",
+      "toollist": [
+        "minecraft:diamond_axe",
+        "minecraft:golden_axe",
+        "minecraft:iron_axe",
+        "minecraft:stone_axe",
+        "minecraft:wooden_axe",
+        "tconstruct:hatchet"
+      ],
+      "blocklist": [
+        "forestry:leaves",
+        "forestry:leaves.decorative.0",
+        "forestry:leaves.decorative.1",
+        "forestry:leaves.decorative.2",
+        "forestry:logs.0",
+        "forestry:logs.1",
+        "forestry:logs.2",
+        "forestry:logs.3",
+        "forestry:logs.4",
+        "forestry:logs.5",
+        "forestry:logs.6",
+        "forestry:logs.7",
+        "forestry:logs.fireproof.0",
+        "forestry:logs.fireproof.1",
+        "forestry:logs.fireproof.2",
+        "forestry:logs.fireproof.3",
+        "forestry:logs.fireproof.4",
+        "forestry:logs.fireproof.5",
+        "forestry:logs.fireproof.6",
+        "forestry:logs.fireproof.7",
+        "forestry:logs.vanilla.fireproof.0",
+        "forestry:logs.vanilla.fireproof.1",
+        "harvestcraft:pamCinnamon/0",
+        "harvestcraft:pamMaple/0",
+        "harvestcraft:pamPaperbark/0",
+        "minecraft:fence",
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:log",
+        "minecraft:log2",
+        "roots:logWildwood/0",
+        "tconstruct:slime_leaves"
+      ]
+    },
+    "hoe": {
+      "name": "Hoe",
+      "icon": "minecraft:diamond_hoe",
+      "toollist": [
+        "minecraft:diamond_hoe",
+        "minecraft:golden_hoe",
+        "minecraft:iron_hoe",
+        "minecraft:stone_hoe",
+        "minecraft:wooden_hoe",
+        "tconstruct:mattock"
+      ],
+      "blocklist": [
+        "minecraft:carrots",
+        "minecraft:melon_block",
+        "minecraft:potatoes",
+        "minecraft:pumpkin",
+        "minecraft:wheat"
+      ]
+    },
+    "pickaxe": {
+      "name": "Pickaxe",
+      "icon": "minecraft:diamond_pickaxe",
+      "toollist": [
+        "minecraft:diamond_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:stone_pickaxe",
+        "minecraft:wooden_pickaxe",
+        "tconstruct:pickaxe"
+      ],
+      "blocklist": [
+        "deepresonance:resonating_ore/0",
+        "draconicevolution:draconium_ore/0",
+        "forestry:resources/0",
+        "forestry:resources/1",
+        "forestry:resources/2",
+        "immersiveengineering:ore/0",
+        "immersiveengineering:ore/1",
+        "immersiveengineering:ore/2",
+        "immersiveengineering:ore/3",
+        "immersiveengineering:ore/4",
+        "immersiveengineering:ore/5",
+        "minecraft:coal_ore",
+        "minecraft:cobblestone_wall",
+        "minecraft:diamond_ore",
+        "minecraft:emerald_ore",
+        "minecraft:glowstone",
+        "minecraft:gold_ore",
+        "minecraft:iron_ore",
+        "minecraft:lapis_ore",
+        "minecraft:lit_redstone_ore",
+        "minecraft:mossy_cobblestone",
+        "minecraft:nether_brick_fence",
+        "minecraft:obsidian",
+        "minecraft:quartz_ore",
+        "minecraft:redstone_ore",
+        "railcraft:ore/0",
+        "railcraft:ore/1",
+        "railcraft:ore/2",
+        "railcraft:ore/3",
+        "railcraft:ore/4",
+        "railcraft:ore/5",
+        "railcraft:ore/6",
+        "railcraft:ore/7",
+        "railcraft:ore/8",
+        "railcraft:ore/9",
+        "railcraft:ore/10",
+        "railcraft:ore/11",
+        "railcraft:ore/12",
+        "railcraft:ore/13",
+        "railcraft:ore/14",
+        "railcraft:ore_magic/0",
+        "tconstruct:ore/0",
+        "tconstruct:ore/1"
+      ]
+    },
+    "shears": {
+      "name": "Shears",
+      "icon": "minecraft:shears",
+      "toollist": [
+        "minecraft:shears"
+      ],
+      "blocklist": [
+        "forestry:leaves",
+        "forestry:leaves.decorative.0",
+        "forestry:leaves.decorative.1",
+        "forestry:leaves.decorative.2",
+        "minecraft:deadbush",
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:tallgrass",
+        "minecraft:vine",
+        "minecraft:web",
+        "minecraft:wool",
+        "tconstruct:slime_leaves"
+      ]
+    },
+    "shovel": {
+      "name": "Shovel",
+      "icon": "minecraft:diamond_shovel",
+      "toollist": [
+        "minecraft:diamond_shovel",
+        "minecraft:golden_shovel",
+        "minecraft:iron_shovel",
+        "minecraft:stone_shovel",
+        "minecraft:wooden_shovel",
+        "tconstruct:mattock",
+        "tconstruct:shovel"
+      ],
+      "blocklist": [
+        "minecraft:clay",
+        "minecraft:gravel"
+      ]
+    }
+  }
+}
