@@ -1,90 +1,90 @@
 {
   "songs.allthatglittersinerebor": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/All That Glitters", "stream": true}]
+    "sounds": ["customnpcs:Ambient/All That Glitters"]
   },
   "songs.willowsong": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/For A Touch Of Shade", "stream": true}]
+    "sounds": ["customnpcs:Ambient/For A Touch Of Shade"]
   },
   "misc.ambient.medieval.city.daytime": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/Medieval city - Daytime", "stream": true}]
+    "sounds": ["customnpcs:Ambient/Medieval city - Daytime"]
   },
   "misc.ambient.medieval.city.market": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/Medieval city market", "stream": true}]
+    "sounds": ["customnpcs:Ambient/Medieval city market"]
   },
   "misc.ambient.medieval.city.tavern": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/Medieval Tavern", "stream": true}]
+    "sounds": ["customnpcs:Ambient/Medieval Tavern"]
   },
   "songs.minastirith": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/Minas Tirith", "stream": true}]
+    "sounds": ["customnpcs:Ambient/Minas Tirith"]
   },
   "songs.newmymoria": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/New My Moria", "stream": true}]
+    "sounds": ["customnpcs:Ambient/New My Moria"]
   },
   "songs.ridersofrivendell": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/Riders Of Rivendel", "stream": true}]
+    "sounds": ["customnpcs:Ambient/Riders Of Rivendel"]
   },  
   "misc.medieval.seaport": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/Seaport", "stream": true}]
+    "sounds": ["customnpcs:Ambient/Seaport"]
   },
   "songs.thelightoflothlorien": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/The Light Of Lothlorien", "stream": true}]
+    "sounds": ["customnpcs:Ambient/The Light Of Lothlorien"]
   },
   "songs.wakeofedoras": {
     "category": "ambient",
-    "sounds": [{"name": "Ambient/Wake Of Edoras", "stream": true}]
+    "sounds": ["customnpcs:Ambient/Wake Of Edoras"]
   },
   "songs.cathedral_bell": {
     "category": "block",
-    "sounds": [{"name": "Block/Cathedral Bell", "stream": true}]
+    "sounds": ["customnpcs:Block/Cathedral Bell"]
   },
-    "human.male.evil.demon_laugh": {
+  "human.male.evil.demon_laugh": {
     "category": "hostile",
-    "sounds": [{"name": "Hostile/Demonic Laughter", "stream": true}]
+    "sounds": ["customnpcs:Hostile/Demonic Laughter"]
   },
   "songs.witchessong": {
     "category": "hostile",
-    "sounds": [{"name": "Hostile/Witch Ephalba", "stream": true}]
+    "sounds": ["customnpcs:Hostile/Witch Ephalba"]
   },
-    "human.female.evil.witch_laugh": {
+  "human.female.evil.witch_laugh": {
     "category": "hostile",
-    "sounds": [{"name": "Hostile/Evil Witch Laugh", "stream": true}]
+    "sounds": ["customnpcs:Hostile/Evil Witch Laugh"]
   },
   "songs.hellsong": {
     "category": "hostile",
-    "sounds": [{"name": "Hostile/Hellsong", "stream": true}]
+    "sounds": ["customnpcs:Hostile/Hellsong"]
   },
   "songs.murderfrog": {
     "category": "hostile",
-    "sounds": [{"name": "Hostile/Murder Frog", "stream": true}]
+    "sounds": ["customnpcs:Hostile/Murder Frog"]
   },
   "songs.rederssong": {
     "category": "hostile",
-    "sounds": [{"name": "Hostile/Reders Song", "stream": true}]
+    "sounds": ["customnpcs:Hostile/Reders Song"]
   },
   "songs.tyltransserenade": {
     "category": "hostile",
-    "sounds": [{"name": "Hostile/Troll Fumble", "stream": true}]
+    "sounds": ["customnpcs:Hostile/Troll Fumble"]
   },
   "songs.concerning_hobbits": {
     "category": "music",
-    "sounds": [{"name": "Music/Concerning Hobbits", "stream": true}]
+    "sounds": ["customnpcs:Music/Concerning Hobbits"]
   },
-	"misc.ghostlylament": {
+  "misc.ghostlylament": {
     "category": "neutral",
-    "sounds": [{"name": "Neutral/Ghostly Lament", "stream": true}]
+    "sounds": ["customnpcs:Neutral/Ghostly Lament"]
   },
-   "songs.TomBombadil": {
+  "songs.TomBombadil": {
     "category": "neutral",
-    "sounds": [{"name": "Neutral/Mystery of Tom Bombadil", "stream": true}]
+    "sounds": ["customnpcs:Neutral/Mystery of Tom Bombadil"]
   }
 }
