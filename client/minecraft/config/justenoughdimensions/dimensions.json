@@ -1,0 +1,34 @@
+{
+    "dimensions": [
+        {
+            "dim": 50,
+            "dimensiontype":
+            {
+                "name": "Eriador Housing",
+                "suffix": "dim50",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            }
+        },
+		        {
+            "dim": 51,
+            "dimensiontype":
+            {
+                "name": "Rhovanion Housing",
+                "suffix": "dim51",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            }
+        },
+		        {
+            "dim": 52,
+            "dimensiontype":
+            {
+                "name": "Gondor Housing",
+                "suffix": "dim52",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            }
+        }
+    ]
+}
