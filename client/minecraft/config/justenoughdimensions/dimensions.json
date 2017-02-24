@@ -1,34 +1,41 @@
 {
-    "dimensions": [
-        {
-            "dim": 50,
-            "dimensiontype":
-            {
-                "name": "Eriador Housing",
-                "suffix": "dim50",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            }
+  "dimensions": [
+    {
+      "dim": 50,
+      "dimensiontype": {
+        "name": "Eriador Housing",
+        "suffix": "eriador_housing",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "worldinfo": {
+        "JED": {
+          "CloudHeight": "255"
         },
-		        {
-            "dim": 51,
-            "dimensiontype":
-            {
-                "name": "Rhovanion Housing",
-                "suffix": "dim51",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            }
-        },
-		        {
-            "dim": 52,
-            "dimensiontype":
-            {
-                "name": "Gondor Housing",
-                "suffix": "dim52",
-                "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
-            }
-        }
-    ]
+        "BorderSize": "2000",
+        "BorderCenterX": "1024",
+        "BorderCenterZ": "1024"
+      }
+    },
+    {
+      "dim": 51,
+      "dimensiontype": {
+        "name": "Rhovanion Housing",
+        "suffix": "dim_51",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "worldinfo": {}
+    },
+    {
+      "dim": 52,
+      "dimensiontype": {
+        "name": "Gondor Housing",
+        "suffix": "dim_52",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "worldinfo": {}
+    }
+  ]
 }
