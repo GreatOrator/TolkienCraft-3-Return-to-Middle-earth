@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -39,7 +39,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-showInventoryAchievementHint:false
+showInventoryAchievementHint:true
 mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
@@ -59,7 +59,7 @@ soundCategory_block:0.30985916
 soundCategory_hostile:0.3028169
 soundCategory_neutral:0.2535211
 soundCategory_player:0.35915494
-soundCategory_ambient:0.112676054
+soundCategory_ambient:0.4084507
 soundCategory_voice:0.4084507
 modelPart_cape:true
 modelPart_jacket:true
