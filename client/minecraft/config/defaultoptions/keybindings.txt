@@ -12,7 +12,7 @@ key_key.inventory:18:NONE
 key_key.chat:20:NONE
 key_key.playerlist:15:NONE
 key_key.pickItem:-98:NONE
-key_key.command:20:NONE
+key_key.command:53:NONE
 key_key.screenshot:60:NONE
 key_key.togglePerspective:63:NONE
 key_key.smoothCamera:0:NONE
@@ -28,6 +28,13 @@ key_key.hotbar.6:7:NONE
 key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
+key_key.am2.bridge:0:NONE
+key_key.am2.teleport:0:NONE
+key_key.am2.aura_customization:34:NONE
+key_key.am2.shape_groups:0:NONE
+key_key.am2.dark_vision:0:NONE
+key_key.am2.spellbooknext:44:NONE
+key_key.am2.spellbookprev:0:NONE
 key_quark.keybind.toggleAutojump:56:NONE
 key_quark.emote.wave:0:NONE
 key_quark.emote.salute:0:NONE
@@ -43,10 +50,10 @@ key_key.betterquesting.quests:24:NONE
 key_BloodMagic.keybind.open_holding:35:NONE
 key_BloodMagic.keybind.cycle_holding_pos:78:NONE
 key_BloodMagic.keybind.cycle_holding_neg:74:NONE
-key_Scene1 start/pause:79:NONE
-key_Scene2 start/pause:80:NONE
-key_Scene3 start/pause:81:NONE
-key_Scene reset:82:NONE
+key_Scene1 start/pause:0:NONE
+key_Scene2 start/pause:0:NONE
+key_Scene3 start/pause:0:NONE
+key_Scene reset:0:NONE
 key_Quest Log:38:NONE
 key_Activate  FINGER 0:0:NONE
 key_Activate  FINGER 1:0:NONE
@@ -61,12 +68,17 @@ key_Activate  EAR 0:0:NONE
 key_Activate  EAR 1:0:NONE
 key_Activate  EYE:0:NONE
 key_Activate  HAT:0:NONE
+key_veinminer.key.enable:41:NONE
+key_key.changeGroup:81:NONE
+key_key.burnFirst:79:NONE
+key_key.burnSecond:80:NONE
 key_key.jei.toggleOverlay:0:NONE
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:21:NONE
 key_key.jei.showUses:22:NONE
 key_key.jei.recipeBack:0:NONE
 key_key.jei.toggleCheatMode:0:NONE
+key_key.cofh.multimode:0:NONE
 key_mod.chiselsandbits.chiselmode.single:0:NONE
 key_mod.chiselsandbits.chiselmode.snap2:0:NONE
 key_mod.chiselsandbits.chiselmode.snap4:0:NONE
@@ -77,7 +89,9 @@ key_mod.chiselsandbits.chiselmode.connected_plane:0:NONE
 key_mod.chiselsandbits.chiselmode.cube_small:0:NONE
 key_mod.chiselsandbits.chiselmode.cube_medium:0:NONE
 key_mod.chiselsandbits.chiselmode.cube_large:0:NONE
+key_mod.chiselsandbits.chiselmode.same_material:0:NONE
 key_mod.chiselsandbits.chiselmode.drawn_region:0:NONE
+key_mod.chiselsandbits.chiselmode.connected_material:0:NONE
 key_mod.chiselsandbits.positivepatternmode.replace:0:NONE
 key_mod.chiselsandbits.positivepatternmode.additive:0:NONE
 key_mod.chiselsandbits.positivepatternmode.placement:0:NONE
@@ -108,9 +122,16 @@ key_key.toolProfileChange:43:NONE
 key_Open Backpack Slot Inventory:45:NONE
 key_Open Backpack:48:NONE
 key_Swap Hotbar:47:NONE
+key_waila.keybind.wailaconfig:82:NONE
+key_waila.keybind.wailadisplay:0:NONE
+key_waila.keybind.liquid:0:NONE
+key_waila.keybind.recipe:0:NONE
+key_waila.keybind.usage:75:NONE
+key_LvlUpGUI:49:NONE
 key_key.llor.hotkey:62:NONE
-key_Camping Inventory Key:49:NONE
+key_Camping Inventory Key:0:NONE
 key_key.craftingGrid:0:NONE
+key_key.control:0:NONE
 key_key.journeymap.map_toggle:36:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE

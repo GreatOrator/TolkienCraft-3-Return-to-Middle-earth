@@ -1,0 +1,4554 @@
+{
+  "questSettings": {
+    "betterquesting": {
+      "livesMax": 10,
+      "home_anchor_y": 0,
+      "livesDef": 3,
+      "home_anchor_x": 0.5,
+      "hardcore": false,
+      "home_image": "tolkiencraft:textures\\gui\\main_title.png",
+      "editMode": true,
+      "home_offset_x": -500,
+      "home_offset_y": 0
+    }
+  },
+  "questDatabase": [
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Esgaroth",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 20360 42 5363",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        56
+      ],
+      "questID": 0
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rivendell waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Rivendell",
+          "posX": 14492,
+          "posY": 44,
+          "posZ": 6295,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 1
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Lothlorien",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 15414 45 8849",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        60
+      ],
+      "questID": 2
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Minas Morgul waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Minas Morgul",
+          "posX": 19021,
+          "posY": 43,
+          "posZ": 13656,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 3
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dol Guldur",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 17946 72 8257",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        59
+      ],
+      "questID": 4
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rhosgobel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 18746 89 6038",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        57
+      ],
+      "questID": 5
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Beorn\u0027s Hall",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 17062 45 5816",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        52
+      ],
+      "questID": 6
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Thranduil\u0027s Halls",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 18263 54 4710",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        53
+      ],
+      "questID": 7
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dale",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 20213 54 4679",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        55
+      ],
+      "questID": 8
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Erebor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 20436 41 3809",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        54
+      ],
+      "questID": 9
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Stoneyford",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 17360 59 7679",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        58
+      ],
+      "questID": 10
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Carn Dum waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Carn Dum",
+          "posX": 12264,
+          "posY": 39,
+          "posZ": 2957,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 11
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Forochel waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Forochel",
+          "posX": 10663,
+          "posY": 41,
+          "posZ": 1834,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 12
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Moria:West Gate",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 13046 44 9309",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        62
+      ],
+      "questID": 13
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Moria:East Gate",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 14021 41 9393",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        61
+      ],
+      "questID": 14
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Amon Hen",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 16875 89 11929",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        67
+      ],
+      "questID": 15
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Amon Lhaw",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 17389 106 12019",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        69
+      ],
+      "questID": 16
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Argonath",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 17389 40 11544",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        68
+      ],
+      "questID": 17
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Black Gates waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Black Gates",
+          "posX": 19124,
+          "posY": 69,
+          "posZ": 12272,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 18
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 23
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Isengard",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 12567 49 10829",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        63
+      ],
+      "questID": 19
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Helm\u0027s Deep",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 12953 41 12151",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        64
+      ],
+      "questID": 20
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 7
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dunharrow",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 13573 50 12327",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        65
+      ],
+      "questID": 21
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 16
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Edoras",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 14710 51 12306",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        66
+      ],
+      "questID": 22
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 13
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Minas Tirith",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 18092 39 13649",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        72
+      ],
+      "questID": 23
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Black Gates",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 19124 69 12272",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        18
+      ],
+      "questID": 24
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Minas Morgul",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 19021 43 13656",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        3
+      ],
+      "questID": 25
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 9
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mount Doom",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 20324 47 13397",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        76
+      ],
+      "questID": 26
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Frogmorton waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Frogmorton",
+          "posX": 7195,
+          "posY": 39,
+          "posZ": 6685,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 27
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bree waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Bree",
+          "posX": 9209,
+          "posY": 52,
+          "posZ": 7892,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 28
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bucklebury waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Bucklebury",
+          "posX": 8368,
+          "posY": 41,
+          "posZ": 6741,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 29
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hobbiton waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Hobbiton",
+          "posX": 6377,
+          "posY": 40,
+          "posZ": 8066,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 30
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Gray Havens waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Gray Havens",
+          "posX": 2917,
+          "posY": 51,
+          "posZ": 7880,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 31
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Belegost",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 4048 75 5094",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        51
+      ],
+      "questID": 32
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Weathertop waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Weathertop",
+          "posX": 10277,
+          "posY": 40,
+          "posZ": 5572,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 33
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mount Gundabad waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mount Gundabad",
+          "posX": 14845,
+          "posY": 41,
+          "posZ": 3223,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 34
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rhudar waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "High Fells of Rhudar",
+          "posX": 13928,
+          "posY": 40,
+          "posZ": 4078,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 35
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Umbar",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 17248 40 19929",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        80
+      ],
+      "questID": 36
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Umbar:Havens",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 15874 38 21150",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        81
+      ],
+      "questID": 37
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Osgiliath",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 17806 40 14390",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        73
+      ],
+      "questID": 38
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pelargir waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Pelargir",
+          "posX": 16565,
+          "posY": 42,
+          "posZ": 15627,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 39
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Forochel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 10663 41 1834",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        12
+      ],
+      "questID": 40
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 18
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rivendell",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 14492 44 6295",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        1
+      ],
+      "questID": 41
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Carn Dum",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 12264 39 2957",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        11
+      ],
+      "questID": 42
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 24
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mount Gundabad",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 14845 41 3223",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        34
+      ],
+      "questID": 43
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "High Fells of Rhudar",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 13928 40 4078",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        35
+      ],
+      "questID": 44
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Weathertop",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 10277 40 5572",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        33
+      ],
+      "questID": 45
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bucklebury",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 8368 41 6741",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        29
+      ],
+      "questID": 46
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Frogmorton",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 7195 39 6685",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        27
+      ],
+      "questID": 47
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bree",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 9209 52 7892",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        28
+      ],
+      "questID": 48
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hobbiton",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 6377 40 8066",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        30
+      ],
+      "questID": 49
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Gray Havens",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 2917 51 7880",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        31
+      ],
+      "questID": 50
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Belegost waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Belegost",
+          "posX": 4048,
+          "posY": 75,
+          "posZ": 5094,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 51
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Beorn\u0027s waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Beorn\u0027s Hall",
+          "posX": 17062,
+          "posY": 45,
+          "posZ": 5816,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 52
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Thranduil\u0027s waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Thranduil\u0027s Halls",
+          "posX": 18263,
+          "posY": 54,
+          "posZ": 4710,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 53
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Erebor waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Erebor",
+          "posX": 20436,
+          "posY": 41,
+          "posZ": 3809,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 54
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dale waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dale",
+          "posX": 20213,
+          "posY": 54,
+          "posZ": 4679,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 55
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Esgaroth waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Esgaroth",
+          "posX": 20360,
+          "posY": 42,
+          "posZ": 5363,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 56
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rhosgobel waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Rhosgobel",
+          "posX": 18746,
+          "posY": 89,
+          "posZ": 6038,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 57
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Stoneyford waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Stoneyford",
+          "posX": 17360,
+          "posY": 59,
+          "posZ": 7679,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 58
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dol Guldur waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dol Guldur",
+          "posX": 17946,
+          "posY": 72,
+          "posZ": 8257,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 59
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Lothlorien waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Lothlorien",
+          "posX": 15414,
+          "posY": 45,
+          "posZ": 8849,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 60
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Moria:East Gate waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Moria:East Gate",
+          "posX": 14021,
+          "posY": 41,
+          "posZ": 9393,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 61
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Moria:West Gate waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Moria:West Gate",
+          "posX": 13046,
+          "posY": 44,
+          "posZ": 9309,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 62
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Isengard waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Isengard",
+          "posX": 12567,
+          "posY": 49,
+          "posZ": 10829,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 63
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Helm\u0027s Deep waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Helm\u0027s Deep",
+          "posX": 12953,
+          "posY": 41,
+          "posZ": 12151,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 64
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dunharrow waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dunharrow",
+          "posX": 13573,
+          "posY": 50,
+          "posZ": 12327,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 65
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Edoras waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Edoras",
+          "posX": 14710,
+          "posY": 51,
+          "posZ": 12306,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 66
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Amon Hen waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Amon Hen",
+          "posX": 16875,
+          "posY": 89,
+          "posZ": 11929,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 67
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Argonath waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Argonath",
+          "posX": 17389,
+          "posY": 40,
+          "posZ": 11544,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 68
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Amon Lhaw waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Amon Lhaw",
+          "posX": 17472,
+          "posY": 106,
+          "posZ": 12019,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 69
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 6
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Trollshaws",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 12888 42 6225",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        71
+      ],
+      "questID": 70
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Trollshaws waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Trollshaws",
+          "posX": 12888,
+          "posY": 42,
+          "posZ": 6283,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 71
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Minas Tirith waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Minas Tirith",
+          "posX": 18092,
+          "posY": 39,
+          "posZ": 13649,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 72
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Osgiliath waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Osgiliath",
+          "posX": 17806,
+          "posY": 40,
+          "posZ": 14390,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 73
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pelargir",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 16565 42 15627",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        39
+      ],
+      "questID": 74
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 14
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Barad Dur",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 21188 39 13598",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        77
+      ],
+      "questID": 75
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mount Doom waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mount Doom",
+          "posX": 20324,
+          "posY": 47,
+          "posZ": 13397,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 76
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Barad Dur waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Barad Dur",
+          "posX": 21188,
+          "posY": 39,
+          "posZ": 13598,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 77
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 12
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cirith Ungol",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 18092 39 13649",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        79
+      ],
+      "questID": 78
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cirith Ungol waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Cirith Ungol",
+          "posX": 19336,
+          "posY": 168,
+          "posZ": 13412,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 79
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Umbar waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Umbar",
+          "posX": 17248,
+          "posY": 40,
+          "posZ": 19929,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 80
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Umbar:Havens waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Umbar:Havens",
+          "posX": 15874,
+          "posY": 38,
+          "posZ": 21150,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 81
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "High Pass",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 14320 41 5904",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        83
+      ],
+      "questID": 82
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "High Pass waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "High Pass",
+          "posX": 14320,
+          "posY": 41,
+          "posZ": 5904,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 83
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Front Porch",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 15407 119 5617",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        85
+      ],
+      "questID": 84
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Front Porch waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Front Porch",
+          "posX": 15407,
+          "posY": 119,
+          "posZ": 5617,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 85
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "NORMAL",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 581
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Player Housing",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "One of the new aspects in Middle-earth is player housing.  Now new and improved over previous version!\n\nJust speak to any of the Real Estate agents to learn more.  There are three, one near Rivendell, one near Edoras and the third inside Minas Tirith."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 5,
+          "description": "Real Estate agents in Middle-earth can help you find that perfect home if you just let them.  There are 3 to start out with, one near Rivendell, one near Edoras and the last inside Minas Tirith.  Speak to any one of them to learn more about player housing.\n\nServer admins will be able to add more if needed using the template and deciding on houses.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:brons_coin",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 86
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:woodenDevice0",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Eriador",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Work available in the eriador region"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Bree",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 87
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bloodmagic:BlockDemonPylon",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Ancient Evil II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The key will need to be reforged. It will take no skill, but certainly time, to reforge the key."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 3,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "thut_bling:bling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 5,
+                    "id:2": 32
+                  }
+                },
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Falsir\u0027s Gauntlets"
+                }
+              }
+            },
+            {
+              "id": "thut_bling:bling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 70
+                  }
+                },
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Falsir\u0027s Necklace"
+                }
+              }
+            },
+            {
+              "id": "tconstruct:broadsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 2,
+                    "id:2": 21
+                  }
+                },
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.5,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 184,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 7.0
+                },
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Virquinal"
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "8": "weapon"
+                  }
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.5,
+                  "FreeModifiers:3": 0,
+                  "Durability:3": 184,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 11.277189
+                },
+                "TinkerData:10": {
+                  "UsedModifiers:3": 5,
+                  "Materials:9": {
+                    "8": "prismarine"
+                  },
+                  "Modifiers:9": {
+                    "8": "reinforced"
+                  }
+                },
+                "Traits:9": {
+                  "8": "reinforced"
+                },
+                "Modifiers:9": {
+                  "10": {
+                    "identifier:8": "reinforced",
+                    "color:3": 5254787,
+                    "level:3": 2
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 88
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing  in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, and turning in specific mob-drop items."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 100,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 89
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standingin their eyes."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 90
+    }
+  ],
+  "questLines": [
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Chasing Shadows",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "§lAll that once was....§r\n\n \n\n30 years have passed since the forming of the council, Man, Dwarf and Elf.  They came together to try to stop the coming darkness in Angmar.  At the same time, you were trying to stop Draconis from destruction and to contain the evil that was spreading to the Overworld.\n\nSadly, one by one, the free peoples were defeated as the growing evil was stronger than anyone realized.  The last time you were here, Strider, now known as Aragorn had said something about the ring you had returned to Bilbo and Gandalf had been researching.\n\nIt will be up to you to help fight back this evil and see what can be done to help the Fellowship succeed in a new task.  Be strong traveler and know that if ever a Hero was needed, the Hero of Draconis shall be the one to answer that call!\n\n \n\n§l...hope shall not fade.§r§r§r"
+        }
+      },
+      "quests": [],
+      "lineID": 0,
+      "order": 0
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Land of Middle-earth",
+          "bg_image": "tolkiencraft:textures\\maps\\MiddleEarth.png",
+          "bg_size": 1024,
+          "desc": "Fast travel to be earned as you travel the lands of Middle-earth..."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 882,
+          "y": 234,
+          "id": 0
+        },
+        {
+          "size": 24,
+          "x": 636,
+          "y": 258,
+          "id": 1
+        },
+        {
+          "size": 24,
+          "x": 630,
+          "y": 396,
+          "id": 2
+        },
+        {
+          "size": 24,
+          "x": 816,
+          "y": 612,
+          "id": 3
+        },
+        {
+          "size": 24,
+          "x": 774,
+          "y": 384,
+          "id": 4
+        },
+        {
+          "size": 24,
+          "x": 810,
+          "y": 264,
+          "id": 5
+        },
+        {
+          "size": 24,
+          "x": 738,
+          "y": 270,
+          "id": 6
+        },
+        {
+          "size": 24,
+          "x": 786,
+          "y": 186,
+          "id": 7
+        },
+        {
+          "size": 24,
+          "x": 870,
+          "y": 198,
+          "id": 8
+        },
+        {
+          "size": 24,
+          "x": 876,
+          "y": 162,
+          "id": 9
+        },
+        {
+          "size": 24,
+          "x": 744,
+          "y": 342,
+          "id": 10
+        },
+        {
+          "size": 24,
+          "x": 516,
+          "y": 84,
+          "id": 11
+        },
+        {
+          "size": 24,
+          "x": 456,
+          "y": 36,
+          "id": 12
+        },
+        {
+          "size": 24,
+          "x": 552,
+          "y": 420,
+          "id": 13
+        },
+        {
+          "size": 24,
+          "x": 594,
+          "y": 432,
+          "id": 14
+        },
+        {
+          "size": 24,
+          "x": 720,
+          "y": 546,
+          "id": 15
+        },
+        {
+          "size": 24,
+          "x": 768,
+          "y": 546,
+          "id": 16
+        },
+        {
+          "size": 24,
+          "x": 744,
+          "y": 522,
+          "id": 17
+        },
+        {
+          "size": 24,
+          "x": 822,
+          "y": 534,
+          "id": 18
+        },
+        {
+          "size": 24,
+          "x": 528,
+          "y": 492,
+          "id": 19
+        },
+        {
+          "size": 24,
+          "x": 552,
+          "y": 552,
+          "id": 20
+        },
+        {
+          "size": 24,
+          "x": 582,
+          "y": 570,
+          "id": 21
+        },
+        {
+          "size": 24,
+          "x": 624,
+          "y": 558,
+          "id": 22
+        },
+        {
+          "size": 24,
+          "x": 768,
+          "y": 636,
+          "id": 23
+        },
+        {
+          "size": 24,
+          "x": 822,
+          "y": 558,
+          "id": 24
+        },
+        {
+          "size": 24,
+          "x": 816,
+          "y": 636,
+          "id": 25
+        },
+        {
+          "size": 24,
+          "x": 876,
+          "y": 624,
+          "id": 26
+        },
+        {
+          "size": 24,
+          "x": 300,
+          "y": 258,
+          "id": 27
+        },
+        {
+          "size": 24,
+          "x": 402,
+          "y": 288,
+          "id": 28
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 276,
+          "id": 29
+        },
+        {
+          "size": 24,
+          "x": 270,
+          "y": 318,
+          "id": 30
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 312,
+          "id": 31
+        },
+        {
+          "size": 24,
+          "x": 174,
+          "y": 216,
+          "id": 32
+        },
+        {
+          "size": 24,
+          "x": 444,
+          "y": 234,
+          "id": 33
+        },
+        {
+          "size": 24,
+          "x": 630,
+          "y": 102,
+          "id": 34
+        },
+        {
+          "size": 24,
+          "x": 600,
+          "y": 174,
+          "id": 35
+        },
+        {
+          "size": 24,
+          "x": 732,
+          "y": 906,
+          "id": 36
+        },
+        {
+          "size": 24,
+          "x": 684,
+          "y": 966,
+          "id": 37
+        },
+        {
+          "size": 24,
+          "x": 774,
+          "y": 666,
+          "id": 38
+        },
+        {
+          "size": 24,
+          "x": 708,
+          "y": 690,
+          "id": 39
+        },
+        {
+          "size": 24,
+          "x": 456,
+          "y": 60,
+          "id": 40
+        },
+        {
+          "size": 24,
+          "x": 636,
+          "y": 282,
+          "id": 41
+        },
+        {
+          "size": 24,
+          "x": 516,
+          "y": 108,
+          "id": 42
+        },
+        {
+          "size": 24,
+          "x": 630,
+          "y": 126,
+          "id": 43
+        },
+        {
+          "size": 24,
+          "x": 600,
+          "y": 198,
+          "id": 44
+        },
+        {
+          "size": 24,
+          "x": 444,
+          "y": 258,
+          "id": 45
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 300,
+          "id": 46
+        },
+        {
+          "size": 24,
+          "x": 300,
+          "y": 282,
+          "id": 47
+        },
+        {
+          "size": 24,
+          "x": 402,
+          "y": 312,
+          "id": 48
+        },
+        {
+          "size": 24,
+          "x": 270,
+          "y": 342,
+          "id": 49
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 336,
+          "id": 50
+        },
+        {
+          "size": 24,
+          "x": 174,
+          "y": 192,
+          "id": 51
+        },
+        {
+          "size": 24,
+          "x": 738,
+          "y": 246,
+          "id": 52
+        },
+        {
+          "size": 24,
+          "x": 786,
+          "y": 162,
+          "id": 53
+        },
+        {
+          "size": 24,
+          "x": 876,
+          "y": 138,
+          "id": 54
+        },
+        {
+          "size": 24,
+          "x": 846,
+          "y": 198,
+          "id": 55
+        },
+        {
+          "size": 24,
+          "x": 858,
+          "y": 234,
+          "id": 56
+        },
+        {
+          "size": 24,
+          "x": 810,
+          "y": 240,
+          "id": 57
+        },
+        {
+          "size": 24,
+          "x": 744,
+          "y": 318,
+          "id": 58
+        },
+        {
+          "size": 24,
+          "x": 774,
+          "y": 360,
+          "id": 59
+        },
+        {
+          "size": 24,
+          "x": 630,
+          "y": 372,
+          "id": 60
+        },
+        {
+          "size": 24,
+          "x": 594,
+          "y": 408,
+          "id": 61
+        },
+        {
+          "size": 24,
+          "x": 552,
+          "y": 396,
+          "id": 62
+        },
+        {
+          "size": 24,
+          "x": 528,
+          "y": 468,
+          "id": 63
+        },
+        {
+          "size": 24,
+          "x": 552,
+          "y": 528,
+          "id": 64
+        },
+        {
+          "size": 24,
+          "x": 582,
+          "y": 546,
+          "id": 65
+        },
+        {
+          "size": 24,
+          "x": 624,
+          "y": 534,
+          "id": 66
+        },
+        {
+          "size": 24,
+          "x": 720,
+          "y": 522,
+          "id": 67
+        },
+        {
+          "size": 24,
+          "x": 744,
+          "y": 498,
+          "id": 68
+        },
+        {
+          "size": 24,
+          "x": 768,
+          "y": 522,
+          "id": 69
+        },
+        {
+          "size": 24,
+          "x": 564,
+          "y": 276,
+          "id": 70
+        },
+        {
+          "size": 24,
+          "x": 564,
+          "y": 252,
+          "id": 71
+        },
+        {
+          "size": 24,
+          "x": 744,
+          "y": 636,
+          "id": 72
+        },
+        {
+          "size": 24,
+          "x": 750,
+          "y": 666,
+          "id": 73
+        },
+        {
+          "size": 24,
+          "x": 708,
+          "y": 714,
+          "id": 74
+        },
+        {
+          "size": 24,
+          "x": 900,
+          "y": 612,
+          "id": 75
+        },
+        {
+          "size": 24,
+          "x": 876,
+          "y": 600,
+          "id": 76
+        },
+        {
+          "size": 24,
+          "x": 900,
+          "y": 588,
+          "id": 77
+        },
+        {
+          "size": 24,
+          "x": 840,
+          "y": 624,
+          "id": 78
+        },
+        {
+          "size": 24,
+          "x": 840,
+          "y": 600,
+          "id": 79
+        },
+        {
+          "size": 24,
+          "x": 732,
+          "y": 882,
+          "id": 80
+        },
+        {
+          "size": 24,
+          "x": 684,
+          "y": 942,
+          "id": 81
+        },
+        {
+          "size": 24,
+          "x": 678,
+          "y": 246,
+          "id": 82
+        },
+        {
+          "size": 24,
+          "x": 678,
+          "y": 222,
+          "id": 83
+        },
+        {
+          "size": 24,
+          "x": 654,
+          "y": 234,
+          "id": 84
+        },
+        {
+          "size": 24,
+          "x": 654,
+          "y": 210,
+          "id": 85
+        }
+      ],
+      "lineID": 1,
+      "order": 3
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Job Board",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Pick up some easy money from those in need."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -210,
+          "y": 0,
+          "id": 87
+        },
+        {
+          "size": 24,
+          "x": -210,
+          "y": 42,
+          "id": 88
+        }
+      ],
+      "lineID": 2,
+      "order": 1
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Scholars of Middle-earth",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Learn about some of the mechanics with help from locals."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -240,
+          "y": 18,
+          "id": 86
+        }
+      ],
+      "lineID": 3,
+      "order": 2
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Middle-earth Factions",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standingin their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, and turning in specific mob-drop items."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -264,
+          "y": 0,
+          "id": 89
+        },
+        {
+          "size": 24,
+          "x": -204,
+          "y": 0,
+          "id": 90
+        }
+      ],
+      "lineID": 4,
+      "order": 4
+    }
+  ],
+  "format": "1.0.0"
+}

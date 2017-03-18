@@ -116,7 +116,7 @@
     {		
         "version":
         {
-            "text" : "v0.6.1 - Beta",
+            "text" : "v0.8.7 - Beta",
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
@@ -191,7 +191,7 @@
 			"action" :
                         {
                 "type" : "openLink",
-                                "link" : "http://clients.aim2game.com/aff.php?aff=383"
+                                "link" : "http://tolkiencraft.a2g.gs"
 			}
         },
         		

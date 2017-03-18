@@ -207,12 +207,41 @@
     {		
         "version":
         {
-            "text" : "v0.6.1 - Beta",
+            "text" : "v0.8.7 - Beta",
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
             "alignment" : "bottom_right"
         },
+       
+        "a2g1":
+        {
+            "text" : "Sponsored By",
+            "posX" : -105,
+            "posY" : -75,
+            "color" : 14329120,
+            "alignment" : "bottom_right",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://tolkiencraft.a2g.gs"
+			}
+        },
+       
+        "a2g2":
+        {
+            "text" : "Aim2Game Hosting",
+            "posX" : -110,
+            "posY" : -30,
+            "color" : 14329120,
+            "alignment" : "bottom_right",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://tolkiencraft.a2g.gs"
+			}
+        },
+       
        
         "mods":
         {
