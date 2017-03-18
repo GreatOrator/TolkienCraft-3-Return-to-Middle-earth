@@ -23,6 +23,7 @@
 **/config/MCA/Worlds
 **/.packignore
 **/tclogo.png
+**/config/BetterAchievements/*.dat
 
 # Server Only
 server/world

@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.8309859
 saturation:0.0
-renderDistance:12
+renderDistance:10
 guiScale:2
 particles:0
 bobView:true
@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:true
+renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -39,7 +39,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-showInventoryAchievementHint:true
+showInventoryAchievementHint:false
 mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
@@ -50,8 +50,8 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
-soundCategory_master:0.50993377
+autoJump:false
+soundCategory_master:0.5
 soundCategory_music:0.5070422
 soundCategory_record:0.5070422
 soundCategory_weather:0.2535211
@@ -59,7 +59,7 @@ soundCategory_block:0.30985916
 soundCategory_hostile:0.3028169
 soundCategory_neutral:0.2535211
 soundCategory_player:0.35915494
-soundCategory_ambient:0.4084507
+soundCategory_ambient:0.112676054
 soundCategory_voice:0.4084507
 modelPart_cape:true
 modelPart_jacket:true

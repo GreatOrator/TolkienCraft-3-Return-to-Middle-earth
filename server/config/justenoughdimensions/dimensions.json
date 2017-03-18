@@ -21,21 +21,35 @@
       "dim": 51,
       "dimensiontype": {
         "name": "Rhovanion Housing",
-        "suffix": "dim_51",
+        "suffix": "rhovanion_housing",
         "keeploaded": false,
         "worldprovider": "WorldProviderSurfaceJED"
       },
-      "worldinfo": {}
+      "worldinfo": {
+        "JED": {
+          "CloudHeight": "255"
+        },
+        "BorderSize": "2000",
+        "BorderCenterX": "1024",
+        "BorderCenterZ": "1024"
+      }
     },
     {
       "dim": 52,
       "dimensiontype": {
         "name": "Gondor Housing",
-        "suffix": "dim_52",
+        "suffix": "gondor_housing",
         "keeploaded": false,
         "worldprovider": "WorldProviderSurfaceJED"
       },
-      "worldinfo": {}
+      "worldinfo": {
+        "JED": {
+          "CloudHeight": "255"
+        },
+        "BorderSize": "2000",
+        "BorderCenterX": "1024",
+        "BorderCenterZ": "1024"
+      }
     }
   ]
 }
