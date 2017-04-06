@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.8309859
 saturation:0.0
-renderDistance:10
+renderDistance:12
 guiScale:2
 particles:0
 bobView:true
@@ -12,11 +12,11 @@ anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:true
+fancyGraphics:false
 ao:2
 renderClouds:false
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["bibliocraft_paintings.zip"]
+incompatibleResourcePacks:["bibliocraft_paintings.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
@@ -51,7 +51,7 @@ showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
 autoJump:false
-soundCategory_master:0.5
+soundCategory_master:0.5033113
 soundCategory_music:0.5070422
 soundCategory_record:0.5070422
 soundCategory_weather:0.2535211

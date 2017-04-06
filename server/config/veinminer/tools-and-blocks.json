@@ -88,9 +88,14 @@
         "arsmagica2:ore/4",
         "deepresonance:resonating_ore/0",
         "draconicevolution:draconium_ore/0",
+        "embers:oreCopper/0",
+        "embers:oreLead/0",
+        "embers:oreSilver/0",
         "forestry:resources/0",
         "forestry:resources/1",
         "forestry:resources/2",
+        "iceandfire:sapphire_ore/0",
+        "iceandfire:silver_ore/0",
         "immersiveengineering:ore/0",
         "immersiveengineering:ore/1",
         "immersiveengineering:ore/2",
@@ -128,7 +133,16 @@
         "railcraft:ore/14",
         "railcraft:ore_magic/0",
         "tconstruct:ore/0",
-        "tconstruct:ore/1"
+        "tconstruct:ore/1",
+        "thermalfoundation:ore/0",
+        "thermalfoundation:ore/1",
+        "thermalfoundation:ore/2",
+        "thermalfoundation:ore/3",
+        "thermalfoundation:ore/4",
+        "thermalfoundation:ore/5",
+        "thermalfoundation:ore/6",
+        "thermalfoundation:ore/7",
+        "thermalfoundation:ore/8"
       ]
     },
     "shears": {

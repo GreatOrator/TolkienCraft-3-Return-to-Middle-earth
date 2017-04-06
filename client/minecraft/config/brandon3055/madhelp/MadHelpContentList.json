@@ -1,29 +1,41 @@
 [
 	{
-		"displayName": "Example World",
-		"fileName": "ExampleWorld.zip",
-		"description": "This is an example of a world download entry",
+		"displayName": "Middle-earth",
+		"fileName": "world-main.zip",
+		"description": "Main download for TolkienCraft III",
 		"info": [
-			"[c]This is an example map info page",
-			"Ok so this is just a page where the pack maker can dump a LOT of information about the map",
-			"Each individual string you add to the json file is turned into a new paragraph like this!. You can add §0c§1o§2l§3o§4u§5r§6s§7.§8.§9.§a.§b.§c.§d.§e.§f.§r And §l§n§oFormatting!§r §k\\\"Secret Text!\\\"\"",
-			"To add formatting you simply add the selector symbol \"§\" then any of the standard minecraft formatting codes",
-			"[c]You can also center a paragraph by adding \"[c]\" to the start of it (before any formatting)"
+			"[c]This is the complete map for TolkienCraft III",
+			"This map is for those playing for the first time as this is a complete map download and will overwrite everything!"
 		],
-		"releaseNumber": "0",
+		"releaseNumber": "1",
 		"downloadURL": "www.somedirectdownload.com/map.zip",
 		"isRegional": false,
 		"regionInputPath": "",
 		"regionOutputPath": ""
 	},
 	{
-		"displayName": "Another Example World",
-		"fileName": "ExampleWorld.zip",
-		"description": "This is an example of a world download entry",
+		"displayName": "Middle-earth-Overworld",
+		"fileName": "world-overworld.zip",
+		"description": "Overworld Map",
 		"info": [
-			"[c]Example info"
+			"[c]This is ONLY the overworld for TolkienCraft III",
+			"This download is intended to be ONLY for updating existing worlds during map updates and will only replace the overworld."
 		],
-		"releaseNumber": "0",
+		"releaseNumber": "1",
+		"downloadURL": "www.somedirectdownload.com/map.zip",
+		"isRegional": false,
+		"regionInputPath": "",
+		"regionOutputPath": ""
+	},
+	{
+		"displayName": "Player Housing",
+		"fileName": "world-housing.zip",
+		"description": "Player Housing.",
+		"info": [
+			"[c]This in ONLY the player housing dimensions for TolkienCraft III.",
+			"This download is intended to be ONLY for updating the player housing are if you want to RESET or download to add extra dimensions for large servers. Do not download unless you want to erase the existing player housing dimensions."
+		],
+		"releaseNumber": "1",
 		"downloadURL": "www.somedirectdownload.com/map.zip",
 		"isRegional": true,
 		"regionInputPath": "region",
