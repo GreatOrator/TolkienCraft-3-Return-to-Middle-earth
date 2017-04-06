@@ -1,8 +1,8 @@
 {
-	"revision": 2,
+	"revision": 3,
 	"infoText": [
 		"[c]Welcome Back to the lands of Middle-earth!",
-		"The pack itself is now in beta, but the map is still a little ways off.",
-		"Hoping to get the bulk of decorations done so I can release a alpha version of the map (sans quests) with a few NPC's.  Also new title screen music, Thanks Sn0wShepherd!"
+		"§5Major changes in mod list, one of which was a change in Roots as the mod dev rewrote it and it will render previous progress inert, so back up your maps.",
+		"New panorama for the main menu and NPC work has started.  The planned release of an alpha of the map is in about a month so keep an eye out for the announcement!"
 	]
 }
