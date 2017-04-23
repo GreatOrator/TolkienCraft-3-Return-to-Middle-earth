@@ -1,10 +1,10 @@
 version:512
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.0
+fov:-0.5
 gamma:0.8309859
 saturation:0.0
-renderDistance:12
+renderDistance:10
 guiScale:2
 particles:0
 bobView:true
@@ -13,10 +13,10 @@ maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:false
-ao:2
+ao:1
 renderClouds:false
-resourcePacks:["bibliocraft_paintings.zip"]
-incompatibleResourcePacks:["bibliocraft_paintings.zip"]
+resourcePacks:["bibliocraft_paintings.zip","rpgskin.zip"]
+incompatibleResourcePacks:["bibliocraft_paintings.zip","rpgskin.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
@@ -44,7 +44,7 @@ mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
-entityShadows:true
+entityShadows:false
 mainHand:right
 attackIndicator:1
 showSubtitles:false

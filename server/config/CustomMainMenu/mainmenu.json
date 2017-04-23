@@ -127,19 +127,19 @@
             "action" :
                         {
                 "type" : "openLink",
-                                "link" : "https://github.com/GreatOrator/TolkienCraftII/releases"
+                                "link" : "https://github.com/GreatOrator/TolkienCraft-3-Return-to-Middle-earth/releases"
 			}
         },
 		
         "options":
         {
             "text" : "",
-						"texture" : "textures:tolkiencraft/buttons/buttontemplate4.png",
-			"posX" : 5,
+						"texture" : "textures:tolkiencraft/buttons/buttonoption.png",
+			"posX" : 20,
             "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-			"imageWidth" : 100,
+            "width" : 25,
+            "height" : 25,
+			"imageWidth" : 50,
 			"imageHeight" : 50,
             "alignment" : "bottom_left",
 			"tooltip" : "Choose your Settings",
@@ -150,30 +150,34 @@
             }
 		},
 		       
-        "openeye":
+        "keyboard":
         {
             "text" : "",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate5.png",
+                        "texture" : "textures:tolkiencraft/buttons/buttonkeyboard.png",
             "posX" : 80,
             "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-			"imageWidth" : 100,
+            "width" : 25,
+            "height" : 25,
+			"imageWidth" : 50,
 			"imageHeight" : 50,
             "alignment" : "bottom_left",
-			"tooltip" : "What happened?",
-			"wrappedButton" : 666
+			"tooltip" : "Default keyboard layout",
+             "action" :
+            {
+                "type" : "openGui",
+                "gui" : "custom.keyboard"
+            }
         },
        
         "quit":
        {
             "text" : "",
-						"texture" : "textures:tolkiencraft/buttons/buttontemplate1.png",
-            "posX" : 55,
+						"texture" : "textures:tolkiencraft/buttons/buttonexit.png",
+            "posX" : 110,
             "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-			"imageWidth" : 100,
+            "width" : 25,
+            "height" : 25,
+			"imageWidth" : 50,
 			"imageHeight" : 50,
             "alignment" : "bottom_left",
 			"tooltip" : "Adventure another day.",
@@ -186,12 +190,12 @@
         "language":
         {
             "text" : "",
-						"texture" : "textures:tolkiencraft/buttons/buttontemplate2.png",
-            "posX" : 30,
+						"texture" : "textures:tolkiencraft/buttons/buttonlanguage.png",
+            "posX" : 50,
             "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-			"imageWidth" : 100,
+            "width" : 25,
+            "height" : 25,
+			"imageWidth" : 50,
 			"imageHeight" : 50,
             "alignment" : "bottom_left",
 			"tooltip" : "How shall I address thee?",
@@ -207,7 +211,7 @@
     {		
         "version":
         {
-            "text" : "v0.9.1 - Beta",
+            "text" : "v0.9.4 - Beta",
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
