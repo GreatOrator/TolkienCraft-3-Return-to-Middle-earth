@@ -3704,11 +3704,11 @@
       "tasks": [
         {
           "name": "Bree",
-          "posX": 9340,
-          "posY": 55,
-          "posZ": 7828,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
           "dimension": 0,
-          "range": 16,
+          "range": -1,
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
@@ -3737,7 +3737,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Ancient Evil",
+          "name": "Ancient Evil II",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3746,32 +3746,9 @@
       },
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "customnpcs:npcKey",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Name:8": "Key Fragment"
-                }
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        },
-        {
           "npcQuestID": 3,
           "taskID": "bq_npc_integration:npc_quest",
-          "index": 1
+          "index": 0
         }
       ],
       "rewards": [
@@ -3884,9 +3861,7 @@
           "index": 0
         }
       ],
-      "preRequisites": [
-        90
-      ],
+      "preRequisites": [],
       "questID": 88
     },
     {
@@ -3898,10 +3873,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "props:props",
+            "id": "minecraft:nether_star",
             "Count": 1,
             "OreDict": "",
-            "Damage": 373
+            "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -3911,10 +3886,18 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.Faction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing  in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, and turning in specific mob-drop items."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 100,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 89
@@ -3925,828 +3908,36 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "isMain": true,
+          "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "camping:tent",
+            "id": "minecraft:nether_star",
             "Count": 1,
             "OreDict": "",
-            "Damage": 15
+            "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Ancient Evil I",
+          "name": "Men of Middle-earth",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "A small band of adventurers have made camp outside the Great Barrows and one named Falsir is looking for some help."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standingin their eyes."
         }
       },
-      "tasks": [
-        {
-          "name": "The Camp",
-          "posX": 8845,
-          "posY": 52,
-          "posZ": 8317,
-          "dimension": 0,
-          "range": 16,
-          "visible": false,
-          "hideInfo": false,
-          "taskID": "bq_standard:location",
-          "index": 0
-        },
-        {
-          "npcDialogID": 18,
-          "description": "Go speak to Falsir near the Great Barrow.",
-          "taskID": "bq_npc_integration:npc_dialog",
-          "index": 1
-        }
-      ],
+      "tasks": [],
       "rewards": [],
-      "preRequisites": [
-        87
-      ],
+      "preRequisites": [],
       "questID": 90
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:nether_star",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "New Quest",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 91
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:nether_star",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "New Quest",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 92
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "customnpcs:npcKey2",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "display:10": {
-                "Name:8": "Oil-covered Key"
-              }
-            }
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "Forging Anew II",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "Reeve Guibe reforged the key to the Great Barrow. You should return to Falsir for further instruction.\n"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "customnpcs:npcKey2",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "display:10": {
-                  "Name:8": "Oil-covered Key"
-                }
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        },
-        {
-          "npcQuestID": 7,
-          "taskID": "bq_npc_integration:npc_quest",
-          "index": 1
-        },
-        {
-          "name": "New Location",
-          "posX": 8843,
-          "posY": 52,
-          "posZ": 8318,
-          "dimension": 0,
-          "range": 16,
-          "visible": false,
-          "hideInfo": false,
-          "taskID": "bq_standard:location",
-          "index": 2
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "tolkientweaks:key",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "ShowCode:1": 0,
-                "KeyCode:8": "Skull Key"
-              }
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 0
-        }
-      ],
-      "preRequisites": [
-        95
-      ],
-      "questID": 93
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:nether_star",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "New Quest",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 94
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "railcraft:anvil",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "Forging Anew",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "Reeve Guibe is in Blacksmith\u0027s Row, west of The Prancing Pony and south-west of the stables.\n\nFalsir told you to bring the key fragments to Reeve Guibe, a blacksmith who has had a recent run of bad luck."
-        }
-      },
-      "tasks": [
-        {
-          "name": "Reeve Guibe\u0027s Forge",
-          "posX": 9312,
-          "posY": 52,
-          "posZ": 7705,
-          "dimension": 0,
-          "range": 16,
-          "visible": false,
-          "hideInfo": false,
-          "taskID": "bq_standard:location",
-          "index": 0
-        },
-        {
-          "npcDialogID": 26,
-          "description": "Make sure to speak to Reeve Guibe.",
-          "taskID": "bq_npc_integration:npc_dialog",
-          "index": 1
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        88
-      ],
-      "questID": 95
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:nether_star",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "New Quest",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 96
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "customnpcs:npcSkull",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "Final Chapter I",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "You must defeat the wight-lord Zaemrohn then speak to Falsir."
-        }
-      },
-      "tasks": [
-        {
-          "npcQuestID": 4,
-          "taskID": "bq_npc_integration:npc_quest",
-          "index": 0
-        },
-        {
-          "name": "The Camp",
-          "posX": 8843,
-          "posY": 52,
-          "posZ": 8318,
-          "dimension": 0,
-          "range": 16,
-          "visible": false,
-          "hideInfo": false,
-          "taskID": "bq_standard:location",
-          "index": 1
-        },
-        {
-          "npcDialogID": 33,
-          "description": "Speak to Falsir",
-          "taskID": "bq_npc_integration:npc_dialog",
-          "index": 2
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "thut_bling:bling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5,
-              "tag": {
-                "ench:9": {
-                  "10": {
-                    "lvl:2": 1,
-                    "id:2": 70
-                  }
-                },
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Falsir\u0027s Necklace"
-                }
-              }
-            },
-            {
-              "id": "thut_bling:bling",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 6,
-              "tag": {
-                "ench:9": {
-                  "10": {
-                    "lvl:2": 1,
-                    "id:2": 70
-                  }
-                },
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Lothar"
-                }
-              }
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 0
-        },
-        {
-          "choices": [
-            {
-              "id": "tconstruct:shortbow",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StatsOriginal:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "DrawSpeed:5": 0.4,
-                  "MiningSpeed:5": 5.8,
-                  "ProjectileBonusDamage:5": 2.0,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 850,
-                  "HarvestLevel:3": 3,
-                  "Attack:5": 5.1,
-                  "Range:5": 2.0
-                },
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Dunedain Bow"
-                },
-                "Special:10": {
-                  "Categories:9": {
-                    "8": "tool"
-                  }
-                },
-                "Stats:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "DrawSpeed:5": 0.4,
-                  "MiningSpeed:5": 5.8,
-                  "ProjectileBonusDamage:5": 2.0,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 850,
-                  "HarvestLevel:3": 3,
-                  "Attack:5": 5.1,
-                  "Range:5": 2.0
-                },
-                "TinkerData:10": {
-                  "Materials:9": {
-                    "8": "string"
-                  },
-                  "Modifiers:9": {
-                    "8": "toolleveling"
-                  }
-                },
-                "Traits:9": {
-                  "8": "toolleveling"
-                },
-                "Modifiers:9": {
-                  "10": {
-                    "identifier:8": "toolleveling",
-                    "color:3": 16777215,
-                    "level:3": 1
-                  }
-                }
-              }
-            },
-            {
-              "id": "tconstruct:longsword",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StatsOriginal:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.5,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 176,
-                  "HarvestLevel:3": 1,
-                  "Attack:5": 6.5
-                },
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Dunedain Longsword"
-                },
-                "Special:10": {
-                  "Categories:9": {
-                    "8": "tool"
-                  }
-                },
-                "Stats:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.5,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 176,
-                  "HarvestLevel:3": 1,
-                  "Attack:5": 6.5
-                },
-                "TinkerData:10": {
-                  "Materials:9": {
-                    "8": "prismarine"
-                  },
-                  "Modifiers:9": {
-                    "8": "toolleveling"
-                  }
-                },
-                "Traits:9": {
-                  "8": "toolleveling"
-                },
-                "Modifiers:9": {
-                  "10": {
-                    "identifier:8": "toolleveling",
-                    "color:3": 16777215,
-                    "level:3": 1
-                  }
-                }
-              }
-            },
-            {
-              "id": "tconstruct:battlesign",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StatsOriginal:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.8,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 925,
-                  "HarvestLevel:3": 3,
-                  "Attack:5": 5.1
-                },
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Dunedain Battlesign"
-                },
-                "Special:10": {
-                  "Categories:9": {
-                    "8": "tool"
-                  }
-                },
-                "Stats:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.8,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 925,
-                  "HarvestLevel:3": 3,
-                  "Attack:5": 5.1
-                },
-                "TinkerData:10": {
-                  "Materials:9": {
-                    "8": "knightslime"
-                  },
-                  "Modifiers:9": {
-                    "8": "toolleveling"
-                  }
-                },
-                "Traits:9": {
-                  "8": "toolleveling"
-                },
-                "Modifiers:9": {
-                  "10": {
-                    "identifier:8": "toolleveling",
-                    "color:3": 16777215,
-                    "level:3": 1
-                  }
-                }
-              }
-            },
-            {
-              "id": "tconstruct:lumberaxe",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StatsOriginal:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.8,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 1976,
-                  "HarvestLevel:3": 3,
-                  "Attack:5": 7.1
-                },
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Zaemrohn\u0027s Bane"
-                },
-                "Special:10": {
-                  "Categories:9": {
-                    "8": "tool"
-                  }
-                },
-                "Stats:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.8,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 1976,
-                  "HarvestLevel:3": 3,
-                  "Attack:5": 7.1
-                },
-                "TinkerData:10": {
-                  "Materials:9": {
-                    "8": "knightslime"
-                  },
-                  "Modifiers:9": {
-                    "8": "toolleveling"
-                  }
-                },
-                "Traits:9": {
-                  "8": "toolleveling"
-                },
-                "Modifiers:9": {
-                  "10": {
-                    "identifier:8": "toolleveling",
-                    "color:3": 16777215,
-                    "level:3": 1
-                  }
-                }
-              }
-            },
-            {
-              "id": "arsmagica2:ender_boots",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "ench:9": {
-                  "10": {
-                    "lvl:2": 1,
-                    "id:2": 70
-                  }
-                },
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Zaemrohn\u0027s Boots"
-                }
-              }
-            },
-            {
-              "id": "customnpcs:npcWizardHead",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "ench:9": {
-                  "10": {
-                    "lvl:2": 1,
-                    "id:2": 4
-                  }
-                },
-                "RepairCost:3": 1,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6A gift for your efforts"
-                  },
-                  "Name:8": "§5Wight Guard"
-                }
-              }
-            }
-          ],
-          "rewardID": "bq_standard:choice",
-          "index": 1
-        }
-      ],
-      "preRequisites": [
-        93
-      ],
-      "questID": 97
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": true,
-          "simultaneous": false,
-          "icon": {
-            "id": "xreliquary:hero_medallion",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0,
-            "tag": {}
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "Monk of the Maze",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "Seek out the wise monk of the maze in the player housing area near the Temple for information about getting around faster.\n\nOnce you have you will be granted access to the temple itself and all of it\u0027s secrets!"
-        }
-      },
-      "tasks": [
-        {
-          "npcDialogID": 45,
-          "description": "Maybe a faster way to get around could help?",
-          "taskID": "bq_npc_integration:npc_dialog",
-          "index": 0
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "draconicevolution:dislocator",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "IsSet:1": 1,
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Name:8": "Return to Eriador Housing"
-                },
-                "X:6": 1057.5,
-                "Pitch:5": 6.7500796,
-                "Y:6": 65.0,
-                "Z:6": 1442.5,
-                "Dimension:3": 50,
-                "Yaw:5": -89.399826,
-                "DimentionName:8": "Eriador Housing"
-              }
-            },
-            {
-              "id": "draconicevolution:dislocator",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "IsSet:1": 1,
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Name:8": "Return to Rhovanion Housing"
-                },
-                "X:6": 1057.5,
-                "Pitch:5": 6.7500796,
-                "Y:6": 65.0,
-                "Z:6": 1442.5,
-                "Dimension:3": 51,
-                "Yaw:5": -89.399826,
-                "DimentionName:8": "Rhovanion Housing"
-              }
-            },
-            {
-              "id": "draconicevolution:dislocator",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "IsSet:1": 1,
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Name:8": "Return to Gondor Housing"
-                },
-                "X:6": 1057.6420438320881,
-                "Pitch:5": 6.7500796,
-                "Y:6": 65.0,
-                "Z:6": 1442.3938184077351,
-                "Dimension:3": 52,
-                "Yaw:5": -89.399826,
-                "DimentionName:8": "Gondor Housing"
-              }
-            }
-          ],
-          "rewardID": "bq_standard:choice",
-          "index": 0
-        }
-      ],
-      "preRequisites": [],
-      "questID": 98
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:nether_star",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "New Quest",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 99
     }
   ],
   "questLines": [
     {
       "properties": {
         "betterquesting": {
-          "name": "Grand Quest - Chasing Shadows",
+          "name": "Chasing Shadows",
           "bg_image": "",
           "bg_size": 256,
           "desc": "§lAll that once was....§r\n\n \n\n30 years have passed since the forming of the council, Man, Dwarf and Elf.  They came together to try to stop the coming darkness in Angmar.  At the same time, you were trying to stop Draconis from destruction and to contain the evil that was spreading to the Overworld.\n\nSadly, one by one, the free peoples were defeated as the growing evil was stronger than anyone realized.  The last time you were here, Strider, now known as Aragorn had said something about the ring you had returned to Bilbo and Gandalf had been researching.\n\nIt will be up to you to help fight back this evil and see what can be done to help the Fellowship succeed in a new task.  Be strong traveler and know that if ever a Hero was needed, the Hero of Draconis shall be the one to answer that call!\n\n \n\n§l...hope shall not fade.§r§r§r"
@@ -5284,83 +4475,29 @@
         }
       ],
       "lineID": 1,
-      "order": 2
+      "order": 3
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Job Board",
-          "bg_image": "tolkiencraft:textures\\gui\\job_board.png",
-          "bg_size": 1024,
+          "bg_image": "",
+          "bg_size": 256,
           "desc": "Pick up some easy money from those in need."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": 372,
-          "y": 282,
-          "id": 96
-        },
-        {
-          "size": 24,
-          "x": 120,
-          "y": 252,
-          "id": 97
-        },
-        {
-          "size": 24,
-          "x": 444,
-          "y": 282,
-          "id": 99
-        },
-        {
-          "size": 24,
-          "x": 204,
-          "y": 90,
+          "x": -210,
+          "y": 0,
           "id": 87
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 192,
+          "x": -210,
+          "y": 42,
           "id": 88
-        },
-        {
-          "size": 24,
-          "x": 120,
-          "y": 162,
-          "id": 90
-        },
-        {
-          "size": 24,
-          "x": 390,
-          "y": 234,
-          "id": 91
-        },
-        {
-          "size": 24,
-          "x": 408,
-          "y": 258,
-          "id": 92
-        },
-        {
-          "size": 24,
-          "x": 144,
-          "y": 222,
-          "id": 93
-        },
-        {
-          "size": 24,
-          "x": 426,
-          "y": 228,
-          "id": 94
-        },
-        {
-          "size": 24,
-          "x": 96,
-          "y": 222,
-          "id": 95
         }
       ],
       "lineID": 2,
@@ -5370,43 +4507,43 @@
       "properties": {
         "betterquesting": {
           "name": "Scholars of Middle-earth",
-          "bg_image": "tolkiencraft:textures\\gui\\blank_scroll.png",
-          "bg_size": 1024,
+          "bg_image": "",
+          "bg_size": 256,
           "desc": "Learn about some of the mechanics with help from locals."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": 216,
-          "y": 120,
-          "id": 98
-        },
-        {
-          "size": 24,
-          "x": 180,
-          "y": 120,
+          "x": -240,
+          "y": 18,
           "id": 86
         }
       ],
       "lineID": 3,
-      "order": 3
+      "order": 2
     },
     {
       "properties": {
         "betterquesting": {
-          "name": "Factions of Middle-earth",
+          "name": "Middle-earth Factions",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standingin their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, and turning in specific mob-drop items."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": 0,
+          "x": -264,
           "y": 0,
           "id": 89
+        },
+        {
+          "size": 24,
+          "x": -204,
+          "y": 0,
+          "id": 90
         }
       ],
       "lineID": 4,

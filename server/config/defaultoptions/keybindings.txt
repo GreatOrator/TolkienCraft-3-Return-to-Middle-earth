@@ -33,8 +33,8 @@ key_key.am2.teleport:0:NONE
 key_key.am2.aura_customization:34:NONE
 key_key.am2.shape_groups:0:NONE
 key_key.am2.dark_vision:0:NONE
-key_key.am2.spellbooknext:44:NONE
-key_key.am2.spellbookprev:0:NONE
+key_key.am2.spellbooknext:0:NONE
+key_key.am2.spellbookprev:44:NONE
 key_quark.keybind.toggleAutojump:56:NONE
 key_quark.emote.wave:0:NONE
 key_quark.emote.salute:0:NONE
@@ -122,15 +122,19 @@ key_key.toolProfileChange:43:NONE
 key_Open Backpack Slot Inventory:45:NONE
 key_Open Backpack:48:NONE
 key_Swap Hotbar:47:NONE
-key_waila.keybind.wailaconfig:82:NONE
+key_waila.keybind.wailaconfig:0:NONE
 key_waila.keybind.wailadisplay:0:NONE
 key_waila.keybind.liquid:0:NONE
 key_waila.keybind.recipe:0:NONE
-key_waila.keybind.usage:75:NONE
-key_LvlUpGUI:49:NONE
+key_waila.keybind.usage:0:NONE
+key_key.dragon_fireAttack:26:NONE
+key_key.dragon_strike:40:NONE
+key_key.dragon_dismount:39:NONE
+key_LvlUpGUI:23:NONE
 key_key.llor.hotkey:62:NONE
 key_Camping Inventory Key:0:NONE
 key_key.craftingGrid:0:NONE
+key_WorldEdit Reference:0:NONE
 key_key.control:0:NONE
 key_key.journeymap.map_toggle:36:NONE
 key_key.journeymap.zoom_in:13:NONE
