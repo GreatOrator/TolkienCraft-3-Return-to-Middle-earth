@@ -1,8 +1,9 @@
 {
-	"revision": 3,
+	"revision": 5,
 	"infoText": [
 		"[c]Welcome Back to the lands of Middle-earth!",
-		"§5Major changes in mod list, one of which was a change in Roots as the mod dev rewrote it and it will render previous progress inert, so back up your maps.",
-		"New panorama for the main menu and NPC work has started.  The planned release of an alpha of the map is in about a month so keep an eye out for the announcement!"
+		"§5Update v0.9.4-beta is now live! New additions, some changes, and all to make the experience even better than before!",
+		"Main menu has had a little bit of a face lift, also main quest line is going strong with first chapter nearing completion!  This means a download of the map very soon!",
+		"I have also added a new button to the main menu, it is the default keyboard layout should you ever need it or change it."
 	]
 }
