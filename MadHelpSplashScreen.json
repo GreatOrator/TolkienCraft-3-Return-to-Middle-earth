@@ -1,9 +1,9 @@
 {
-	"revision": 5,
+	"revision": 6,
 	"infoText": [
 		"[c]Welcome Back to the lands of Middle-earth!",
-		"§5Update v0.9.4-beta is now live! New additions, some changes, and all to make the experience even better than before!",
-		"Main menu has had a little bit of a face lift, also main quest line is going strong with first chapter nearing completion!  This means a download of the map very soon!",
-		"I have also added a new button to the main menu, it is the default keyboard layout should you ever need it or change it."
+		"§5Update v0.9.5-beta is now live! Simply a sync to make sure all recently created content for the upcoming alpha release of the map is complete.",
+		"Added a new button to the main menu to help everyone out.  It will display the default key configuration I have set up for the pack.  Also tweaked the starter gear a bit in order to balance play like I want.",
+		"Keep watching as the Alpha release of the map looms, finally have a playtester to help iron out any bugs and to help make sure it is easily understood for you guys to get playing :D"
 	]
 }
