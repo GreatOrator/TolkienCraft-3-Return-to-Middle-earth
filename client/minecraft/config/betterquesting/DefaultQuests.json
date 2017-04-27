@@ -3673,7 +3673,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        101
+      ],
       "questID": 86
     },
     {
@@ -3704,11 +3706,11 @@
       "tasks": [
         {
           "name": "Bree",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
+          "posX": 9340,
+          "posY": 55,
+          "posZ": 7828,
           "dimension": 0,
-          "range": -1,
+          "range": 16,
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
@@ -3737,21 +3739,541 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Ancient Evil II",
+          "name": "Ancient Evil",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The key will need to be reforged. It will take no skill, but certainly time, to reforge the key."
+          "desc": "The key will need to be reforged. It will take no skill, but certainly time, to reforge the key.\n\nTo get the fragments you will need to find and defeat the Wight-lords Tahrub \u0026 Burhat as well as the Guant-man Ranler."
         }
       },
       "tasks": [
         {
-          "npcQuestID": 3,
-          "taskID": "bq_npc_integration:npc_quest",
+          "target": "customnpcs.CustomNpc",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": false,
+          "targetNBT": {
+            "ReturnToStart:1": 1,
+            "NpcInv:9": {},
+            "BossColor:3": 0,
+            "PotionEffect:3": 0,
+            "stopAndInteract:1": 1,
+            "Size:3": 5,
+            "Resistances:10": {
+              "Arrow:5": 1.0,
+              "Explosion:5": 1.0,
+              "Melee:5": 1.0,
+              "Knockback:5": 1.0
+            },
+            "BossBar:1": 0,
+            "RespawnTime:3": 20,
+            "NpcAngrySound:8": "",
+            "ReactsToFire:1": 0,
+            "IgnoreCobweb:1": 0,
+            "PositionOffsetZ:5": 5.0,
+            "PositionOffsetY:5": 5.0,
+            "PositionOffsetX:5": 5.0,
+            "LootMode:3": 0,
+            "AttackStrenght:3": 5,
+            "DefendFaction:1": 0,
+            "NpcLines:10": {
+              "Lines:9": {}
+            },
+            "id:8": "customnpcs.CustomNpc",
+            "MovingPatern:3": 0,
+            "FireIndirect:3": 0,
+            "NpcVisible:3": 0,
+            "NpcScenes:10": {
+              "Scenes:9": {}
+            },
+            "HitSound:8": "minecraft:entity.arrow.hit",
+            "FindShelter:3": 2,
+            "TacticalVariant:3": 0,
+            "Orientation:3": 0,
+            "KnockBack:3": 0,
+            "BurnInSun:1": 0,
+            "StandingState:3": 0,
+            "AttackInvisible:1": 0,
+            "WalkingRange:3": 10,
+            "ShotCount:3": 1,
+            "pDur:3": 5,
+            "StartPosNew:11": [
+              0,
+              0,
+              0
+            ],
+            "AttackRange:3": 2,
+            "NpcKillLines:10": {
+              "Lines:9": {}
+            },
+            "PotionImmune:1": 0,
+            "AvoidsSun:1": 0,
+            "Texture:8": "customnpcs:textures/CustomSkins/Mobs/BarrowWight 2.png",
+            "NpcJob:3": 0,
+            "NpcAttackLines:10": {
+              "Lines:9": {}
+            },
+            "BurstCount:3": 1,
+            "pSpeed:3": 10,
+            "pArea:3": 0,
+            "pImpact:3": 0,
+            "MoveState:3": 0,
+            "TargetType:3": 0,
+            "pRender3D:1": 1,
+            "CombatRegen:3": 0,
+            "DistanceToMelee:3": 0,
+            "pEffect:3": 0,
+            "NpcStepSound:8": "",
+            "FireRate:3": 5,
+            "pEffAmp:3": 0,
+            "ImmuneToFire:1": 0,
+            "NpcKilledLines:10": {
+              "Lines:9": {}
+            },
+            "SpecialAggroRange:3": 14,
+            "DisablePitch:1": 0,
+            "pPhysics:1": 1,
+            "NpcInteractLines:10": {
+              "Lines:9": {
+                "10": {
+                  "Line:8": "Hello @p",
+                  "Song:8": "",
+                  "Slot:3": 0
+                }
+              }
+            },
+            "pSpin:1": 0,
+            "NpcHurtSound:8": "minecraft:entity.player.hurt",
+            "pTrail:3": 0,
+            "CreatureType:3": 0,
+            "NoFallDamage:1": 0,
+            "Name:8": "Burhut",
+            "SkinColor:3": 16777215,
+            "NpcIdleSound:8": "",
+            "Weapons:9": {},
+            "NPCDialogOptions:9": {},
+            "AggroRange:3": 16,
+            "DirectLOS:1": 1,
+            "HealthRegen:3": 1,
+            "MoveSpeed:3": 5,
+            "DoorInteract:3": 2,
+            "minDelay:3": 20,
+            "UsingSkinUrl:1": 0,
+            "SkinUrl:8": "",
+            "CanSwim:1": 1,
+            "GroundSound:8": "minecraft:block.stone.break",
+            "HideBodyWhenKilled:1": 0,
+            "MaxHealth:3": 20,
+            "AttackSpeed:3": 20,
+            "PotionDuration:3": 5,
+            "Role:3": 0,
+            "maxDelay:3": 40,
+            "DropChance:9": {},
+            "FactionPoints:10": {
+              "DecreaseFaction1Points:1": 0,
+              "OptionFaction2Points:3": 100,
+              "OptionFactions1:3": -1,
+              "OptionFactions2:3": -1,
+              "OptionFaction1Points:3": 100,
+              "DecreaseFaction2Points:1": 0
+            },
+            "pDamage:3": 4,
+            "AimWhileShooting:1": 0,
+            "AttackOtherFactions:1": 0,
+            "CanDrown:1": 1,
+            "pSize:3": 5,
+            "CanSprint:1": 0,
+            "CanLeap:1": 0,
+            "MovingState:3": 0,
+            "MovingPos:3": 0,
+            "PotionAmp:3": 0,
+            "OnAttack:3": 0,
+            "TacticalRadius:3": 8,
+            "MaxExp:3": 0,
+            "OrderedLines:1": 0,
+            "pGlows:1": 0,
+            "MovementType:3": 0,
+            "FiringSound:8": "minecraft:entity.arrow.shoot",
+            "Accuracy:3": 60,
+            "MinExp:3": 0,
+            "Armor:9": {},
+            "CloakTexture:8": "",
+            "GlowTexture:8": "",
+            "pXlr8:1": 0,
+            "MaxFiringRange:3": 15,
+            "NpcDeathSound:8": "minecraft:entity.player.hurt",
+            "pStick:1": 0,
+            "MovingPause:1": 1,
+            "FactionID:3": -1,
+            "MovingPathNew:9": {},
+            "Title:8": "",
+            "ShowName:3": 0,
+            "npcInteracting:1": 1,
+            "AvoidsWater:1": 0,
+            "NoLivingAnimation:1": 0,
+            "SpawnCycle:3": 0
+          },
+          "taskID": "bq_standard:hunt",
           "index": 0
+        },
+        {
+          "target": "customnpcs.CustomNpc",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": false,
+          "targetNBT": {
+            "ReturnToStart:1": 1,
+            "NpcInv:9": {},
+            "BossColor:3": 0,
+            "PotionEffect:3": 0,
+            "stopAndInteract:1": 1,
+            "Size:3": 5,
+            "Resistances:10": {
+              "Arrow:5": 1.0,
+              "Explosion:5": 1.0,
+              "Melee:5": 1.0,
+              "Knockback:5": 1.0
+            },
+            "BossBar:1": 0,
+            "RespawnTime:3": 20,
+            "NpcAngrySound:8": "",
+            "ReactsToFire:1": 0,
+            "IgnoreCobweb:1": 0,
+            "PositionOffsetZ:5": 5.0,
+            "PositionOffsetY:5": 5.0,
+            "PositionOffsetX:5": 5.0,
+            "LootMode:3": 0,
+            "AttackStrenght:3": 5,
+            "DefendFaction:1": 0,
+            "NpcLines:10": {
+              "Lines:9": {}
+            },
+            "id:8": "customnpcs.CustomNpc",
+            "MovingPatern:3": 0,
+            "FireIndirect:3": 0,
+            "NpcVisible:3": 0,
+            "NpcScenes:10": {
+              "Scenes:9": {}
+            },
+            "HitSound:8": "minecraft:entity.arrow.hit",
+            "FindShelter:3": 2,
+            "TacticalVariant:3": 0,
+            "Orientation:3": 0,
+            "KnockBack:3": 0,
+            "BurnInSun:1": 0,
+            "StandingState:3": 0,
+            "AttackInvisible:1": 0,
+            "WalkingRange:3": 10,
+            "ShotCount:3": 1,
+            "pDur:3": 5,
+            "StartPosNew:11": [
+              0,
+              0,
+              0
+            ],
+            "AttackRange:3": 2,
+            "NpcKillLines:10": {
+              "Lines:9": {}
+            },
+            "PotionImmune:1": 0,
+            "AvoidsSun:1": 0,
+            "Texture:8": "customnpcs:textures/CustomSkins/Mobs/BarrowWight 3.png",
+            "NpcJob:3": 0,
+            "NpcAttackLines:10": {
+              "Lines:9": {}
+            },
+            "BurstCount:3": 1,
+            "pSpeed:3": 10,
+            "pArea:3": 0,
+            "pImpact:3": 0,
+            "MoveState:3": 0,
+            "TargetType:3": 0,
+            "pRender3D:1": 1,
+            "CombatRegen:3": 0,
+            "DistanceToMelee:3": 0,
+            "pEffect:3": 0,
+            "NpcStepSound:8": "",
+            "FireRate:3": 5,
+            "pEffAmp:3": 0,
+            "ImmuneToFire:1": 0,
+            "NpcKilledLines:10": {
+              "Lines:9": {}
+            },
+            "SpecialAggroRange:3": 14,
+            "DisablePitch:1": 0,
+            "pPhysics:1": 1,
+            "NpcInteractLines:10": {
+              "Lines:9": {
+                "10": {
+                  "Line:8": "Hello @p",
+                  "Song:8": "",
+                  "Slot:3": 0
+                }
+              }
+            },
+            "pSpin:1": 0,
+            "NpcHurtSound:8": "minecraft:entity.player.hurt",
+            "pTrail:3": 0,
+            "CreatureType:3": 0,
+            "NoFallDamage:1": 0,
+            "Name:8": "Tahrub",
+            "SkinColor:3": 16777215,
+            "NpcIdleSound:8": "",
+            "Weapons:9": {},
+            "NPCDialogOptions:9": {},
+            "AggroRange:3": 16,
+            "DirectLOS:1": 1,
+            "HealthRegen:3": 1,
+            "MoveSpeed:3": 5,
+            "DoorInteract:3": 2,
+            "minDelay:3": 20,
+            "UsingSkinUrl:1": 0,
+            "SkinUrl:8": "",
+            "CanSwim:1": 1,
+            "GroundSound:8": "minecraft:block.stone.break",
+            "HideBodyWhenKilled:1": 0,
+            "MaxHealth:3": 20,
+            "AttackSpeed:3": 20,
+            "PotionDuration:3": 5,
+            "Role:3": 0,
+            "maxDelay:3": 40,
+            "DropChance:9": {},
+            "FactionPoints:10": {
+              "DecreaseFaction1Points:1": 0,
+              "OptionFaction2Points:3": 100,
+              "OptionFactions1:3": -1,
+              "OptionFactions2:3": -1,
+              "OptionFaction1Points:3": 100,
+              "DecreaseFaction2Points:1": 0
+            },
+            "pDamage:3": 4,
+            "AimWhileShooting:1": 0,
+            "AttackOtherFactions:1": 0,
+            "CanDrown:1": 1,
+            "pSize:3": 5,
+            "CanSprint:1": 0,
+            "CanLeap:1": 0,
+            "MovingState:3": 0,
+            "MovingPos:3": 0,
+            "PotionAmp:3": 0,
+            "OnAttack:3": 0,
+            "TacticalRadius:3": 8,
+            "MaxExp:3": 0,
+            "OrderedLines:1": 0,
+            "pGlows:1": 0,
+            "MovementType:3": 0,
+            "FiringSound:8": "minecraft:entity.arrow.shoot",
+            "Accuracy:3": 60,
+            "MinExp:3": 0,
+            "Armor:9": {},
+            "CloakTexture:8": "",
+            "GlowTexture:8": "",
+            "pXlr8:1": 0,
+            "MaxFiringRange:3": 15,
+            "NpcDeathSound:8": "minecraft:entity.player.hurt",
+            "pStick:1": 0,
+            "MovingPause:1": 1,
+            "FactionID:3": -1,
+            "MovingPathNew:9": {},
+            "Title:8": "",
+            "ShowName:3": 0,
+            "npcInteracting:1": 1,
+            "AvoidsWater:1": 0,
+            "NoLivingAnimation:1": 0,
+            "SpawnCycle:3": 0
+          },
+          "taskID": "bq_standard:hunt",
+          "index": 1
+        },
+        {
+          "target": "customnpcs.CustomNpc",
+          "required": 1,
+          "subtypes": true,
+          "ignoreNBT": false,
+          "targetNBT": {
+            "ReturnToStart:1": 1,
+            "NpcInv:9": {},
+            "BossColor:3": 0,
+            "PotionEffect:3": 0,
+            "stopAndInteract:1": 1,
+            "Size:3": 5,
+            "Resistances:10": {
+              "Arrow:5": 1.0,
+              "Explosion:5": 1.0,
+              "Melee:5": 1.0,
+              "Knockback:5": 1.0
+            },
+            "BossBar:1": 0,
+            "RespawnTime:3": 20,
+            "NpcAngrySound:8": "",
+            "ReactsToFire:1": 0,
+            "IgnoreCobweb:1": 0,
+            "PositionOffsetZ:5": 5.0,
+            "PositionOffsetY:5": 5.0,
+            "PositionOffsetX:5": 5.0,
+            "LootMode:3": 0,
+            "AttackStrenght:3": 5,
+            "DefendFaction:1": 0,
+            "NpcLines:10": {
+              "Lines:9": {}
+            },
+            "id:8": "customnpcs.CustomNpc",
+            "MovingPatern:3": 0,
+            "FireIndirect:3": 0,
+            "NpcVisible:3": 0,
+            "NpcScenes:10": {
+              "Scenes:9": {}
+            },
+            "HitSound:8": "minecraft:entity.arrow.hit",
+            "FindShelter:3": 2,
+            "TacticalVariant:3": 0,
+            "Orientation:3": 0,
+            "KnockBack:3": 0,
+            "BurnInSun:1": 0,
+            "StandingState:3": 0,
+            "AttackInvisible:1": 0,
+            "WalkingRange:3": 10,
+            "ShotCount:3": 1,
+            "pDur:3": 5,
+            "StartPosNew:11": [
+              0,
+              0,
+              0
+            ],
+            "AttackRange:3": 2,
+            "NpcKillLines:10": {
+              "Lines:9": {}
+            },
+            "PotionImmune:1": 0,
+            "AvoidsSun:1": 0,
+            "Texture:8": "customnpcs:textures/CustomSkins/Mobs/BarrowWight 1.png",
+            "NpcJob:3": 0,
+            "NpcAttackLines:10": {
+              "Lines:9": {}
+            },
+            "BurstCount:3": 1,
+            "pSpeed:3": 10,
+            "pArea:3": 0,
+            "pImpact:3": 0,
+            "MoveState:3": 0,
+            "TargetType:3": 0,
+            "pRender3D:1": 1,
+            "CombatRegen:3": 0,
+            "DistanceToMelee:3": 0,
+            "pEffect:3": 0,
+            "NpcStepSound:8": "",
+            "FireRate:3": 5,
+            "pEffAmp:3": 0,
+            "ImmuneToFire:1": 0,
+            "NpcKilledLines:10": {
+              "Lines:9": {}
+            },
+            "SpecialAggroRange:3": 14,
+            "DisablePitch:1": 0,
+            "pPhysics:1": 1,
+            "NpcInteractLines:10": {
+              "Lines:9": {
+                "10": {
+                  "Line:8": "Hello @p",
+                  "Song:8": "",
+                  "Slot:3": 0
+                }
+              }
+            },
+            "pSpin:1": 0,
+            "NpcHurtSound:8": "minecraft:entity.player.hurt",
+            "pTrail:3": 0,
+            "CreatureType:3": 0,
+            "NoFallDamage:1": 0,
+            "Name:8": "Ranler",
+            "SkinColor:3": 16777215,
+            "NpcIdleSound:8": "",
+            "Weapons:9": {},
+            "NPCDialogOptions:9": {},
+            "AggroRange:3": 16,
+            "DirectLOS:1": 1,
+            "HealthRegen:3": 1,
+            "MoveSpeed:3": 5,
+            "DoorInteract:3": 2,
+            "minDelay:3": 20,
+            "UsingSkinUrl:1": 0,
+            "SkinUrl:8": "",
+            "CanSwim:1": 1,
+            "GroundSound:8": "minecraft:block.stone.break",
+            "HideBodyWhenKilled:1": 0,
+            "MaxHealth:3": 20,
+            "AttackSpeed:3": 20,
+            "PotionDuration:3": 5,
+            "Role:3": 0,
+            "maxDelay:3": 40,
+            "DropChance:9": {},
+            "FactionPoints:10": {
+              "DecreaseFaction1Points:1": 0,
+              "OptionFaction2Points:3": 100,
+              "OptionFactions1:3": -1,
+              "OptionFactions2:3": -1,
+              "OptionFaction1Points:3": 100,
+              "DecreaseFaction2Points:1": 0
+            },
+            "pDamage:3": 4,
+            "AimWhileShooting:1": 0,
+            "AttackOtherFactions:1": 0,
+            "CanDrown:1": 1,
+            "pSize:3": 5,
+            "CanSprint:1": 0,
+            "CanLeap:1": 0,
+            "MovingState:3": 0,
+            "MovingPos:3": 0,
+            "PotionAmp:3": 0,
+            "OnAttack:3": 0,
+            "TacticalRadius:3": 8,
+            "MaxExp:3": 0,
+            "OrderedLines:1": 0,
+            "pGlows:1": 0,
+            "MovementType:3": 0,
+            "FiringSound:8": "minecraft:entity.arrow.shoot",
+            "Accuracy:3": 60,
+            "MinExp:3": 0,
+            "Armor:9": {},
+            "CloakTexture:8": "",
+            "GlowTexture:8": "",
+            "pXlr8:1": 0,
+            "MaxFiringRange:3": 15,
+            "NpcDeathSound:8": "minecraft:entity.player.hurt",
+            "pStick:1": 0,
+            "MovingPause:1": 1,
+            "FactionID:3": -1,
+            "MovingPathNew:9": {},
+            "Title:8": "",
+            "ShowName:3": 0,
+            "npcInteracting:1": 1,
+            "AvoidsWater:1": 0,
+            "NoLivingAnimation:1": 0,
+            "SpawnCycle:3": 0
+          },
+          "taskID": "bq_standard:hunt",
+          "index": 2
         }
       ],
       "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcKey",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Key Fragment"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
         {
           "choices": [
             {
@@ -3858,10 +4380,12 @@
             }
           ],
           "rewardID": "bq_standard:choice",
-          "index": 0
+          "index": 1
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        90
+      ],
       "questID": 88
     },
     {
@@ -3873,10 +4397,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bqmie:icon_item",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 22
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -3886,18 +4410,10 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing  in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, and turning in specific mob-drop items."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.Faction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
         }
       },
-      "tasks": [
-        {
-          "factionID": 8,
-          "target": 100,
-          "operation": "MORE_OR_EQUAL",
-          "taskID": "bq_npc_integration:npc_faction",
-          "index": 0
-        }
-      ],
+      "tasks": [],
       "rewards": [],
       "preRequisites": [],
       "questID": 89
@@ -3908,6 +4424,887 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "camping:tent",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Ancient Evil I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "A small band of adventurers have made camp outside the Great Barrows and one named Falsir is looking for some help."
+        }
+      },
+      "tasks": [
+        {
+          "name": "The Camp",
+          "posX": 8845,
+          "posY": 52,
+          "posZ": 8317,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 18,
+          "description": "Go speak to Falsir near the Great Barrow.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        87
+      ],
+      "questID": 90
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 91
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 92
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcKey2",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "display:10": {
+                "Name:8": "Oil-covered Key"
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Forging Anew II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Reeve Guibe reforged the key to the Great Barrow. You should return to Falsir for further instruction.\n"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "customnpcs:npcKey2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "display:10": {
+                  "Name:8": "Oil-covered Key"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "npcQuestID": 7,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "name": "New Location",
+          "posX": 8843,
+          "posY": 52,
+          "posZ": 8318,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Skull Key"
+                },
+                "ShowCode:1": 0,
+                "KeyCode:8": "Skull Key"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        95
+      ],
+      "questID": 93
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 94
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "railcraft:anvil",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Forging Anew",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Reeve Guibe is in Blacksmith\u0027s Row, west of The Prancing Pony and south-west of the stables.\n\nFalsir told you to bring the key fragments to Reeve Guibe, a blacksmith who has had a recent run of bad luck."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Reeve Guibe\u0027s Forge",
+          "posX": 9312,
+          "posY": 52,
+          "posZ": 7705,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 26,
+          "description": "Make sure to speak to Reeve Guibe.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        88
+      ],
+      "questID": 95
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 96
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcSkull",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Final Chapter I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You must defeat the wight-lord Zaemrohn then speak to Falsir."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 4,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "name": "The Camp",
+          "posX": 8843,
+          "posY": 52,
+          "posZ": 8318,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcDialogID": 33,
+          "description": "Speak to Falsir",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thut_bling:bling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 70
+                  }
+                },
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Falsir\u0027s Necklace"
+                }
+              }
+            },
+            {
+              "id": "thut_bling:bling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 70
+                  }
+                },
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Lothar"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "tconstruct:shortbow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "DrawSpeed:5": 0.4,
+                  "MiningSpeed:5": 5.8,
+                  "ProjectileBonusDamage:5": 2.0,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 850,
+                  "HarvestLevel:3": 3,
+                  "Attack:5": 5.1,
+                  "Range:5": 2.0
+                },
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Dunedain Bow"
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "8": "tool"
+                  }
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "DrawSpeed:5": 0.4,
+                  "MiningSpeed:5": 5.8,
+                  "ProjectileBonusDamage:5": 2.0,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 850,
+                  "HarvestLevel:3": 3,
+                  "Attack:5": 5.1,
+                  "Range:5": 2.0
+                },
+                "TinkerData:10": {
+                  "Materials:9": {
+                    "8": "string"
+                  },
+                  "Modifiers:9": {
+                    "8": "toolleveling"
+                  }
+                },
+                "Traits:9": {
+                  "8": "toolleveling"
+                },
+                "Modifiers:9": {
+                  "10": {
+                    "identifier:8": "toolleveling",
+                    "color:3": 16777215,
+                    "level:3": 1
+                  }
+                }
+              }
+            },
+            {
+              "id": "tconstruct:longsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.5,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 176,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 6.5
+                },
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Dunedain Longsword"
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "8": "tool"
+                  }
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.5,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 176,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 6.5
+                },
+                "TinkerData:10": {
+                  "Materials:9": {
+                    "8": "prismarine"
+                  },
+                  "Modifiers:9": {
+                    "8": "toolleveling"
+                  }
+                },
+                "Traits:9": {
+                  "8": "toolleveling"
+                },
+                "Modifiers:9": {
+                  "10": {
+                    "identifier:8": "toolleveling",
+                    "color:3": 16777215,
+                    "level:3": 1
+                  }
+                }
+              }
+            },
+            {
+              "id": "tconstruct:battlesign",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.8,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 925,
+                  "HarvestLevel:3": 3,
+                  "Attack:5": 5.1
+                },
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Dunedain Battlesign"
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "8": "tool"
+                  }
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.8,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 925,
+                  "HarvestLevel:3": 3,
+                  "Attack:5": 5.1
+                },
+                "TinkerData:10": {
+                  "Materials:9": {
+                    "8": "knightslime"
+                  },
+                  "Modifiers:9": {
+                    "8": "toolleveling"
+                  }
+                },
+                "Traits:9": {
+                  "8": "toolleveling"
+                },
+                "Modifiers:9": {
+                  "10": {
+                    "identifier:8": "toolleveling",
+                    "color:3": 16777215,
+                    "level:3": 1
+                  }
+                }
+              }
+            },
+            {
+              "id": "tconstruct:lumberaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.8,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 1976,
+                  "HarvestLevel:3": 3,
+                  "Attack:5": 7.1
+                },
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Zaemrohn\u0027s Bane"
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "8": "tool"
+                  }
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "MiningSpeed:5": 5.8,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 1976,
+                  "HarvestLevel:3": 3,
+                  "Attack:5": 7.1
+                },
+                "TinkerData:10": {
+                  "Materials:9": {
+                    "8": "knightslime"
+                  },
+                  "Modifiers:9": {
+                    "8": "toolleveling"
+                  }
+                },
+                "Traits:9": {
+                  "8": "toolleveling"
+                },
+                "Modifiers:9": {
+                  "10": {
+                    "identifier:8": "toolleveling",
+                    "color:3": 16777215,
+                    "level:3": 1
+                  }
+                }
+              }
+            },
+            {
+              "id": "arsmagica2:ender_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 70
+                  }
+                },
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Zaemrohn\u0027s Boots"
+                }
+              }
+            },
+            {
+              "id": "customnpcs:npcWizardHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 4
+                  }
+                },
+                "RepairCost:3": 1,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A gift for your efforts"
+                  },
+                  "Name:8": "§5Wight Guard"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        93
+      ],
+      "questID": 97
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:hero_medallion",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Monk of the Maze",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Seek out the wise monk of the maze in the player housing area near the Temple for information about getting around faster.\n\nOnce you have you will be granted access to the temple itself and all of it\u0027s secrets!"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 45,
+          "description": "Maybe a faster way to get around could help?",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "draconicevolution:dislocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "IsSet:1": 1,
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Return to Eriador Housing"
+                },
+                "X:6": 1057.5,
+                "Pitch:5": 6.7500796,
+                "Y:6": 65.0,
+                "Z:6": 1442.5,
+                "Dimension:3": 50,
+                "Yaw:5": -89.399826,
+                "DimentionName:8": "Eriador Housing"
+              }
+            },
+            {
+              "id": "draconicevolution:dislocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "IsSet:1": 1,
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Return to Rhovanion Housing"
+                },
+                "X:6": 1057.5,
+                "Pitch:5": 6.7500796,
+                "Y:6": 65.0,
+                "Z:6": 1442.5,
+                "Dimension:3": 51,
+                "Yaw:5": -89.399826,
+                "DimentionName:8": "Rhovanion Housing"
+              }
+            },
+            {
+              "id": "draconicevolution:dislocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "IsSet:1": 1,
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Return to Gondor Housing"
+                },
+                "X:6": 1057.6420438320881,
+                "Pitch:5": 6.7500796,
+                "Y:6": 65.0,
+                "Z:6": 1442.3938184077351,
+                "Dimension:3": 52,
+                "Yaw:5": -89.399826,
+                "DimentionName:8": "Gondor Housing"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        86
+      ],
+      "questID": 98
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 99
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "tolkientweaks:silver_coin",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Money Changer",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Some important people handle all the monies of Middle-earth, perhaps you should speak with the Money Changer?"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 15,
+          "description": "Speak to the moneychanger",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        86
+      ],
+      "questID": 100
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3920,30 +5317,1915 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Men of Middle-earth",
+          "name": "Getting Started",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "hidden quest to prevent early completion before talking to aragorn."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 64,
+          "description": "Speak to Aragorn",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 101
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:evil_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Research \u0026 Help",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standingin their eyes."
+          "desc": "There are some who study the history of Middle-earth and as a result have a keen insight into what goes on.  Speak to the NPC to find out what he can do for you."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Darage",
+          "posX": 14920,
+          "posY": 143,
+          "posZ": 5962,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        101
+      ],
+      "questID": 102
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:diamond_horse_armor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Getting Around",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "There are multiple ways to move swiftly in Middle-earth, talk to the stable master for more information."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Fast Travel Stable",
+          "posX": 14508,
+          "posY": 46,
+          "posZ": 6297,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        101
+      ],
+      "questID": 103
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "levelup:xp_talisman",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Full of knowledge",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Task complete! Time to go back to speak with Aragorn again."
+        }
+      },
+      "tasks": [
+        {
+          "name": "The Last Homely House",
+          "posX": 14919,
+          "posY": 142,
+          "posZ": 6073,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:brons_coin",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "command": "/noppes faction VAR_NAME 12 add 260",
+          "hideCommand": true,
+          "viaPlayer": true,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        103,
+        102,
+        100,
+        98
+      ],
+      "questID": 104
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Edhellond waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Edhellond",
+          "posX": 13901,
+          "posY": 39,
+          "posZ": 14993,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 105
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Edhellond",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 13901 39 14993",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        105
+      ],
+      "questID": 106
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "mca:EngagementRingStar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Troubles of Rivendell",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "It has been many years, but you find yourself back at Rivendell, facing Aragorn. He has a dour look upon his brow as if he has many things weighing on him.\n\nReach out to him, see what has transpired since last you two spoke."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Aragorn",
+          "posX": 14918,
+          "posY": 142,
+          "posZ": 6073,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 70,
+          "description": "Speak to Aragorn",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 100,
+          "isLevels": false,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "draconicevolution:dislocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "IsSet:1": 1,
+                "display:10": {
+                  "Name:8": "§6Return to Rivendell"
+                },
+                "X:6": 14936.426909376341,
+                "Pitch:5": -0.45004568,
+                "Y:6": 142.0,
+                "Z:6": 6081.054822318874,
+                "Dimension:3": 0,
+                "Yaw:5": 180.59984,
+                "DimentionName:8": "§3Middle-earth §d(Overworld)"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [],
+      "questID": 107
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:item_ore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Wisdom of Lord Glorfindel II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Take the gem Lord Glorfindel bestowed upon you and see what you can find out."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Ford of Bruinen",
+          "posX": 14181,
+          "posY": 38,
+          "posZ": 6403,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "scoreName": "Beryl",
+          "scoreDisp": "Hold the Beryl",
+          "type": "dummy",
+          "target": 2,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        119
+      ],
+      "questID": 108
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Welcome to Middle-earth",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Quest created to completed at player load for the scoreboards that will be in place to fix a UUID error with non-zero scores."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Starting Spawn",
+          "posX": 14936,
+          "posY": 142,
+          "posZ": 6077,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/scoreboard players set VAR_NAME Bandrith 0",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/scoreboard players set VAR_NAME Beryl 0",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/scoreboard players set VAR_NAME Hokland 0",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        },
+        {
+          "command": "/scoreboard players set VAR_NAME Sholdroth 0",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 3
+        }
+      ],
+      "preRequisites": [],
+      "questID": 109
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bloodmagic:ItemUpgradeTrainer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "key:8": "BloodMagic.upgrade.stormTrooper"
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "You have new Quests!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Time to seek out the trolls"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 66,
+          "description": "Time to hunt trolls",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes quest Start VAR_NAME 16",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 17",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 18",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        },
+        {
+          "rewards": [
+            {
+              "id": "antiqueatlas:antiqueAtlas",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Notes Elladan provided to help you find the caves."
+                  },
+                  "Name:8": "§3Elladan’s Map"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 3
+        }
+      ],
+      "preRequisites": [
+        126
+      ],
+      "questID": 110
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcCrown2",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Where is the Horse \u0026 Rider?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Now that you are situated, time to heed Aragon\u0027s wish and go speak to Lord Elrond in the library north of Aragorn."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond\u0027s Library",
+          "posX": 14911,
+          "posY": 143,
+          "posZ": 5962,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 74,
+          "description": "Speak to Elrond",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        107
+      ],
+      "questID": 111
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:item_ore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hiding in the Dark - Bandrith",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elladan has determined that the missing Rider may be hiding in one of the many caves near the Black Steed in the Trollshaws and wants you to search several of them with Glorfindel\u0027s beryl."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Bandrith Cave",
+          "posX": 12552,
+          "posY": 4,
+          "posZ": 6828,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 16,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "scoreName": "Bandrith",
+          "scoreDisp": "Hold the Beryl",
+          "type": "dummy",
+          "target": 2,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:west_token",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§eProof of killing the troll."
+                  },
+                  "Name:8": "§3Cave completion Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        110
+      ],
+      "questID": 112
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:item_ore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hiding in the Dark - Hoklond",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elladan has determined that the missing Rider may be hiding in one of the many caves near the Black Steed in the Trollshaws and wants you to search several of them with Glorfindel\u0027s beryl."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Hokland Cave",
+          "posX": 13270,
+          "posY": 5,
+          "posZ": 6160,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 17,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "scoreName": "Beryl",
+          "scoreDisp": "Hold the Beryl",
+          "type": "dummy",
+          "target": 2,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:west_token",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§eProof of killing the troll."
+                  },
+                  "Name:8": "§3Cave completion Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        110
+      ],
+      "questID": 113
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:item_ore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hiding in the Dark - Sholdroth",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elladan has determined that the missing Rider may be hiding in one of the many caves near the Black Steed in the Trollshaws and wants you to search several of them with Glorfindel\u0027s beryl."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Sholdroth Cave",
+          "posX": 12745,
+          "posY": 4,
+          "posZ": 5856,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 18,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "scoreName": "Sholdroth",
+          "scoreDisp": "Hold the Beryl",
+          "type": "dummy",
+          "target": 2,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:west_token",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§eProof of killing the troll."
+                  },
+                  "Name:8": "§3Cave completion Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        110
+      ],
+      "questID": 114
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcMithrilMace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aid of Mirkwood III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Legolas recognized the creature you described as a Wood-troll and has agreed to show you where to track the rest down."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Guest House",
+          "posX": 14827,
+          "posY": 113,
+          "posZ": 5996,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Matuna\u0027s Cave",
+          "posX": 12186,
+          "posY": 39,
+          "posZ": 6808,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 24,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "tconstruct:shortbow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StatsOriginal:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "DrawSpeed:5": 0.2,
+                  "MiningSpeed:5": 5.5,
+                  "ProjectileBonusDamage:5": -1.0,
+                  "FreeModifiers:3": 3,
+                  "Durability:3": 430,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 6.0,
+                  "Range:5": 0.4
+                },
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "§5Swiftmaker"
+                },
+                "Special:10": {
+                  "Categories:9": {
+                    "8": "launcher"
+                  }
+                },
+                "Stats:10": {
+                  "AttackSpeedMultiplier:5": 1.0,
+                  "DrawSpeed:5": 0.2396,
+                  "MiningSpeed:5": 5.5,
+                  "ProjectileBonusDamage:5": -1.0,
+                  "FreeModifiers:3": 0,
+                  "Durability:3": 430,
+                  "HarvestLevel:3": 1,
+                  "Attack:5": 8.558849,
+                  "Range:5": 0.4
+                },
+                "TinkerData:10": {
+                  "UsedModifiers:3": 3,
+                  "Materials:9": {
+                    "8": "string"
+                  },
+                  "Modifiers:9": {
+                    "8": "haste"
+                  }
+                },
+                "Traits:9": {
+                  "8": "toolleveling"
+                },
+                "Modifiers:9": {
+                  "10": {
+                    "identifier:8": "haste",
+                    "current:3": 99,
+                    "color:3": 9502720,
+                    "max:3": 100,
+                    "level:3": 2,
+                    "extraInfo:8": "98 / 100"
+                  }
+                }
+              }
+            },
+            {
+              "id": "iceandfire:armor_bronze_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 2,
+                    "id:2": 4
+                  }
+                },
+                "RepairCost:3": 3,
+                "display:10": {
+                  "Name:8": "§5Leggings of the Tracker"
+                }
+              }
+            },
+            {
+              "id": "iceandfire:armor_bronze_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 8
+                  }
+                },
+                "RepairCost:3": 3,
+                "display:10": {
+                  "Name:8": "§5Shindrar"
+                }
+              }
+            },
+            {
+              "id": "iceandfire:dragonbone_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 6123
+                  }
+                },
+                "RepairCost:3": 3,
+                "display:10": {
+                  "Name:8": "§5Matuna\u0027s Doom"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        121
+      ],
+      "questID": 115
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "railcraft:tool_magnifying_glass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Regaining the Trail",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Now that you have seen what Lord Glorindel\u0027s gem does, time to take it back."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Imladris Waterfall",
+          "posX": 15046,
+          "posY": 205,
+          "posZ": 5999,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 89,
+          "description": "Speak to Lord Glorfindel",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        108,
+        125
+      ],
+      "questID": 116
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 491
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Knowledge of the Giants I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Now that you have searched the caves, return to Elledan to what to do next."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elledan\u0027s Camp",
+          "posX": 12888,
+          "posY": 42,
+          "posZ": 6283,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        112,
+        113,
+        114
+      ],
+      "questID": 117
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcMounter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Missing Rider",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "That the elves have not found the missing rider is worrisome.  Hopefully you will be able to lend a hand to Elrond\u0027s son, Elledan."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elledan\u0027s Camp",
+          "posX": 12889,
+          "posY": 41,
+          "posZ": 6284,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Black Steed",
+          "posX": 13019,
+          "posY": 39,
+          "posZ": 6457,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcDialogID": 78,
+          "description": "Speak to Elledan",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        111
+      ],
+      "questID": 118
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:essence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wisdom of Lord Glorfindel I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elledan seems to have a solution based on what you found.  Seek out lord Glorfindel at the Imladris Waterfall."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Imladris Waterfall",
+          "posX": 15048,
+          "posY": 205,
+          "posZ": 5999,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 82,
+          "description": "Speak with Glorfindel",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        118
+      ],
+      "questID": 119
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "forestry:sapling",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "IsAnalyzed:1": 0,
+              "Genome:10": {
+                "Chromosomes:9": {
+                  "10": {
+                    "UID1:8": "forestry.fireproofFalse",
+                    "UID0:8": "forestry.fireproofFalse",
+                    "Slot:1": 14
+                  }
+                }
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aid of Mirkwood",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "After speaking to Barachen it is time to hunt down the Giant and hopefully get more information about the Nazgul."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Location of Giant",
+          "posX": 13874,
+          "posY": 41,
+          "posZ": 7778,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Elledan\u0027s Camp",
+          "posX": 12888,
+          "posY": 42,
+          "posZ": 6283,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 21,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        127
+      ],
+      "questID": 120
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "tconstruct:shortbow",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "DrawSpeed:5": 0.75,
+                "MiningSpeed:5": 12.0,
+                "ProjectileBonusDamage:5": 3.0,
+                "FreeModifiers:3": 3,
+                "Durability:3": 780,
+                "HarvestLevel:3": 4,
+                "Attack:5": 4.1,
+                "Range:5": 1.3
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "8": "launcher"
+                }
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.1,
+                "DrawSpeed:5": 0.90749997,
+                "MiningSpeed:5": 12.0,
+                "ProjectileBonusDamage:5": 3.0,
+                "FreeModifiers:3": 3,
+                "Durability:3": 780,
+                "HarvestLevel:3": 4,
+                "Attack:5": 4.1,
+                "Range:5": 1.3
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "8": "string"
+                },
+                "Modifiers:9": {
+                  "8": "toolleveling"
+                }
+              },
+              "Traits:9": {
+                "8": "toolleveling"
+              },
+              "Modifiers:9": {
+                "10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aid of Mirkwood II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elladan seems to think it important to speak with his father, Elrond, as he is the one to grant a meeting with the elves of Mirkwood to gain what knowledge you can from them regarding what you have seen so far in the Trollshaws."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond\u0027s Library",
+          "posX": 14911,
+          "posY": 143,
+          "posZ": 5955,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 22,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        120
+      ],
+      "questID": 121
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:golden_horse_armor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hasten Their Departure",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "With everything that has happened, Legolas can no longer be delayed and asks that you report your findings to Lord Elrond and see where things will go from here."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond\u0027s Library",
+          "posX": 14911,
+          "posY": 143,
+          "posZ": 5955,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 25,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        115
+      ],
+      "questID": 122
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:snowball",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Onward Misty Mountains",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        122
+      ],
+      "questID": 123
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
         }
       },
       "tasks": [],
       "rewards": [],
       "preRequisites": [],
-      "questID": 90
+      "questID": 124
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:item_ore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§eMagical gem loaned to you to help on your search"
+                },
+                "Name:8": "§3Glorfindel\u0027s Beryl"
+              },
+              "CUSTOM:1": 1
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Received Glorfindel\u0027s Beryl",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Quest to bestow beryl"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 84,
+          "description": "Speak with Lord Glorfindel",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "arsmagica2:item_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§eMagical gem loaned to you to help on your search"
+                  },
+                  "Name:8": "§3Glorfindel\u0027s Beryl"
+                },
+                "CUSTOM:1": 1
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        119
+      ],
+      "questID": 125
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "camping:tent",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hiding in the Dark",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Go back to Elledan and see what new information he may have as well in the search for the Nazgul."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elledan\u0027s Camp",
+          "posX": 12888,
+          "posY": 42,
+          "posZ": 6283,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 66,
+          "description": "Speak to Elledan",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        116
+      ],
+      "questID": 126
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "camping:tent",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Knowledge of the Giants II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to go see what information this scout, Barachen, has uncovered."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Barachen\u0027s Camp",
+          "posX": 13099,
+          "posY": 41,
+          "posZ": 6701,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 20,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        117
+      ],
+      "questID": 127
     }
   ],
   "questLines": [
     {
       "properties": {
         "betterquesting": {
-          "name": "Chasing Shadows",
-          "bg_image": "",
-          "bg_size": 256,
+          "name": "Grand Quest - Chasing Shadows",
+          "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
+          "bg_size": 512,
           "desc": "§lAll that once was....§r\n\n \n\n30 years have passed since the forming of the council, Man, Dwarf and Elf.  They came together to try to stop the coming darkness in Angmar.  At the same time, you were trying to stop Draconis from destruction and to contain the evil that was spreading to the Overworld.\n\nSadly, one by one, the free peoples were defeated as the growing evil was stronger than anyone realized.  The last time you were here, Strider, now known as Aragorn had said something about the ring you had returned to Bilbo and Gandalf had been researching.\n\nIt will be up to you to help fight back this evil and see what can be done to help the Fellowship succeed in a new task.  Be strong traveler and know that if ever a Hero was needed, the Hero of Draconis shall be the one to answer that call!\n\n \n\n§l...hope shall not fade.§r§r§r"
         }
       },
-      "quests": [],
+      "quests": [
+        {
+          "size": 24,
+          "x": 246,
+          "y": 48,
+          "id": 107
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 168,
+          "id": 108
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 109
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 30,
+          "id": 110
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 78,
+          "id": 111
+        },
+        {
+          "size": 24,
+          "x": 210,
+          "y": 264,
+          "id": 112
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 264,
+          "id": 113
+        },
+        {
+          "size": 24,
+          "x": 282,
+          "y": 264,
+          "id": 114
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 414,
+          "id": 115
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 198,
+          "id": 116
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 294,
+          "id": 117
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 108,
+          "id": 118
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 138,
+          "id": 119
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 354,
+          "id": 120
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 384,
+          "id": 121
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 444,
+          "id": 122
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 60,
+          "id": 125
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 228,
+          "id": 126
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 324,
+          "id": 127
+        }
+      ],
       "lineID": 0,
       "order": 0
     },
@@ -4472,6 +7754,18 @@
           "x": 654,
           "y": 210,
           "id": 85
+        },
+        {
+          "size": 24,
+          "x": 630,
+          "y": 660,
+          "id": 105
+        },
+        {
+          "size": 24,
+          "x": 630,
+          "y": 684,
+          "id": 106
         }
       ],
       "lineID": 1,
@@ -4481,73 +7775,183 @@
       "properties": {
         "betterquesting": {
           "name": "Job Board",
-          "bg_image": "",
-          "bg_size": 256,
+          "bg_image": "tolkiencraft:textures\\gui\\job_board.png",
+          "bg_size": 512,
           "desc": "Pick up some easy money from those in need."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": -210,
-          "y": 0,
+          "x": 174,
+          "y": 240,
+          "id": 96
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 210,
+          "id": 97
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 276,
+          "id": 99
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 48,
           "id": 87
         },
         {
           "size": 24,
-          "x": -210,
-          "y": 42,
+          "x": 54,
+          "y": 120,
           "id": 88
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 90,
+          "id": 90
+        },
+        {
+          "size": 24,
+          "x": 252,
+          "y": 66,
+          "id": 91
+        },
+        {
+          "size": 24,
+          "x": 276,
+          "y": 240,
+          "id": 92
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 180,
+          "id": 93
+        },
+        {
+          "size": 24,
+          "x": 444,
+          "y": 84,
+          "id": 94
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 150,
+          "id": 95
         }
       ],
       "lineID": 2,
-      "order": 1
+      "order": 2
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Scholars of Middle-earth",
-          "bg_image": "",
-          "bg_size": 256,
+          "bg_image": "tolkiencraft:textures\\gui\\blank_scroll.png",
+          "bg_size": 512,
           "desc": "Learn about some of the mechanics with help from locals."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": -240,
-          "y": 18,
+          "x": 114,
+          "y": 102,
+          "id": 98
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 102,
+          "id": 100
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 36,
+          "id": 101
+        },
+        {
+          "size": 24,
+          "x": 150,
+          "y": 66,
           "id": 86
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 66,
+          "id": 102
+        },
+        {
+          "size": 24,
+          "x": 306,
+          "y": 66,
+          "id": 103
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 198,
+          "id": 104
         }
       ],
       "lineID": 3,
-      "order": 2
+      "order": 4
     },
     {
       "properties": {
         "betterquesting": {
-          "name": "Middle-earth Factions",
+          "name": "Factions of Middle-earth",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standingin their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, and turning in specific mob-drop items."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": -264,
+          "x": 0,
           "y": 0,
           "id": 89
         },
         {
           "size": 24,
-          "x": -204,
-          "y": 0,
-          "id": 90
+          "x": 0,
+          "y": 36,
+          "id": 124
         }
       ],
       "lineID": 4,
-      "order": 4
+      "order": 5
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Grand Quest - Last Refuge",
+          "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
+          "bg_size": 512,
+          "desc": "Elrond feels that the Nazgûl you drove off from the Trollshaws has fled into the Misty Mountains. He has asked you to continue your pursuit of the Nazgûl with the aid of Glóin."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 246,
+          "y": 48,
+          "id": 123
+        }
+      ],
+      "lineID": 5,
+      "order": 1
     }
   ],
   "format": "1.0.0"
