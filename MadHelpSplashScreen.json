@@ -1,9 +1,8 @@
 {
-	"revision": 6,
+	"revision": 7,
 	"infoText": [
-		"[c]Welcome Back to the lands of Middle-earth!",
-		"§5Update v0.9.5-beta is now live! Simply a sync to make sure all recently created content for the upcoming alpha release of the map is complete.",
-		"Added a new button to the main menu to help everyone out.  It will display the default key configuration I have set up for the pack.  Also tweaked the starter gear a bit in order to balance play like I want.",
-		"Keep watching as the Alpha release of the map looms, finally have a playtester to help iron out any bugs and to help make sure it is easily understood for you guys to get playing :D"
+		"[c]Update v0.9.6-beta is live!",
+		"Tons of mods updated and several configs. Check the changelog for more details",
+		"Thank you to everyone helping test the map before alpha release! So many things adjusted for balance in map and in the configs."
 	]
 }
