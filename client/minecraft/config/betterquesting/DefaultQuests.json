@@ -5709,7 +5709,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "The Wisdom of Lord Glorfindel II",
+          "name": "Wisdom of Lord Glorfindel II",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -6630,13 +6630,25 @@
           "index": 0
         },
         {
-          "npcDialogID": 82,
-          "description": "Speak with Glorfindel",
-          "taskID": "bq_npc_integration:npc_dialog",
+          "npcQuestID": 12,
+          "taskID": "bq_npc_integration:npc_quest",
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         118
       ],
@@ -6956,14 +6968,14 @@
           "questLogic": "AND",
           "name": "Received Glorfindel\u0027s Beryl",
           "lockedProgress": false,
-          "autoClaim": false,
+          "autoClaim": true,
           "isSilent": false,
           "desc": "Quest to bestow beryl"
         }
       },
       "tasks": [
         {
-          "npcDialogID": 84,
+          "npcDialogID": 83,
           "description": "Speak with Lord Glorfindel",
           "taskID": "bq_npc_integration:npc_dialog",
           "index": 0
