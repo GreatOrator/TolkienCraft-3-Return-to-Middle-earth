@@ -377,7 +377,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 1,
     "Title": "River-daughter",
-    "TotalTicksAlive": 4389L,
+    "TotalTicksAlive": 4348L,
     "Rotation": [
         -76.950455f,
         0.0f

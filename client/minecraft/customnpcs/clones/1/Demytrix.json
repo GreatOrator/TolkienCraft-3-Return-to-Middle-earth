@@ -415,7 +415,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Postman",
-    "TotalTicksAlive": 18607L,
+    "TotalTicksAlive": 18662L,
     "Rotation": [
         74.07472f,
         0.0f

@@ -573,7 +573,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Gaunt-man",
-    "TotalTicksAlive": 41005L,
+    "TotalTicksAlive": 40954L,
     "Rotation": [
         190.17831f,
         0.0f

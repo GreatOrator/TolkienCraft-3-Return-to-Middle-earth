@@ -503,9 +503,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Wight-lord",
-    "TotalTicksAlive": 7343L,
+    "TotalTicksAlive": 7450L,
     "Rotation": [
-        187.83562f,
+        135.0038f,
         0.0f
     ],
     "ShowName": 0,

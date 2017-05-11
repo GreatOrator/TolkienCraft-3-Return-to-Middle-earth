@@ -384,7 +384,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Junker",
-    "TotalTicksAlive": 3257L,
+    "TotalTicksAlive": 3182L,
     "Rotation": [
         162.34474f,
         0.0f

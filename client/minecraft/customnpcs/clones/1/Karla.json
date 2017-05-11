@@ -420,7 +420,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 4,
     "Title": "Bank Teller",
-    "TotalTicksAlive": 20013L,
+    "TotalTicksAlive": 20064L,
     "Rotation": [
         346.30896f,
         0.0f

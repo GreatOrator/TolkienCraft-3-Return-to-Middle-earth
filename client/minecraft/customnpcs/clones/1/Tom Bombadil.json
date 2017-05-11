@@ -406,7 +406,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 1,
     "Title": "Oldest and Fatherless",
-    "TotalTicksAlive": 6788L,
+    "TotalTicksAlive": 6835L,
     "Rotation": [
         90.00072f,
         0.0f

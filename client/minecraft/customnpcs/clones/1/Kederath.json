@@ -662,7 +662,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Botanist",
-    "TotalTicksAlive": 15035L,
+    "TotalTicksAlive": 15077L,
     "Rotation": [
         168.43712f,
         0.0f

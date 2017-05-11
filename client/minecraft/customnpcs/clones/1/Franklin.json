@@ -549,7 +549,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Butcher",
-    "TotalTicksAlive": 14125L,
+    "TotalTicksAlive": 14067L,
     "Rotation": [
         276.85724f,
         0.0f

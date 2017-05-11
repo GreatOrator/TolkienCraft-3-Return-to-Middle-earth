@@ -161,7 +161,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 90438,
+    "HurtByTimestamp": 5194,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -262,6 +262,16 @@
         }
     ],
     "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 14,
+                "Title": "Middle-earth Curency I",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        }
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
@@ -280,7 +290,7 @@
                 "MarkZ": 0.0d,
                 "FallProtection": 0.0f,
                 "AffinityHealCooldown": 0,
-                "CurrentLevel": 0,
+                "CurrentLevel": 1,
                 "Contingency": {
                     "Type": "null"
                 },
@@ -289,7 +299,7 @@
                 "CurrentXP": 0.0f,
                 "Inverted": 0b,
                 "ManaShielding": 0.0f,
-                "CurrentMana": 500.0f
+                "CurrentMana": 500.85f
             }
         }
     },
@@ -464,9 +474,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 4,
     "Title": "Money Changer",
-    "TotalTicksAlive": 90476L,
+    "TotalTicksAlive": 159805L,
     "Rotation": [
-        288.75192f,
+        171.81737f,
         0.0f
     ],
     "ShowName": 0,
