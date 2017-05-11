@@ -422,7 +422,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Temple Monk",
-    "TotalTicksAlive": 9564L,
+    "TotalTicksAlive": 9614L,
     "Rotation": [
         269.33047f,
         0.0f

@@ -410,7 +410,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 6,
     "Title": "Stable Master",
-    "TotalTicksAlive": 13984L,
+    "TotalTicksAlive": 14059L,
     "Rotation": [
         352.59225f,
         0.0f

@@ -399,7 +399,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Librarian",
-    "TotalTicksAlive": 1937L,
+    "TotalTicksAlive": 1851L,
     "Rotation": [
         180.0f,
         0.0f

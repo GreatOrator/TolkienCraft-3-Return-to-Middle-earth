@@ -716,7 +716,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Master Farmer",
-    "TotalTicksAlive": 125992L,
+    "TotalTicksAlive": 126055L,
     "Rotation": [
         352.6161f,
         0.0f

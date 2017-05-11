@@ -363,7 +363,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Lord of Rivendell",
-    "TotalTicksAlive": 6433L,
+    "TotalTicksAlive": 6374L,
     "Rotation": [
         177.6716f,
         0.0f

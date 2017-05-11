@@ -203,7 +203,7 @@
     },
     "PotionImmune": 1b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/CustomSkins/Girl/Medieval_Peasant_Woman.png",
+    "Texture": "customnpcs:textures/CustomSkins/Female/Medieval_Peasant_Woman.png",
     "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
@@ -263,7 +263,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 21315,
+    "HurtByTimestamp": 8376,
     "TraderCurrency": {
         "NpcMiscInv": [
         ]
@@ -340,6 +340,16 @@
         }
     ],
     "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 13,
+                "Title": "Player Housing IX",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        }
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
@@ -358,7 +368,7 @@
                 "MarkZ": 0.0d,
                 "FallProtection": 0.0f,
                 "AffinityHealCooldown": 0,
-                "CurrentLevel": 0,
+                "CurrentLevel": 1,
                 "Contingency": {
                     "Type": "null"
                 },
@@ -367,7 +377,7 @@
                 "CurrentXP": 0.0f,
                 "Inverted": 0b,
                 "ManaShielding": 0.0f,
-                "CurrentMana": 500.0f
+                "CurrentMana": 500.85f
             }
         }
     },
@@ -414,17 +424,17 @@
         "Parts": [
             {
                 "Pattern": 0b,
-                "Type": 3b,
-                "PlayerTexture": 0b,
-                "PartName": "hair",
-                "Color": 4207661
-            },
-            {
-                "Pattern": 0b,
                 "Type": 1b,
                 "PlayerTexture": 1b,
                 "PartName": "breasts",
                 "Color": 16777215
+            },
+            {
+                "Pattern": 0b,
+                "Type": 3b,
+                "PlayerTexture": 0b,
+                "PartName": "hair",
+                "Color": 4207661
             }
         ],
         "ArmsConfig": {
@@ -556,7 +566,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 3,
     "Title": "Realestate",
-    "TotalTicksAlive": 21605L,
+    "TotalTicksAlive": 291859L,
     "Rotation": [
         -91.857735f,
         0.0f

@@ -698,7 +698,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Thaumaturgist",
-    "TotalTicksAlive": 9104L,
+    "TotalTicksAlive": 9135L,
     "Rotation": [
         174.64873f,
         0.0f

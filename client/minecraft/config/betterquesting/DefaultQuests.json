@@ -41,7 +41,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 20360 42 5363",
+          "command": "/tpj VAR_NAME 0 20360 42 5363",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -125,7 +125,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 15414 45 8849",
+          "command": "/tpj VAR_NAME 0 15414 45 8849",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -209,7 +209,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 17946 72 8257",
+          "command": "/tpj VAR_NAME 0 17946 72 8257",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -249,7 +249,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 18746 89 6038",
+          "command": "/tpj VAR_NAME 0 18746 89 6038",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -289,7 +289,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 17062 45 5816",
+          "command": "/tpj VAR_NAME 0 17062 45 5816",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -329,7 +329,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 18263 54 4710",
+          "command": "/tpj VAR_NAME 0 18263 54 4710",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -369,7 +369,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 20213 54 4679",
+          "command": "/tpj VAR_NAME 0 20213 54 4679",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -409,7 +409,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 20436 41 3809",
+          "command": "/tpj VAR_NAME 0 20436 41 3809",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -449,7 +449,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 17360 59 7679",
+          "command": "/tpj VAR_NAME 0 17360 59 7679",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -577,7 +577,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 13046 44 9309",
+          "command": "/tpj VAR_NAME 0 13046 44 9309",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -617,7 +617,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 14021 41 9393",
+          "command": "/tpj VAR_NAME 0 14021 41 9393",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -657,7 +657,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 16875 89 11929",
+          "command": "/tpj VAR_NAME 0 16875 89 11929",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -697,7 +697,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 17389 106 12019",
+          "command": "/tpj VAR_NAME 0 17389 106 12019",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -737,7 +737,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 17389 40 11544",
+          "command": "/tpj VAR_NAME 0 17389 40 11544",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -821,7 +821,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 12567 49 10829",
+          "command": "/tpj VAR_NAME 0 12567 49 10829",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -861,7 +861,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 12953 41 12151",
+          "command": "/tpj VAR_NAME 0 12953 41 12151",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -901,7 +901,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 13573 50 12327",
+          "command": "/tpj VAR_NAME 0 13573 50 12327",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -941,7 +941,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 14710 51 12306",
+          "command": "/tpj VAR_NAME 0 14710 51 12306",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -981,7 +981,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 18092 39 13649",
+          "command": "/tpj VAR_NAME 0 18092 39 13649",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1021,7 +1021,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 19124 69 12272",
+          "command": "/tpj VAR_NAME 0 19124 69 12272",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1061,7 +1061,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 19021 43 13656",
+          "command": "/tpj VAR_NAME 0 19021 43 13656",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1101,7 +1101,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 20324 47 13397",
+          "command": "/tpj VAR_NAME 0 20324 47 13397",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1361,7 +1361,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 4048 75 5094",
+          "command": "/tpj VAR_NAME 0 4048 75 5094",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1533,7 +1533,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 17248 40 19929",
+          "command": "/tpj VAR_NAME 0 17248 40 19929",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1573,7 +1573,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 15874 38 21150",
+          "command": "/tpj VAR_NAME 0 15874 38 21150",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1613,7 +1613,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 17806 40 14390",
+          "command": "/tpj VAR_NAME 0 17806 40 14390",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1697,7 +1697,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 10663 41 1834",
+          "command": "/tpj VAR_NAME 0 10663 41 1834",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1737,7 +1737,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 14492 44 6295",
+          "command": "/tpj VAR_NAME 0 14492 44 6295",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1777,7 +1777,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 12264 39 2957",
+          "command": "/tpj VAR_NAME 0 12264 39 2957",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1817,7 +1817,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 14845 41 3223",
+          "command": "/tpj VAR_NAME 0 14845 41 3223",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1857,7 +1857,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 13928 40 4078",
+          "command": "/tpj VAR_NAME 0 13928 40 4078",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1897,7 +1897,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 10277 40 5572",
+          "command": "/tpj VAR_NAME 0 10277 40 5572",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1937,7 +1937,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 8368 41 6741",
+          "command": "/tpj VAR_NAME 0 8368 41 6741",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -1977,7 +1977,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 7195 39 6685",
+          "command": "/tpj VAR_NAME 0 7195 39 6685",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -2017,7 +2017,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 9209 52 7892",
+          "command": "/tpj VAR_NAME 0 9209 52 7892",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -2057,7 +2057,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 6377 40 8066",
+          "command": "/tpj VAR_NAME 0 6377 40 8066",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -2097,7 +2097,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 2917 51 7880",
+          "command": "/tpj VAR_NAME 0 2917 51 7880",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -2973,7 +2973,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 12888 42 6225",
+          "command": "/tpj VAR_NAME 0 12888 42 6225",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -3145,7 +3145,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 16565 42 15627",
+          "command": "/tpj VAR_NAME 0 16565 42 15627",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -3185,7 +3185,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 21188 39 13598",
+          "command": "/tpj VAR_NAME 0 21188 39 13598",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -3313,7 +3313,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 18092 39 13649",
+          "command": "/tpj VAR_NAME 0 18092 39 13649",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -3485,7 +3485,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 14320 41 5904",
+          "command": "/tpj VAR_NAME 0 14320 41 5904",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -3569,7 +3569,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 15407 119 5617",
+          "command": "/tpj VAR_NAME 0 15407 119 5617",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -5592,7 +5592,7 @@
       "tasks": [],
       "rewards": [
         {
-          "command": "/tp VAR_NAME 13901 39 14993",
+          "command": "/tpj VAR_NAME 0 13901 39 14993",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -6897,11 +6897,42 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You were able to thwart the designs of the Nazgûl but he escaped, time to report to Elrond."
         }
       },
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "name": "Lord Elrond",
+          "posX": 14911,
+          "posY": 143,
+          "posZ": 5962,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 25,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         122
       ],
@@ -6969,13 +7000,13 @@
           "name": "Received Glorfindel\u0027s Beryl",
           "lockedProgress": false,
           "autoClaim": true,
-          "isSilent": false,
+          "isSilent": true,
           "desc": "Quest to bestow beryl"
         }
       },
       "tasks": [
         {
-          "npcDialogID": 83,
+          "npcDialogID": 84,
           "description": "Speak with Lord Glorfindel",
           "taskID": "bq_npc_integration:npc_dialog",
           "index": 0
@@ -7110,6 +7141,1480 @@
         117
       ],
       "questID": 127
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metalDevice1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Troublesome Goblins II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Glóin is at his camp north of Rivendell.\n\nIn defeating Ulmug, you find him accompanied by hostile Dourhand dwarves. Glóin should be made known of this development immediately"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dwarven Camp",
+          "posX": 15856,
+          "posY": 37,
+          "posZ": 5651,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 27,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 0
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 1
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 7
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 4
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 3
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        134
+      ],
+      "questID": 128
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcDemonicSword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Last Refuge II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "With the Key-stone in hand, you can now enter the dwarf-keep in Gundabad, the last refuge of the Dourhands and confront both the Nazgûl and Dugorim."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Gimli Awaits",
+          "posX": 14532,
+          "posY": 73,
+          "posZ": 2687,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 32,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:tipped_arrow",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "CustomPotionEffects:9": {
+                  "10": {
+                    "Ambient:1": 0,
+                    "ShowParticles:1": 1,
+                    "Duration:3": 1,
+                    "Id:1": 7,
+                    "Amplifier:1": 2
+                  }
+                }
+              }
+            },
+            {
+              "id": "xreliquary:tipped_arrow",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "CustomPotionEffects:9": {
+                  "10": {
+                    "Ambient:1": 0,
+                    "ShowParticles:1": 1,
+                    "Duration:3": 125,
+                    "Id:1": 2,
+                    "Amplifier:1": 1
+                  }
+                }
+              }
+            },
+            {
+              "id": "xreliquary:tipped_arrow",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "CustomPotionEffects:9": {
+                  "10": {
+                    "Ambient:1": 0,
+                    "ShowParticles:1": 1,
+                    "Duration:3": 125,
+                    "Id:1": 18,
+                    "Amplifier:1": 1
+                  }
+                }
+              }
+            },
+            {
+              "id": "xreliquary:tipped_arrow",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "CustomPotionEffects:9": {
+                  "10": {
+                    "Ambient:1": 0,
+                    "ShowParticles:1": 1,
+                    "Duration:3": 62,
+                    "Id:1": 20,
+                    "Amplifier:1": 1
+                  }
+                }
+              }
+            },
+            {
+              "id": "xreliquary:witherless_rose",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 129
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "iceandfire:dragon_skull",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Fire n Ice",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Carn Dûm is far to the north-west of Rivendell.\n\nElrond fears the body of the dragon left to rot so long ago in Carn Dûm may now be used by the Gaunt-lord to create a terrible fell-creature called a Dragon Wight and he wants you to go and attempt to stop it from happening."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Stop the Ritual",
+          "posX": 12252,
+          "posY": 88,
+          "posZ": 2737,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 36,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bloodmagic:ItemUpgradeTrainer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "key:8": "BloodMagic.upgrade.digging"
+              }
+            },
+            {
+              "id": "bloodmagic:ItemUpgradeTrainer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "key:8": "BloodMagic.upgrade.movement"
+              }
+            },
+            {
+              "id": "bloodmagic:ItemUpgradeTrainer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "key:8": "BloodMagic.upgrade.knockback"
+              }
+            },
+            {
+              "id": "bloodmagic:ItemUpgradeTrainer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "key:8": "BloodMagic.upgrade.health"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 130
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dwarves of Erebor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 131
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chapter Start 1",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 70,
+          "description": "Speak to aragorn",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/title VAR_NAME times 20 100 20",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/title VAR_NAME subtitle {\"text\":\"Chasing Shadows\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/title VAR_NAME title {\"text\":\"Chapter 1\",\"bold\":true,\"italic\":true,\"color\":\"dark_purple\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [],
+      "questID": 132
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chapter Start 2",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 107,
+          "description": "Speak to Elrond",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/title VAR_NAME times 20 100 20",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/title VAR_NAME subtitle {\"text\":\"Last Refuge\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/title VAR_NAME title {\"text\":\"Chapter 2\",\"bold\":true,\"italic\":true,\"color\":\"dark_purple\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [],
+      "questID": 133
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "camping:tent",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Troublesome Goblins I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elrond has suggested speaking to Glóin to further your search for the Nazgûl."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dwarven Camp",
+          "posX": 15856,
+          "posY": 37,
+          "posZ": 5651,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 26,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        123
+      ],
+      "questID": 134
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 657
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Baggin\u0027s Birthday",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Frodo Baggins is looking for an adventurer to help in a birthday surprise for his uncle Bilbo! Travel to Rivendell to find out how you can be of assistance."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Frodo Baggins",
+          "posX": 14918,
+          "posY": 146,
+          "posZ": 6005,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": -1,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        87
+      ],
+      "questID": 135
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bibliocraft:BiblioClipboard",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Job Board Quests",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/noppes quest Start VAR_NAME 37",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 136
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§6Story told by a hobbit after Bilbo disappeared on his birthday."
+                },
+                "Name:8": "§3Hobbit Story"
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Gaffer I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Gaffer seems to know a lot about the goings-on in Hobbiton, Frodo has asked you to speak with him and try to get some stories from various hobbits about what they say at Bilbo\u0027s last party before leaving the shire."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Gaffer Gamgee\u0027s House",
+          "posX": 6336,
+          "posY": 42,
+          "posZ": 7833,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 38,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        135
+      ],
+      "questID": 137
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bibliocraft:BigBook",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "pagesCurrent:3": 1,
+              "pages:10": {
+                "pageScale0:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "page1:9": {
+                  "8": ""
+                },
+                "page0:9": {
+                  "8": ""
+                },
+                "pageScale1:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "RepairCost:3": 0,
+              "chapters:10": {
+                "chapline7:8": "",
+                "chapline10:8": "",
+                "chapline6:8": "",
+                "chapline5:8": "",
+                "chapline4:8": "",
+                "chapline3:8": "",
+                "chapline2:8": "",
+                "chapline1:8": "Garric R",
+                "chapline0:8": "",
+                "chapline15:8": "",
+                "chapline13:8": "",
+                "chapline14:8": "",
+                "chapline11:8": "",
+                "chapline12:8": "",
+                "chapPages:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "chapBools:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "chapline9:8": "",
+                "chapline8:8": ""
+              },
+              "author:8": "§rGaffer Gamgee§r",
+              "display:10": {
+                "Name:8": "Bilbo\u0027s Story"
+              },
+              "pagesTotal:3": 2
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Baggin\u0027s Birthday",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to seek out all of the hobbits the Gaffer mentioned to get the stories they have to tell."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Gararic Rumblebelly",
+          "posX": 6377,
+          "posY": 40,
+          "posZ": 7823,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Marcus Hairyfoot",
+          "posX": 6463,
+          "posY": 39,
+          "posZ": 7753,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "name": "Isembard Underlake",
+          "posX": 6370,
+          "posY": 43,
+          "posZ": 7769,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 2
+        },
+        {
+          "name": "Godomar Barrowes",
+          "posX": 6315,
+          "posY": 41,
+          "posZ": 7699,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 3
+        },
+        {
+          "name": "Nick Greenhill",
+          "posX": 6367,
+          "posY": 48,
+          "posZ": 7635,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 4
+        },
+        {
+          "name": "Leufroy Swiftfoot",
+          "posX": 6386,
+          "posY": 44,
+          "posZ": 7635,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 5
+        },
+        {
+          "name": "Amanda Brockhouse",
+          "posX": 6438,
+          "posY": 39,
+          "posZ": 7727,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 6
+        },
+        {
+          "name": "Melissa Headstrong",
+          "posX": 6485,
+          "posY": 39,
+          "posZ": 7682,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 7
+        },
+        {
+          "name": "Belba Butcher",
+          "posX": 6462,
+          "posY": 39,
+          "posZ": 7675,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 8
+        },
+        {
+          "name": "Gomatrudis Proudmead",
+          "posX": 6603,
+          "posY": 46,
+          "posZ": 7752,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 9
+        },
+        {
+          "name": "Ingunde Silentfoot",
+          "posX": 6426,
+          "posY": 39,
+          "posZ": 7967,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 10
+        },
+        {
+          "name": "Regnetrudis Fallohide",
+          "posX": 6432,
+          "posY": 39,
+          "posZ": 7950,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 11
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:silver_coin",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "tolkientweaks:brons_coin",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        137
+      ],
+      "questID": 138
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§6Story told by a hobbit after Bilbo disappeared on his birthday."
+                },
+                "Name:8": "§3Hobbit Story"
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Gaffer II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You\u0027ve collected all of the stories, go see the Gaffer again to see if he has anything else to say."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Gaffer Gamgee\u0027s House",
+          "posX": 6336,
+          "posY": 42,
+          "posZ": 7833,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 39,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        138
+      ],
+      "questID": 139
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:chocolatesprinklecakeItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bilbo\u0027s Present",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You\u0027ve collected the stories and the Gaffer even made them into a book specially for him.  Take it back and present the presant to Bilbo."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Bilbo Baggins",
+          "posX": 14845,
+          "posY": 121,
+          "posZ": 6055,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 124,
+          "description": "Speak to Bilbo",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bibliocraft:PrintingPress",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bibliocraft:PaintingPress",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bibliocraft:Typewriter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:gold_coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        139
+      ],
+      "questID": 140
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bibliocraft:BigBook",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "pagesCurrent:3": 1,
+              "pages:10": {
+                "pageScale0:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "page1:9": {
+                  "8": ""
+                },
+                "page0:9": {
+                  "8": ""
+                },
+                "pageScale1:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "RepairCost:3": 0,
+              "chapters:10": {
+                "chapline7:8": "",
+                "chapline10:8": "",
+                "chapline6:8": "",
+                "chapline5:8": "",
+                "chapline4:8": "",
+                "chapline3:8": "",
+                "chapline2:8": "",
+                "chapline1:8": "Garric R",
+                "chapline0:8": "",
+                "chapline15:8": "",
+                "chapline13:8": "",
+                "chapline14:8": "",
+                "chapline11:8": "",
+                "chapline12:8": "",
+                "chapPages:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "chapBools:11": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "chapline9:8": "",
+                "chapline8:8": ""
+              },
+              "author:8": "§rGaffer Gamgee§r",
+              "display:10": {
+                "Name:8": "Bilbo\u0027s Story"
+              },
+              "pagesTotal:3": 2
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Journal Updated",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 118,
+          "description": "Gaffer\u0027s List",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes quest Start VAR_NAME 41",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 42",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 43",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 44",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 3
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 45",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 4
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 46",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 5
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 47",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 6
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 48",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 7
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 49",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 8
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 50",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 9
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 51",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 10
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 52",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 11
+        }
+      ],
+      "preRequisites": [
+        137
+      ],
+      "questID": 141
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 142
     }
   ],
   "questLines": [
@@ -7125,6 +8630,12 @@
       "quests": [
         {
           "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 132
+        },
+        {
+          "size": 24,
           "x": 246,
           "y": 48,
           "id": 107
@@ -7138,13 +8649,13 @@
         {
           "size": 24,
           "x": 510,
-          "y": 0,
+          "y": 30,
           "id": 109
         },
         {
           "size": 24,
           "x": 510,
-          "y": 30,
+          "y": 60,
           "id": 110
         },
         {
@@ -7222,7 +8733,7 @@
         {
           "size": 24,
           "x": 510,
-          "y": 60,
+          "y": 90,
           "id": 125
         },
         {
@@ -7813,6 +9324,54 @@
         },
         {
           "size": 24,
+          "x": 84,
+          "y": 78,
+          "id": 135
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 36,
+          "id": 136
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 108,
+          "id": 137
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 138,
+          "id": 138
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 168,
+          "id": 139
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 198,
+          "id": 140
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 66,
+          "id": 141
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 306,
+          "id": 142
+        },
+        {
+          "size": 24,
           "x": 54,
           "y": 48,
           "id": 87
@@ -7831,14 +9390,14 @@
         },
         {
           "size": 24,
-          "x": 252,
-          "y": 66,
+          "x": 444,
+          "y": 114,
           "id": 91
         },
         {
           "size": 24,
-          "x": 276,
-          "y": 240,
+          "x": 174,
+          "y": 270,
           "id": 92
         },
         {
@@ -7932,6 +9491,12 @@
         {
           "size": 24,
           "x": 0,
+          "y": 72,
+          "id": 131
+        },
+        {
+          "size": 24,
+          "x": 0,
           "y": 0,
           "id": 89
         },
@@ -7955,6 +9520,36 @@
         }
       },
       "quests": [
+        {
+          "size": 24,
+          "x": 252,
+          "y": 114,
+          "id": 128
+        },
+        {
+          "size": 24,
+          "x": 414,
+          "y": 168,
+          "id": 129
+        },
+        {
+          "size": 24,
+          "x": 276,
+          "y": 216,
+          "id": 130
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 133
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 84,
+          "id": 134
+        },
         {
           "size": 24,
           "x": 246,

@@ -555,7 +555,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Apothecary",
-    "TotalTicksAlive": 9205L,
+    "TotalTicksAlive": 9262L,
     "Rotation": [
         -92.24826f,
         0.0f

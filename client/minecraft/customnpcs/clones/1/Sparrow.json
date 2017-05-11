@@ -804,9 +804,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Lumberjack",
-    "TotalTicksAlive": 284118L,
+    "TotalTicksAlive": 284201L,
     "Rotation": [
-        94.65947f,
+        180.00072f,
         0.0f
     ],
     "ShowName": 0,

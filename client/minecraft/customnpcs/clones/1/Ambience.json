@@ -534,7 +534,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 5,
     "Title": "Set the Mood",
-    "TotalTicksAlive": 4454L,
+    "TotalTicksAlive": 4379L,
     "Rotation": [
         0.0f,
         0.0f
