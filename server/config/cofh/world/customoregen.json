@@ -1,0 +1,138 @@
+{
+	"populate": {
+		"apatite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "forestry:resources",
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 40,
+			"max-height": 75,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"vinteum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "arsmagica2:ore",
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"topaz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "arsmagica2:ore",
+					"metadata": 2
+				},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"zinc": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "name": "allomancy:oreZinc",
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "name": "iceandfire:sapphire_ore",
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "immersiveengineering:ore",
+					"metadata": 5
+				},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+	}
+}
