@@ -55,6 +55,8 @@ key_Scene2 start/pause:0:NONE
 key_Scene3 start/pause:0:NONE
 key_Scene reset:0:NONE
 key_Quest Log:38:NONE
+key_oreexcavation.key.excavate:41:NONE
+key_oreexcavation.key.shape:0:NONE
 key_Activate  FINGER 0:0:NONE
 key_Activate  FINGER 1:0:NONE
 key_Activate  WRIST 0:0:NONE
@@ -68,7 +70,6 @@ key_Activate  EAR 0:0:NONE
 key_Activate  EAR 1:0:NONE
 key_Activate  EYE:0:NONE
 key_Activate  HAT:0:NONE
-key_veinminer.key.enable:41:NONE
 key_key.changeGroup:81:NONE
 key_key.burnFirst:79:NONE
 key_key.burnSecond:80:NONE
@@ -132,6 +133,7 @@ key_key.dragon_strike:40:NONE
 key_key.dragon_dismount:39:NONE
 key_LvlUpGUI:23:NONE
 key_key.llor.hotkey:62:NONE
+key_xreliquary.keybind.fortune_coin:0:NONE
 key_Camping Inventory Key:0:NONE
 key_key.craftingGrid:0:NONE
 key_WorldEdit Reference:0:NONE

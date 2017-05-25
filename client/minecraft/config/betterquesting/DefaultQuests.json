@@ -7181,9 +7181,21 @@
           "index": 0
         },
         {
+          "name": "Goblin Caves",
+          "posX": 15407,
+          "posY": 119,
+          "posZ": 5617,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
           "npcQuestID": 27,
           "taskID": "bq_npc_integration:npc_quest",
-          "index": 1
+          "index": 2
         }
       ],
       "rewards": [
@@ -7271,10 +7283,10 @@
       },
       "tasks": [
         {
-          "name": "Gimli Awaits",
-          "posX": 14532,
-          "posY": 73,
-          "posZ": 2687,
+          "name": "Return to Glóin",
+          "posX": 15856,
+          "posY": 37,
+          "posZ": 5651,
           "dimension": 0,
           "range": 16,
           "visible": false,
@@ -7370,7 +7382,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        147
+      ],
       "questID": 129
     },
     {
@@ -7461,7 +7475,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        149
+      ],
       "questID": 130
     },
     {
@@ -7581,9 +7597,8 @@
       },
       "tasks": [
         {
-          "npcDialogID": 107,
-          "description": "Speak to Elrond",
-          "taskID": "bq_npc_integration:npc_dialog",
+          "npcQuestID": 25,
+          "taskID": "bq_npc_integration:npc_quest",
           "index": 0
         }
       ],
@@ -7702,8 +7717,8 @@
           "index": 0
         },
         {
-          "npcDialogID": -1,
-          "description": "Talk to an NPC",
+          "npcDialogID": 115,
+          "description": "Speak to Frodo",
           "taskID": "bq_npc_integration:npc_dialog",
           "index": 1
         }
@@ -7720,6 +7735,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -7743,10 +7759,59 @@
       "rewards": [
         {
           "command": "/noppes quest Start VAR_NAME 37",
-          "hideCommand": false,
+          "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
           "index": 0
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 57",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 58",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 59",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 3
+        },
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Eriador Job Board\\\", x:9340, y:55, z:7831]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 4
+        },
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Gondor Job Board\\\", x:17957, y:37, z:13646]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 5
+        },
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Rhovanion Job Board\\\", x:20276, y:64, z:4277]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 6
+        },
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Rohan Job Board\\\", x:14695, y:51, z:12300]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 7
         }
       ],
       "preRequisites": [],
@@ -8207,20 +8272,7 @@
           "index": 1
         }
       ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 0
-        }
-      ],
+      "rewards": [],
       "preRequisites": [
         138
       ],
@@ -8615,6 +8667,775 @@
       "rewards": [],
       "preRequisites": [],
       "questID": 142
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mitheithel waypoint unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mitheithel",
+          "posX": 13145,
+          "posY": 43,
+          "posZ": 8052,
+          "dimension": 0,
+          "range": 32,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 143
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 18000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Mitheithel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Fast Travel"
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tpj VAR_NAME 0 13145 43 8052",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        143
+      ],
+      "questID": 144
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Return to Gundabad",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Glóin told you that the Nazgûl you are pursuing can be found in the old dwarf-fortress of Gundabad, in the company of Dugorim Dourhand. The two entered the nearly impregnable inner keep of the fortress. Glóin believes the only way to enter the inner keep is to learn its secret entrance."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Keystone Vault",
+          "posX": 14712,
+          "posY": 47,
+          "posZ": 2570,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 29,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        128
+      ],
+      "questID": 145
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "storagedrawers:personalKey",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hunt for the Key-stone",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Glóin has asked you to retrieve a key-stone from an old dwarf-vault. The key-stone will allow you entry into the Dourhand-occupied dwarf-keep."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Ruined Dwarven Vault",
+          "posX": 15164,
+          "posY": 39,
+          "posZ": 6445,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 30,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        145
+      ],
+      "questID": 146
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "forestry:doors.ebony",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Last Refuge I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "With the Key-stone found, you can now enter the dwarf-keep in Gundabad, the last refuge of the Dourhands and confront both the Nazgûl and Dugorim.\n\nGimli is located near the secret entrance to Gundabad, follow the compass in your journal to find him to gain entrance to Gundabad."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Return to Glóin",
+          "posX": 15856,
+          "posY": 37,
+          "posZ": 5651,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Find Gimli",
+          "posX": 14532,
+          "posY": 73,
+          "posZ": 2687,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 31,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        146
+      ],
+      "questID": 147
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "extrautils2:ingredients",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Steps of Evil I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Upon hearing that the Nazgûl fled to Carn Dûm, Glóin told you some of the tale of that ancient fortress."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Carn Dûm",
+          "posX": 12264,
+          "posY": 39,
+          "posZ": 2957,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 33,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        129
+      ],
+      "questID": 148
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:evil_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Steps of Evil II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Near one of the entrances to Carn Dûm you encountered wights.\n\nAfter killing a few you found a §5Dark Sigil§r so you should return to Glóin and see what he thinks."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Return to Glóin",
+          "posX": 15856,
+          "posY": 37,
+          "posZ": 5651,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 34,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        148
+      ],
+      "questID": 149
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcFireElement",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Turning to the South",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The threat in Carn Dûm has been dealt with and now Elrond wants to discuss other matters with you.\n\nSpeak with him in Rivendell."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Speak with Lord Elrond",
+          "posX": 14911,
+          "posY": 143,
+          "posZ": 5962,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 202,
+          "description": "Speak with Elrond",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        130
+      ],
+      "questID": 150
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chapter Start 3",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 36,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/title VAR_NAME times 20 100 20",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/title VAR_NAME subtitle {\"text\":\"Fires in the South\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/title VAR_NAME title {\"text\":\"Chapter 3\",\"bold\":true,\"italic\":true,\"color\":\"dark_purple\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [],
+      "questID": 151
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:essence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 9
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Daring Rescue - A Cry for Help",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Looks like someone near the Forsaken Inn is looking for help after a recent expedition went bad.\n\nLook for a man named Munce to see what he needs."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Forsaken Inn",
+          "posX": 10240,
+          "posY": 49,
+          "posZ": 8582,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 174,
+          "description": "Speak to Munce",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        87
+      ],
+      "questID": 152
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:mercy_cross",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Daring Rescue - Get to Safety",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Munce directed you to where they were camping to the south in the Andrath Ruins.  Hopefully Ayduin is still alive and can be brought back."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Andrath Ruins",
+          "posX": 8950,
+          "posY": 42,
+          "posZ": 10878,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 53,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        152
+      ],
+      "questID": 153
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bloodmagic:ItemUpgradeTome",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "level:3": 9,
+              "key:8": "BloodMagic.upgrade.health"
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Daring Rescue - Brought to Safety",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You found Ayduin, she\u0027s badly injured but mobile.  Lead her to the western Arch and to safety!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Western Arch",
+          "posX": 8975,
+          "posY": 45,
+          "posZ": 10837,
+          "dimension": 0,
+          "range": 5,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Forsaken Inn",
+          "posX": 10240,
+          "posY": 49,
+          "posZ": 8582,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 55,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:mercy_cross",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "xreliquary:emperor_chalice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "xreliquary:glowing_bread",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        153
+      ],
+      "questID": 154
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 637
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Click the waypoint in chat to add.",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Click the waypoint in chat to add."
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Elledan\u0027s Camp\\\", x:12888, y:42, z:6283]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        111
+      ],
+      "questID": 155
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 637
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Click the waypoint in chat to add.",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Click the waypoint in chat to add."
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Imladris Waterfall\\\", x:15046, y:205, z:5999]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        118
+      ],
+      "questID": 156
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 637
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Click the waypoint in chat to add.",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Click the waypoint in chat to add."
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Imladris Waterfall\\\", x:15046, y:205, z:5999]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 157
     }
   ],
   "questLines": [
@@ -8732,9 +9553,27 @@
         },
         {
           "size": 24,
+          "x": 282,
+          "y": 78,
+          "id": 155
+        },
+        {
+          "size": 24,
+          "x": 282,
+          "y": 108,
+          "id": 156
+        },
+        {
+          "size": 24,
           "x": 510,
           "y": 90,
           "id": 125
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 108,
+          "id": 157
         },
         {
           "size": 24,
@@ -8860,9 +9699,21 @@
         },
         {
           "size": 24,
+          "x": 564,
+          "y": 324,
+          "id": 143
+        },
+        {
+          "size": 24,
           "x": 768,
           "y": 546,
           "id": 16
+        },
+        {
+          "size": 24,
+          "x": 564,
+          "y": 348,
+          "id": 144
         },
         {
           "size": 24,
@@ -9292,7 +10143,7 @@
         }
       ],
       "lineID": 1,
-      "order": 3
+      "order": 4
     },
     {
       "properties": {
@@ -9384,9 +10235,27 @@
         },
         {
           "size": 24,
+          "x": 114,
+          "y": 66,
+          "id": 152
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 96,
+          "id": 153
+        },
+        {
+          "size": 24,
           "x": 54,
           "y": 90,
           "id": 90
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 126,
+          "id": 154
         },
         {
           "size": 24,
@@ -9420,7 +10289,7 @@
         }
       ],
       "lineID": 2,
-      "order": 2
+      "order": 3
     },
     {
       "properties": {
@@ -9476,7 +10345,7 @@
         }
       ],
       "lineID": 3,
-      "order": 4
+      "order": 5
     },
     {
       "properties": {
@@ -9508,7 +10377,7 @@
         }
       ],
       "lineID": 4,
-      "order": 5
+      "order": 6
     },
     {
       "properties": {
@@ -9522,21 +10391,45 @@
       "quests": [
         {
           "size": 24,
-          "x": 252,
-          "y": 114,
+          "x": 246,
+          "y": 108,
           "id": 128
         },
         {
           "size": 24,
-          "x": 414,
-          "y": 168,
+          "x": 246,
+          "y": 228,
           "id": 129
         },
         {
           "size": 24,
-          "x": 276,
-          "y": 216,
+          "x": 246,
+          "y": 138,
+          "id": 145
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 318,
           "id": 130
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 168,
+          "id": 146
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 198,
+          "id": 147
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 258,
+          "id": 148
         },
         {
           "size": 24,
@@ -9546,8 +10439,14 @@
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 84,
+          "x": 246,
+          "y": 288,
+          "id": 149
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 78,
           "id": 134
         },
         {
@@ -9559,6 +10458,32 @@
       ],
       "lineID": 5,
       "order": 1
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Grand Quest - Fires in the South",
+          "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
+          "bg_size": 512,
+          "desc": "The shadow of Angmar -- Sauron\u0027s hand in the North -- grows steadily, threatening the peace and security of Eriador."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 246,
+          "y": 48,
+          "id": 150
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 151
+        }
+      ],
+      "lineID": 6,
+      "order": 2
     }
   ],
   "format": "1.0.0"
