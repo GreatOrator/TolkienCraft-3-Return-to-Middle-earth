@@ -4406,14 +4406,22 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Men of Middle-earth",
+          "name": "Men of Middle-earth: Known",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.Faction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nAt this point the Men of Middle-earth have heard of you and know your name."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 10,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 89
@@ -6960,7 +6968,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
         }
       },
       "tasks": [],
@@ -7502,7 +7510,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
         }
       },
       "tasks": [],
@@ -7576,6 +7584,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -9436,6 +9445,658 @@
       ],
       "preRequisites": [],
       "questID": 157
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "tolkientweaks:key",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Name:8": "Goblin Cave"
+              },
+              "ShowCode:1": 0,
+              "KeyCode:8": "Goblin Cave"
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "You have been given a key.",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Gloin\u0027s men found this along the mountain pass."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 163,
+          "description": "Speak with Gloin",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Goblin Cave"
+                },
+                "ShowCode:1": 0,
+                "KeyCode:8": "Goblin Cave"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 158
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Acquaintance",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nYou have done many deeds and they are warming up to you as they begin to see you are helpful."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 3500,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 159
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThe people are now seeing your value and worth, at this level you can now access some faction sellers in Bree who have special gear for sale."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 7000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 160
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Ally",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nYou have earned the alliance of the Men of Bree and now you will have access to followers who will aid you in your travels."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 8500,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 161
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Kindred",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThey now consider you one of their own.  As such you will have access to better faction sellers who have unique items normally only available to members of their community."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 162
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 13
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Known to All - Fellowship",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nYou have done such deeds as to be written in history.  Through your efforts the peoples of Middle-earth have united around one common cause...You."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 0,
+          "target": 10,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        162,
+        176,
+        171,
+        167
+      ],
+      "questID": 163
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Acquaintance",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 164
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 165
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Ally",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 166
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Kindred",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 167
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 168
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 169
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 170
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 171
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 172
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 173
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 174
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 175
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 176
     }
   ],
   "questLines": [
@@ -9451,7 +10112,7 @@
       "quests": [
         {
           "size": 24,
-          "x": 510,
+          "x": 516,
           "y": 0,
           "id": 132
         },
@@ -9463,128 +10124,128 @@
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 168,
+          "x": 282,
+          "y": 156,
           "id": 108
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 30,
+          "x": 516,
+          "y": 36,
           "id": 109
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 60,
+          "x": 516,
+          "y": 72,
           "id": 110
         },
         {
           "size": 24,
           "x": 246,
-          "y": 78,
+          "y": 84,
           "id": 111
         },
         {
           "size": 24,
-          "x": 210,
-          "y": 264,
+          "x": 156,
+          "y": 192,
           "id": 112
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 264,
+          "x": 186,
+          "y": 216,
           "id": 113
         },
         {
           "size": 24,
-          "x": 282,
-          "y": 264,
+          "x": 156,
+          "y": 240,
           "id": 114
         },
         {
           "size": 24,
           "x": 246,
-          "y": 414,
+          "y": 396,
           "id": 115
         },
         {
           "size": 24,
           "x": 246,
-          "y": 198,
+          "y": 180,
           "id": 116
         },
         {
           "size": 24,
           "x": 246,
-          "y": 294,
+          "y": 252,
           "id": 117
         },
         {
           "size": 24,
           "x": 246,
-          "y": 108,
+          "y": 120,
           "id": 118
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 138,
+          "x": 210,
+          "y": 156,
           "id": 119
         },
         {
           "size": 24,
           "x": 246,
-          "y": 354,
+          "y": 324,
           "id": 120
         },
         {
           "size": 24,
           "x": 246,
-          "y": 384,
+          "y": 360,
           "id": 121
         },
         {
           "size": 24,
           "x": 246,
-          "y": 444,
+          "y": 432,
           "id": 122
         },
         {
           "size": 24,
-          "x": 282,
-          "y": 78,
+          "x": 516,
+          "y": 144,
           "id": 155
         },
         {
           "size": 24,
-          "x": 282,
-          "y": 108,
+          "x": 516,
+          "y": 180,
           "id": 156
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 90,
+          "x": 516,
+          "y": 108,
           "id": 125
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 108,
+          "x": 516,
+          "y": 216,
           "id": 157
         },
         {
           "size": 24,
           "x": 246,
-          "y": 228,
+          "y": 216,
           "id": 126
         },
         {
           "size": 24,
           "x": 246,
-          "y": 324,
+          "y": 288,
           "id": 127
         }
       ],
@@ -10351,29 +11012,137 @@
       "properties": {
         "betterquesting": {
           "name": "Factions of Middle-earth",
-          "bg_image": "",
-          "bg_size": 256,
+          "bg_image": "tolkiencraft:textures\\gui\\factions.png",
+          "bg_size": 512,
           "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": 0,
-          "y": 72,
+          "x": 78,
+          "y": 138,
+          "id": 160
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 138,
+          "id": 161
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 180,
+          "id": 162
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 348,
           "id": 131
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 0,
+          "x": 246,
+          "y": 234,
+          "id": 163
+        },
+        {
+          "size": 24,
+          "x": 414,
+          "y": 90,
+          "id": 164
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 138,
+          "id": 165
+        },
+        {
+          "size": 24,
+          "x": 414,
+          "y": 138,
+          "id": 166
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 180,
+          "id": 167
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 348,
+          "id": 168
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 396,
+          "id": 169
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 396,
+          "id": 170
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 438,
+          "id": 171
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 348,
+          "id": 172
+        },
+        {
+          "size": 24,
+          "x": 414,
+          "y": 348,
+          "id": 173
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 396,
+          "id": 174
+        },
+        {
+          "size": 24,
+          "x": 414,
+          "y": 396,
+          "id": 175
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 438,
+          "id": 176
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 90,
           "id": 89
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 36,
+          "x": 330,
+          "y": 90,
           "id": 124
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 90,
+          "id": 159
         }
       ],
       "lineID": 4,
@@ -10454,6 +11223,12 @@
           "x": 246,
           "y": 48,
           "id": 123
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 30,
+          "id": 158
         }
       ],
       "lineID": 5,

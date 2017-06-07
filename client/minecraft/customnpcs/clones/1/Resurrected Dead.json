@@ -52,7 +52,7 @@
         "Melee": 0.8169014f
     },
     "BossBar": 0b,
-    "RespawnTime": 20,
+    "RespawnTime": 200,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -111,7 +111,7 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "quark:textures/entity/pirate.png",
+    "Texture": "quark:textures/entity/ashen.png",
     "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
@@ -170,7 +170,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 1992,
+    "HurtByTimestamp": 4820,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 7,
@@ -372,7 +372,7 @@
             "BrowColor": 5982516,
             "BrowThickness": 4
         },
-        "EntityClass": "vazkii.quark.world.entity.EntityPirate",
+        "EntityClass": "vazkii.quark.world.entity.EntityAshen",
         "LegParts": {
             "Pattern": 0b,
             "Type": 0b,
@@ -509,9 +509,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Wight",
-    "TotalTicksAlive": 9365L,
+    "TotalTicksAlive": 98405L,
     "Rotation": [
-        218.35013f,
+        357.58655f,
         0.0f
     ],
     "ShowName": 0,
