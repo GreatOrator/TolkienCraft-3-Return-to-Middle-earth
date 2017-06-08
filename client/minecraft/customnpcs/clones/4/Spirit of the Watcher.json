@@ -3,42 +3,48 @@
     "NpcInv": [
         {
             "Slot": 0b,
-            "id": "customnpcs:npcSkull",
-            "Count": 1b,
-            "tag": {
-                "RepairCost": 0,
-                "display": {
-                    "Lore": [
-                        "§6Dark symbol dropped by a minion."
-                    ],
-                    "Name": "§5Dark Sigil"
-                }
-            },
-            "Damage": 0s
-        },
-        {
-            "Slot": 1b,
-            "id": "tolkientweaks:brons_coin",
+            "id": "tolkientweaks:silver_coin",
             "Count": 6b,
             "Damage": 0s
         },
         {
+            "Slot": 1b,
+            "id": "lootbags:itemlootbag",
+            "Count": 1b,
+            "Damage": 2s
+        },
+        {
             "Slot": 2b,
-            "id": "tolkientweaks:silver_coin",
-            "Count": 2b,
-            "Damage": 0s
+            "id": "lootbags:itemlootbag",
+            "Count": 1b,
+            "Damage": 3s
         },
         {
             "Slot": 3b,
-            "id": "tolkientweaks:gold_coin",
+            "id": "lootbags:itemlootbag",
             "Count": 1b,
-            "Damage": 0s
+            "Damage": 4s
         },
         {
             "Slot": 4b,
             "id": "lootbags:itemlootbag",
             "Count": 1b,
-            "Damage": 2s
+            "Damage": 11s
+        },
+        {
+            "Slot": 5b,
+            "id": "bloodmagic:ItemUpgradeTrainer",
+            "Count": 1b,
+            "tag": {
+                "key": "BloodMagic.upgrade.criticalStrike"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "id": "tolkientweaks:brons_coin",
+            "Count": 16b,
+            "Damage": 0s
         }
     ],
     "BossColor": 0,
@@ -46,14 +52,14 @@
     "Size": 5,
     "stopAndInteract": 1b,
     "Resistances": {
-        "Arrow": 1.9577465f,
+        "Arrow": 2.0f,
         "Explosion": 2.0f,
-        "Knockback": 1.3098592f,
-        "Melee": 0.8169014f
+        "Knockback": 1.6478873f,
+        "Melee": 0.943662f
     },
     "BossBar": 0b,
-    "RespawnTime": 20,
-    "NpcAngrySound": "",
+    "RespawnTime": 0,
+    "NpcAngrySound": "customnpcs:songs.hellsong",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
     "PositionOffsetZ": 5.0f,
@@ -80,7 +86,7 @@
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
-    "TacticalVariant": 0,
+    "TacticalVariant": 1,
     "Orientation": 0,
     "ScriptLanguage": "ECMAScript",
     "HandItems": [
@@ -101,7 +107,7 @@
     "StandingState": 0,
     "AttackInvisible": 0b,
     "HurtTime": 0s,
-    "WalkingRange": 5,
+    "WalkingRange": 10,
     "ShotCount": 1,
     "pDur": 5,
     "AttackRange": 2,
@@ -111,7 +117,7 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "quark:textures/entity/pirate.png",
+    "Texture": "customnpcs:textures/CustomSkins/Mobs/WatcherSpirit.png",
     "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
@@ -130,10 +136,10 @@
         -0.0784000015258789d,
         0.0d
     ],
-    "CombatRegen": 5,
+    "CombatRegen": 2,
     "NpcsTimers": [
     ],
-    "pEffect": 2,
+    "pEffect": 0,
     "DistanceToMelee": 0,
     "NpcStepSound": "",
     "FireRate": 5,
@@ -141,7 +147,7 @@
     "pEffAmp": 0,
     "OnGround": 1b,
     "Dimension": 0,
-    "ImmuneToFire": 0b,
+    "ImmuneToFire": 1b,
     "NpcKilledLines": {
         "Lines": [
         ]
@@ -170,10 +176,10 @@
             }
         ]
     },
-    "HurtByTimestamp": 1992,
+    "HurtByTimestamp": 707,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
-    "pTrail": 7,
+    "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
         {
@@ -197,7 +203,7 @@
             "Name": "am2.xpMultiplier"
         },
         {
-            "Base": 250.0d,
+            "Base": 150.0d,
             "Name": "generic.maxHealth"
         },
         {
@@ -230,76 +236,14 @@
     "NoFallDamage": 0b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "Resurrected Dead",
+    "Name": "Spirit of the Watcher",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
         {
-            "Slot": 0b,
-            "id": "tconstruct:broadsword",
-            "Count": 1b,
-            "tag": {
-                "StatsOriginal": {
-                    "AttackSpeedMultiplier": 1.0f,
-                    "MiningSpeed": 4.0f,
-                    "FreeModifiers": 3,
-                    "Durability": 265,
-                    "HarvestLevel": 1,
-                    "Attack": 4.4f
-                },
-                "Stats": {
-                    "AttackSpeedMultiplier": 1.0f,
-                    "MiningSpeed": 4.0f,
-                    "FreeModifiers": 3,
-                    "Durability": 265,
-                    "HarvestLevel": 1,
-                    "Attack": 4.4f
-                },
-                "Special": {
-                    "Categories": [
-                        "weapon",
-                        "tool"
-                    ]
-                },
-                "TinkerData": {
-                    "Materials": [
-                        "cactus",
-                        "cactus",
-                        "cactus"
-                    ],
-                    "Modifiers": [
-                        "toolleveling"
-                    ]
-                },
-                "Modifiers": [
-                    {
-                        "identifier": "spiky",
-                        "color": -16735985,
-                        "level": 1
-                    },
-                    {
-                        "identifier": "prickly",
-                        "color": -16735985,
-                        "level": 1
-                    },
-                    {
-                        "identifier": "toolleveling",
-                        "color": 16777215,
-                        "level": 1
-                    }
-                ],
-                "Traits": [
-                    "spiky",
-                    "prickly",
-                    "toolleveling"
-                ]
-            },
-            "Damage": 0s
-        },
-        {
             "Slot": 1b,
-            "id": "customnpcs:npcNatureSpell",
+            "id": "customnpcs:npcDarkSpell",
             "Count": 1b,
             "Damage": 0s
         }
@@ -308,9 +252,88 @@
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
-    "HealthRegen": 15,
+    "HealthRegen": 10,
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
+            {
+                "player_uuidMost": -1209877122038870998L,
+                "player_uuidLeast": -6725747101558654467L,
+                "damage_data": [
+                    {
+                        "damage": 145.06949f,
+                        "item": {
+                            "id": "tconstruct:broadsword",
+                            "Count": 1b,
+                            "tag": {
+                                "StatsOriginal": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 5.0f
+                                },
+                                "Stats": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 2,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 11.816217f
+                                },
+                                "Special": {
+                                    "Categories": [
+                                        "weapon",
+                                        "tool"
+                                    ]
+                                },
+                                "TinkerData": {
+                                    "UsedModifiers": 3,
+                                    "Materials": [
+                                        "iron",
+                                        "iron",
+                                        "iron"
+                                    ],
+                                    "Modifiers": [
+                                        "toolleveling",
+                                        "sharpness"
+                                    ]
+                                },
+                                "Modifiers": [
+                                    {
+                                        "identifier": "magnetic",
+                                        "color": -3487030,
+                                        "level": 3,
+                                        "magnetic1": 1b,
+                                        "magnetic2": 1b
+                                    },
+                                    {
+                                        "identifier": "toolleveling",
+                                        "color": 16777215,
+                                        "level": 3,
+                                        "xp": 1045,
+                                        "bonus_modifiers": 2
+                                    },
+                                    {
+                                        "identifier": "sharpness",
+                                        "current": 216,
+                                        "color": 16774902,
+                                        "level": 3,
+                                        "max": 216,
+                                        "extraInfo": "215 / 216"
+                                    }
+                                ],
+                                "Traits": [
+                                    "magnetic1",
+                                    "magnetic2",
+                                    "toolleveling"
+                                ]
+                            },
+                            "Damage": 29s
+                        }
+                    }
+                ]
+            }
         ],
         "llibrary:ExtendedEntityDataCapability": {
         },
@@ -364,15 +387,14 @@
         "Eyes": {
             "Pattern": 0b,
             "Glint": 1b,
-            "Type": -1b,
+            "Type": 0b,
             "PositionY": 1,
-            "SkinColor": 11830381,
+            "SkinColor": 197126,
             "PlayerTexture": 0b,
-            "Color": 8339378,
-            "BrowColor": 5982516,
+            "Color": 16051962,
+            "BrowColor": 198154,
             "BrowThickness": 4
         },
-        "EntityClass": "vazkii.quark.world.entity.EntityPirate",
         "LegParts": {
             "Pattern": 0b,
             "Type": 0b,
@@ -411,8 +433,8 @@
     "SkinUrl": "",
     "CanSwim": 1b,
     "GroundSound": "minecraft:block.stone.break",
-    "MaxHealth": 250,
-    "HideBodyWhenKilled": 0b,
+    "MaxHealth": 150,
+    "HideBodyWhenKilled": 1b,
     "AttackSpeed": 20,
     "PotionDuration": 5,
     "maxDelay": 40,
@@ -420,7 +442,7 @@
     "Role": 0,
     "DropChance": [
         {
-            "Integer": 25,
+            "Integer": 35,
             "Slot": 0
         },
         {
@@ -428,19 +450,19 @@
             "Slot": 1
         },
         {
-            "Integer": 15,
+            "Integer": 35,
             "Slot": 2
         },
         {
-            "Integer": 5,
+            "Integer": 20,
             "Slot": 3
         },
         {
-            "Integer": 33,
+            "Integer": 5,
             "Slot": 4
         },
         {
-            "Integer": 100,
+            "Integer": 80,
             "Slot": 5
         },
         {
@@ -478,13 +500,13 @@
         "PlayerPersisted": {
         }
     },
-    "MovingState": 1,
+    "MovingState": 0,
     "MovingPos": 0,
     "PotionAmp": 0,
     "OnAttack": 0,
     "TacticalRadius": 8,
     "FallFlying": 0b,
-    "MaxExp": 0,
+    "MaxExp": 62,
     "OrderedLines": 0b,
     "PortalCooldown": 0,
     "pGlows": 0b,
@@ -494,7 +516,7 @@
     "FiringSound": "minecraft:entity.arrow.shoot",
     "ModRev": 18,
     "Accuracy": 60,
-    "MinExp": 0,
+    "MinExp": 20,
     "Armor": [
     ],
     "CloakTexture": "",
@@ -503,20 +525,20 @@
     "pXlr8": 0b,
     "Scripts": [
     ],
-    "Health": 250.0f,
+    "Health": 150.0f,
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
-    "Title": "Wight",
-    "TotalTicksAlive": 9365L,
+    "Title": "",
+    "TotalTicksAlive": 59333L,
     "Rotation": [
-        218.35013f,
+        224.32953f,
         0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
-    "SpawnCycle": 0
+    "SpawnCycle": 3
 }

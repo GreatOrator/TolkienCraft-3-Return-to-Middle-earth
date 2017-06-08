@@ -1,55 +1,16 @@
 {
     "ReturnToStart": 1b,
     "NpcInv": [
-        {
-            "Slot": 0b,
-            "id": "customnpcs:npcSkull",
-            "Count": 1b,
-            "tag": {
-                "RepairCost": 0,
-                "display": {
-                    "Lore": [
-                        "§6Dark symbol dropped by a minion."
-                    ],
-                    "Name": "§5Dark Sigil"
-                }
-            },
-            "Damage": 0s
-        },
-        {
-            "Slot": 1b,
-            "id": "tolkientweaks:brons_coin",
-            "Count": 6b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 2b,
-            "id": "tolkientweaks:silver_coin",
-            "Count": 2b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 3b,
-            "id": "tolkientweaks:gold_coin",
-            "Count": 1b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 4b,
-            "id": "lootbags:itemlootbag",
-            "Count": 1b,
-            "Damage": 2s
-        }
     ],
     "BossColor": 0,
     "PotionEffect": 0,
-    "Size": 5,
+    "Size": 4,
     "stopAndInteract": 1b,
     "Resistances": {
-        "Arrow": 1.9577465f,
-        "Explosion": 2.0f,
-        "Knockback": 1.3098592f,
-        "Melee": 0.8169014f
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
     },
     "BossBar": 0b,
     "RespawnTime": 20,
@@ -111,7 +72,7 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "quark:textures/entity/pirate.png",
+    "Texture": "customnpcs:textures/CustomSkins/MiddleEarth/Gloin.png",
     "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
@@ -130,10 +91,10 @@
         -0.0784000015258789d,
         0.0d
     ],
-    "CombatRegen": 5,
+    "CombatRegen": 100,
     "NpcsTimers": [
     ],
-    "pEffect": 2,
+    "pEffect": 0,
     "DistanceToMelee": 0,
     "NpcStepSound": "",
     "FireRate": 5,
@@ -170,10 +131,10 @@
             }
         ]
     },
-    "HurtByTimestamp": 1992,
+    "HurtByTimestamp": 2235,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
-    "pTrail": 7,
+    "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
         {
@@ -197,7 +158,7 @@
             "Name": "am2.xpMultiplier"
         },
         {
-            "Base": 250.0d,
+            "Base": 2000.0d,
             "Name": "generic.maxHealth"
         },
         {
@@ -230,85 +191,17 @@
     "NoFallDamage": 0b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "Resurrected Dead",
+    "Name": "Glóin",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
-        {
-            "Slot": 0b,
-            "id": "tconstruct:broadsword",
-            "Count": 1b,
-            "tag": {
-                "StatsOriginal": {
-                    "AttackSpeedMultiplier": 1.0f,
-                    "MiningSpeed": 4.0f,
-                    "FreeModifiers": 3,
-                    "Durability": 265,
-                    "HarvestLevel": 1,
-                    "Attack": 4.4f
-                },
-                "Stats": {
-                    "AttackSpeedMultiplier": 1.0f,
-                    "MiningSpeed": 4.0f,
-                    "FreeModifiers": 3,
-                    "Durability": 265,
-                    "HarvestLevel": 1,
-                    "Attack": 4.4f
-                },
-                "Special": {
-                    "Categories": [
-                        "weapon",
-                        "tool"
-                    ]
-                },
-                "TinkerData": {
-                    "Materials": [
-                        "cactus",
-                        "cactus",
-                        "cactus"
-                    ],
-                    "Modifiers": [
-                        "toolleveling"
-                    ]
-                },
-                "Modifiers": [
-                    {
-                        "identifier": "spiky",
-                        "color": -16735985,
-                        "level": 1
-                    },
-                    {
-                        "identifier": "prickly",
-                        "color": -16735985,
-                        "level": 1
-                    },
-                    {
-                        "identifier": "toolleveling",
-                        "color": 16777215,
-                        "level": 1
-                    }
-                ],
-                "Traits": [
-                    "spiky",
-                    "prickly",
-                    "toolleveling"
-                ]
-            },
-            "Damage": 0s
-        },
-        {
-            "Slot": 1b,
-            "id": "customnpcs:npcNatureSpell",
-            "Count": 1b,
-            "Damage": 0s
-        }
     ],
     "NPCDialogOptions": [
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
-    "HealthRegen": 15,
+    "HealthRegen": 100,
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
         ],
@@ -325,7 +218,7 @@
                 "MarkZ": 0.0d,
                 "FallProtection": 0.0f,
                 "AffinityHealCooldown": 0,
-                "CurrentLevel": 1,
+                "CurrentLevel": 0,
                 "Contingency": {
                     "Type": "null"
                 },
@@ -334,7 +227,7 @@
                 "CurrentXP": 0.0f,
                 "Inverted": 0b,
                 "ManaShielding": 0.0f,
-                "CurrentMana": 500.85f
+                "CurrentMana": 500.0f
             }
         }
     },
@@ -347,32 +240,31 @@
             "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": 0.07336959f,
             "TransX": 0.012000002f,
-            "ScaleY": 1.0f,
+            "ScaleY": 0.9021739f,
             "ScaleX": 1.0f
         },
         "BodyConfig": {
             "NotShared": 0b,
-            "ScaleZ": 1.0f,
+            "ScaleZ": 1.25f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": 0.07336959f,
             "TransX": 0.0f,
             "ScaleY": 1.0f,
-            "ScaleX": 1.0f
+            "ScaleX": 1.25f
         },
         "Eyes": {
             "Pattern": 0b,
             "Glint": 1b,
-            "Type": -1b,
+            "Type": 0b,
             "PositionY": 1,
             "SkinColor": 11830381,
             "PlayerTexture": 0b,
-            "Color": 8339378,
+            "Color": 197386,
             "BrowColor": 5982516,
             "BrowThickness": 4
         },
-        "EntityClass": "vazkii.quark.world.entity.EntityPirate",
         "LegParts": {
             "Pattern": 0b,
             "Type": 0b,
@@ -385,8 +277,8 @@
             "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
-            "TransX": -0.0f,
+            "TransY": 0.07336959f,
+            "TransX": 0.0625f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -396,7 +288,7 @@
             "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": 0.07336959f,
             "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
@@ -411,7 +303,7 @@
     "SkinUrl": "",
     "CanSwim": 1b,
     "GroundSound": "minecraft:block.stone.break",
-    "MaxHealth": 250,
+    "MaxHealth": 2000,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
     "PotionDuration": 5,
@@ -420,23 +312,23 @@
     "Role": 0,
     "DropChance": [
         {
-            "Integer": 25,
+            "Integer": 100,
             "Slot": 0
         },
         {
-            "Integer": 50,
+            "Integer": 100,
             "Slot": 1
         },
         {
-            "Integer": 15,
+            "Integer": 100,
             "Slot": 2
         },
         {
-            "Integer": 5,
+            "Integer": 100,
             "Slot": 3
         },
         {
-            "Integer": 33,
+            "Integer": 100,
             "Slot": 4
         },
         {
@@ -503,15 +395,15 @@
     "pXlr8": 0b,
     "Scripts": [
     ],
-    "Health": 250.0f,
+    "Health": 1024.0f,
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
-    "FactionID": 9,
-    "Title": "Wight",
-    "TotalTicksAlive": 9365L,
+    "FactionID": 7,
+    "Title": "",
+    "TotalTicksAlive": 2426L,
     "Rotation": [
-        218.35013f,
+        164.18501f,
         0.0f
     ],
     "ShowName": 0,
