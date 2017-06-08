@@ -23,6 +23,8 @@
     "antiqueatlas:EndCity_Far": {},
     "antiqueatlas:bed": {},
     "antiqueatlas:diamond": {},
+    "antiqueatlas:end_city": {},
+    "antiqueatlas:end_city_far": {},
     "antiqueatlas:google": {},
     "antiqueatlas:nether_portal": {},
     "antiqueatlas:pickaxe": {},
@@ -33,6 +35,7 @@
     "antiqueatlas:sword": {},
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},
+    "antiqueatlas:unknown_marker": {},
     "antiqueatlas:village": {}
   }
 }

@@ -4406,14 +4406,22 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Men of Middle-earth",
+          "name": "Men of Middle-earth: Known",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.Faction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nAt this point the Men of Middle-earth have heard of you and know your name."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 10,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 89
@@ -6956,14 +6964,22 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Elves of Rivendell",
+          "name": "Elves of Rivendell: Known",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "factionID": 10,
+          "target": 10,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 124
@@ -7498,14 +7514,22 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dwarves of Erebor",
+          "name": "Dwarves of Erebor: Known",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.Faction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~"
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "factionID": 13,
+          "target": 10,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 131
@@ -7576,6 +7600,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -8287,7 +8312,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "harvestcraft:chocolatesprinklecakeItem",
+            "id": "harvestcraft:chocolatesprinklecakeitem",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -9032,7 +9057,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Turning to the South",
+          "name": "Turning to the South I",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -9071,6 +9096,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -9436,6 +9462,1498 @@
       ],
       "preRequisites": [],
       "questID": 157
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "tolkientweaks:key",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Name:8": "Goblin Cave"
+              },
+              "ShowCode:1": 0,
+              "KeyCode:8": "Goblin Cave"
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "You have been given a key.",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Gloin\u0027s men found this along the mountain pass."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 163,
+          "description": "Speak with Gloin",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Goblin Cave"
+                },
+                "ShowCode:1": 0,
+                "KeyCode:8": "Goblin Cave"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 158
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 159
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThe people are now seeing your value and worth, at this level you can now access some faction sellers in Bree who have special gear for sale."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 160
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 161
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Kindred",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThey now consider you one of their own.  As such you will have access to better faction sellers who have unique items normally only available to members of their community."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 30000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 162
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 13
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Known to All - Fellowship",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nYou have done such deeds as to be written in history.  Through your efforts the peoples of Middle-earth have united around one common cause...You."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 0,
+          "target": 10,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        162,
+        176,
+        171,
+        167
+      ],
+      "questID": 163
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 164
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 10,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 165
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 166
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Kindred",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 10,
+          "target": 30000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 167
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 168
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dwarves of Erebor: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 13,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 169
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 170
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dwarves of Erebor: Kindred",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 13,
+          "target": 30000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 171
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Shirefolk: Known",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 14,
+          "target": 10,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 172
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 173
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Shirefolk: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 14,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 174
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 175
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Shirefolk: Kindred",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 14,
+          "target": 30000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 176
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chapter Start 4",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 69,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/title VAR_NAME times 20 100 20",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/title VAR_NAME subtitle {\"text\":\"Flames of Hope\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/title VAR_NAME title {\"text\":\"Chapter 4\",\"bold\":true,\"italic\":true,\"color\":\"dark_purple\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [],
+      "questID": 177
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:barrier",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cromhes and Moria",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "A trained falcon arrived at Rivendell, bearing a troubling message from the hidden Ranger-camp at Mitheithel for Aragorn, Chieftain of the Rangers."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Speak with Guthwine",
+          "posX": 13014,
+          "posY": 56,
+          "posZ": 8040,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 60,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        188
+      ],
+      "questID": 178
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 373
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Against His Leader",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Guthwine told you of how a wounded falcon arrived, bearing a message from Manwyn, a Ranger from the company of Cromhes, who defied Aragorn\u0027s commands and passed into Khazad-dûm, believing that a shadow had come again there."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Speak to Manwyn",
+          "posX": 17551,
+          "posY": 67,
+          "posZ": 7686,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 61,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        178
+      ],
+      "questID": 179
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bibliocraft:BiblioGlasses",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Secrets of the Watchers",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Manwyn believes that the secret of of the Watchers can be revealed by investigating one of the pedestals they rest on. He has instructed you to carefully approach one of the Watchers and take a rubbing of the runes upon it. He warned you to be very careful of the fell and deadly Watchers."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Find the Watchers",
+          "posX": 14089,
+          "posY": 41,
+          "posZ": 9407,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 62,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 63,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        179
+      ],
+      "questID": 180
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "iceandfire:ice_dragon_heart",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Heart of the Watchers",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The rubbing you made showed runes of a foul nature, written in the Black Speech, which Manwyn is not well-versed in; however, he was able to make out something about the \"heart\" of the stone."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Lifeless Statues",
+          "posX": 17749,
+          "posY": 52,
+          "posZ": 7872,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 64,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 65,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        180
+      ],
+      "questID": 181
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "iceandfire:fire_dragon_heart",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Priest’s Doom",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "While the stone-heart you found was cracked and useless, another path still remains open. Corunir has learned of a ritual taking place at the fortress of Dol Guldur, which may yield a whole heart if interrupted."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Find the Priest",
+          "posX": 17958,
+          "posY": 118,
+          "posZ": 8134,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 66,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 67,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        181
+      ],
+      "questID": 182
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Your Courage Increases",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 67,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "score": "Watcher_Stone",
+          "type": "dummy",
+          "value": 2,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 183
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 561
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Into the Darkness of Khazad-dûm",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Manwyn bade you pass through the Watchers, for you no longer have cause to fear the deadly stones. He hopes that you may find a remnant of the force Cromes led through the stones somewhere on the other side."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Head to Khazad-dûm",
+          "posX": 14089,
+          "posY": 41,
+          "posZ": 9407,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 69,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        186
+      ],
+      "questID": 184
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Your Courage Increases",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 12,
+          "target": 800,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "score": "Watcher_Stone",
+          "type": "dummy",
+          "value": 2,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 185
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcCryscentShield",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Challenging the Watcher",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Manwyn believes the charm he placed on you will allow you passage through the Watchers, but warns that it may draw an Ancient spirit out you must defeat."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 68,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "name": "Return to Manwyn",
+          "posX": 17546,
+          "posY": 60,
+          "posZ": 7678,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:mob_charm_belt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 13
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 8
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        182
+      ],
+      "questID": 186
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hidden in Shadow",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Manwyn bade you pass through the Watchers, for you no longer have cause to fear the deadly stones. He hopes that you may find a remnant of the force Cromes led through the stones somewhere on the other side."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 69,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184
+      ],
+      "questID": 187
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "roots:birchTreeBark",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Turning to the South II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Aragorn waits in the main house in Rivendell along the road that winds up the southern slope of the Vale of Imladris.\n\nElrond warned you of a growing evil within Angmar and asked you to speak with Aragorn."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Speak to Aragorn",
+          "posX": 14918,
+          "posY": 142,
+          "posZ": 6073,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 56,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        150
+      ],
+      "questID": 188
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Location Marked",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Head to Stoneyford"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 209,
+          "description": "Find Stoneyford",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Stoneyford\\\", x:17360, y:59, z:7679]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 189
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Location Marked",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Find the Watchers"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 214,
+          "description": "Find the Watchers",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Moria: East Gate\\\", x:14089, y:41, z:9407]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 190
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Location Marked",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Find the Watchers"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 217,
+          "description": "Find the Watchers",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Dol Guldur\\\", x:17946, y:72, z:8257]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 191
     }
   ],
   "questLines": [
@@ -9451,7 +10969,7 @@
       "quests": [
         {
           "size": 24,
-          "x": 510,
+          "x": 516,
           "y": 0,
           "id": 132
         },
@@ -9463,128 +10981,128 @@
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 168,
+          "x": 282,
+          "y": 156,
           "id": 108
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 30,
+          "x": 516,
+          "y": 36,
           "id": 109
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 60,
+          "x": 516,
+          "y": 72,
           "id": 110
         },
         {
           "size": 24,
           "x": 246,
-          "y": 78,
+          "y": 84,
           "id": 111
         },
         {
           "size": 24,
-          "x": 210,
-          "y": 264,
+          "x": 156,
+          "y": 192,
           "id": 112
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 264,
+          "x": 186,
+          "y": 216,
           "id": 113
         },
         {
           "size": 24,
-          "x": 282,
-          "y": 264,
+          "x": 156,
+          "y": 240,
           "id": 114
         },
         {
           "size": 24,
           "x": 246,
-          "y": 414,
+          "y": 396,
           "id": 115
         },
         {
           "size": 24,
           "x": 246,
-          "y": 198,
+          "y": 180,
           "id": 116
         },
         {
           "size": 24,
           "x": 246,
-          "y": 294,
+          "y": 252,
           "id": 117
         },
         {
           "size": 24,
           "x": 246,
-          "y": 108,
+          "y": 120,
           "id": 118
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 138,
+          "x": 210,
+          "y": 156,
           "id": 119
         },
         {
           "size": 24,
           "x": 246,
-          "y": 354,
+          "y": 324,
           "id": 120
         },
         {
           "size": 24,
           "x": 246,
-          "y": 384,
+          "y": 360,
           "id": 121
         },
         {
           "size": 24,
           "x": 246,
-          "y": 444,
+          "y": 432,
           "id": 122
         },
         {
           "size": 24,
-          "x": 282,
-          "y": 78,
+          "x": 516,
+          "y": 144,
           "id": 155
         },
         {
           "size": 24,
-          "x": 282,
-          "y": 108,
+          "x": 516,
+          "y": 180,
           "id": 156
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 90,
+          "x": 516,
+          "y": 108,
           "id": 125
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 108,
+          "x": 516,
+          "y": 216,
           "id": 157
         },
         {
           "size": 24,
           "x": 246,
-          "y": 228,
+          "y": 216,
           "id": 126
         },
         {
           "size": 24,
           "x": 246,
-          "y": 324,
+          "y": 288,
           "id": 127
         }
       ],
@@ -10143,7 +11661,7 @@
         }
       ],
       "lineID": 1,
-      "order": 4
+      "order": 5
     },
     {
       "properties": {
@@ -10289,7 +11807,7 @@
         }
       ],
       "lineID": 2,
-      "order": 3
+      "order": 4
     },
     {
       "properties": {
@@ -10345,39 +11863,147 @@
         }
       ],
       "lineID": 3,
-      "order": 5
+      "order": 6
     },
     {
       "properties": {
         "betterquesting": {
           "name": "Factions of Middle-earth",
-          "bg_image": "",
-          "bg_size": 256,
+          "bg_image": "tolkiencraft:textures\\gui\\factions.png",
+          "bg_size": 512,
           "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items."
         }
       },
       "quests": [
         {
           "size": 24,
-          "x": 0,
-          "y": 72,
+          "x": 162,
+          "y": 90,
+          "id": 160
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 176,
+          "id": 161
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 180,
+          "id": 162
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 348,
           "id": 131
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 0,
+          "x": 246,
+          "y": 234,
+          "id": 163
+        },
+        {
+          "size": 24,
+          "x": 488,
+          "y": 144,
+          "id": 164
+        },
+        {
+          "size": 24,
+          "x": 420,
+          "y": 90,
+          "id": 165
+        },
+        {
+          "size": 24,
+          "x": 488,
+          "y": 176,
+          "id": 166
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 180,
+          "id": 167
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 400,
+          "id": 168
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 348,
+          "id": 169
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 432,
+          "id": 170
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 438,
+          "id": 171
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 348,
+          "id": 172
+        },
+        {
+          "size": 24,
+          "x": 488,
+          "y": 400,
+          "id": 173
+        },
+        {
+          "size": 24,
+          "x": 420,
+          "y": 348,
+          "id": 174
+        },
+        {
+          "size": 24,
+          "x": 488,
+          "y": 432,
+          "id": 175
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 438,
+          "id": 176
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 90,
           "id": 89
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 36,
+          "x": 330,
+          "y": 90,
           "id": 124
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 144,
+          "id": 159
         }
       ],
       "lineID": 4,
-      "order": 6
+      "order": 7
     },
     {
       "properties": {
@@ -10454,6 +12080,12 @@
           "x": 246,
           "y": 48,
           "id": 123
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 30,
+          "id": 158
         }
       ],
       "lineID": 5,
@@ -10472,18 +12104,122 @@
         {
           "size": 24,
           "x": 246,
+          "y": 108,
+          "id": 178
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 138,
+          "id": 179
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 168,
+          "id": 180
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 198,
+          "id": 181
+        },
+        {
+          "size": 24,
+          "x": 246,
           "y": 48,
           "id": 150
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 228,
+          "id": 182
         },
         {
           "size": 24,
           "x": 510,
           "y": 0,
           "id": 151
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 30,
+          "id": 183
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 288,
+          "id": 184
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 60,
+          "id": 185
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 258,
+          "id": 186
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 78,
+          "id": 188
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 90,
+          "id": 189
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 120,
+          "id": 190
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 150,
+          "id": 191
         }
       ],
       "lineID": 6,
       "order": 2
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Grand Quest - Flames of Hope",
+          "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
+          "bg_size": 512,
+          "desc": "After discovering the secret of the Watchers near Khazad-dûm, Manwyn sent you into the darkness of Moria, seeking the Rangers who had marched forth to throw down the rising power of Angmar. You found the Ranger Rurain at the dwarf-outpost deep inside."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 177
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 54,
+          "id": 187
+        }
+      ],
+      "lineID": 7,
+      "order": 3
     }
   ],
   "format": "1.0.0"
