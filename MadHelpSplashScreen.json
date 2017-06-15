@@ -1,11 +1,11 @@
 {
-	"revision": 25,
+	"revision": 30,
 	"infoText": [
-		"[c]Update v0.11.6-beta is live!",
-		"Tons of mods updated and several configs. Check the changelog for more details",
+		"[c]Update to the map",
+		"Map has been updated to fix a number of bugs found since initial release.",
 		"The alpha release of the map is out!  Please, report any bugs you find to GitHub!  This is strictly an alpha release, there is more content to come and there will possibly be bugs so be gentle! Hope you guys enjoy and remember, there is a whole lot of content still to come!",
 		"",
 		"",
-		"Overworld has been updated, a few quest breaking bugs were found and have been fixed.  Also, Mobs are now placed at Carn Dum and Belegost.  Mobs at Carn Dum (The Resurrected ones) are fixed to not be so overpowered.  Glorfindel should now impart his wisdom on you again and many more!"
+		"Some of the bugs are the points given for the beryl quest, the location for imladris and several others."
 	]
 }

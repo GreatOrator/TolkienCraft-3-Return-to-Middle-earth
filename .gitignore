@@ -43,6 +43,7 @@ server/mods/ResourceLoader*
 server/mods/rpghud*
 server/mods/TiCTooltips*
 server/mods/*DamageIndicatorsMod*
+server/mods/MadHelp*
 
 # Client only
 
@@ -62,8 +63,9 @@ client/minecraft/icon.png
 **/config/InvTweaks.cfg
 **/config/fastcraft.ini
 **/config/hqm/editmode.cfg
-**/config/madhelp/MadHelpContentList.json
-**/config/madhelp/MadHelpSplashScreen.json
+**/config/brandon3055/madhelp/MadHelpContentList*
+**/config/brandon3055/madhelp/MadHelpSplashScreen*
+**/config/brandon3055/madhelp/MadHelpSplashRev*
 
 # Caches
 
