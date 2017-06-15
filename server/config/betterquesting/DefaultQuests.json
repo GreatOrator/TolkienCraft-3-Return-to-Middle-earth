@@ -10477,19 +10477,20 @@
         {
           "choices": [
             {
-              "id": "minecraft:stone",
+              "id": "bloodmagic:ItemLivingArmourHelmet",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:stone",
+              "id": "bloodmagic:ItemLivingArmourChest",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {}
             },
             {
-              "id": "minecraft:stone",
+              "id": "bloodmagic:ItemLivingArmourLegs",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -10572,7 +10573,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Manwyn bade you pass through the Watchers, for you no longer have cause to fear the deadly stones. He hopes that you may find a remnant of the force Cromes led through the stones somewhere on the other side."
+          "desc": "Manwyn bade you pass through the Watchers, for you no longer have cause to fear the deadly stones. He hopes that you may find a remnant of the force Cromhes led through the stones somewhere on the other side."
         }
       },
       "tasks": [
@@ -10628,10 +10629,29 @@
       },
       "tasks": [
         {
-          "factionID": 12,
-          "target": 800,
-          "operation": "MORE_OR_EQUAL",
-          "taskID": "bq_npc_integration:npc_faction",
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": true,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 103,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Proof of defeating the Watcher"
+                  },
+                  "Name:8": "§3§oWatcher Token"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
@@ -10954,6 +10974,98 @@
       ],
       "preRequisites": [],
       "questID": 191
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 637
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Click the waypoint in chat to add.",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Click the waypoint in chat to add."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 92,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Giant Sighting\\\", x:14827, y:41, z:7778]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 192
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Find the Cornerstone",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 168,
+          "description": "Find the Cornerstone",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Mount Gundabad\\\", x:14845, y:41, z:3223]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 193
     }
   ],
   "questLines": [
@@ -10967,6 +11079,12 @@
         }
       },
       "quests": [
+        {
+          "size": 24,
+          "x": 516,
+          "y": 246,
+          "id": 192
+        },
         {
           "size": 24,
           "x": 516,
@@ -12029,15 +12147,33 @@
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 138,
-          "id": 145
+          "x": 510,
+          "y": 60,
+          "id": 193
         },
         {
           "size": 24,
           "x": 246,
           "y": 318,
           "id": 130
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 133
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 78,
+          "id": 134
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 138,
+          "id": 145
         },
         {
           "size": 24,
@@ -12059,21 +12195,9 @@
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 0,
-          "id": 133
-        },
-        {
-          "size": 24,
           "x": 246,
           "y": 288,
           "id": 149
-        },
-        {
-          "size": 24,
-          "x": 246,
-          "y": 78,
-          "id": 134
         },
         {
           "size": 24,

@@ -45,6 +45,21 @@
             "id": "tolkientweaks:brons_coin",
             "Count": 16b,
             "Damage": 0s
+        },
+        {
+            "Slot": 8b,
+            "id": "thermalfoundation:coin",
+            "Count": 1b,
+            "tag": {
+                "RepairCost": 0,
+                "display": {
+                    "Lore": [
+                        "§6Proof of defeating the Watcher"
+                    ],
+                    "Name": "§3§oWatcher Token"
+                }
+            },
+            "Damage": 103s
         }
     ],
     "BossColor": 0,
@@ -122,6 +137,21 @@
     "BurstCount": 1,
     "NpcAttackLines": {
         "Lines": [
+            {
+                "Line": "I am the punisher of the Witch-King and bringer of death!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "There will be death.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Fear not, your death will be swift!",
+                "Song": "",
+                "Slot": 2
+            }
         ]
     },
     "pSpeed": 10,
@@ -150,6 +180,16 @@
     "ImmuneToFire": 1b,
     "NpcKilledLines": {
         "Lines": [
+            {
+                "Line": "Noooooooooooo!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "I am released!",
+                "Song": "",
+                "Slot": 1
+            }
         ]
     },
     "SpecialAggroRange": 14,
@@ -169,14 +209,9 @@
     "TransformHasInv": 0b,
     "NpcInteractLines": {
         "Lines": [
-            {
-                "Line": "Hello @p",
-                "Song": "",
-                "Slot": 0
-            }
         ]
     },
-    "HurtByTimestamp": 707,
+    "HurtByTimestamp": 541,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -531,7 +566,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "",
-    "TotalTicksAlive": 59333L,
+    "TotalTicksAlive": 74464L,
     "Rotation": [
         224.32953f,
         0.0f
