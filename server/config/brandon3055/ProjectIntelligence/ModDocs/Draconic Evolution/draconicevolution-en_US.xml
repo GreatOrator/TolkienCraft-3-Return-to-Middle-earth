@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="10" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="11" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content index="30" type="textArea">§6Robert W
 §r(Since 08/06/2015)§r
 
@@ -1180,7 +1180,7 @@ If you hold shift all names will be hidden except the one you are looking at. (S
             <content index="1" size="8" type="vSpacer"/>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDislocator Pedestal</content>
         </entry>
-    <entry branchId="draconicevolution:dislocation/receptacle" category="wiki.cat.block" icon="draconicevolution:dislocator_receptacle" iconType="stack" name="Dislocaror Receptacle (Portal)">
+    <entry branchId="draconicevolution:dislocation/receptacle" category="wiki.cat.block" icon="draconicevolution:dislocator_receptacle" iconType="stack" name="Dislocator Receptacle (Portal)">
             <content index="5" size="8" type="vSpacer"/>
             <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/portal.jpg" index="6" scale="100" type="image"/>
             <content index="4" type="recipe">draconicevolution:dislocator_receptacle</content>

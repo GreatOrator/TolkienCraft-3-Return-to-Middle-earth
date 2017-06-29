@@ -6658,7 +6658,8 @@
         }
       ],
       "preRequisites": [
-        118
+        118,
+        157
       ],
       "questID": 119
     },
@@ -9539,25 +9540,64 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "arsmagica2:essence_bag",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 18000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Rewards",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Earn free rewards from your faction standing.  Come back every 30 minutes for your rewards."
         }
       },
       "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        160
+      ],
       "questID": 159
     },
     {
@@ -9582,20 +9622,22 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThe people are now seeing your value and worth, at this level you can now access some faction sellers in Bree who have special gear for sale."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nOnce reached you will be able to earn faction tokens once a day in an effort to aid you in becoming more well-known and for use at faction sellers."
         }
       },
       "tasks": [
         {
           "factionID": 8,
-          "target": 10000,
+          "target": 20000,
           "operation": "MORE_OR_EQUAL",
           "taskID": "bq_npc_integration:npc_faction",
           "index": 0
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        195
+      ],
       "questID": 160
     },
     {
@@ -9607,16 +9649,16 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -9625,7 +9667,10 @@
       },
       "tasks": [],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        159,
+        194
+      ],
       "questID": 161
     },
     {
@@ -9650,7 +9695,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThey now consider you one of their own.  As such you will have access to better faction sellers who have unique items normally only available to members of their community."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThey now consider you one of their own.  As such you will have access to better faction sellers who have unique items normally only available to members of their community. You will also now have access to hire mercenaries from some of the strongest of men."
         }
       },
       "tasks": [
@@ -9663,7 +9708,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        194
+      ],
       "questID": 162
     },
     {
@@ -9718,25 +9765,64 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "arsmagica2:essence_bag",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 18000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Rewards",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Earn free rewards from your faction standing.  Come back every 30 minutes for your rewards."
         }
       },
       "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        165
+      ],
       "questID": 164
     },
     {
@@ -9767,14 +9853,16 @@
       "tasks": [
         {
           "factionID": 10,
-          "target": 10000,
+          "target": 20000,
           "operation": "MORE_OR_EQUAL",
           "taskID": "bq_npc_integration:npc_faction",
           "index": 0
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        196
+      ],
       "questID": 165
     },
     {
@@ -9786,16 +9874,16 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -9804,7 +9892,10 @@
       },
       "tasks": [],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        197,
+        164
+      ],
       "questID": 166
     },
     {
@@ -9842,7 +9933,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        197
+      ],
       "questID": 167
     },
     {
@@ -9854,25 +9947,64 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "arsmagica2:essence_bag",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 18000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Rewards",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Earn free rewards from your faction standing.  Come back every 30 minutes for your rewards."
         }
       },
       "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        200
+      ],
       "questID": 168
     },
     {
@@ -9893,7 +10025,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dwarves of Erebor: Friend",
+          "name": "Dwarves of Erebor: Acquaintance",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -9910,7 +10042,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        131
+      ],
       "questID": 169
     },
     {
@@ -9922,16 +10056,16 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -9940,7 +10074,10 @@
       },
       "tasks": [],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        201,
+        168
+      ],
       "questID": 170
     },
     {
@@ -9978,7 +10115,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        201
+      ],
       "questID": 171
     },
     {
@@ -10028,25 +10167,64 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "arsmagica2:essence_bag",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 18000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Rewards",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Earn free rewards from your faction standing.  Come back every 30 minutes for your rewards."
         }
       },
       "tasks": [],
-      "rewards": [],
-      "preRequisites": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        198
+      ],
       "questID": 173
     },
     {
@@ -10067,7 +10245,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Shirefolk: Friend",
+          "name": "Shirefolk: Acquaintance",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -10084,7 +10262,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        172
+      ],
       "questID": 174
     },
     {
@@ -10096,16 +10276,16 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -10114,7 +10294,10 @@
       },
       "tasks": [],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        199,
+        173
+      ],
       "questID": 175
     },
     {
@@ -10152,7 +10335,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        199
+      ],
       "questID": 176
     },
     {
@@ -11011,7 +11196,7 @@
       ],
       "rewards": [
         {
-          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Giant Sighting\\\", x:14827, y:41, z:7778]\"}",
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Giant Sighting\\\", x:13874, y:41, z:7778]\"}",
           "hideCommand": true,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
@@ -11066,6 +11251,326 @@
       ],
       "preRequisites": [],
       "questID": 193
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Ally",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nYou have proven worthy in the yes of many, you now will have access to the token seller to gain even more faction."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 25000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        160
+      ],
+      "questID": 194
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 22
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Men of Middle-earth: Acquaintance",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThe people are now seeing your value and worth, at this level you can now access some faction sellers in Bree who have special gear for sale."
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 8,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        89
+      ],
+      "questID": 195
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Acquaintance",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 10,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        124
+      ],
+      "questID": 196
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 20
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Elves of Rivendell: Ally",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 10,
+          "target": 25000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        165
+      ],
+      "questID": 197
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Shirefolk: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 14,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        174
+      ],
+      "questID": 198
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 21
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Shirefolk: Ally",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 14,
+          "target": 10000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        198
+      ],
+      "questID": 199
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dwarves of Erebor: Friend",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 13,
+          "target": 20000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        169
+      ],
+      "questID": 200
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bqmie:icon_item",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 19
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dwarves of Erebor: Ally",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "factionID": 13,
+          "target": 25000,
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_npc_integration:npc_faction",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        200
+      ],
+      "questID": 201
     }
   ],
   "questLines": [
@@ -11995,6 +12500,72 @@
       "quests": [
         {
           "size": 24,
+          "x": 114,
+          "y": 138,
+          "id": 194
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 348,
+          "id": 131
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 90,
+          "id": 195
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 90,
+          "id": 196
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 138,
+          "id": 197
+        },
+        {
+          "size": 24,
+          "x": 420,
+          "y": 348,
+          "id": 198
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 390,
+          "id": 199
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 348,
+          "id": 200
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 390,
+          "id": 201
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 90,
+          "id": 89
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 144,
+          "id": 159
+        },
+        {
+          "size": 24,
           "x": 162,
           "y": 90,
           "id": 160
@@ -12002,20 +12573,14 @@
         {
           "size": 24,
           "x": 228,
-          "y": 176,
+          "y": 174,
           "id": 161
         },
         {
           "size": 24,
           "x": 114,
-          "y": 180,
+          "y": 186,
           "id": 162
-        },
-        {
-          "size": 24,
-          "x": 78,
-          "y": 348,
-          "id": 131
         },
         {
           "size": 24,
@@ -12025,7 +12590,7 @@
         },
         {
           "size": 24,
-          "x": 488,
+          "x": 276,
           "y": 144,
           "id": 164
         },
@@ -12037,25 +12602,25 @@
         },
         {
           "size": 24,
-          "x": 488,
-          "y": 176,
+          "x": 276,
+          "y": 174,
           "id": 166
         },
         {
           "size": 24,
           "x": 372,
-          "y": 180,
+          "y": 186,
           "id": 167
         },
         {
           "size": 24,
           "x": 228,
-          "y": 400,
+          "y": 402,
           "id": 168
         },
         {
           "size": 24,
-          "x": 162,
+          "x": 114,
           "y": 348,
           "id": 169
         },
@@ -12073,25 +12638,25 @@
         },
         {
           "size": 24,
-          "x": 336,
+          "x": 330,
           "y": 348,
           "id": 172
         },
         {
           "size": 24,
-          "x": 488,
-          "y": 400,
+          "x": 276,
+          "y": 402,
           "id": 173
         },
         {
           "size": 24,
-          "x": 420,
+          "x": 372,
           "y": 348,
           "id": 174
         },
         {
           "size": 24,
-          "x": 488,
+          "x": 276,
           "y": 432,
           "id": 175
         },
@@ -12103,21 +12668,9 @@
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 90,
-          "id": 89
-        },
-        {
-          "size": 24,
           "x": 330,
           "y": 90,
           "id": 124
-        },
-        {
-          "size": 24,
-          "x": 228,
-          "y": 144,
-          "id": 159
         }
       ],
       "lineID": 4,

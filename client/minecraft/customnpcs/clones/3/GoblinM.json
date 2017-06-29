@@ -201,7 +201,7 @@
     ],
     "BossColor": 0,
     "PotionEffect": 0,
-    "Size": 5,
+    "Size": 4,
     "stopAndInteract": 1b,
     "Resistances": {
         "Arrow": 1.0f,
@@ -319,9 +319,9 @@
     "TargetType": 0,
     "pRender3D": 1b,
     "Motion": [
-        0.031288654992196595d,
-        -0.44749789698341763d,
-        -0.04295925664146344d
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
     ],
     "CombatRegen": 0,
     "NpcsTimers": [
@@ -332,7 +332,7 @@
     "FireRate": 5,
     "LeftHanded": 0b,
     "pEffAmp": 0,
-    "OnGround": 0b,
+    "OnGround": 1b,
     "Dimension": 0,
     "ImmuneToFire": 0b,
     "NpcKilledLines": {
@@ -378,7 +378,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 17062,
+    "HurtByTimestamp": 324,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -439,7 +439,7 @@
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
     "Name": "Goblin",
-    "FallDistance": 1.1451067f,
+    "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
@@ -660,9 +660,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Mage",
-    "TotalTicksAlive": 25750L,
+    "TotalTicksAlive": 26435L,
     "Rotation": [
-        151.05083f,
+        71.5085f,
         0.0f
     ],
     "ShowName": 0,
