@@ -1,11 +1,11 @@
 {
-	"revision": 35,
+	"revision": 40,
 	"infoText": [
-		"[c]Update to the map and v0.11.8-beta of the modpack",
+		"[c]Update to the map and v0.11.10-beta of the modpack",
 		"Map has been updated to fix a number of bugs found since initial release.",
 		"The alpha release of the map is out!  Please, report any bugs you find to GitHub!  This is strictly an alpha release, there is more content to come and there will possibly be bugs so be gentle! Hope you guys enjoy and remember, there is a whole lot of content still to come!",
 		"",
 		"See changelog on github for details!",
-		"Some of the bugs are the points given for the beryl quest, the location for imladris and several others."
+		"Some bugs fixed were the Rhovanion and Gondor Realestate agent, BQ quests.  Added some new stuff to the overworld such as more mobs to fight in some builds as well as decorating areas for quest lines."
 	]
 }
