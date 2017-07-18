@@ -106,7 +106,7 @@
     "AttackInvisible": 0b,
     "HurtTime": 0s,
     "SpawnerDoesntDie": 1b,
-    "WalkingRange": 10,
+    "WalkingRange": 5,
     "ShotCount": 1,
     "pDur": 5,
     "AttackRange": 2,
@@ -178,7 +178,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 22870,
+    "HurtByTimestamp": 228,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -519,7 +519,7 @@
         "PlayerPersisted": {
         }
     },
-    "MovingState": 0,
+    "MovingState": 1,
     "MovingPos": 0,
     "PotionAmp": 0,
     "SpawnerNBT3": {
@@ -2927,7 +2927,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Captain",
-    "TotalTicksAlive": 46601L,
+    "TotalTicksAlive": 46850L,
     "Rotation": [
         130.36447f,
         0.0f

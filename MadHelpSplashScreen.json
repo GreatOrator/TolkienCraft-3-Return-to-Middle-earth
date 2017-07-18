@@ -1,11 +1,11 @@
 {
-	"revision": 30,
+	"revision": 40,
 	"infoText": [
-		"[c]Update to the map",
+		"[c]Update to the map and v0.11.10-beta of the modpack",
 		"Map has been updated to fix a number of bugs found since initial release.",
 		"The alpha release of the map is out!  Please, report any bugs you find to GitHub!  This is strictly an alpha release, there is more content to come and there will possibly be bugs so be gentle! Hope you guys enjoy and remember, there is a whole lot of content still to come!",
 		"",
-		"",
-		"Some of the bugs are the points given for the beryl quest, the location for imladris and several others."
+		"See changelog on github for details!",
+		"Player housing areas now include ars magica essence!  Sorry for the long delay in publishing the map update...there were...technical difficulties.  Many other updates/changes/fixes to the entire map.  This player housing update will require a map reset so make sure you store away all of your items before updating."
 	]
 }

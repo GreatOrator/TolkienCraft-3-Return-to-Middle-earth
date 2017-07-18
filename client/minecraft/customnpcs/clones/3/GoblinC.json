@@ -207,7 +207,7 @@
     ],
     "BossColor": 0,
     "PotionEffect": 0,
-    "Size": 5,
+    "Size": 4,
     "stopAndInteract": 1b,
     "Resistances": {
         "Arrow": 1.0f,
@@ -389,7 +389,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 17276,
+    "HurtByTimestamp": 299,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -4143,9 +4143,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Captain",
-    "TotalTicksAlive": 30773L,
+    "TotalTicksAlive": 31368L,
     "Rotation": [
-        134.25203f,
+        171.81737f,
         0.0f
     ],
     "ShowName": 0,

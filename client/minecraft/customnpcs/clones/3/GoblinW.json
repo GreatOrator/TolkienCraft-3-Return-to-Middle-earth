@@ -207,7 +207,7 @@
     ],
     "BossColor": 0,
     "PotionEffect": 0,
-    "Size": 5,
+    "Size": 4,
     "stopAndInteract": 1b,
     "Resistances": {
         "Arrow": 1.0f,
@@ -326,7 +326,7 @@
     "pRender3D": 1b,
     "Motion": [
         0.0d,
-        -0.44749789698341763d,
+        -0.0784000015258789d,
         0.0d
     ],
     "CombatRegen": 0,
@@ -338,7 +338,7 @@
     "FireRate": 5,
     "LeftHanded": 0b,
     "pEffAmp": 0,
-    "OnGround": 0b,
+    "OnGround": 1b,
     "Dimension": 0,
     "ImmuneToFire": 0b,
     "NpcKilledLines": {
@@ -384,7 +384,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 17112,
+    "HurtByTimestamp": 386,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -445,7 +445,7 @@
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
     "Name": "Goblin",
-    "FallDistance": 1.1451067f,
+    "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
@@ -666,9 +666,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Warrior",
-    "TotalTicksAlive": 29558L,
+    "TotalTicksAlive": 30090L,
     "Rotation": [
-        290.56213f,
+        166.95328f,
         0.0f
     ],
     "ShowName": 0,
