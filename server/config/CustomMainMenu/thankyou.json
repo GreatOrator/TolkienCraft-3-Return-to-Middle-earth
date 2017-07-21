@@ -135,7 +135,7 @@
     {		
         "version":
         {
-            "text" : "v0.11.10 - beta",
+            "text" : "v0.12.2 - beta",
             "posX" : -100,
             "posY" : -15,
             "color" : 14329120,
@@ -194,7 +194,7 @@
         {
             "text" : "Teagan75",
             "posX" : -145,
-            "posY" : 106,
+            "posY" : 116,
             "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Thank you for your inspiration!"
@@ -203,7 +203,7 @@
         {
             "text" : "Aim2Game Hosting",
             "posX" : -145,
-            "posY" : 116,
+            "posY" : 126,
             "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Game Server Hosting!",
@@ -249,9 +249,9 @@
 		
 	"creditlist":
         {
-            "text" : "My Patrons, ValsNoisyToys, and you!",
+            "text" : "My Patrons, and you!",
             "posX" : -145,
-            "posY" : 126,
+            "posY" : 136,
             "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Thank you everyone! Please visit my patreon page.",
@@ -270,7 +270,22 @@
             "color" : 14329120,
             "alignment" : "top_left"
         }
-    },    
+    },
+		
+	"valsnoisytoys":
+        {
+            "text" : "ValsNoisyToys",
+            "posX" : -145,
+            "posY" : 106,
+            "color" : 14329120,
+            "alignment" : "center",
+			"hoverText" : "Long-time supporter!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://valsnoisytoys.tk/"
+			}
+        },    
     "other":
     {
         "splash-text":

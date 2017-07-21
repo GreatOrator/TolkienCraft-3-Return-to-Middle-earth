@@ -3700,7 +3700,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Work available in the eriador region"
+          "desc": "Work available in the Eriador region"
         }
       },
       "tasks": [
@@ -4486,23 +4486,47 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 29
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 12000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "In Need of Supplies",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Hnery has a buyer for Zombie Flesh and is looking for anyone willing to make a quick bit of coin and help out the Men of Middle-earth."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "name": "The Prancing Pony",
+          "posX": 9435,
+          "posY": 64,
+          "posZ": 7727,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 308,
+          "description": "See what Henry has to offer.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 94,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 91
@@ -4516,23 +4540,47 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 658
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 12000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "A Cauldron of Iron",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The Captain of the Guard, Riplette, at the West Gate of Bree, is looking for some help collecting supplies for a cauldron.  Go see if you can help."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "name": "Western Gate of Bree",
+          "posX": 9259,
+          "posY": 56,
+          "posZ": 7862,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 312,
+          "description": "Speak to the Captain of the Guard.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 96,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 92
@@ -4644,23 +4692,47 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 518
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 12000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "A Daily Hunt",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "[mobs] have gotten out of control near [place].  [npc] has put out a call for help to try to bring them under control."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 316,
+          "description": "See what job they have.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 98,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 94
@@ -4725,23 +4797,47 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 518
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 12000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "A Daily Hunt",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Zombies have gotten out of control near The Forsaken Inn.  Divina has put out a call for help to try to bring them under control."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "name": "Forsaken Inn",
+          "posX": 10233,
+          "posY": 51,
+          "posZ": 8564,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 310,
+          "description": "See what job they have.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 95,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 96
@@ -5233,23 +5329,47 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 29
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 12000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "In Need of Supplies",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "[npc] has a buyer for [mob drop] and is looking for anyone willing to make a quick bit of coin and help out [faction]"
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 314,
+          "description": "See what [npc] has to offer.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 97,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 99
@@ -5836,6 +5956,13 @@
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
           "index": 3
+        },
+        {
+          "command": "/scoreboard players set VAR_NAME Cromhes_Save 2",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 4
         }
       ],
       "preRequisites": [],
@@ -8673,23 +8800,47 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 658
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 12000,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "A Cauldron of Iron",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The Captain of the Guard, [npc], at [place], is looking for some help collecting supplies for a cauldron.  Go see if you can help."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 318,
+          "description": "Speak to the Captain of the Guard.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 99,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
       "rewards": [],
       "preRequisites": [],
       "questID": 142
@@ -9596,7 +9747,7 @@
         }
       ],
       "preRequisites": [
-        160
+        195
       ],
       "questID": 159
     },
@@ -9634,7 +9785,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         195
       ],
@@ -9655,21 +9843,55 @@
             "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 30,
           "globalShare": false,
           "questLogic": "AND",
           "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Increase your faction standing with the Dwarves of Erebor by submitting special tokens.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThis quest will repeat so you can continue to submit as often as you want."
         }
       },
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes faction VAR_NAME 8 add 100",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        159,
-        194
+        195
       ],
       "questID": 161
     },
@@ -9707,7 +9929,38 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         194
       ],
@@ -9738,16 +9991,60 @@
           "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nYou have done such deeds as to be written in history.  Through your efforts the peoples of Middle-earth have united around one common cause...You."
         }
       },
-      "tasks": [
+      "tasks": [],
+      "rewards": [
         {
-          "factionID": 0,
-          "target": 10,
-          "operation": "MORE_OR_EQUAL",
-          "taskID": "bq_npc_integration:npc_faction",
+          "choices": [
+            {
+              "id": "draconicevolution:draconic_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_shovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_pick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_hoe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_axe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
           "index": 0
         }
       ],
-      "rewards": [],
       "preRequisites": [
         162,
         176,
@@ -9821,7 +10118,7 @@
         }
       ],
       "preRequisites": [
-        165
+        196
       ],
       "questID": 164
     },
@@ -9859,7 +10156,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         196
       ],
@@ -9880,21 +10214,55 @@
             "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 30,
           "globalShare": false,
           "questLogic": "AND",
           "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Increase your faction standing with the Dwarves of Erebor by submitting special tokens.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThis quest will repeat so you can continue to submit as often as you want."
         }
       },
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes faction VAR_NAME 10 add 100",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        197,
-        164
+        196
       ],
       "questID": 166
     },
@@ -9932,7 +10300,38 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_legs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         197
       ],
@@ -10003,7 +10402,7 @@
         }
       ],
       "preRequisites": [
-        200
+        169
       ],
       "questID": 168
     },
@@ -10041,7 +10440,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         131
       ],
@@ -10053,6 +10489,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "ALWAYS",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -10062,21 +10499,55 @@
             "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 30,
           "globalShare": false,
           "questLogic": "AND",
           "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Increase your faction standing with the Dwarves of Erebor by submitting special tokens.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThis quest will repeat so you can continue to submit as often as you want."
         }
       },
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes faction VAR_NAME 13 add 100",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        201,
-        168
+        169
       ],
       "questID": 170
     },
@@ -10114,7 +10585,38 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_helm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         201
       ],
@@ -10154,7 +10656,29 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [],
       "questID": 172
     },
@@ -10223,7 +10747,7 @@
         }
       ],
       "preRequisites": [
-        198
+        174
       ],
       "questID": 173
     },
@@ -10255,13 +10779,35 @@
       "tasks": [
         {
           "factionID": 14,
-          "target": 10000,
+          "target": 1000,
           "operation": "MORE_OR_EQUAL",
           "taskID": "bq_npc_integration:npc_faction",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         172
       ],
@@ -10282,21 +10828,55 @@
             "Damage": 845
           },
           "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
+          "repeatTime": 30,
           "globalShare": false,
           "questLogic": "AND",
           "name": "Faction Vendor",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Increase your faction standing with the Dwarves of Erebor by submitting special tokens.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nThis quest will repeat so you can continue to submit as often as you want."
         }
       },
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes faction VAR_NAME 14 add 100",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        199,
-        173
+        174
       ],
       "questID": 175
     },
@@ -10328,13 +10908,44 @@
       "tasks": [
         {
           "factionID": 14,
-          "target": 30000,
+          "target": 3000,
           "operation": "MORE_OR_EQUAL",
           "taskID": "bq_npc_integration:npc_faction",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "draconicevolution:draconic_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 16000000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         199
       ],
@@ -10961,9 +11572,21 @@
       },
       "tasks": [
         {
+          "name": "Dwarf Encampment",
+          "posX": 13493,
+          "posY": 54,
+          "posZ": 9038,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
           "npcQuestID": 69,
           "taskID": "bq_npc_integration:npc_quest",
-          "index": 0
+          "index": 1
         }
       ],
       "rewards": [],
@@ -11286,7 +11909,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         160
       ],
@@ -11314,7 +11974,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThe people are now seeing your value and worth, at this level you can now access some faction sellers in Bree who have special gear for sale."
+          "desc": "Throughout Middle-earth there are various factions, who may reward you if you gain sufficient standing in their eyes.\n\nFaction may be gained by completing quests, defeating specific mobs, or turning in specific mob-drop items.\n\n~~~~~~~~~~~~~~~~~~~~\n\nThe people are now seeing your value and worth, at this level you can now access the faction seller in Bree to help you get better known."
         }
       },
       "tasks": [
@@ -11326,7 +11986,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         89
       ],
@@ -11366,7 +12063,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         124
       ],
@@ -11406,7 +12140,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         165
       ],
@@ -11440,13 +12211,35 @@
       "tasks": [
         {
           "factionID": 14,
-          "target": 10000,
+          "target": 2000,
           "operation": "MORE_OR_EQUAL",
           "taskID": "bq_npc_integration:npc_faction",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         174
       ],
@@ -11480,13 +12273,50 @@
       "tasks": [
         {
           "factionID": 14,
-          "target": 10000,
+          "target": 2500,
           "operation": "MORE_OR_EQUAL",
           "taskID": "bq_npc_integration:npc_faction",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         198
       ],
@@ -11526,7 +12356,44 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         169
       ],
@@ -11566,11 +12433,2215 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            },
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         200
       ],
       "questID": 201
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "KeyForge Start",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 239,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes scene reset KeyForge",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes scene start KeyForge",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        }
+      ],
+      "preRequisites": [],
+      "questID": 202
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "allomancy:nuggetLerasium",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Needed Supplies I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time for some more errands as you track down the needed supplies Lord Dáin II Ironfoot asked you to procure."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Lord Dáin II Ironfoot",
+          "posX": 20508,
+          "posY": 47,
+          "posZ": 3339,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 78,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        217
+      ],
+      "questID": 203
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "allomancy:nuggetLerasium",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Needed Supplies II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Take the recovered items to the dwarvwen smith and see if he can make that key."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dwarven Smith, Elssuli",
+          "posX": 20415,
+          "posY": 85,
+          "posZ": 3391,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 80,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        218,
+        219,
+        203
+      ],
+      "questID": 204
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcMithrilWarhammer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Thrór\u0027s Hammer I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elssuli was able to get started, but without the proper tools he can not continue.  Head back to Lord Dain to see if he has a solution."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Speak to Lord Dáin",
+          "posX": 20508,
+          "posY": 47,
+          "posZ": 3339,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 79,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204
+      ],
+      "questID": 205
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Return to Ember Camp",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to leave the dungeon and return to camp"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 269,
+          "description": "Return to camp",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 13547 44 8786",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 206
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Brimigak\u0027s Retreat",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Cromhes Found",
+          "posX": 13547,
+          "posY": 44,
+          "posZ": 8786,
+          "dimension": 0,
+          "range": 5,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes scene start Chapter4ResetI",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        206
+      ],
+      "questID": 207
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Into the Dungeons IV",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to go back to the Embers Camp and reflect on what has happened."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Cromhes\u0027 Tent",
+          "posX": 12829,
+          "posY": 4,
+          "posZ": 8415,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 88,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        225
+      ],
+      "questID": 208
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Waypoint Added",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Check your chat for the waypoint."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 279,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Meeting Place\\\", x:13631, y:63, z:8954]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 209
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Crossing the Darkness I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have been tasked with locating the other rangers deeper within Moria in the area known as the Flaming Deeps."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Embers Camp",
+          "posX": 12910,
+          "posY": 5,
+          "posZ": 8451,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 70,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        187
+      ],
+      "questID": 210
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Crossing the Darkness II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You found the camp and have spoken to Tonvid but he has bade you speak with Layles as the trouble at hand is personal for her.  She is in a nearby tent."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Layles\u0027 Tent",
+          "posX": 12861,
+          "posY": 4,
+          "posZ": 8415,
+          "dimension": 0,
+          "range": 5,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 71,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        210
+      ],
+      "questID": 211
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Crossing the Darkness III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Apparently the rangers have sympathizers within the enemy ranks and one in particular, Frdili, has decided to help them with some potentially useful information."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Meeting Place",
+          "posX": 13631,
+          "posY": 63,
+          "posZ": 8954,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 72,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        211
+      ],
+      "questID": 212
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Crossing the Darkness III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You found Fridli and have obtained the scroll, time to take it back to Layles and see if it was worth the effort."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Layles\u0027 Tent",
+          "posX": 12861,
+          "posY": 4,
+          "posZ": 8415,
+          "dimension": 0,
+          "range": 5,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 73,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        212
+      ],
+      "questID": 213
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Path Opens I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Since the scroll was written in a strange language, referred to as the black speech, Layles has asked you to reach out to Thurdan at the Caravan Camp near the entrance of the Flaming Deeps for help."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Caravan Camp",
+          "posX": 13014,
+          "posY": 6,
+          "posZ": 8617,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 74,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        213
+      ],
+      "questID": 214
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Path Opens II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Thurdan has sent you to speak to Elrond who he says should have no trouble translating the scroll you found to unlock its secrets."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond Half-elven",
+          "posX": 14910,
+          "posY": 143,
+          "posZ": 5953,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 75,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        214
+      ],
+      "questID": 215
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcAncientScroll",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§6A scroll translated by Elrond with instructions to get into the dungeons of Moria."
+                },
+                "Name:8": "§5Translated Scroll"
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Translated Scroll Received",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Elrond has given you a translated scroll."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 288,
+          "description": "Scroll Received",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcAncientScroll",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6A scroll translated by Elrond with instructions to get into the dungeons of Moria."
+                  },
+                  "Name:8": "§5Translated Scroll"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        215
+      ],
+      "questID": 216
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dwarven Craftsman I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have received a translated version of the scroll and Elrond has tasked you with going to speak to Lord Dáin II Ironfoot to see if his dwarves can create the key needed."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Lord Dáin II Ironfoot",
+          "posX": 20508,
+          "posY": 47,
+          "posZ": 3339,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 76,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        215
+      ],
+      "questID": 217
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Needed Supplies IIa",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Bilbo apparently kept a souvenier from his early exploits and may have left it at home when he travelled to Rivendell not realizing what it truly was."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Bag end",
+          "posX": 6248,
+          "posY": 64,
+          "posZ": 7757,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 233,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "allomancy:nuggetLerasium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Token Bilbo took from his adventures in the Lonely Mountain"
+                  },
+                  "Name:8": "§5Bilbo\u0027s Nugget"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        217
+      ],
+      "questID": 218
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Needed Supplies IIb",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Derwyn, the Captain of the guard in Archet is said to have a key they found that may be just what we need to make a mould."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Derwyn Rease",
+          "posX": 9991,
+          "posY": 54,
+          "posZ": 7297,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 235,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcKey2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Ruined key found on the body of a bandit captain"
+                  },
+                  "Name:8": "§5Bandit\u0027s Key"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        217
+      ],
+      "questID": 219
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Thrór\u0027s Hammer",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to retrieve the tool Elssuli needs to complete our task."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Khedgroick\u0027s Tomb",
+          "posX": 20566,
+          "posY": 41,
+          "posZ": 4086,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 85,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        205
+      ],
+      "questID": 220
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Into the Dungeon I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "After some grueling tasks you have retrieved the key, time to return to Layles and see what\u0027s next."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Layles\u0027 Tent",
+          "posX": 12846,
+          "posY": 5,
+          "posZ": 8415,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 83,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        220
+      ],
+      "questID": 221
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Khedgroick\u0027s Tomb",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Khedgroick\u0027s Tomb",
+          "posX": 20566,
+          "posY": 41,
+          "posZ": 3890,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes scene start TombStart",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 222
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Waypoint Added",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Dungeon Entrance"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 296,
+          "description": "Talk to Layles",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Dungeon Entrance\\\", x:13545, y:44, z:8782]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 223
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Into the Dungeon II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Head to the dungeon entrance and meet up with Layles to finally rescue her father Cromhes!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dungeon Entrance",
+          "posX": 13545,
+          "posY": 44,
+          "posZ": 8782,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 87,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        221
+      ],
+      "questID": 224
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Into the Dungeon III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to hunt for Cromhes...if he is even still here."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 81,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        224,
+        227
+      ],
+      "questID": 225
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Ambush!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have been Ambushed!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Ambush!",
+          "posX": 13623,
+          "posY": 39,
+          "posZ": 8756,
+          "dimension": 0,
+          "range": 6,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        224
+      ],
+      "questID": 226
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Protect Layles!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have been ambushed, make sure Layles survives!"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 82,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        226
+      ],
+      "questID": 227
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Adventure Begins!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "Time to hunt..."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 86,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes scene start LaylesStart",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 228
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chapter Start 5",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 90,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/title VAR_NAME times 20 100 20",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/title VAR_NAME subtitle {\"text\":\"Scourge of the South\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/title VAR_NAME title {\"text\":\"Chapter 5\",\"bold\":true,\"italic\":true,\"color\":\"dark_purple\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [
+        230
+      ],
+      "questID": 229
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Spirit Broken",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The assault on the dungeon in Moria saw the freedom of the Ranger Cromhes, but proved fruitless as Layles perished, and Brimigak, the Steward of Angmar, withdrew behind a fortified area of the dungeon."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Caravan Camp",
+          "posX": 13014,
+          "posY": 6,
+          "posZ": 8617,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 90,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 230
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 235
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Missing Husband",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Aliz Heudebrand is asking for help finding her husband who she fears is missing."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Heudebrand\u0027s Farm",
+          "posX": 9556,
+          "posY": 54,
+          "posZ": 8193,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 91,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        87
+      ],
+      "questID": 231
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:life_ward",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Betan\u0027s Rescue",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have located Betan, but now can you get him to safety?"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Ruined Town",
+          "posX": 9692,
+          "posY": 56,
+          "posZ": 7489,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "West Gate of Bree",
+          "posX": 9460,
+          "posY": 55,
+          "posZ": 7529,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 92,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        231
+      ],
+      "questID": 232
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bloodmagic:ItemSentientSword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Betan\u0027s Revenge",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have been asked to exact revenge on the Leader of the orcs that tormented Betan while he was held captive."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Orc-stockade",
+          "posX": 9982,
+          "posY": 66,
+          "posZ": 7490,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 93,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "customnpcs:npcDemonicHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 4,
+                    "id:2": 0
+                  }
+                },
+                "RepairCost:3": 3,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Dropped when you defeated Tristan Storm"
+                  },
+                  "Name:8": "§3Coming Storm"
+                }
+              }
+            },
+            {
+              "id": "xreliquary:shears_of_winter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        232
+      ],
+      "questID": 233
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:woodenDevice0",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Gondor",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Work available in the Gondor region"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Minas Tirith",
+          "posX": 17958,
+          "posY": 37,
+          "posZ": 13648,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 234
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:woodenDevice0",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rhovanion",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Work available in the Rhovanion region."
+        }
+      },
+      "tasks": [
+        {
+          "name": "City of Dale",
+          "posX": 20276,
+          "posY": 64,
+          "posZ": 4278,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 235
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:woodenDevice0",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rohan",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Work available in the Rohan region"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Edoras",
+          "posX": 14695,
+          "posY": 50,
+          "posZ": 12274,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 236
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 518
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 12000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Daily Hunt",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "[mobs] have gotten out of control near [place].  [npc] has put out a call for help to try to bring them under control."
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 328,
+          "description": "See what job they have.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 104,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 237
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 658
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 12000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Cauldron of Iron",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Captain of the Guard, [npc], at [place], is looking for some help collecting supplies for a cauldron.  Go see if you can help."
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 330,
+          "description": "Speak to the Captain of the Guard.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 105,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 238
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 29
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 12000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "In Need of Supplies",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "[npc] has a buyer for [mob drop] and is looking for anyone willing to make a quick bit of coin and help out [faction]"
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 326,
+          "description": "See what [npc] has to offer.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 103,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 239
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 518
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 12000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Daily Hunt",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "[mobs] have gotten out of control near [place].  [npc] has put out a call for help to try to bring them under control."
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 322,
+          "description": "See what job they have.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 101,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 240
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 658
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 12000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Cauldron of Iron",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Captain of the Guard, [npc], at [place], is looking for some help collecting supplies for a cauldron.  Go see if you can help."
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 324,
+          "description": "Speak to the Captain of the Guard.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 102,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 241
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 29
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 12000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "In Need of Supplies",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "[npc] has a buyer for [mob drop] and is looking for anyone willing to make a quick bit of coin and help out [faction]"
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 320,
+          "description": "See what [npc] has to offer.",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 100,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 242
     }
   ],
   "questLines": [
@@ -11735,7 +14806,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Land of Middle-earth",
+          "name": "Lands of Middle-earth",
           "bg_image": "tolkiencraft:textures\\maps\\MiddleEarth.png",
           "bg_size": 1024,
           "desc": "Fast travel to be earned as you travel the lands of Middle-earth..."
@@ -12284,7 +15355,7 @@
         }
       ],
       "lineID": 1,
-      "order": 5
+      "order": 6
     },
     {
       "properties": {
@@ -12296,24 +15367,6 @@
         }
       },
       "quests": [
-        {
-          "size": 24,
-          "x": 174,
-          "y": 240,
-          "id": 96
-        },
-        {
-          "size": 24,
-          "x": 54,
-          "y": 210,
-          "id": 97
-        },
-        {
-          "size": 24,
-          "x": 348,
-          "y": 276,
-          "id": 99
-        },
         {
           "size": 24,
           "x": 84,
@@ -12358,8 +15411,8 @@
         },
         {
           "size": 24,
-          "x": 348,
-          "y": 306,
+          "x": 276,
+          "y": 270,
           "id": 142
         },
         {
@@ -12400,14 +15453,14 @@
         },
         {
           "size": 24,
-          "x": 444,
-          "y": 114,
+          "x": 186,
+          "y": 96,
           "id": 91
         },
         {
           "size": 24,
-          "x": 174,
-          "y": 270,
+          "x": 246,
+          "y": 96,
           "id": 92
         },
         {
@@ -12418,8 +15471,8 @@
         },
         {
           "size": 24,
-          "x": 444,
-          "y": 84,
+          "x": 240,
+          "y": 270,
           "id": 94
         },
         {
@@ -12427,10 +15480,100 @@
           "x": 54,
           "y": 150,
           "id": 95
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 96,
+          "id": 96
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 210,
+          "id": 97
+        },
+        {
+          "size": 24,
+          "x": 204,
+          "y": 270,
+          "id": 99
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 54,
+          "id": 231
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 84,
+          "id": 232
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 114,
+          "id": 233
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 252,
+          "id": 234
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 78,
+          "id": 235
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 276,
+          "id": 236
+        },
+        {
+          "size": 24,
+          "x": 378,
+          "y": 306,
+          "id": 237
+        },
+        {
+          "size": 24,
+          "x": 408,
+          "y": 294,
+          "id": 238
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 318,
+          "id": 239
+        },
+        {
+          "size": 24,
+          "x": 366,
+          "y": 108,
+          "id": 240
+        },
+        {
+          "size": 24,
+          "x": 396,
+          "y": 96,
+          "id": 241
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 120,
+          "id": 242
         }
       ],
       "lineID": 2,
-      "order": 4
+      "order": 5
     },
     {
       "properties": {
@@ -12486,7 +15629,7 @@
         }
       ],
       "lineID": 3,
-      "order": 6
+      "order": 7
     },
     {
       "properties": {
@@ -12674,7 +15817,7 @@
         }
       ],
       "lineID": 4,
-      "order": 7
+      "order": 8
     },
     {
       "properties": {
@@ -12885,6 +16028,168 @@
         {
           "size": 24,
           "x": 510,
+          "y": 24,
+          "id": 202
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 294,
+          "id": 203
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 324,
+          "id": 204
+        },
+        {
+          "size": 24,
+          "x": 222,
+          "y": 348,
+          "id": 205
+        },
+        {
+          "size": 24,
+          "x": 276,
+          "y": 462,
+          "id": 206
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 54,
+          "id": 207
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 462,
+          "id": 208
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 84,
+          "id": 209
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 84,
+          "id": 210
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 114,
+          "id": 211
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 144,
+          "id": 212
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 174,
+          "id": 213
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 204,
+          "id": 214
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 234,
+          "id": 215
+        },
+        {
+          "size": 24,
+          "x": 276,
+          "y": 234,
+          "id": 216
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 264,
+          "id": 217
+        },
+        {
+          "size": 24,
+          "x": 276,
+          "y": 312,
+          "id": 218
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 312,
+          "id": 219
+        },
+        {
+          "size": 24,
+          "x": 270,
+          "y": 348,
+          "id": 220
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 372,
+          "id": 221
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 114,
+          "id": 222
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 144,
+          "id": 223
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 402,
+          "id": 224
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 432,
+          "id": 225
+        },
+        {
+          "size": 24,
+          "x": 276,
+          "y": 390,
+          "id": 226
+        },
+        {
+          "size": 24,
+          "x": 276,
+          "y": 420,
+          "id": 227
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 174,
+          "id": 228
+        },
+        {
+          "size": 24,
+          "x": 510,
           "y": 0,
           "id": 177
         },
@@ -12897,6 +16202,32 @@
       ],
       "lineID": 7,
       "order": 3
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Grand Quest - Scourge of the South",
+          "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
+          "bg_size": 512,
+          "desc": "A heavy price was paid for the rescue of Cromhes, maybe too high.  It is time to move on to other issues while Cromhes ponders what he will do now."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 229
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 30,
+          "id": 230
+        }
+      ],
+      "lineID": 8,
+      "order": 4
     }
   ],
   "format": "1.0.0"
