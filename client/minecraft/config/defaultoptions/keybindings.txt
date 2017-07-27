@@ -35,7 +35,6 @@ key_key.am2.shape_groups:0:NONE
 key_key.am2.dark_vision:0:NONE
 key_key.am2.spellbooknext:0:NONE
 key_key.am2.spellbookprev:44:NONE
-key_quark.keybind.toggleAutojump:56:NONE
 key_quark.emote.wave:0:NONE
 key_quark.emote.salute:0:NONE
 key_quark.emote.yes:0:NONE
@@ -46,6 +45,7 @@ key_quark.emote.point:0:NONE
 key_quark.emote.shrug:0:NONE
 key_quark.emote.facepalm:0:NONE
 key_quark.emote.headbang:0:NONE
+key_quark.keybind.toggleAutojump:56:NONE
 key_key.betterquesting.quests:24:NONE
 key_BloodMagic.keybind.open_holding:35:NONE
 key_BloodMagic.keybind.cycle_holding_pos:78:NONE
@@ -55,8 +55,10 @@ key_Scene2 start/pause:0:NONE
 key_Scene3 start/pause:0:NONE
 key_Scene reset:0:NONE
 key_Quest Log:38:NONE
+key_key.xu2.searchForItems:20:NONE
 key_oreexcavation.key.excavate:41:NONE
 key_oreexcavation.key.shape:0:NONE
+key_Summon/Dismiss Pet:71:NONE
 key_Activate  FINGER 0:0:NONE
 key_Activate  FINGER 1:0:NONE
 key_Activate  WRIST 0:0:NONE
@@ -123,7 +125,7 @@ key_key.toolProfileChange:43:NONE
 key_Open Backpack Slot Inventory:45:NONE
 key_Open Backpack:48:NONE
 key_Swap Hotbar:47:NONE
-key_waila.keybind.wailaconfig:0:NONE
+key_waila.keybind.wailaconfig:72:NONE
 key_waila.keybind.wailadisplay:0:NONE
 key_waila.keybind.liquid:0:NONE
 key_waila.keybind.recipe:0:NONE

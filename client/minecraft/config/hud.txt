@@ -1,0 +1,215 @@
+# Better HUD configuration file
+# Any removed or corrupted properties will be reverted to default.
+# 2017-07-09 15:59:11.782
+armorBars:
+	enabled:false
+	posMode:0
+	position:middleLeft
+	alignment:middleLeft
+	position2:5,5,720,424,161,70
+	anchor:1
+	showDurability:true
+	durabilityMode:0
+	showName:true
+	# hidden, smallBars, largeBars
+	barType:2
+	damaged.0:45.0
+	damaged.1:25.0
+	damaged.2:10.0
+arrowCount:
+	enabled:false
+	posMode:0
+	position:middleRight
+	position2:5,5,603,430
+	anchor:1
+	mode:0
+biome:
+	enabled:false
+	posMode:0
+	position:topCenter
+	position2:5,5,603,430
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+blockViewer:
+	enabled:false
+	posMode:0
+	position:topCenter
+	position2:5,5,603,430
+	anchor:1
+	showBlock:true
+	distance:256.0
+	showIds:false
+bloodSplatters:
+	enabled:true
+	density:1
+breedIndicator:
+	enabled:false
+	position:middleLeft
+	distance:100.0
+clock:
+	enabled:true
+	posMode:1
+	position:topRight
+	position2:5,5,720,424,50,30
+	anchor:1
+	24hr:false
+compass:
+	enabled:true
+	posMode:1
+	position:270,34,720,424,198,13
+	anchor:1
+	scaledDirections:5.0
+	scale:109.765625
+	showNotches:true
+connection:
+	enabled:false
+	posMode:0
+	position:topLeft
+	position2:5,5,603,430
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+	playerCount:true
+	showIp:true
+	latency:true
+coordinates:
+	enabled:true
+	posMode:1
+	position:topCenter
+	position2:304,20,720,424,114,9
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+	spaced:false
+	decimals:0.0
+distance:
+	enabled:true
+	posMode:0
+	position:middleCenter
+	position2:5,5,603,430
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+	type:0
+enchantIndicator:
+	enabled:false
+	posMode:0
+	position:5,5,603,430
+	anchor:1
+experienceInfo:
+	enabled:true
+	posMode:0
+	position:topLeft
+	position2:5,5,603,430
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+	total:false
+foodHealthStats:
+	enabled:false
+	posMode:0
+	position:bottomRight
+	position2:5,5,603,430
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+	saturation:true
+fpsCount:
+	enabled:false
+	posMode:0
+	position:topLeft
+	position2:5,5,603,430
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+	numberOnly:false
+fullInvIndicator:
+	enabled:true
+	posMode:0
+	position:topRight
+	position2:5,5
+handBar:
+	enabled:false
+	posMode:0
+	position:23,4,720,424,180,18
+	anchor:0
+	showItem:true
+	showDurability:true
+	durabilityMode:0
+	showName:true
+	offHand:false
+healIndicator:
+	enabled:true
+	posMode:1
+	position:407,364,603,430
+	anchor:0
+	mode:1
+hidePlayers:
+	enabled:false
+	includeMe:false
+horseInfo:
+	enabled:false
+	jump:true
+	speed:true
+	distance:100.0
+foodIndicator:
+	enabled:false
+	posMode:0
+	position:bottomCenter
+	position2:5,5,603,430
+	anchor:1
+	maxLimit:9.5
+lightLevel:
+	enabled:false
+	posMode:0
+	position:topRight
+	position2:5,5,603,430
+	anchor:0
+	red:255.0
+	green:255.0
+	blue:255.0
+mobInfo:
+	enabled:false
+	players:true
+	mobs:true
+	distance:100.0
+itemPickup:
+	enabled:true
+	posMode:0
+	position:middleCenter
+	position2:5,5
+potionBar:
+	enabled:false
+	disableDefault:false
+	posMode:0
+	position:middleRight
+	position2:5,5,603,430
+	anchor:1
+signReader:
+	enabled:false
+	posMode:0
+	position:middleLeft
+	position2:5,5,603,430
+	anchor:1
+	mode:1
+systemClock:
+	enabled:false
+	posMode:0
+	position:middleRight
+	position2:0,5,603,430
+	anchor:1
+	24hr:false
+	showSeconds:false
+	dateType:1
+	fullYear:true
+waterDrops:
+	enabled:false
+	density:1
