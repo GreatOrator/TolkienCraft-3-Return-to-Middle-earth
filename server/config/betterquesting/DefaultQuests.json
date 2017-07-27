@@ -14503,17 +14503,17 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "[mobs] have gotten out of control near [place].  [npc] has put out a call for help to try to bring them under control."
+          "desc": "Skeletons have gotten out of control near Dale.  Charlice has put out a call for help to try to bring them under control."
         }
       },
       "tasks": [
         {
-          "name": "New Location",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
+          "name": "The Belching Wench",
+          "posX": 20059,
+          "posY": 79,
+          "posZ": 4266,
           "dimension": 0,
-          "range": -1,
+          "range": 16,
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
@@ -14532,7 +14532,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        235
+      ],
       "questID": 240
     },
     {
@@ -14586,7 +14588,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        235
+      ],
       "questID": 241
     },
     {
@@ -14640,8 +14644,610 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        235
+      ],
       "questID": 242
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Items Received",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 349,
+          "description": "Gifts Given",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcFullIronHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Item Thonrum wanted repaired"
+                  },
+                  "Name:8": "§5Broken Helm"
+                }
+              }
+            },
+            {
+              "id": "forestry:brokenBronzePickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Item Thonrum wanted repaired"
+                  },
+                  "Name:8": "§5Worn-out Pickaxe"
+                }
+              }
+            },
+            {
+              "id": "minecraft:shield",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Item Thonrum wanted repaired"
+                  },
+                  "Name:8": "§5Damaged Shield"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 243
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcBronzeSword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Dwarf-made Sword I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Seems one of the blacksmiths in Dale is looking for help tracking down who did it."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Thonrum IronSword",
+          "posX": 20114,
+          "posY": 88,
+          "posZ": 4310,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        235
+      ],
+      "questID": 244
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcEmeraldSword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Dwarf-made Sword II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Thonrum suspects three of the other blacksmiths in the market area and wants you to go interrogate them to see if one of them did it."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 107,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        244
+      ],
+      "questID": 245
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcFrostSword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Getting the Sword back I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Lucious told you that Giles left for the local Inn, almost as if he was celebrating his ability to intimidate."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Giles",
+          "posX": 20058,
+          "posY": 79,
+          "posZ": 4273,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 109,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcDialogID": 344,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        245
+      ],
+      "questID": 246
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "tconstruct:wide_guard",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§6All that remains of the dwarf-made sword"
+                },
+                "Name:8": "§5Sword Hilt"
+              },
+              "Material:8": "knightslime"
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Getting the sword back II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Wow, lucious wants to ask Thonrum to reforge the very sword he stole...well, have you ask that is..."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 111,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        246
+      ],
+      "questID": 247
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:anvil",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Forging a new sword I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "For a dwarf, Thonrum is nicer than expected...with conditions."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 112,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        247
+      ],
+      "questID": 248
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:anvil",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Forging a new sword II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Well, you are neck-deep in gather work..."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 113,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        248
+      ],
+      "questID": 249
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bloodmagic:ItemMonsterSoul",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Sword for a Life I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Giles death was blamed on lucious and they kidnapped his daughter, see if Thonrum had the Sword ready..."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 114,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        249
+      ],
+      "questID": 250
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "bloodmagic:BlockIncenseAltar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Sword for a Life II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The sword was not ready, time to confront the brigand Pierce directly!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Brigand Camp",
+          "posX": 20087,
+          "posY": 41,
+          "posZ": 3928,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 115,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "jaff:diamond_fishing_rod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 3,
+                    "id:2": 61
+                  }
+                },
+                "RepairCost:3": 3,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Reward for saving Lucious Warrer\u0027s daughter."
+                  },
+                  "Name:8": "§1Fly-catcher"
+                }
+              }
+            },
+            {
+              "id": "iceandfire:armor_sapphire_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 70
+                  }
+                },
+                "RepairCost:3": 1,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Reward for saving Lucious Warrer\u0027s daughter."
+                  },
+                  "Name:8": "§5Warrer\u0027s Pants"
+                }
+              }
+            },
+            {
+              "id": "iceandfire:dragonbone_sword_ice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 5,
+                    "id:2": 16
+                  }
+                },
+                "RepairCost:3": 1,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Reward for saving Lucious Warrer\u0027s daughter."
+                  },
+                  "Name:8": "§5Lucy\u0027s Protector"
+                }
+              }
+            },
+            {
+              "id": "lootbags:itemlootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 70,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Use this at certain faction sellers to purchase powerful items."
+                  },
+                  "Name:8": "§3Faction Coin"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        },
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 101,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Used to increase faction standing at specific vendors"
+                  },
+                  "Name:8": "§9Faction Token"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 2
+        }
+      ],
+      "preRequisites": [
+        250
+      ],
+      "questID": 251
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Location Marked",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [],
+      "rewards": [
+        {
+          "command": "/tellraw VAR_NAME {\"text\":\"[name:\\\"Brigand Camp\\\", x:20087, y:41, z:3928]\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        251
+      ],
+      "questID": 252
     }
   ],
   "questLines": [
@@ -15555,21 +16161,81 @@
         },
         {
           "size": 24,
-          "x": 366,
-          "y": 108,
+          "x": 372,
+          "y": 114,
           "id": 240
         },
         {
           "size": 24,
-          "x": 396,
-          "y": 96,
+          "x": 402,
+          "y": 114,
           "id": 241
         },
         {
           "size": 24,
-          "x": 336,
-          "y": 120,
+          "x": 342,
+          "y": 114,
           "id": 242
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 96,
+          "id": 243
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 168,
+          "id": 244
+        },
+        {
+          "size": 24,
+          "x": 366,
+          "y": 168,
+          "id": 245
+        },
+        {
+          "size": 24,
+          "x": 396,
+          "y": 168,
+          "id": 246
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 198,
+          "id": 247
+        },
+        {
+          "size": 24,
+          "x": 366,
+          "y": 198,
+          "id": 248
+        },
+        {
+          "size": 24,
+          "x": 396,
+          "y": 198,
+          "id": 249
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 228,
+          "id": 250
+        },
+        {
+          "size": 24,
+          "x": 366,
+          "y": 228,
+          "id": 251
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 126,
+          "id": 252
         }
       ],
       "lineID": 2,
