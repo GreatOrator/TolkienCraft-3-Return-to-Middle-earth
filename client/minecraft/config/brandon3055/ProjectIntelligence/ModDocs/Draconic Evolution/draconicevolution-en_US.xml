@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="11" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="12" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content index="30" type="textArea">§6Robert W
 §r(Since 08/06/2015)§r
 
@@ -1476,7 +1476,7 @@ Max Wireless Links: 64</content>
 <entry branchId="draconicevolution:enderEnergyManipulator" category="wiki.cat.item" icon="draconicevolution:ender_energy_manipulator" iconType="stack" name="Ender Energy Manipulator" sortingWeight="260">
         <content index="4" type="recipe">draconicevolution:ender_energy_manipulator,5</content>
         <content index="3" size="8" type="vSpacer"/>
-        <content index="2" type="textArea">§bDont want to risk don't want to risk incurring the wrath of the Enderman by killing the Ender Dragon? 
+        <content index="2" type="textArea">§bDont want to risk incurring the wrath of the Enderman by killing the Ender Dragon? 
 But you still want to get your hands on a dragon egg?
 No problem! 
 This mystical device allows you to extract an egg from the Ender Dragon without killing her!
