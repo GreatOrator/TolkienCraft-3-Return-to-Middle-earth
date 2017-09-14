@@ -39,7 +39,7 @@
             {
                 "Button": 0,
                 "Ticks": 224,
-                "Enabled": 1b,
+                "Enabled": 0b,
                 "Name": "BrimigakDefeat",
                 "Lines": "2 animate normal
 3 equip main none
@@ -51,7 +51,7 @@
             {
                 "Button": 0,
                 "Ticks": 10,
-                "Enabled": 1b,
+                "Enabled": 0b,
                 "Name": "Chapter4ResetI",
                 "Lines": "2 animate crawl
 4 equip main tolkientweaks:palantir
@@ -61,6 +61,121 @@
 8 command noppes scene reset BrimigakDefeat
 9 command noppes scene reset LaylesContinue
 10 command noppes scene reset Chapter4ResetI"
+            },
+            {
+                "Button": 0,
+                "Ticks": -1,
+                "Enabled": 1b,
+                "Name": "BrimigakBattleA",
+                "Lines": "1 command tellraw @p {\"text\":\"Cromhes: Steel yourselves, as Brimigak will try many things to break our resolve.\",\"bold\":true}
+6 command noppes dialog read @p 372 
+7 move to 13590 15 8917
+16 command tellraw @p {\"text\":\"Brimigak: Greetings.\",\"italic\":true}
+18 command tellraw @p {\"text\":\"Brimigak: After spending so much time in my care, I am surprised you have returned so quickly, Cromhes.\",\"italic\":true}
+23 command tellraw @p {\"text\":\"Brimigak: Have you spent so little time in mourning your daughter?\",\"italic\":true}
+25 command tellraw @p {\"text\":\"Cromhes: Villain! I would have died in her place!\",\"bold\":true}
+27 command tellraw @p {\"text\":\"Cromhes: And it would have been better for you if I had!\",\"bold\":true}
+28 command noppes scene start BrimigakAction
+34 command tellraw @p {\"text\":\"Brimigak: I can see that you have learned nothing from all my patient instruction.\",\"italic\":true}
+37 command tellraw @p {\"text\":\"Brimigak: Perhaps simply viewing others through the palantír was not enough.\",\"italic\":true}
+41 command tellraw @p {\"text\":\"Brimigak: Come now, Cromhes, let your lessons continue..\",\"italic\":true}
+43 command tellraw @p {\"text\":\"Cromhes: Follow me, friends!\",\"bold\":true}
+44 stats walking_speed 8
+44 move to 13580 14 8918
+48 command tellraw @p {\"text\":\"Brimigak: You see, Cromhes, over the long years of this age, many have tried to resist Angmar...\",\"italic\":true}
+51 command noppes clone spawn Sunno 4 13574,14,8921
+53 command noppes clone spawn Alot 4 13575,14,8914
+53 command tellraw @p {\"text\":\"Brimigak: All have failed.\",\"italic\":true}
+46 command noppes clone spawn Wiliame 4 13574,14,8915
+48 command noppes clone spawn Belate 4 13575,14,8922
+49 command tellraw @p {\"text\":\"Brimigak: Do you wish to join these countless failures in death?\",\"italic\":true}
+52 command tellraw @p {\"text\":\"Cromhes: Those fallen! They are but Brimigak's illusions! Do not let them break your resolve!\",\"bold\":true}
+54 command noppes clone spawn Etxeberri 4 13576,14,8920
+56 command noppes clone spawn Gudula 4 13577,14,8915
+56 command tellraw @p {\"text\":\"Brimigak: Others sought glory...\",\"italic\":true}
+57 command noppes clone spawn Ruald 4 13576,14,8916
+59 command noppes clone spawn Joleicia 4 13577,14,8921
+64 command tellraw @p {\"text\":\"Brimigak: And yet others sought revenge.\",\"italic\":true}
+66 command tellraw @p {\"text\":\"Brimigak: However, no matter what drove them, what flame burned in their hearts...\",\"italic\":true}
+67 command kill @e[type=customnpcs.CustomNpc,name=Sunno]
+68 command kill @e[type=customnpcs.CustomNpc,name=Alot]
+69 command kill @e[type=customnpcs.CustomNpc,name=Wiliame]
+70 command kill @e[type=customnpcs.CustomNpc,name=Belate]
+71 command kill @e[type=customnpcs.CustomNpc,name=Etxeberri]
+72 command kill @e[type=customnpcs.CustomNpc,name=Gudula]
+73 command kill @e[type=customnpcs.CustomNpc,name=Ruald]
+74 command kill @e[type=customnpcs.CustomNpc,name=Joleicia]
+75 command tellraw @p {\"text\":\"Brimigak: ...that flame was extinguished.\",\"italic\":true}
+76 command tellraw @p {\"text\":\"Cromhes: Pay no heed to his words!\",\"bold\":true}
+79 command tellraw @p {\"text\":\"Brimigak: Even I, dear Cromhes, learned the folly of opposing the Witch-king.\",\"italic\":true}
+82 command tellraw @p {\"text\":\"Brimigak: A lesson I learned from his very hand...\",\"italic\":true}
+84 command tellraw @p {\"text\":\"Brimigak: As he \"instructed\" me, all was torn away...\",\"italic\":true}
+86 command tellraw @p {\"text\":\"Brimigak: Thoughts of family...\",\"italic\":true}
+89 command tellraw @p {\"text\":\"Brimigak: ...of brothers in arms...\",\"italic\":true}
+92 command tellraw @p {\"text\":\"Brimigak: ...of friends and companions...\",\"italic\":true}
+96 command tellraw @p {\"text\":\"Brimigak: Once my lessons were complete, the man I been ...was gone.\",\"italic\":true}
+100 command tellraw @p {\"text\":\"Brimigak: Even I, one of the Witch-king's greatest foes, had become but his servant, a steward upon his throne.\",\"italic\":true}
+104 command tellraw @p {\"text\":\"Brimigak: So, Cromhes, if you still hold to your fool's hope, come forward...\",\"italic\":true}
+105 move to 13577 14 8918
+108 command tellraw @p {\"text\":\"Cromhes: Enough of your illusions and \"lessons!\"\",\"bold\":true}
+110 command noppes clone spawn Layless 4 13577,14,8916
+112 command tellraw @p {\"text\":\"Layles: But father, there is one last lesson to be taught...\"}
+116 command tellraw @p {\"text\":\"Cromhes: What...no! No! You are not her! You are another illusion!\",\"bold\":true}
+119 command tellraw @p {\"text\":\"Layles: Am I? Am I really, Father?\"}
+122 command tellraw @p {\"text\":\"Layles: Does it truly matter?\"}
+125 command tellraw @p {\"text\":\"Layles: Does it change all that has been lost in your futile attempts to shatter the Iron Crown?\"}
+128 command tellraw @p {\"text\":\"Layles: Mother was lost...friends uncounted slain...\"}
+130 command tellraw @p {\"text\":\"Layles: And for what?\"}
+134 command tellraw @p {\"text\":\"Layles: Only for you to see your beloved daughter lying dead on the floor in Moria?\"}
+138 command tellraw @p {\"text\":\"Layles: Give up in this vain pursuit, Father...It is folly to hold to your hope...\"}
+142 command tellraw @p {\"text\":\"Layles: There is no shame in surrendering, when you have lost so very much...\"}
+147 command tellraw @p {\"text\":\"Cromhes: No...no...\",\"bold\":true}
+149 command tellraw @p {\"text\":\"Cromhes: My friends, please help me...dispel this horrible illusion!\",\"bold\":true}
+152 command tellraw @p {\"text\":\"Cromhes: This cannot be her...\",\"bold\":true}
+154 command tellraw @p {\"text\":\"Layles: Father...Father...\"}
+157 command tellraw @p {\"text\":\"Layles: The Shadow shall take you Father...\"}
+161 command tellraw @p {\"text\":\"Layles: Father...Why did you let me die?\"}
+163 command tellraw @p {\"text\":\"Brimigak: Enough!\",\"italic\":true}
+164 command kill @e[type=customnpcs.CustomNpc,name=Layless]
+165 command tellraw @p {\"text\":\"Brimigak: Well Cromhes, it seems nothing will make you see the truth of my words.\",\"italic\":true}
+169 command tellraw @p {\"text\":\"Brimigak: And if my words cannot convince you of the folly of challenging Angmar...\",\"italic\":true}
+170 move to 13576 8918 14
+173 command noppes scene start BrimigakBattleC
+"
+            },
+            {
+                "Button": 0,
+                "Ticks": -1,
+                "Enabled": 1b,
+                "Name": "BrimigakBattleD",
+                "Lines": "2 command tellraw @p {\"text\":\"Cromhes: Base coward!\",\"bold\":true}
+5 command noppes clone spawn Nerea 4 13568,15,8914
+8 command tellraw @p {\"text\":\"Nerea Aubertin: Oh, you have done well, young ones!\",\"italic\":true}
+9 command tellraw @p {\"text\":\"Cromhes: Old woman, who are you? What are you doing here?\",\"bold\":true}
+12 command tellraw @p {\"text\":\"Nerea Aubertin: Your questions will be answered in time!\",\"italic\":true}
+15 command tellraw @p {\"text\":\"Nerea Aubertin: But for now, know that you have done me a great favour!\",\"italic\":true}
+18 command tellraw @p {\"text\":\"Nerea Aubertin: A great favour indeed...\",\"italic\":true}
+19 command kill @e[type=customnpcs.CustomNpc,name=Nerea]
+20 command tellraw @p {\"text\":\"Cromhes: She...She has taken the palantír!\",\"bold\":true}
+22 command tellraw @p {\"text\":\"Cromhes: It is gone and with no way to follow her!\",\"bold\":true}
+26 command tellraw @p {\"text\":\"Cromhes: I fear that we shall hear from that old woman again, and sooner than we would wish it!\",\"bold\":true}
+30 command noppes dialog read @p 373
+"
+            },
+            {
+                "Button": 0,
+                "Ticks": -1,
+                "Enabled": 1b,
+                "Name": "BrimigakReset",
+                "Lines": "2 move tp 13602 21 8912
+3 stats walking_speed 5
+4 command noppes clone spawn Brimigak 4 13567,17,8918
+5 command noppes scene reset BrimigakBattleA
+7 command noppes scene reset BrimigakBattleB
+9 command noppes scene reset BrimigakBattleC
+11 command noppes scene reset BrimigakBattleD
+13 command noppes scene reset BrimigakReset
+"
             }
         ]
     },
@@ -152,7 +267,7 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 131415,
+    "HurtByTimestamp": 2819,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -187,7 +302,7 @@
             "Name": "generic.knockbackResistance"
         },
         {
-            "Base": 0.25d,
+            "Base": 0.4000000059604645d,
             "Name": "generic.movementSpeed"
         },
         {
@@ -327,7 +442,7 @@
     },
     "minDelay": 20,
     "DoorInteract": 2,
-    "MoveSpeed": 5,
+    "MoveSpeed": 8,
     "TransformEditingModus": 0b,
     "UsingSkinUrl": 0b,
     "Leashed": 0b,
@@ -432,9 +547,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "",
-    "TotalTicksAlive": 24994838L,
+    "TotalTicksAlive": 25170815L,
     "Rotation": [
-        10.638916f,
+        89.97533f,
         0.0f
     ],
     "ShowName": 0,

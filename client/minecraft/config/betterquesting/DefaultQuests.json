@@ -3748,511 +3748,9 @@
       },
       "tasks": [
         {
-          "target": "customnpcs.CustomNpc",
-          "required": 1,
-          "subtypes": true,
-          "ignoreNBT": false,
-          "targetNBT": {
-            "ReturnToStart:1": 1,
-            "NpcInv:9": {},
-            "BossColor:3": 0,
-            "PotionEffect:3": 0,
-            "stopAndInteract:1": 1,
-            "Size:3": 5,
-            "Resistances:10": {
-              "Arrow:5": 1.0,
-              "Explosion:5": 1.0,
-              "Melee:5": 1.0,
-              "Knockback:5": 1.0
-            },
-            "BossBar:1": 0,
-            "RespawnTime:3": 20,
-            "NpcAngrySound:8": "",
-            "ReactsToFire:1": 0,
-            "IgnoreCobweb:1": 0,
-            "PositionOffsetZ:5": 5.0,
-            "PositionOffsetY:5": 5.0,
-            "PositionOffsetX:5": 5.0,
-            "LootMode:3": 0,
-            "AttackStrenght:3": 5,
-            "DefendFaction:1": 0,
-            "NpcLines:10": {
-              "Lines:9": {}
-            },
-            "id:8": "customnpcs.CustomNpc",
-            "MovingPatern:3": 0,
-            "FireIndirect:3": 0,
-            "NpcVisible:3": 0,
-            "NpcScenes:10": {
-              "Scenes:9": {}
-            },
-            "HitSound:8": "minecraft:entity.arrow.hit",
-            "FindShelter:3": 2,
-            "TacticalVariant:3": 0,
-            "Orientation:3": 0,
-            "KnockBack:3": 0,
-            "BurnInSun:1": 0,
-            "StandingState:3": 0,
-            "AttackInvisible:1": 0,
-            "WalkingRange:3": 10,
-            "ShotCount:3": 1,
-            "pDur:3": 5,
-            "StartPosNew:11": [
-              0,
-              0,
-              0
-            ],
-            "AttackRange:3": 2,
-            "NpcKillLines:10": {
-              "Lines:9": {}
-            },
-            "PotionImmune:1": 0,
-            "AvoidsSun:1": 0,
-            "Texture:8": "customnpcs:textures/CustomSkins/Mobs/BarrowWight 2.png",
-            "NpcJob:3": 0,
-            "NpcAttackLines:10": {
-              "Lines:9": {}
-            },
-            "BurstCount:3": 1,
-            "pSpeed:3": 10,
-            "pArea:3": 0,
-            "pImpact:3": 0,
-            "MoveState:3": 0,
-            "TargetType:3": 0,
-            "pRender3D:1": 1,
-            "CombatRegen:3": 0,
-            "DistanceToMelee:3": 0,
-            "pEffect:3": 0,
-            "NpcStepSound:8": "",
-            "FireRate:3": 5,
-            "pEffAmp:3": 0,
-            "ImmuneToFire:1": 0,
-            "NpcKilledLines:10": {
-              "Lines:9": {}
-            },
-            "SpecialAggroRange:3": 14,
-            "DisablePitch:1": 0,
-            "pPhysics:1": 1,
-            "NpcInteractLines:10": {
-              "Lines:9": {
-                "10": {
-                  "Line:8": "Hello @p",
-                  "Song:8": "",
-                  "Slot:3": 0
-                }
-              }
-            },
-            "pSpin:1": 0,
-            "NpcHurtSound:8": "minecraft:entity.player.hurt",
-            "pTrail:3": 0,
-            "CreatureType:3": 0,
-            "NoFallDamage:1": 0,
-            "Name:8": "Burhut",
-            "SkinColor:3": 16777215,
-            "NpcIdleSound:8": "",
-            "Weapons:9": {},
-            "NPCDialogOptions:9": {},
-            "AggroRange:3": 16,
-            "DirectLOS:1": 1,
-            "HealthRegen:3": 1,
-            "MoveSpeed:3": 5,
-            "DoorInteract:3": 2,
-            "minDelay:3": 20,
-            "UsingSkinUrl:1": 0,
-            "SkinUrl:8": "",
-            "CanSwim:1": 1,
-            "GroundSound:8": "minecraft:block.stone.break",
-            "HideBodyWhenKilled:1": 0,
-            "MaxHealth:3": 20,
-            "AttackSpeed:3": 20,
-            "PotionDuration:3": 5,
-            "Role:3": 0,
-            "maxDelay:3": 40,
-            "DropChance:9": {},
-            "FactionPoints:10": {
-              "DecreaseFaction1Points:1": 0,
-              "OptionFaction2Points:3": 100,
-              "OptionFactions1:3": -1,
-              "OptionFactions2:3": -1,
-              "OptionFaction1Points:3": 100,
-              "DecreaseFaction2Points:1": 0
-            },
-            "pDamage:3": 4,
-            "AimWhileShooting:1": 0,
-            "AttackOtherFactions:1": 0,
-            "CanDrown:1": 1,
-            "pSize:3": 5,
-            "CanSprint:1": 0,
-            "CanLeap:1": 0,
-            "MovingState:3": 0,
-            "MovingPos:3": 0,
-            "PotionAmp:3": 0,
-            "OnAttack:3": 0,
-            "TacticalRadius:3": 8,
-            "MaxExp:3": 0,
-            "OrderedLines:1": 0,
-            "pGlows:1": 0,
-            "MovementType:3": 0,
-            "FiringSound:8": "minecraft:entity.arrow.shoot",
-            "Accuracy:3": 60,
-            "MinExp:3": 0,
-            "Armor:9": {},
-            "CloakTexture:8": "",
-            "GlowTexture:8": "",
-            "pXlr8:1": 0,
-            "MaxFiringRange:3": 15,
-            "NpcDeathSound:8": "minecraft:entity.player.hurt",
-            "pStick:1": 0,
-            "MovingPause:1": 1,
-            "FactionID:3": -1,
-            "MovingPathNew:9": {},
-            "Title:8": "",
-            "ShowName:3": 0,
-            "npcInteracting:1": 1,
-            "AvoidsWater:1": 0,
-            "NoLivingAnimation:1": 0,
-            "SpawnCycle:3": 0
-          },
-          "taskID": "bq_standard:hunt",
+          "npcQuestID": 2,
+          "taskID": "bq_npc_integration:npc_quest",
           "index": 0
-        },
-        {
-          "target": "customnpcs.CustomNpc",
-          "required": 1,
-          "subtypes": true,
-          "ignoreNBT": false,
-          "targetNBT": {
-            "ReturnToStart:1": 1,
-            "NpcInv:9": {},
-            "BossColor:3": 0,
-            "PotionEffect:3": 0,
-            "stopAndInteract:1": 1,
-            "Size:3": 5,
-            "Resistances:10": {
-              "Arrow:5": 1.0,
-              "Explosion:5": 1.0,
-              "Melee:5": 1.0,
-              "Knockback:5": 1.0
-            },
-            "BossBar:1": 0,
-            "RespawnTime:3": 20,
-            "NpcAngrySound:8": "",
-            "ReactsToFire:1": 0,
-            "IgnoreCobweb:1": 0,
-            "PositionOffsetZ:5": 5.0,
-            "PositionOffsetY:5": 5.0,
-            "PositionOffsetX:5": 5.0,
-            "LootMode:3": 0,
-            "AttackStrenght:3": 5,
-            "DefendFaction:1": 0,
-            "NpcLines:10": {
-              "Lines:9": {}
-            },
-            "id:8": "customnpcs.CustomNpc",
-            "MovingPatern:3": 0,
-            "FireIndirect:3": 0,
-            "NpcVisible:3": 0,
-            "NpcScenes:10": {
-              "Scenes:9": {}
-            },
-            "HitSound:8": "minecraft:entity.arrow.hit",
-            "FindShelter:3": 2,
-            "TacticalVariant:3": 0,
-            "Orientation:3": 0,
-            "KnockBack:3": 0,
-            "BurnInSun:1": 0,
-            "StandingState:3": 0,
-            "AttackInvisible:1": 0,
-            "WalkingRange:3": 10,
-            "ShotCount:3": 1,
-            "pDur:3": 5,
-            "StartPosNew:11": [
-              0,
-              0,
-              0
-            ],
-            "AttackRange:3": 2,
-            "NpcKillLines:10": {
-              "Lines:9": {}
-            },
-            "PotionImmune:1": 0,
-            "AvoidsSun:1": 0,
-            "Texture:8": "customnpcs:textures/CustomSkins/Mobs/BarrowWight 3.png",
-            "NpcJob:3": 0,
-            "NpcAttackLines:10": {
-              "Lines:9": {}
-            },
-            "BurstCount:3": 1,
-            "pSpeed:3": 10,
-            "pArea:3": 0,
-            "pImpact:3": 0,
-            "MoveState:3": 0,
-            "TargetType:3": 0,
-            "pRender3D:1": 1,
-            "CombatRegen:3": 0,
-            "DistanceToMelee:3": 0,
-            "pEffect:3": 0,
-            "NpcStepSound:8": "",
-            "FireRate:3": 5,
-            "pEffAmp:3": 0,
-            "ImmuneToFire:1": 0,
-            "NpcKilledLines:10": {
-              "Lines:9": {}
-            },
-            "SpecialAggroRange:3": 14,
-            "DisablePitch:1": 0,
-            "pPhysics:1": 1,
-            "NpcInteractLines:10": {
-              "Lines:9": {
-                "10": {
-                  "Line:8": "Hello @p",
-                  "Song:8": "",
-                  "Slot:3": 0
-                }
-              }
-            },
-            "pSpin:1": 0,
-            "NpcHurtSound:8": "minecraft:entity.player.hurt",
-            "pTrail:3": 0,
-            "CreatureType:3": 0,
-            "NoFallDamage:1": 0,
-            "Name:8": "Tahrub",
-            "SkinColor:3": 16777215,
-            "NpcIdleSound:8": "",
-            "Weapons:9": {},
-            "NPCDialogOptions:9": {},
-            "AggroRange:3": 16,
-            "DirectLOS:1": 1,
-            "HealthRegen:3": 1,
-            "MoveSpeed:3": 5,
-            "DoorInteract:3": 2,
-            "minDelay:3": 20,
-            "UsingSkinUrl:1": 0,
-            "SkinUrl:8": "",
-            "CanSwim:1": 1,
-            "GroundSound:8": "minecraft:block.stone.break",
-            "HideBodyWhenKilled:1": 0,
-            "MaxHealth:3": 20,
-            "AttackSpeed:3": 20,
-            "PotionDuration:3": 5,
-            "Role:3": 0,
-            "maxDelay:3": 40,
-            "DropChance:9": {},
-            "FactionPoints:10": {
-              "DecreaseFaction1Points:1": 0,
-              "OptionFaction2Points:3": 100,
-              "OptionFactions1:3": -1,
-              "OptionFactions2:3": -1,
-              "OptionFaction1Points:3": 100,
-              "DecreaseFaction2Points:1": 0
-            },
-            "pDamage:3": 4,
-            "AimWhileShooting:1": 0,
-            "AttackOtherFactions:1": 0,
-            "CanDrown:1": 1,
-            "pSize:3": 5,
-            "CanSprint:1": 0,
-            "CanLeap:1": 0,
-            "MovingState:3": 0,
-            "MovingPos:3": 0,
-            "PotionAmp:3": 0,
-            "OnAttack:3": 0,
-            "TacticalRadius:3": 8,
-            "MaxExp:3": 0,
-            "OrderedLines:1": 0,
-            "pGlows:1": 0,
-            "MovementType:3": 0,
-            "FiringSound:8": "minecraft:entity.arrow.shoot",
-            "Accuracy:3": 60,
-            "MinExp:3": 0,
-            "Armor:9": {},
-            "CloakTexture:8": "",
-            "GlowTexture:8": "",
-            "pXlr8:1": 0,
-            "MaxFiringRange:3": 15,
-            "NpcDeathSound:8": "minecraft:entity.player.hurt",
-            "pStick:1": 0,
-            "MovingPause:1": 1,
-            "FactionID:3": -1,
-            "MovingPathNew:9": {},
-            "Title:8": "",
-            "ShowName:3": 0,
-            "npcInteracting:1": 1,
-            "AvoidsWater:1": 0,
-            "NoLivingAnimation:1": 0,
-            "SpawnCycle:3": 0
-          },
-          "taskID": "bq_standard:hunt",
-          "index": 1
-        },
-        {
-          "target": "customnpcs.CustomNpc",
-          "required": 1,
-          "subtypes": true,
-          "ignoreNBT": false,
-          "targetNBT": {
-            "ReturnToStart:1": 1,
-            "NpcInv:9": {},
-            "BossColor:3": 0,
-            "PotionEffect:3": 0,
-            "stopAndInteract:1": 1,
-            "Size:3": 5,
-            "Resistances:10": {
-              "Arrow:5": 1.0,
-              "Explosion:5": 1.0,
-              "Melee:5": 1.0,
-              "Knockback:5": 1.0
-            },
-            "BossBar:1": 0,
-            "RespawnTime:3": 20,
-            "NpcAngrySound:8": "",
-            "ReactsToFire:1": 0,
-            "IgnoreCobweb:1": 0,
-            "PositionOffsetZ:5": 5.0,
-            "PositionOffsetY:5": 5.0,
-            "PositionOffsetX:5": 5.0,
-            "LootMode:3": 0,
-            "AttackStrenght:3": 5,
-            "DefendFaction:1": 0,
-            "NpcLines:10": {
-              "Lines:9": {}
-            },
-            "id:8": "customnpcs.CustomNpc",
-            "MovingPatern:3": 0,
-            "FireIndirect:3": 0,
-            "NpcVisible:3": 0,
-            "NpcScenes:10": {
-              "Scenes:9": {}
-            },
-            "HitSound:8": "minecraft:entity.arrow.hit",
-            "FindShelter:3": 2,
-            "TacticalVariant:3": 0,
-            "Orientation:3": 0,
-            "KnockBack:3": 0,
-            "BurnInSun:1": 0,
-            "StandingState:3": 0,
-            "AttackInvisible:1": 0,
-            "WalkingRange:3": 10,
-            "ShotCount:3": 1,
-            "pDur:3": 5,
-            "StartPosNew:11": [
-              0,
-              0,
-              0
-            ],
-            "AttackRange:3": 2,
-            "NpcKillLines:10": {
-              "Lines:9": {}
-            },
-            "PotionImmune:1": 0,
-            "AvoidsSun:1": 0,
-            "Texture:8": "customnpcs:textures/CustomSkins/Mobs/BarrowWight 1.png",
-            "NpcJob:3": 0,
-            "NpcAttackLines:10": {
-              "Lines:9": {}
-            },
-            "BurstCount:3": 1,
-            "pSpeed:3": 10,
-            "pArea:3": 0,
-            "pImpact:3": 0,
-            "MoveState:3": 0,
-            "TargetType:3": 0,
-            "pRender3D:1": 1,
-            "CombatRegen:3": 0,
-            "DistanceToMelee:3": 0,
-            "pEffect:3": 0,
-            "NpcStepSound:8": "",
-            "FireRate:3": 5,
-            "pEffAmp:3": 0,
-            "ImmuneToFire:1": 0,
-            "NpcKilledLines:10": {
-              "Lines:9": {}
-            },
-            "SpecialAggroRange:3": 14,
-            "DisablePitch:1": 0,
-            "pPhysics:1": 1,
-            "NpcInteractLines:10": {
-              "Lines:9": {
-                "10": {
-                  "Line:8": "Hello @p",
-                  "Song:8": "",
-                  "Slot:3": 0
-                }
-              }
-            },
-            "pSpin:1": 0,
-            "NpcHurtSound:8": "minecraft:entity.player.hurt",
-            "pTrail:3": 0,
-            "CreatureType:3": 0,
-            "NoFallDamage:1": 0,
-            "Name:8": "Ranler",
-            "SkinColor:3": 16777215,
-            "NpcIdleSound:8": "",
-            "Weapons:9": {},
-            "NPCDialogOptions:9": {},
-            "AggroRange:3": 16,
-            "DirectLOS:1": 1,
-            "HealthRegen:3": 1,
-            "MoveSpeed:3": 5,
-            "DoorInteract:3": 2,
-            "minDelay:3": 20,
-            "UsingSkinUrl:1": 0,
-            "SkinUrl:8": "",
-            "CanSwim:1": 1,
-            "GroundSound:8": "minecraft:block.stone.break",
-            "HideBodyWhenKilled:1": 0,
-            "MaxHealth:3": 20,
-            "AttackSpeed:3": 20,
-            "PotionDuration:3": 5,
-            "Role:3": 0,
-            "maxDelay:3": 40,
-            "DropChance:9": {},
-            "FactionPoints:10": {
-              "DecreaseFaction1Points:1": 0,
-              "OptionFaction2Points:3": 100,
-              "OptionFactions1:3": -1,
-              "OptionFactions2:3": -1,
-              "OptionFaction1Points:3": 100,
-              "DecreaseFaction2Points:1": 0
-            },
-            "pDamage:3": 4,
-            "AimWhileShooting:1": 0,
-            "AttackOtherFactions:1": 0,
-            "CanDrown:1": 1,
-            "pSize:3": 5,
-            "CanSprint:1": 0,
-            "CanLeap:1": 0,
-            "MovingState:3": 0,
-            "MovingPos:3": 0,
-            "PotionAmp:3": 0,
-            "OnAttack:3": 0,
-            "TacticalRadius:3": 8,
-            "MaxExp:3": 0,
-            "OrderedLines:1": 0,
-            "pGlows:1": 0,
-            "MovementType:3": 0,
-            "FiringSound:8": "minecraft:entity.arrow.shoot",
-            "Accuracy:3": 60,
-            "MinExp:3": 0,
-            "Armor:9": {},
-            "CloakTexture:8": "",
-            "GlowTexture:8": "",
-            "pXlr8:1": 0,
-            "MaxFiringRange:3": 15,
-            "NpcDeathSound:8": "minecraft:entity.player.hurt",
-            "pStick:1": 0,
-            "MovingPause:1": 1,
-            "FactionID:3": -1,
-            "MovingPathNew:9": {},
-            "Title:8": "",
-            "ShowName:3": 0,
-            "npcInteracting:1": 1,
-            "AvoidsWater:1": 0,
-            "NoLivingAnimation:1": 0,
-            "SpawnCycle:3": 0
-          },
-          "taskID": "bq_standard:hunt",
-          "index": 2
         }
       ],
       "rewards": [
@@ -4499,7 +3997,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Hnery has a buyer for Zombie Flesh and is looking for anyone willing to make a quick bit of coin and help out the Men of Middle-earth."
+          "desc": "Henry has a buyer for Zombie Flesh and is looking for anyone willing to make a quick bit of coin and help out the Men of Middle-earth."
         }
       },
       "tasks": [
@@ -4528,7 +4026,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        87
+      ],
       "questID": 91
     },
     {
@@ -4582,7 +4082,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        87
+      ],
       "questID": 92
     },
     {
@@ -4734,7 +4236,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 94
     },
     {
@@ -4839,7 +4343,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        87
+      ],
       "questID": 96
     },
     {
@@ -5371,7 +4877,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 99
     },
     {
@@ -6718,6 +6226,12 @@
           "description": "Speak to Elledan",
           "taskID": "bq_npc_integration:npc_dialog",
           "index": 2
+        },
+        {
+          "npcDialogID": 82,
+          "description": "Speak to Elledan",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 3
         }
       ],
       "rewards": [],
@@ -6785,8 +6299,7 @@
         }
       ],
       "preRequisites": [
-        118,
-        157
+        118
       ],
       "questID": 119
     },
@@ -8842,7 +8355,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 142
     },
     {
@@ -9612,7 +9127,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        118
+      ],
       "questID": 157
     },
     {
@@ -11554,10 +11071,13 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "immersiveengineering:shaderBag",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "rarity:8": "EPIC"
+            }
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -12538,7 +12058,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "allomancy:nuggetLerasium",
+            "id": "customnpcs:npcCrown",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -12588,7 +12108,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "allomancy:nuggetLerasium",
+            "id": "customnpcs:npcIronWarhammer",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -12690,7 +12210,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "draconicevolution:dislocator",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -12789,10 +12309,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "camping:tent",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 15
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -12828,22 +12348,28 @@
         {
           "choices": [
             {
-              "id": "minecraft:stone",
+              "id": "arsmagica2:flicker_jar",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 6
             },
             {
-              "id": "minecraft:stone",
+              "id": "arsmagica2:flicker_jar",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2
             },
             {
-              "id": "minecraft:stone",
+              "id": "arsmagica2:flicker_jar",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 7
+            },
+            {
+              "id": "arsmagica2:flicker_jar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
             }
           ],
           "rewardID": "bq_standard:choice",
@@ -12876,8 +12402,8 @@
           "questLogic": "AND",
           "name": "Waypoint Added",
           "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
+          "autoClaim": true,
+          "isSilent": true,
           "desc": "Check your chat for the waypoint."
         }
       },
@@ -12910,10 +12436,13 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "immersiveengineering:shader",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "shader_name:8": "The Kindled"
+            }
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -12960,10 +12489,13 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "immersiveengineering:shader",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "shader_name:8": "Erruption"
+            }
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -13010,10 +12542,13 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "immersiveengineering:shader",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "shader_name:8": "Dominator"
+            }
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -13023,7 +12558,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Apparently the rangers have sympathizers within the enemy ranks and one in particular, Frdili, has decided to help them with some potentially useful information."
+          "desc": "Apparently the rangers have sympathizers within the enemy ranks and one in particular, Fridli, has decided to help them with some potentially useful information."
         }
       },
       "tasks": [
@@ -13060,10 +12595,13 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "immersiveengineering:shader",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "shader_name:8": "Taken"
+            }
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -13110,7 +12648,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "extrautils2:opinium",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13160,7 +12698,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "minecraft:grass_path",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13281,7 +12819,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "architecturecraft:hammer",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13331,7 +12869,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "allomancy:nuggetLerasium",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13404,7 +12942,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "customnpcs:npcKey2",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13477,7 +13015,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "customnpcs:npcMithrilWarhammer",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13527,10 +13065,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 515
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -13675,10 +13213,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 517
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -13725,10 +13263,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 516
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -13796,9 +13334,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        224
-      ],
+      "preRequisites": [],
       "questID": 226
     },
     {
@@ -13810,7 +13346,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "roots:healingPoultice",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13963,7 +13499,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "The Spirit Broken",
+          "name": "The Spirit Broken I",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -13990,7 +13526,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        208
+      ],
       "questID": 230
     },
     {
@@ -14370,7 +13908,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        236
+      ],
       "questID": 237
     },
     {
@@ -14424,7 +13964,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        236
+      ],
       "questID": 238
     },
     {
@@ -14478,7 +14020,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        236
+      ],
       "questID": 239
     },
     {
@@ -15084,125 +14628,7 @@
           "index": 1
         }
       ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "jaff:diamond_fishing_rod",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "ench:9": {
-                  "10": {
-                    "lvl:2": 3,
-                    "id:2": 61
-                  }
-                },
-                "RepairCost:3": 3,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6Reward for saving Lucious Warrer\u0027s daughter."
-                  },
-                  "Name:8": "§1Fly-catcher"
-                }
-              }
-            },
-            {
-              "id": "iceandfire:armor_sapphire_leggings",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "ench:9": {
-                  "10": {
-                    "lvl:2": 1,
-                    "id:2": 70
-                  }
-                },
-                "RepairCost:3": 1,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6Reward for saving Lucious Warrer\u0027s daughter."
-                  },
-                  "Name:8": "§5Warrer\u0027s Pants"
-                }
-              }
-            },
-            {
-              "id": "iceandfire:dragonbone_sword_ice",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "ench:9": {
-                  "10": {
-                    "lvl:2": 5,
-                    "id:2": 16
-                  }
-                },
-                "RepairCost:3": 1,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6Reward for saving Lucious Warrer\u0027s daughter."
-                  },
-                  "Name:8": "§5Lucy\u0027s Protector"
-                }
-              }
-            },
-            {
-              "id": "lootbags:itemlootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
-            }
-          ],
-          "rewardID": "bq_standard:choice",
-          "index": 0
-        },
-        {
-          "rewards": [
-            {
-              "id": "thermalfoundation:coin",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 70,
-              "tag": {
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6Use this at certain faction sellers to purchase powerful items."
-                  },
-                  "Name:8": "§3Faction Coin"
-                }
-              }
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 1
-        },
-        {
-          "rewards": [
-            {
-              "id": "thermalfoundation:coin",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 101,
-              "tag": {
-                "RepairCost:3": 0,
-                "display:10": {
-                  "Lore:9": {
-                    "8": "§6Used to increase faction standing at specific vendors"
-                  },
-                  "Name:8": "§9Faction Token"
-                }
-              }
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 2
-        }
-      ],
+      "rewards": [],
       "preRequisites": [
         250
       ],
@@ -15248,6 +14674,1366 @@
         251
       ],
       "questID": 252
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Spirit Broken II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You\u0027ve collected the items for Thurdan, time to head back."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Caravan Camp",
+          "posX": 13006,
+          "posY": 6,
+          "posZ": 8614,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 118,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bloodmagic:ItemSentientShovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Who knows what has been done with this shovel?"
+                  },
+                  "Name:8": "§cSoulcursed"
+                }
+              }
+            },
+            {
+              "id": "bloodmagic:ItemSentientSword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6An ancient artifact forged in a darker time"
+                  },
+                  "Name:8": "§cBloodsurge Doomblade"
+                }
+              }
+            },
+            {
+              "id": "bloodmagic:ItemSentientAxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Powerful tool used before the wars started"
+                  },
+                  "Name:8": "§5Cromes\u0027 Axe"
+                }
+              }
+            },
+            {
+              "id": "bloodmagic:ItemSentientBow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Sometimes up close and personal shouldn\u0027t be"
+                  },
+                  "Name:8": "§5Cromhes\u0027 Bow"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 253
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcMithrilSword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§6Hope of Vengence"
+                },
+                "Name:8": "§4Apostle"
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Sword Apostle",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 370,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcMithrilSword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Hope of Vengence"
+                  },
+                  "Name:8": "§4Apostle"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 254
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Return of Cromhes Items",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 367,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes quest start VAR_NAME 106",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes quest start VAR_NAME 116",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/noppes quest start VAR_NAME 117",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [],
+      "questID": 255
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Brimigak\u0027s Fall-Start",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Throne Room",
+          "posX": 13604,
+          "posY": 21,
+          "posZ": 8913,
+          "dimension": 0,
+          "range": 6,
+          "visible": false,
+          "hideInfo": true,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes dialog read VAR_NAME 407",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes scene start BrimigakBattleA",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        }
+      ],
+      "preRequisites": [],
+      "questID": 256
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Brimigak\u0027s Fall-Finale",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 374,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 12829 4 8418",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes scene start BrimigakReset",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        }
+      ],
+      "preRequisites": [],
+      "questID": 257
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rekindling Hope I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You managed to recover Cromhes\u0027 equipment, but as Thurdan pointed out to you, the gear was corroded and decayed beyond use.\n\nYou must seek out a way to restore his equipment to bring back the light to him."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mitheithel",
+          "posX": 13146,
+          "posY": 43,
+          "posZ": 8053,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 119,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        253
+      ],
+      "questID": 258
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rekindling Hope II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You managed to recover Cromhes\u0027 equipment, but as Thurdan pointed out to you, the gear was corroded and decayed beyond use.You must seek out a way to restore his equipment to bring back the light to him."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mitheithel-Pelleas",
+          "posX": 13073,
+          "posY": 49,
+          "posZ": 8060,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 120,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 121,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        258
+      ],
+      "questID": 259
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Outpost I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The emmisaries of the enemy have retreated to outposts far to the south, go, retrieve Cromhes\u0027 items!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Desert Outpost - Khaldoon",
+          "posX": 17430,
+          "posY": 40,
+          "posZ": 19670,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 106,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        230
+      ],
+      "questID": 260
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Outpost II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The emmisaries of the enemy have retreated to outposts far to the south, go, retrieve Cromhes\u0027 items!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Desert Outpost - Ghasaan",
+          "posX": 18787,
+          "posY": 41,
+          "posZ": 18774,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 116,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        230
+      ],
+      "questID": 261
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Outpost III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The emmisaries of the enemy have retreated to outposts far to the south, go, retrieve Cromhes\u0027 items!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Desert Outpost - Maazin",
+          "posX": 20557,
+          "posY": 39,
+          "posZ": 18599,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 117,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        230
+      ],
+      "questID": 262
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rekindling Hope III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You managed to recover Cromhes\u0027 equipment, but as Thurdan pointed out to you, the gear was corroded and decayed beyond use.You must seek out a way to restore his equipment to bring back the light to him."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mitheithel-Guthwine",
+          "posX": 13012,
+          "posY": 56,
+          "posZ": 8038,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 122,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        259
+      ],
+      "questID": 263
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Reforging the Sword I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Rangers of Mitheithel were able to repair Cromhes\u0027 shield and armor, but the sword was of Elf-craft beyond their skill.\n\nElrond is at Rivendell."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond",
+          "posX": 14913,
+          "posY": 143,
+          "posZ": 5960,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 123,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        263
+      ],
+      "questID": 264
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Reforging the Sword-Smithy",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 394,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes scene start CastienStart",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 265
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Reforging the Sword-Restart",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 394,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes scene reset CastienStart",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 266
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Reforging the Sword II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Rangers of Mitheithel were able to repair Cromhes\u0027 shield and armor, but the sword was of Elf-craft beyond their skill."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Rivendell Forge",
+          "posX": 14860,
+          "posY": 121,
+          "posZ": 5998,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 124,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 125,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        264
+      ],
+      "questID": 267
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hope of Vengence I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "With the sword reforged, return to Elrond to have him inspect it."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond",
+          "posX": 14910,
+          "posY": 143,
+          "posZ": 5961,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 126,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        267
+      ],
+      "questID": 268
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hope of Vengence II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elrond renamed Cromhes’ sword Apostle, Hope of Vengence, and prophesied that it would one day avenge the death of Layles, Cromhes’ daughter."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dwarven Outpost",
+          "posX": 13018,
+          "posY": 6,
+          "posZ": 8621,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 127,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        268
+      ],
+      "questID": 269
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hope of Vengence III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Thurdan has instructed you to return the newly reforged items to Cromhes."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Cromhes\u0027 Tent",
+          "posX": 12829,
+          "posY": 4,
+          "posZ": 8416,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 130,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        269
+      ],
+      "questID": 270
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Brimigak\u0027s Fall I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have travelled deep into the Moria Dungeons with Cromhes, into the very sanctuary of this False-king himself. Here Cromhes hopes to confront Brimigak and shatter the Iron Crown forever.\n\nHe has provided you a means to meet with him outside Brimigak\u0027s Throne Room."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Cromhes\u0027 Tent",
+          "posX": 12829,
+          "posY": 4,
+          "posZ": 8412,
+          "dimension": 0,
+          "range": 10,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 406,
+          "description": "Meet with Cromhes",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/tp VAR_NAME 13604 21 8913",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        270
+      ],
+      "questID": 271
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Brimigak\u0027s Fall II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You hope to finally put an end to this false king and make him pay for what he has done."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Throne Room Entrance",
+          "posX": 13605,
+          "posY": 21,
+          "posZ": 8914,
+          "dimension": 0,
+          "range": 6,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 128,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        271
+      ],
+      "questID": 272
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Brimigak\u0027s Fall III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Brimigak was defeated, but the appearance of the old woman...you wonder what part she plays in all of this."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Dwarven Ember Camp",
+          "posX": 12830,
+          "posY": 4,
+          "posZ": 8419,
+          "dimension": 0,
+          "range": 16,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 129,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        272
+      ],
+      "questID": 273
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "NORMAL",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Keeping Watch I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Cromhes has asked that you report everything you\u0027ve seen to Aragon back in Rivendell."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Last Homely House",
+          "posX": 14936,
+          "posY": 142,
+          "posZ": 6083,
+          "dimension": 0,
+          "range": 16,
+          "visible": true,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 131,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        273
+      ],
+      "questID": 274
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Keeping Watch II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Aragorn was concerned at what you told him and has asked that you speak to Gandalf as he is busy with preparations for a secret mission that is about to happen."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Gandalf Upstairs",
+          "posX": 14926,
+          "posY": 148,
+          "posZ": 6074,
+          "dimension": 0,
+          "range": 8,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 132,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        274
+      ],
+      "questID": 275
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chapter Start 6",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 131,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/title VAR_NAME times 20 100 20",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/title VAR_NAME subtitle {\"text\":\"The Cold of Forochel\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/title VAR_NAME title {\"text\":\"Chapter 6\",\"bold\":true,\"italic\":true,\"color\":\"dark_blue\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [
+        275
+      ],
+      "questID": 276
     }
   ],
   "questLines": [
@@ -15961,7 +16747,7 @@
         }
       ],
       "lineID": 1,
-      "order": 6
+      "order": 7
     },
     {
       "properties": {
@@ -16239,7 +17025,7 @@
         }
       ],
       "lineID": 2,
-      "order": 5
+      "order": 6
     },
     {
       "properties": {
@@ -16295,7 +17081,7 @@
         }
       ],
       "lineID": 3,
-      "order": 7
+      "order": 8
     },
     {
       "properties": {
@@ -16483,7 +17269,7 @@
         }
       ],
       "lineID": 4,
-      "order": 8
+      "order": 9
     },
     {
       "properties": {
@@ -16882,18 +17668,176 @@
         {
           "size": 24,
           "x": 510,
+          "y": 90,
+          "id": 256
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 120,
+          "id": 257
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 108,
+          "id": 258
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 138,
+          "id": 259
+        },
+        {
+          "size": 24,
+          "x": 198,
+          "y": 48,
+          "id": 260
+        },
+        {
+          "size": 24,
+          "x": 198,
+          "y": 78,
+          "id": 261
+        },
+        {
+          "size": 24,
+          "x": 198,
+          "y": 108,
+          "id": 262
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 168,
+          "id": 263
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 198,
+          "id": 264
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 150,
+          "id": 265
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 180,
+          "id": 266
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 228,
+          "id": 267
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 258,
+          "id": 268
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 288,
+          "id": 269
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 318,
+          "id": 270
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 348,
+          "id": 271
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 378,
+          "id": 272
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 408,
+          "id": 273
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 438,
+          "id": 274
+        },
+        {
+          "size": 24,
+          "x": 510,
           "y": 0,
           "id": 229
         },
         {
           "size": 24,
-          "x": 228,
-          "y": 30,
+          "x": 246,
+          "y": 48,
           "id": 230
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 78,
+          "id": 253
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 30,
+          "id": 254
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 60,
+          "id": 255
         }
       ],
       "lineID": 8,
       "order": 4
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Grand Quest - The Cold of Forochel",
+          "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
+          "bg_size": 512,
+          "desc": "Gandalf the Grey, currently upper floor of the Last Homely House in Rivendell, should be informed of the actions of this Nerea Aubertin."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 246,
+          "y": 48,
+          "id": 275
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 276
+        }
+      ],
+      "lineID": 9,
+      "order": 5
     }
   ],
   "format": "1.0.0"

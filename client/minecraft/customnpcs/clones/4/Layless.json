@@ -1,0 +1,901 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 0,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+            {
+                "Button": 0,
+                "Ticks": 208,
+                "Enabled": 0b,
+                "Name": "LaylesStart",
+                "Lines": "2 command tellraw @p {\"text\":\"Layles: Alright, let's see if all the hard work you did to get this key paid off.\",\"bold\":true}
+3 animate sneak
+4 command noppes dialog read @p 262
+5 animate normal
+7 command tellraw @p {\"text\":\"Layles: I have no insight into where exactly he may be…the rangers did not tell me where in here he would be found. We will have to make a careful search.\",\"bold\":true}
+12 command tellraw @p {\"text\":\"Layles: Stay close, who knows what lies ahead…\",\"bold\":true}
+13 animate normal
+15 move to 13574 37 8784
+28 command tellraw @p {\"text\":\"Layles: Tread carefully now…\",\"bold\":true}
+30 move to 13587 37 878139 stats walking_speed 8
+40 command tellraw @p {\"text\":\"Layles: There, a fallen Ranger!\",\"bold\":true}
+40 move to 13588 32 8758
+51 animate sneak
+51 command tellraw @p {\"text\":\"Layles: Please don't be him…\",\"bold\":true}52 stats walking_speed 5
+53 command tellraw @p {\"text\":\"Layles: I am sure now; this is not my father.\",\"bold\":true}
+54 animate normal
+55 move to 13614 38 8757
+68 command tellraw @p {\"text\":\"Layles: Hold, I will open this door…\",\"bold\":true}
+69 animate sneak
+70 command noppes dialog read @p 263
+71 animate normal
+72 command tellraw @p {\"text\":\"Layles: Be on your guard…\",\"bold\":true}
+72 move to 13621 39 8756
+77 command tellraw @p {\"text\":\"Layles: Help me!\",\"bold\":true}
+77 equip main minecraft:diamond_sword
+78  command noppes quest start @p 82"
+            },
+            {
+                "Button": 0,
+                "Ticks": -1,
+                "Enabled": 0b,
+                "Name": "LaylesContinue",
+                "Lines": "1 move tp 13621 39 87562 equip main none
+3 command tellraw @p {\"text\":\"Layles: Thank you, I thought for sure that was the end.\",\"bold\":true}
+6 command tellraw @p {\"text\":\"Layles: Be on your guard…\",\"bold\":true}
+8 move to 13625 39 875912 stats walking_speed 8
+13 command tellraw @p {\"text\":\"Layles: There! Another Ranger!\",\"bold\":true}
+13 move to 13625 39 8776
+21 animate sneak
+22 command tellraw @p {\"text\":\"Layles: Father, is that you?\",\"bold\":true}
+24 animate normal
+25 command tellraw @p {\"text\":\"Layles: This poor soul is not my father…\",\"bold\":true}26 stats walking_speed 5
+27 command tellraw @p {\"text\":\"Layles: Come now, I feel we are nearing our goal!\",\"bold\":true}
+29 move to 13610 39 8788
+39 command tellraw @p {\"text\":\"Layles: Please be careful...\",\"bold\":true}
+40 move to 13610 39 8802
+43 move to 13610 21 8847
+66 command tellraw @p {\"text\":\"Layles: It is time to put this key to its final test…\",\"bold\":true}
+67 command noppes dialog read @p 264
+68 command tellraw @p {\"text\":\"Layles: Wait! The gate opens on its own!\",\"bold\":true}69 stats walking_speed 9
+70 command tellraw @p {\"text\":\"Layles: Father!\",\"bold\":true}
+70 move to 13607 21 8874
+80 animate sneak
+81 command noppes scene start CromhesFall"
+            }
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "GuardTargets": [
+        {
+            "Line": "entity.ArmorStand.name"
+        },
+        {
+            "Line": "entity.arsmagica2.AirGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.AirSled.name"
+        },
+        {
+            "Line": "entity.arsmagica2.ArcaneGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.Broom.name"
+        },
+        {
+            "Line": "entity.arsmagica2.Darkling.name"
+        },
+        {
+            "Line": "entity.arsmagica2.DarkMage.name"
+        },
+        {
+            "Line": "entity.arsmagica2.Dryad.name"
+        },
+        {
+            "Line": "entity.arsmagica2.EarthElemental.name"
+        },
+        {
+            "Line": "entity.arsmagica2.EarthGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.EnderGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.FireElemental.name"
+        },
+        {
+            "Line": "entity.arsmagica2.FireGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.Flicker.name"
+        },
+        {
+            "Line": "entity.arsmagica2.Hecate.name"
+        },
+        {
+            "Line": "entity.arsmagica2.HellCow.name"
+        },
+        {
+            "Line": "entity.arsmagica2.LifeGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.LightMage.name"
+        },
+        {
+            "Line": "entity.arsmagica2.LightningGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.ManaCreeper.name"
+        },
+        {
+            "Line": "entity.arsmagica2.ManaElemental.name"
+        },
+        {
+            "Line": "entity.arsmagica2.NatureGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.RiftStorage.name"
+        },
+        {
+            "Line": "entity.arsmagica2.ShadowHelper.name"
+        },
+        {
+            "Line": "entity.arsmagica2.ThrownRock.name"
+        },
+        {
+            "Line": "entity.arsmagica2.ThrownSickle.name"
+        },
+        {
+            "Line": "entity.arsmagica2.WaterElemental.name"
+        },
+        {
+            "Line": "entity.arsmagica2.WaterGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.Whirlwind.name"
+        },
+        {
+            "Line": "entity.arsmagica2.WinterGuardian.name"
+        },
+        {
+            "Line": "entity.arsmagica2.WinterGuardianArm.name"
+        },
+        {
+            "Line": "entity.Bat.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken1.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken2.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken3.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken4.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken5.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken6.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken7.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken8.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken9.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken10.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobChicken11.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow1.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow2.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow3.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow4.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow5.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow6.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow7.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow8.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow9.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobCow10.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobNpcFemale1.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobNpcMale.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig1.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig2.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig3.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig4.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig5.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig6.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig7.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig8.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig9.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobPig10.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep1.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep2.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep3.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep4.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep5.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep6.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep7.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep8.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep9.name"
+        },
+        {
+            "Line": "entity.betteragriculture.EntityMobSheep10.name"
+        },
+        {
+            "Line": "entity.Blaze.name"
+        },
+        {
+            "Line": "entity.BloodMagic.CorruptedChicken.name"
+        },
+        {
+            "Line": "entity.BloodMagic.CorruptedSheep.name"
+        },
+        {
+            "Line": "entity.BloodMagic.CorruptedSpider.name"
+        },
+        {
+            "Line": "entity.BloodMagic.CorruptedZombie.name"
+        },
+        {
+            "Line": "entity.BloodMagic.Mimic.name"
+        },
+        {
+            "Line": "entity.BloodMagic.SentientSpecter.name"
+        },
+        {
+            "Line": "entity.camping.bearGrizzly.name"
+        },
+        {
+            "Line": "entity.camping.camper.name"
+        },
+        {
+            "Line": "entity.camping.foxArctic.name"
+        },
+        {
+            "Line": "entity.CaveSpider.name"
+        },
+        {
+            "Line": "entity.Chicken.name"
+        },
+        {
+            "Line": "entity.Cow.name"
+        },
+        {
+            "Line": "entity.Creeper.name"
+        },
+        {
+            "Line": "entity.draconicevolution.ChaosGuardian.name"
+        },
+        {
+            "Line": "entity.draconicevolution.EnderEnergyManipulator.name"
+        },
+        {
+            "Line": "entity.draconicevolution.GuardianCrystal.name"
+        },
+        {
+            "Line": "entity.embers.ancientGolem.name"
+        },
+        {
+            "Line": "entity.EnderDragon.name"
+        },
+        {
+            "Line": "entity.Enderman.name"
+        },
+        {
+            "Line": "entity.Endermite.name"
+        },
+        {
+            "Line": "entity.EntityHorse.name"
+        },
+        {
+            "Line": "entity.forestry.butterflyGE.name"
+        },
+        {
+            "Line": "entity.Ghast.name"
+        },
+        {
+            "Line": "entity.Giant.name"
+        },
+        {
+            "Line": "entity.Guardian.name"
+        },
+        {
+            "Line": "entity.iceandfire.dragonegg.name"
+        },
+        {
+            "Line": "entity.iceandfire.dragonskull.name"
+        },
+        {
+            "Line": "entity.iceandfire.firedragon.name"
+        },
+        {
+            "Line": "entity.iceandfire.icedragon.name"
+        },
+        {
+            "Line": "entity.iceandfire.snowvillager.name"
+        },
+        {
+            "Line": "entity.LavaSlime.name"
+        },
+        {
+            "Line": "entity.MCA.EntityGrimReaper.name"
+        },
+        {
+            "Line": "entity.MCA.EntityHuman.name"
+        },
+        {
+            "Line": "entity.Mob.name"
+        },
+        {
+            "Line": "entity.Monster.name"
+        },
+        {
+            "Line": "entity.MushroomCow.name"
+        },
+        {
+            "Line": "entity.Ozelot.name"
+        },
+        {
+            "Line": "entity.petbuddy.pet_buddy.name"
+        },
+        {
+            "Line": "entity.Pig.name"
+        },
+        {
+            "Line": "entity.PigZombie.name"
+        },
+        {
+            "Line": "entity.PolarBear.name"
+        },
+        {
+            "Line": "entity.Quark.ashen.name"
+        },
+        {
+            "Line": "entity.Quark.dweller.name"
+        },
+        {
+            "Line": "entity.Quark.pirate.name"
+        },
+        {
+            "Line": "entity.Quark.wraith.name"
+        },
+        {
+            "Line": "entity.Rabbit.name"
+        },
+        {
+            "Line": "entity.roots.deer.name"
+        },
+        {
+            "Line": "entity.roots.direwolf.name"
+        },
+        {
+            "Line": "entity.roots.entityFrostShard.name"
+        },
+        {
+            "Line": "entity.roots.entityHomingProjectile.name"
+        },
+        {
+            "Line": "entity.roots.entitySpellProjectile.name"
+        },
+        {
+            "Line": "entity.roots.entitySpritePlacator.name"
+        },
+        {
+            "Line": "entity.roots.entitySpriteProjectile.name"
+        },
+        {
+            "Line": "entity.roots.greaterSprite.name"
+        },
+        {
+            "Line": "entity.roots.sprite.name"
+        },
+        {
+            "Line": "entity.roots.spriteGuardian.name"
+        },
+        {
+            "Line": "entity.roots.spriteling.name"
+        },
+        {
+            "Line": "entity.Sheep.name"
+        },
+        {
+            "Line": "entity.Shulker.name"
+        },
+        {
+            "Line": "entity.Silverfish.name"
+        },
+        {
+            "Line": "entity.Skeleton.name"
+        },
+        {
+            "Line": "entity.Slime.name"
+        },
+        {
+            "Line": "entity.SnowMan.name"
+        },
+        {
+            "Line": "entity.Spider.name"
+        },
+        {
+            "Line": "entity.Squid.name"
+        },
+        {
+            "Line": "entity.tconstruct.blueslime.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.basalz.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.blitz.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.blizz.name"
+        },
+        {
+            "Line": "entity.tolkientweaks.Backpack.name"
+        },
+        {
+            "Line": "entity.Villager.name"
+        },
+        {
+            "Line": "entity.VillagerGolem.name"
+        },
+        {
+            "Line": "entity.Witch.name"
+        },
+        {
+            "Line": "entity.WitherBoss.name"
+        },
+        {
+            "Line": "entity.Wolf.name"
+        },
+        {
+            "Line": "entity.wolfarmor.Wolf.name"
+        },
+        {
+            "Line": "entity.Zombie.name"
+        }
+    ],
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/CustomSkins/MiddleEarth/Layles.png",
+    "NpcJob": 3,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "TargetType": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 100,
+    "NpcsTimers": [
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "SpecialAggroRange": 14,
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 1157,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 2000.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Layless",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 100,
+    "ForgeCaps": {
+        "tinkertoolleveling:entityxp": [
+        ],
+        "llibrary:ExtendedEntityDataCapability": {
+        },
+        "arsmagica2:ExtendedProp": {
+            "AM2": {
+                "CurrentBurnout": 0.0f,
+                "MarkX": 0.0d,
+                "HealCooldown": 0,
+                "TK_Distance": 8.0f,
+                "Shrunk": 0b,
+                "MarkY": 0.0d,
+                "MarkZ": 0.0d,
+                "FallProtection": 0.0f,
+                "AffinityHealCooldown": 0,
+                "CurrentLevel": 1,
+                "Contingency": {
+                    "Type": "null"
+                },
+                "CurrentSummons": 0,
+                "MarkDimensionId": -512,
+                "CurrentXP": 0.0f,
+                "Inverted": 0b,
+                "ManaShielding": 0.0f,
+                "CurrentMana": 500.85f
+            }
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 1b,
+            "PositionY": 0,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 5013401,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+            {
+                "Pattern": 0b,
+                "Type": 1b,
+                "PlayerTexture": 1b,
+                "PartName": "breasts",
+                "Color": 16777215
+            }
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 2000,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 1b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "PlayerPersisted": {
+        }
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 3,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 2000.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 7,
+    "Title": "",
+    "TotalTicksAlive": 15452329L,
+    "Rotation": [
+        7.3514023f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 3
+}
