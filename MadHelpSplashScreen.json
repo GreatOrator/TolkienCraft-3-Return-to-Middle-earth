@@ -1,11 +1,11 @@
 {
-	"revision": 42,
+	"revision": 43,
 	"infoText": [
-		"[c]Update to the map and v0.13.1-beta of the modpack",
-		"Map has been updated to fix a number of bugs found since initial release.",
-		"The alpha release of the map is out!  Please, report any bugs you find to GitHub!  This is strictly an alpha release, there is more content to come and there will possibly be bugs so be gentle! Hope you guys enjoy and remember, there is a whole lot of content still to come!",
-		"Sorry for the long delay between updates, been a busy month for me in real life!  Thank you to all of you for your support and especially my Patrons on Patreon!",
-		"See changelog on github for details!",
-		"Chapter 5 has been added as well as several more job board quests."
+		"[c]Update to the map",
+		"Map has been updated to fix a number of bugs found.",
+		"This update should fix a number of bugs reported such as missing quest location blocks and some missing NPC skins.",
+		"Thank you to all of you for your support and especially my Patrons on Patreon!",
+		"",
+		""
 	]
 }
