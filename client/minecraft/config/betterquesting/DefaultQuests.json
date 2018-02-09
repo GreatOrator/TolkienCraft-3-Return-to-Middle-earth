@@ -13139,7 +13139,7 @@
           "posY": 41,
           "posZ": 3890,
           "dimension": 0,
-          "range": 16,
+          "range": 32,
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
@@ -13487,10 +13487,10 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "isMain": false,
+          "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "tolkientweaks:soul",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -14684,7 +14684,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "tolkientweaks:soul",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -15040,7 +15040,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:mercy_cross",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -15090,7 +15090,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:mercy_cross",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -15145,10 +15145,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 581
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15195,10 +15195,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 581
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15245,10 +15245,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 581
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15295,7 +15295,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:mercy_cross",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -15345,7 +15345,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bloodmagic:BlockSoulForge",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -15487,7 +15487,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bloodmagic:BlockSoulForge",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -15542,10 +15542,11 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:emperor_chalice",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {}
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15592,10 +15593,11 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:emperor_chalice",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {}
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15642,10 +15644,11 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:emperor_chalice",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {}
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15692,10 +15695,11 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:infernal_chalice",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {}
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15751,10 +15755,11 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:infernal_chalice",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {}
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15801,10 +15806,11 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "xreliquary:infernal_chalice",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {}
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -15852,7 +15858,7 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "forestry:naturalistHelmet",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -15902,7 +15908,7 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "customnpcs:npcMithrilStaff",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -16034,6 +16040,896 @@
         275
       ],
       "questID": 276
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 30
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 24000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Honouring Draconis I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The folk of Pelargir pay tribute to the river Gilrain for the bounty it has granted its people and to honour the fabled Heroes from the Land of Draconis."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Pelargir - Mathena",
+          "posX": 16574,
+          "posY": 43,
+          "posZ": 15706,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234
+      ],
+      "questID": 277
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 30
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 24000,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Honouring Draconis I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The folk of Pelargir pay tribute to the river Gilrain for the bounty it has granted its people and to honour the fabled Heroes from the Land of Draconis."
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 422,
+          "description": "Speak to Mathena",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "props:props",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Baskets woven to pay tribute"
+                  },
+                  "Name:8": "§2Woven Basket"
+                }
+              }
+            },
+            {
+              "id": "tconstruct:materials",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 15,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Finely woven cloth for decoration"
+                  },
+                  "Name:8": "§2Fine Cloth"
+                }
+              }
+            },
+            {
+              "id": "minecraft:reeds",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234,
+        277
+      ],
+      "questID": 278
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aubertin Unhidden I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "This mysterious person must be located and Gandalf has tasked you with meeting Cromhes who has returned to Mitheithel."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Mitheithel",
+          "posX": 13146,
+          "posY": 45,
+          "posZ": 8053,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 133,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        275
+      ],
+      "questID": 279
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aubertin Unhidden II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Surprisingly Aubertin has summoned you.  Is this the cat hunting the mouse. our the mouse hunting the cat?"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Ship in the Bay",
+          "posX": 10347,
+          "posY": 47,
+          "posZ": 1836,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 141,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        279
+      ],
+      "questID": 280
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aubertin’s Might I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You can\u0027t help but wonder what she may be planning, but you have no choice but to play along...for now."
+        }
+      },
+      "tasks": [
+        {
+          "name": "High Fells of Rhudar",
+          "posX": 13930,
+          "posY": 40,
+          "posZ": 4074,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 142,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        280
+      ],
+      "questID": 281
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Aubertin’s Might II",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Time to head back and bring this package to Nerea."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Nerea",
+          "posX": 10341,
+          "posY": 46,
+          "posZ": 1849,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 143,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes scene start DreulharaStart1",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        281
+      ],
+      "questID": 282
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cromhes’ Request I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "It appears this is a far more grave threat than expected, time to report to Cromhes"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Cromhes",
+          "posX": 13027,
+          "posY": 58,
+          "posZ": 8058,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 144,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        282
+      ],
+      "questID": 283
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dreulhara’s Trail I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Knights defeated it is time to seek out the true adversary."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Thurdan",
+          "posX": 13008,
+          "posY": 6,
+          "posZ": 8615,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 145,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 152,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        283,
+        287,
+        288,
+        289
+      ],
+      "questID": 284
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dreulhara’s Trail II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "She has been tracked down and you now embark on a journey to the old city of Annúminas."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Arnor Camp",
+          "posX": 7955,
+          "posY": 41,
+          "posZ": 5215,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 153,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        284
+      ],
+      "questID": 285
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dreulhara\u0027s Hope",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have found the Arnos camp and found that you must cross the great lake to the ancient city of Annúminas to confrom this evil once and for all!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "City of Annúminas",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 154,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 156,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        285
+      ],
+      "questID": 286
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cromhes’ Request - Comb",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Cromhes has asked you to return to three places where Nerea Aubertin has been encountered in the past and speak with allies in those places."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Combe",
+          "posX": 9721,
+          "posY": 92,
+          "posZ": 7710,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Evil Idol",
+          "posX": 9672,
+          "posY": 74,
+          "posZ": 7318,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 146,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        283
+      ],
+      "questID": 287
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cromhes’ Request - Lone-lands",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Cromhes has asked you to return to three places where Nerea Aubertin has been encountered in the past and speak with allies in those places."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Lone Lands - Hoarwell",
+          "posX": 11296,
+          "posY": 41,
+          "posZ": 5919,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Southern Woods",
+          "posX": 11481,
+          "posY": 38,
+          "posZ": 6093,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 148,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        283
+      ],
+      "questID": 288
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cromhes’ Request - Mitheithel",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Cromhes has asked you to return to three places where Nerea Aubertin has been encountered in the past and speak with allies in those places."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Guthwine",
+          "posX": 13010,
+          "posY": 56,
+          "posZ": 8041,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "name": "Khazad-dûm - West Gate",
+          "posX": 13206,
+          "posY": 41,
+          "posZ": 9422,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 150,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        283
+      ],
+      "questID": 289
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:repeating_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "You Have new quests!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 445,
+          "description": "Seek out Allies",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes quest start @p 157",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes quest start @p 158",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/noppes quest start @p 159",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [
+        283
+      ],
+      "questID": 290
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "You have received Tokens",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 465,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 66
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 291
     }
   ],
   "questLines": [
@@ -16711,13 +17607,13 @@
         },
         {
           "size": 24,
-          "x": 678,
+          "x": 618,
           "y": 246,
           "id": 82
         },
         {
           "size": 24,
-          "x": 678,
+          "x": 618,
           "y": 222,
           "id": 83
         },
@@ -16747,7 +17643,7 @@
         }
       ],
       "lineID": 1,
-      "order": 7
+      "order": 8
     },
     {
       "properties": {
@@ -16806,6 +17702,18 @@
           "x": 276,
           "y": 270,
           "id": 142
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 282,
+          "id": 277
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 312,
+          "id": 278
         },
         {
           "size": 24,
@@ -17025,7 +17933,7 @@
         }
       ],
       "lineID": 2,
-      "order": 6
+      "order": 7
     },
     {
       "properties": {
@@ -17081,7 +17989,7 @@
         }
       ],
       "lineID": 3,
-      "order": 8
+      "order": 9
     },
     {
       "properties": {
@@ -17269,7 +18177,7 @@
         }
       ],
       "lineID": 4,
-      "order": 9
+      "order": 10
     },
     {
       "properties": {
@@ -17703,9 +18611,21 @@
         },
         {
           "size": 24,
+          "x": 510,
+          "y": 0,
+          "id": 229
+        },
+        {
+          "size": 24,
           "x": 198,
           "y": 108,
           "id": 262
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 48,
+          "id": 230
         },
         {
           "size": 24,
@@ -17781,18 +18701,6 @@
         },
         {
           "size": 24,
-          "x": 510,
-          "y": 0,
-          "id": 229
-        },
-        {
-          "size": 24,
-          "x": 246,
-          "y": 48,
-          "id": 230
-        },
-        {
-          "size": 24,
           "x": 246,
           "y": 78,
           "id": 253
@@ -17819,10 +18727,34 @@
           "name": "Grand Quest - The Cold of Forochel",
           "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
           "bg_size": 512,
-          "desc": "Gandalf the Grey, currently upper floor of the Last Homely House in Rivendell, should be informed of the actions of this Nerea Aubertin."
+          "desc": "Gandalf the Grey, currently on the upper floor of the Last Homely House in Rivendell, should be informed of the actions of this Nerea Aubertin."
         }
       },
       "quests": [
+        {
+          "size": 24,
+          "x": 306,
+          "y": 198,
+          "id": 288
+        },
+        {
+          "size": 24,
+          "x": 306,
+          "y": 228,
+          "id": 289
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 30,
+          "id": 290
+        },
+        {
+          "size": 24,
+          "x": 510,
+          "y": 60,
+          "id": 291
+        },
         {
           "size": 24,
           "x": 246,
@@ -17834,10 +18766,77 @@
           "x": 510,
           "y": 0,
           "id": 276
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 78,
+          "id": 279
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 108,
+          "id": 280
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 138,
+          "id": 281
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 168,
+          "id": 282
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 198,
+          "id": 283
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 228,
+          "id": 284
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 258,
+          "id": 285
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 288,
+          "id": 286
+        },
+        {
+          "size": 24,
+          "x": 306,
+          "y": 168,
+          "id": 287
         }
       ],
       "lineID": 9,
       "order": 5
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Grand Quest - City of Annúminas",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "The battle was hard fought but more must be done.  It is time to help the rangers take back what is theirs by birthright!"
+        }
+      },
+      "quests": [],
+      "lineID": 10,
+      "order": 6
     }
   ],
   "format": "1.0.0"
