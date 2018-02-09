@@ -7,6 +7,54 @@
     "category": "ambient",
     "sounds": ["customnpcs:Ambient/For A Touch Of Shade"]
   },
+  "human.female.layless112": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles112"]
+  },
+  "human.female.layless119": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles119"]
+  },
+  "human.female.layless122": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles122"]
+  },
+  "human.female.layless125": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles125"]
+  },
+  "human.female.layless128": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles128"]
+  },
+  "human.female.layless130": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles130"]
+  },
+  "human.female.layless134": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles134"]
+  },
+  "human.female.layless138": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles138"]
+  },
+  "human.female.layless142": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles142"]
+  },
+  "human.female.layless154": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles154"]
+  },
+  "human.female.layless157": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles157"]
+  },
+  "human.female.layless161": {
+    "category": "player",
+    "sounds": ["customnpcs:Layles/layles161"]
+  },
   "misc.ambient.medieval.city.daytime": {
     "category": "ambient",
     "sounds": ["customnpcs:Ambient/Medieval city - Daytime"]
