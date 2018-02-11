@@ -1,9 +1,9 @@
 {
-	"revision": 44,
+	"revision": 45,
 	"infoText": [
 		"[c]Update to the map",
-		"Beta 13.32 is out!",
-		"This update should fix a number of bugs reported such as missing quest location blocks and some missing NPC skins.",
+		"Beta 13.35 is out!",
+		"Primarily this update is to fix the download crash experienced by users with an update to MadHelp, Thanks Brandon3055!",
 		"Chapter 6 is now available!  Continue the journey and quest in new locations as you unravel the mystery of what is happening and help the Fellowship behind the scenes.",
 		"Thank you to all of you for your support and especially my Patrons on Patreon!",
 		"",
