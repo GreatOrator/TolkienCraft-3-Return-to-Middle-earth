@@ -97,7 +97,7 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/CustomSkins/Elves/Elf 14.png",
+    "Texture": "customnpcs:textures/CustomSkins/Elves/Elf 5.png",
     "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
@@ -176,7 +176,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 7419,
+    "HurtByTimestamp": 10259,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -236,7 +236,7 @@
     "NoFallDamage": 0b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "Thurdan",
+    "Name": "Evindal",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
@@ -263,7 +263,7 @@
                 "MarkZ": 0.0d,
                 "FallProtection": 0.0f,
                 "AffinityHealCooldown": 0,
-                "CurrentLevel": 0,
+                "CurrentLevel": 1,
                 "Contingency": {
                     "Type": "null"
                 },
@@ -272,7 +272,7 @@
                 "CurrentXP": 0.0f,
                 "Inverted": 0b,
                 "ManaShielding": 0.0f,
-                "CurrentMana": 500.0f
+                "CurrentMana": 500.85f
             }
         }
     },
@@ -283,27 +283,27 @@
     "NpcModelData": {
         "LegsConfig": {
             "NotShared": 0b,
-            "ScaleZ": 1.0f,
+            "ScaleZ": 0.9021739f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
-            "TransX": 0.012000002f,
-            "ScaleY": 1.0f,
-            "ScaleX": 1.0f
+            "TransY": -0.08152172f,
+            "TransX": -2.2826344E-4f,
+            "ScaleY": 1.1086956f,
+            "ScaleX": 0.9021739f
         },
         "BodyConfig": {
             "NotShared": 0b,
-            "ScaleZ": 1.0f,
+            "ScaleZ": 0.9021739f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": -0.16304344f,
             "TransX": 0.0f,
-            "ScaleY": 1.0f,
-            "ScaleX": 1.0f
+            "ScaleY": 1.1086956f,
+            "ScaleX": 0.9021739f
         },
         "Eyes": {
             "Pattern": 0b,
             "Glint": 1b,
-            "Type": 0b,
-            "PositionY": 1,
+            "Type": 1b,
+            "PositionY": -1,
             "SkinColor": 11830381,
             "PlayerTexture": 0b,
             "Color": 6724056,
@@ -320,12 +320,12 @@
         ],
         "ArmsConfig": {
             "NotShared": 0b,
-            "ScaleZ": 1.0f,
+            "ScaleZ": 0.9021739f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
-            "TransX": -0.0f,
+            "TransY": -0.16304344f,
+            "TransX": -0.03179349f,
             "ScaleY": 1.0f,
-            "ScaleX": 1.0f
+            "ScaleX": 0.9021739f
         },
         "ExtraData": {
         },
@@ -333,7 +333,7 @@
             "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": -0.16304344f,
             "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
@@ -410,9 +410,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "",
-    "TotalTicksAlive": 7563L,
+    "TotalTicksAlive": 17879L,
     "Rotation": [
-        118.950066f,
+        105.411896f,
         0.0f
     ],
     "ShowName": 0,
