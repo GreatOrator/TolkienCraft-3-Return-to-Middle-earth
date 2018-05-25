@@ -1,10 +1,10 @@
 {
-	"revision": 45,
+	"revision": 46,
 	"infoText": [
 		"[c]Update to the map",
-		"Beta 13.35 is out!",
-		"Primarily this update is to fix the download crash experienced by users with an update to MadHelp, Thanks Brandon3055!",
-		"Chapter 6 is now available!  Continue the journey and quest in new locations as you unravel the mystery of what is happening and help the Fellowship behind the scenes.",
+		"Beta 13.52 is out!",
+		"Several quest tweaks and bug fixes based on user feedback, thank you!",
+		"Main map has also been updated to fix some bugs and to begin adding nps, starting with Rvendell and the Trollshaws.  More to come!",
 		"Thank you to all of you for your support and especially my Patrons on Patreon!",
 		"",
 		""

@@ -5324,7 +5324,9 @@
           "index": 1
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        104
+      ],
       "questID": 107
     },
     {
@@ -6631,7 +6633,7 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "HIDDEN",
+          "visibility": "NORMAL",
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -16182,7 +16184,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "forestry:doors.giganteum",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -16239,7 +16241,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "forestry:doors.ebony",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -16289,10 +16291,13 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "minecraft:potion",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "Potion:8": "minecraft:strong_strength"
+            }
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16339,10 +16344,13 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "minecraft:splash_potion",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "Potion:8": "minecraft:strong_strength"
+            }
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16397,10 +16405,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "props:props",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 538
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16436,28 +16444,58 @@
         {
           "choices": [
             {
-              "id": "minecraft:stone",
+              "id": "roots:druidArmorChest",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 70
+                  }
+                },
+                "RepairCost:3": 1,
+                "display:10": {
+                  "Name:8": "§5Chestpiece of Blind Visions"
+                }
+              }
             },
             {
-              "id": "minecraft:stone",
+              "id": "iceandfire:armor_bronze_chestplate",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 4,
+                    "id:2": 0
+                  }
+                },
+                "RepairCost:3": 1,
+                "display:10": {
+                  "Name:8": "§5Glory of the Brotherhood"
+                }
+              }
             },
             {
-              "id": "minecraft:stone",
+              "id": "customnpcs:npcDemonicChest",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 3,
+                    "id:2": 34
+                  }
+                },
+                "RepairCost:3": 1,
+                "display:10": {
+                  "Name:8": "§5Adamantite Chestplate"
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:choice",
@@ -16478,10 +16516,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bqmie:icon_item",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 10
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16536,10 +16574,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bqmie:icon_item",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 9
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16586,10 +16624,10 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bqmie:icon_item",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 14
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16641,10 +16679,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bqmie:icon_item",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 11
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16703,10 +16741,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bqmie:icon_item",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 8
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -16765,10 +16803,10 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "bqmie:icon_item",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 4
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
@@ -17066,14 +17104,14 @@
         {
           "size": 24,
           "x": 516,
-          "y": 108,
-          "id": 125
+          "y": 216,
+          "id": 157
         },
         {
           "size": 24,
-          "x": 516,
-          "y": 216,
-          "id": 157
+          "x": 210,
+          "y": 126,
+          "id": 125
         },
         {
           "size": 24,

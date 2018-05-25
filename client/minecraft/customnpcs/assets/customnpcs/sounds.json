@@ -1,7 +1,11 @@
 {
-  "songs.allthatglittersinerebor": {
+    "songs.allthatglittersinerebor": {
     "category": "ambient",
     "sounds": ["customnpcs:Ambient/All That Glitters"]
+  },
+    "songs.waterworks": {
+    "category": "ambient",
+    "sounds": ["customnpcs:Ambient/Waterworks"]
   },
   "songs.willowsong": {
     "category": "ambient",
