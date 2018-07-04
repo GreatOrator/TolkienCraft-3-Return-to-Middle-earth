@@ -55,10 +55,11 @@ key_Scene2 start/pause:0:NONE
 key_Scene3 start/pause:0:NONE
 key_Scene reset:0:NONE
 key_Quest Log:38:NONE
-key_key.xu2.searchForItems:20:NONE
-key_oreexcavation.key.excavate:41:NONE
+key_key.xu2.searchforitems:0:NONE
+key_oreexcavation.key.excavate:42:NONE
 key_oreexcavation.key.shape:0:NONE
 key_Summon/Dismiss Pet:71:NONE
+key_Toggle Wearables Gui:0:NONE
 key_Activate  FINGER 0:0:NONE
 key_Activate  FINGER 1:0:NONE
 key_Activate  WRIST 0:0:NONE
@@ -75,6 +76,7 @@ key_Activate  HAT:0:NONE
 key_key.changeGroup:81:NONE
 key_key.burnFirst:79:NONE
 key_key.burnSecond:80:NONE
+key_key.betterHud.open:72:NONE
 key_key.jei.toggleOverlay:0:NONE
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:21:NONE
@@ -106,7 +108,7 @@ key_mod.chiselsandbits.other.mode:55:NONE
 key_mod.chiselsandbits.other.rotate.ccw:0:NONE
 key_mod.chiselsandbits.other.rotate.cw:0:NONE
 key_mod.chiselsandbits.other.pickbit:0:NONE
-key_mod.chiselsandbits.other.undo:0:NONE
+key_mod.chiselsandbits.other.undo:76:NONE
 key_mod.chiselsandbits.other.redo:0:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
 key_key.craftingtweaks.rotate:19:NONE
@@ -125,7 +127,7 @@ key_key.toolProfileChange:43:NONE
 key_Open Backpack Slot Inventory:45:NONE
 key_Open Backpack:48:NONE
 key_Swap Hotbar:47:NONE
-key_waila.keybind.wailaconfig:72:NONE
+key_waila.keybind.wailaconfig:73:NONE
 key_waila.keybind.wailadisplay:0:NONE
 key_waila.keybind.liquid:0:NONE
 key_waila.keybind.recipe:0:NONE
@@ -133,20 +135,31 @@ key_waila.keybind.usage:0:NONE
 key_key.dragon_fireAttack:26:NONE
 key_key.dragon_strike:40:NONE
 key_key.dragon_dismount:39:NONE
+key_keywizard.keybind.openKeyboardWizard:66:NONE
 key_LvlUpGUI:23:NONE
-key_key.llor.hotkey:62:NONE
 key_xreliquary.keybind.fortune_coin:0:NONE
 key_Camping Inventory Key:0:NONE
+key_key.torchoptimizer.hotkey:62:NONE
+key_key.torchoptimizer.plusone:52:NONE
+key_key.torchoptimizer.minusone:51:NONE
 key_key.craftingGrid:0:NONE
 key_WorldEdit Reference:0:NONE
 key_key.control:0:NONE
-key_key.journeymap.map_toggle:36:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE
 key_key.journeymap.minimap_type:27:NONE
-key_key.journeymap.minimap_type:27:NONE
 key_key.journeymap.minimap_preset:0:NONE
 key_key.journeymap.create_waypoint:201:NONE
+key_key.journeymap.fullscreen_create_waypoint:209:NONE
+key_key.journeymap.fullscreen_chat_position:0:NONE
+key_key.journeymap.map_toggle_alt:36:NONE
+key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:0:NONE
+key_key.journeymap.fullscreen.north:0:NONE
+key_key.journeymap.fullscreen.south:0:NONE
+key_key.journeymap.fullscreen.east:0:NONE
+key_key.journeymap.fullscreen.west:0:NONE
 key_keybind.railcraft.loco.reverse:0:NONE
 key_keybind.railcraft.loco.faster:0:NONE
 key_keybind.railcraft.loco.slower:0:NONE

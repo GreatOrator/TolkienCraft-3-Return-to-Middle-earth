@@ -5125,6 +5125,11 @@
           "hideInfo": false,
           "taskID": "bq_standard:location",
           "index": 0
+        },
+        {
+          "npcQuestID": 168,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
         }
       ],
       "rewards": [
@@ -5139,13 +5144,6 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
-        },
-        {
-          "command": "/noppes faction VAR_NAME 12 add 260",
-          "hideCommand": true,
-          "viaPlayer": true,
-          "rewardID": "bq_standard:command",
-          "index": 1
         }
       ],
       "preRequisites": [
@@ -16968,6 +16966,337 @@
       ],
       "preRequisites": [],
       "questID": 291
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:hero_medallion",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "We need a Hero - Adventure Lads",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "A Mysterious letter, dangerous quests, sounds like someone is in need of Adventuring lads!\n\nLooks like someone sent you mail, better go find a mailbox or postman to see what it says."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Bree",
+          "posX": 9340,
+          "posY": 55,
+          "posZ": 7828,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes quest start VAR_NAME 161",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 292
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "RepairCost:3": 0,
+              "display:10": {
+                "Lore:9": {
+                  "8": "§6Doesn\u0027t this guy sound a little crazy?"
+                },
+                "Name:8": "§5§oLetter from Merovech"
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to seek out this Merovech fellow."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Merovech Hornwood",
+          "posX": 8432,
+          "posY": 44,
+          "posZ": 6633,
+          "dimension": 0,
+          "range": 32,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 471,
+          "description": "Speak to Merovech Hornwood",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        292
+      ],
+      "questID": 293
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "forestry:doors.mahoe",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to venture to Fornost and hopefully find a way in to the sewer."
+        }
+      },
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 0,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 164,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        },
+        {
+          "npcQuestID": 165,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        293
+      ],
+      "questID": 294
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Artifact Found!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 476,
+          "description": "Retrieve the Artifact",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tolkientweaks:hype_horn",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Long the bane of more sensible folk, great rulers thought they had destroyed all of these devices"
+                  },
+                  "Name:8": "§4§oPowerful Artifact"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        294
+      ],
+      "questID": 295
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcArtifact",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Adventure Lads III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Artifact found, time to take it to Merovech."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "tolkientweaks:hype_horn",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§6Long the bane of more sensible folk, great rulers thought they had destroyed all of these devices"
+                  },
+                  "Name:8": "§4§oPowerful Artifact"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "name": "Merovech Hornwood",
+          "posX": 8433,
+          "posY": 43,
+          "posZ": 6646,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        },
+        {
+          "npcQuestID": 167,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        295,
+        294
+      ],
+      "questID": 296
     }
   ],
   "questLines": [
@@ -17755,18 +18084,6 @@
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 48,
-          "id": 87
-        },
-        {
-          "size": 24,
-          "x": 54,
-          "y": 120,
-          "id": 88
-        },
-        {
-          "size": 24,
           "x": 114,
           "y": 66,
           "id": 152
@@ -17779,15 +18096,57 @@
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 90,
-          "id": 90
-        },
-        {
-          "size": 24,
           "x": 114,
           "y": 126,
           "id": 154
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 96,
+          "id": 292
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 126,
+          "id": 293
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 156,
+          "id": 294
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 156,
+          "id": 295
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 186,
+          "id": 296
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 48,
+          "id": 87
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 120,
+          "id": 88
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 90,
+          "id": 90
         },
         {
           "size": 24,
@@ -17797,8 +18156,8 @@
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 96,
+          "x": 186,
+          "y": 156,
           "id": 92
         },
         {
@@ -17821,8 +18180,8 @@
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 96,
+          "x": 186,
+          "y": 126,
           "id": 96
         },
         {
