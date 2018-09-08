@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "hardcore": false,
       "home_image": "tolkiencraft:textures\\gui\\main_title.png",
-      "editMode": true,
+      "editMode": false,
       "home_offset_x": -500,
       "home_offset_y": 0
     }
@@ -16641,9 +16641,9 @@
       "tasks": [
         {
           "name": "City of Annúminas",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
+          "posX": 7503,
+          "posY": 39,
+          "posZ": 5255,
           "dimension": 0,
           "range": 16,
           "visible": false,
@@ -17297,6 +17297,854 @@
         294
       ],
       "questID": 296
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:chain_command_block",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Chapter Start 7",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 468,
+          "description": "Talk to an NPC",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/title VAR_NAME times 20 100 20",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/title VAR_NAME subtitle {\"text\":\"City of Annúminas\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/title VAR_NAME title {\"text\":\"Chapter 7\",\"bold\":true,\"italic\":true,\"color\":\"dark_blue\"}",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        }
+      ],
+      "preRequisites": [],
+      "questID": 297
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "NORMAL",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "customnpcs:npcLetter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hero of Middle-earth II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have a visitor in Arnor it seems, time to see why he is asking for you."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Big Tent",
+          "posX": 7938,
+          "posY": 41,
+          "posZ": 5193,
+          "dimension": 0,
+          "range": 12,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 481,
+          "description": "Speak to Thurdan",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcLetter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§bThurdan\u0027s story about Dreulhara"
+                  },
+                  "Name:8": "§6Thurdan\u0027s Letter"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        297
+      ],
+      "questID": 298
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hero of Middle-earth I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to report to Talacnun."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Arnor Camp",
+          "posX": 7957,
+          "posY": 41,
+          "posZ": 5216,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 468,
+          "description": "Speak to Talacnun",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        286
+      ],
+      "questID": 299
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:binding_catalyst",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Swift change I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The letter given to you outlines just how truly evil Dreulhara is and has a history of what she has done prior to you becoming aware of her.  You have been tasked with delivering it to Talacnun"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Talacnun",
+          "posX": 7955,
+          "posY": 43,
+          "posZ": 5187,
+          "dimension": 0,
+          "range": 6,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 486,
+          "description": "Speak to Talacnun",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        298
+      ],
+      "questID": 300
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:binding_catalyst",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Swift Change II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Talacnun seems determined to will the city of Annuminas back at any cost, regardless of what Thurdan has told him.  He has asked that you go speak to Wynton to see what part you can play in taking back Annuminas."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Wynton",
+          "posX": 7922,
+          "posY": 41,
+          "posZ": 5221,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 491,
+          "description": "Speak to Wynton",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        300
+      ],
+      "questID": 301
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "mca:Cloth",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Swift Change III",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The rangers are faring far better in Annuminas than Talacnun realized, with the Palantir under the protection of the rangers, Wynton has asked that you reach out to Elrond to see if he has a means of transporting it safely."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond",
+          "posX": 14921,
+          "posY": 143,
+          "posZ": 5960,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 494,
+          "description": "Speak to Elrond",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mca:Cloth",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§bSpecial cloth designed by the elves to carry magical items"
+                  },
+                  "Name:8": "§6Elvish Cloth"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        301
+      ],
+      "questID": 302
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:lightning_charm",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Test of Character I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You must return the cloth, given to you by Elrond, to the Ranger Wynton.  Also seems like Wynton may have more news for you..."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Wynton",
+          "posX": 7921,
+          "posY": 41,
+          "posZ": 5224,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 497,
+          "description": "Speak to Wynton",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        302
+      ],
+      "questID": 303
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "arsmagica2:lightning_charm",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Test of Character II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You JUST came from Rivendell and Elrond is already summoning you back!  Good thing I have waypoints to make that easier..."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond\u0027s Library",
+          "posX": 14921,
+          "posY": 143,
+          "posZ": 5959,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 500,
+          "description": "Speak to Elrond",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        303
+      ],
+      "questID": 304
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 641
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Preparations I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elrond has asked that you help your fellow Men, Aragorn son of Arathorn and Boromir of Gondor, prepare to leave on their dangerous -- and secret -- mission."
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 173,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "npcQuestID": 179,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        304
+      ],
+      "questID": 305
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "You hve new quests!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "You have new quests!"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 500,
+          "description": "Speak to Elrond",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes quest Start VAR_NAME 175",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes quest Start VAR_NAME 176",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        304
+      ],
+      "questID": 306
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "tconstruct:longsword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 6.0,
+                "FreeModifiers:3": 3,
+                "Durability:3": 289,
+                "HarvestLevel:3": 2,
+                "Attack:5": 4.5
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "8": "tool"
+                }
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 6.0,
+                "FreeModifiers:3": 3,
+                "Durability:3": 289,
+                "HarvestLevel:3": 2,
+                "Attack:5": 4.5
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "8": "iron"
+                },
+                "Modifiers:9": {
+                  "8": "toolleveling"
+                }
+              },
+              "Traits:9": {
+                "8": "toolleveling"
+              },
+              "Modifiers:9": {
+                "10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Preparations - Aragorn",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elrond has asked that you help your fellow Men, Aragorn son of Arathorn and Boromir of Gondor, prepare to leave on their dangerous -- and secret -- mission."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Aragorn",
+          "posX": 14919,
+          "posY": 142,
+          "posZ": 6074,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 509,
+          "description": "Speak to Aragorn",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        304
+      ],
+      "questID": 307
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "iceandfire:dragon_horn_fire",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Preparations - Boromir",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Elrond has asked that you help your fellow Men, Aragorn son of Arathorn and Boromir of Gondor, prepare to leave on their dangerous -- and secret -- mission."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Boromir",
+          "posX": 14822,
+          "posY": 113,
+          "posZ": 5990,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 516,
+          "description": "Speak to Boromir",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        304
+      ],
+      "questID": 308
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "camping:tent",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Preparations II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You have helped both Aragorn and Boromir with their preparations and should return now to Elrond."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Elrond\u0027s Library",
+          "posX": 14936,
+          "posY": 142,
+          "posZ": 6081,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 518,
+          "description": "Speak to Elrond",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 180,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:rending_gale",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "xreliquary:serpent_staff",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "xreliquary:harvest_rod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        307,
+        308
+      ],
+      "questID": 309
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Saying Farwell",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "name": "Fond Farewell",
+          "posX": 14321,
+          "posY": 42,
+          "posZ": 5905,
+          "dimension": 0,
+          "range": 6,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/noppes clone spawn Gandalf 4 14327,42,5901",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 0
+        },
+        {
+          "command": "/noppes scene start FellowshipDepart1",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        309
+      ],
+      "questID": 310
     }
   ],
   "questLines": [
@@ -19155,6 +20003,12 @@
         {
           "size": 24,
           "x": 246,
+          "y": 318,
+          "id": 299
+        },
+        {
+          "size": 24,
+          "x": 246,
           "y": 48,
           "id": 275
         },
@@ -19226,12 +20080,91 @@
       "properties": {
         "betterquesting": {
           "name": "Grand Quest - City of Annúminas",
-          "bg_image": "",
-          "bg_size": 256,
+          "bg_image": "tolkiencraft:textures\\gui\\blankMEmap.png",
+          "bg_size": 512,
           "desc": "The battle was hard fought but more must be done.  It is time to help the rangers take back what is theirs by birthright!"
         }
       },
-      "quests": [],
+      "quests": [
+        {
+          "size": 24,
+          "x": 486,
+          "y": 0,
+          "id": 297
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 48,
+          "id": 298
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 78,
+          "id": 300
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 108,
+          "id": 301
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 138,
+          "id": 302
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 168,
+          "id": 303
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 198,
+          "id": 304
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 228,
+          "id": 305
+        },
+        {
+          "size": 24,
+          "x": 486,
+          "y": 30,
+          "id": 306
+        },
+        {
+          "size": 24,
+          "x": 210,
+          "y": 252,
+          "id": 307
+        },
+        {
+          "size": 24,
+          "x": 282,
+          "y": 252,
+          "id": 308
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 276,
+          "id": 309
+        },
+        {
+          "size": 24,
+          "x": 486,
+          "y": 60,
+          "id": 310
+        }
+      ],
       "lineID": 10,
       "order": 6
     }

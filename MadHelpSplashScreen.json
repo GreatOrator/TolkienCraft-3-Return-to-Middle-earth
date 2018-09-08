@@ -1,10 +1,13 @@
 {
-	"revision": 47,
+	"revision": 48,
 	"infoText": [
 		"[c]Update to the map",
-		"TolkienCraft v0.13.52-beta",
-		"Map has been updated.  New quest added for Job Boards in thanks to the Adventure Ladsreturning to Middle-earth!",
-		"A whole new area has been added to the map for this quest chain, hope you like it!",
+		"TolkienCraft v1.0.1",
+		"Pack is being moved to full-release status! The major hitch was spawning of Mobs.  At this point I have done as much as I can so unless mods them selves update at this stage, there should not be any further pack updates, only the map going forward, enjoy!",
+		"Use domobspawn false if the mobs still overwhelm you, I have added additional NPC mobs in areas where I thought it would work best, still more to add however.",
+		"Chapter 7 is now live!  This will be the last chapter for awhile but should be a fitting intermission until I get working on the next chapter set.",
+		"Map has been updated.  I fixed the house in Rhovanion that was already owned, forgot it was in use on the dev server, sorry.  Also fixed a couple of other minor map issues I found.",
+		"Only update the Rhovanion part of the payer housing, DIM51, and only if you are aware it will overwrite EVERYTHING there!",
 		"Thank you to all of you for your support and especially my Patrons on Patreon!",
 		"",
 		""
