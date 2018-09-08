@@ -121,7 +121,7 @@
   },
   "songs.rederssong": {
     "category": "hostile",
-    "sounds": ["customnpcs:Hostile/Reders Song"]
+    "sounds": ["customnpcs:Hostile/Reder Song"]
   },
   "songs.tyltransserenade": {
     "category": "hostile",
