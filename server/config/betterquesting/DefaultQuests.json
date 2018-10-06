@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "hardcore": false,
       "home_image": "tolkiencraft:textures\\gui\\main_title.png",
-      "editMode": false,
+      "editMode": true,
       "home_offset_x": -500,
       "home_offset_y": 0
     }
@@ -79,22 +79,11 @@
           "desc": ""
         }
       },
-      "tasks": [
-        {
-          "name": "Rivendell",
-          "posX": 14492,
-          "posY": 44,
-          "posZ": 6295,
-          "dimension": 0,
-          "range": 32,
-          "visible": true,
-          "hideInfo": false,
-          "taskID": "bq_standard:location",
-          "index": 0
-        }
-      ],
+      "tasks": [],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 1
     },
     {
@@ -178,7 +167,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 3
     },
     {
@@ -502,7 +493,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 11
     },
     {
@@ -546,7 +539,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 12
     },
     {
@@ -790,7 +785,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 18
     },
     {
@@ -1154,7 +1151,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 27
     },
     {
@@ -1198,7 +1197,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 28
     },
     {
@@ -1242,7 +1243,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 29
     },
     {
@@ -1286,7 +1289,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 30
     },
     {
@@ -1330,7 +1335,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 31
     },
     {
@@ -1414,7 +1421,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 33
     },
     {
@@ -1458,7 +1467,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 34
     },
     {
@@ -1502,7 +1513,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 35
     },
     {
@@ -1666,7 +1679,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 39
     },
     {
@@ -2150,7 +2165,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 51
     },
     {
@@ -2194,7 +2211,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 52
     },
     {
@@ -2238,7 +2257,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 53
     },
     {
@@ -2282,7 +2303,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 54
     },
     {
@@ -2326,7 +2349,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 55
     },
     {
@@ -2370,7 +2395,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 56
     },
     {
@@ -2414,7 +2441,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 57
     },
     {
@@ -2458,7 +2487,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 58
     },
     {
@@ -2502,7 +2533,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 59
     },
     {
@@ -2546,7 +2579,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 60
     },
     {
@@ -2590,7 +2625,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 61
     },
     {
@@ -2634,7 +2671,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 62
     },
     {
@@ -2678,7 +2717,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 63
     },
     {
@@ -2722,7 +2763,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 64
     },
     {
@@ -2766,7 +2809,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 65
     },
     {
@@ -2810,7 +2855,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 66
     },
     {
@@ -2854,7 +2901,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 67
     },
     {
@@ -2898,7 +2947,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 68
     },
     {
@@ -2942,7 +2993,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 69
     },
     {
@@ -3026,7 +3079,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 71
     },
     {
@@ -3070,7 +3125,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 72
     },
     {
@@ -3114,7 +3171,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 73
     },
     {
@@ -3238,7 +3297,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 76
     },
     {
@@ -3282,7 +3343,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 77
     },
     {
@@ -3366,7 +3429,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 79
     },
     {
@@ -3410,7 +3475,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 80
     },
     {
@@ -3454,7 +3521,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 81
     },
     {
@@ -3538,7 +3607,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 83
     },
     {
@@ -3622,7 +3693,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 85
     },
     {
@@ -3718,7 +3791,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        136
+      ],
       "questID": 87
     },
     {
@@ -3921,7 +3996,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        104
+      ],
       "questID": 89
     },
     {
@@ -4940,8 +5017,8 @@
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "HIDDEN",
-          "isMain": false,
+          "visibility": "ALWAYS",
+          "isMain": true,
           "simultaneous": false,
           "icon": {
             "id": "minecraft:nether_star",
@@ -4957,15 +5034,27 @@
           "lockedProgress": false,
           "autoClaim": true,
           "isSilent": true,
-          "desc": "hidden quest to prevent early completion before talking to aragorn."
+          "desc": "Seek out and talk to Aragorn as he has much to say before you can get started."
         }
       },
       "tasks": [
         {
+          "name": "Aragorn",
+          "posX": 14922,
+          "posY": 142,
+          "posZ": 6074,
+          "dimension": 0,
+          "range": 10,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
           "npcDialogID": 64,
           "description": "Speak to Aragorn",
           "taskID": "bq_npc_integration:npc_dialog",
-          "index": 0
+          "index": 1
         }
       ],
       "rewards": [],
@@ -5195,7 +5284,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 105
     },
     {
@@ -5473,7 +5564,9 @@
           "index": 4
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        107
+      ],
       "questID": 109
     },
     {
@@ -6622,7 +6715,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        104
+      ],
       "questID": 124
     },
     {
@@ -7172,7 +7267,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        104
+      ],
       "questID": 131
     },
     {
@@ -7232,7 +7329,9 @@
           "index": 2
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        104
+      ],
       "questID": 132
     },
     {
@@ -7291,7 +7390,9 @@
           "index": 2
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        122
+      ],
       "questID": 133
     },
     {
@@ -7480,7 +7581,9 @@
           "index": 7
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        104
+      ],
       "questID": 136
     },
     {
@@ -8401,7 +8504,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        318
+      ],
       "questID": 143
     },
     {
@@ -8813,7 +8918,9 @@
           "index": 2
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        130
+      ],
       "questID": 151
     },
     {
@@ -9196,7 +9303,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        123
+      ],
       "questID": 158
     },
     {
@@ -10196,7 +10305,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        104
+      ],
       "questID": 172
     },
     {
@@ -10524,7 +10635,9 @@
           "index": 2
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        184
+      ],
       "questID": 177
     },
     {
@@ -10861,7 +10974,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        150
+      ],
       "questID": 183
     },
     {
@@ -10978,7 +11093,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        150
+      ],
       "questID": 185
     },
     {
@@ -11208,7 +11325,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        150
+      ],
       "questID": 189
     },
     {
@@ -11254,7 +11373,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        150
+      ],
       "questID": 190
     },
     {
@@ -11300,7 +11421,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        150
+      ],
       "questID": 191
     },
     {
@@ -11346,7 +11469,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        107
+      ],
       "questID": 192
     },
     {
@@ -11392,7 +11517,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        123
+      ],
       "questID": 193
     },
     {
@@ -12046,7 +12173,9 @@
           "index": 1
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        187
+      ],
       "questID": 202
     },
     {
@@ -12243,7 +12372,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        227
+      ],
       "questID": 206
     },
     {
@@ -12424,7 +12555,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        187
+      ],
       "questID": 209
     },
     {
@@ -13155,7 +13288,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        187
+      ],
       "questID": 222
     },
     {
@@ -13201,7 +13336,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        187
+      ],
       "questID": 223
     },
     {
@@ -13334,7 +13471,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        187
+      ],
       "questID": 226
     },
     {
@@ -13417,7 +13556,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        187
+      ],
       "questID": 228
     },
     {
@@ -13477,7 +13618,7 @@
         }
       ],
       "preRequisites": [
-        230
+        208
       ],
       "questID": 229
     },
@@ -13768,7 +13909,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        136
+      ],
       "questID": 234
     },
     {
@@ -13811,7 +13954,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        136
+      ],
       "questID": 235
     },
     {
@@ -13854,7 +13999,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        136
+      ],
       "questID": 236
     },
     {
@@ -14280,7 +14427,10 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        136,
+        235
+      ],
       "questID": 243
     },
     {
@@ -14787,7 +14937,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        230
+      ],
       "questID": 253
     },
     {
@@ -14856,7 +15008,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        230
+      ],
       "questID": 254
     },
     {
@@ -14916,7 +15070,9 @@
           "index": 2
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        230
+      ],
       "questID": 255
     },
     {
@@ -14975,7 +15131,9 @@
           "index": 1
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        230
+      ],
       "questID": 256
     },
     {
@@ -15028,7 +15186,9 @@
           "index": 1
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        230
+      ],
       "questID": 257
     },
     {
@@ -15429,7 +15589,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        230
+      ],
       "questID": 265
     },
     {
@@ -15475,7 +15637,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        230
+      ],
       "questID": 266
     },
     {
@@ -15947,28 +16111,40 @@
         {
           "choices": [
             {
-              "id": "minecraft:stone",
+              "id": "xreliquary:mob_charm",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "type:1": 2
+              }
             },
             {
-              "id": "minecraft:stone",
+              "id": "xreliquary:mob_charm",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "type:1": 4
+              }
             },
             {
-              "id": "minecraft:stone",
+              "id": "xreliquary:mob_charm",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "type:1": 9
+              }
             },
             {
-              "id": "minecraft:stone",
+              "id": "xreliquary:mob_charm",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "type:1": 12
+              }
             }
           ],
           "rewardID": "bq_standard:choice",
@@ -16037,7 +16213,7 @@
         }
       ],
       "preRequisites": [
-        275
+        274
       ],
       "questID": 276
     },
@@ -16168,7 +16344,6 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234,
         277
       ],
       "questID": 278
@@ -16964,7 +17139,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        275
+      ],
       "questID": 291
     },
     {
@@ -17016,7 +17193,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        87
+      ],
       "questID": 292
     },
     {
@@ -17106,12 +17285,12 @@
       },
       "tasks": [
         {
-          "name": "New Location",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
+          "name": "Fornost",
+          "posX": 11161,
+          "posY": 64,
+          "posZ": 4713,
           "dimension": 0,
-          "range": -1,
+          "range": 16,
           "visible": false,
           "hideInfo": false,
           "taskID": "bq_standard:location",
@@ -17270,20 +17449,20 @@
         {
           "choices": [
             {
-              "id": "minecraft:stone",
+              "id": "lootbags:itemlootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 11
             },
             {
-              "id": "minecraft:stone",
+              "id": "lootbags:itemlootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 4
             },
             {
-              "id": "minecraft:stone",
-              "Count": 1,
+              "id": "bloodmagic:ItemSoulSnare",
+              "Count": 64,
               "OreDict": "",
               "Damage": 0
             }
@@ -17293,8 +17472,7 @@
         }
       ],
       "preRequisites": [
-        295,
-        294
+        295
       ],
       "questID": 296
     },
@@ -17355,7 +17533,9 @@
           "index": 2
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        299
+      ],
       "questID": 297
     },
     {
@@ -17428,7 +17608,7 @@
         }
       ],
       "preRequisites": [
-        297
+        299
       ],
       "questID": 298
     },
@@ -18145,6 +18325,717 @@
         309
       ],
       "questID": 310
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:red_flower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 7
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Perfect Tulip",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Seems like the master smith in Rivendell is in need of assistance."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Rivendell Forge",
+          "posX": 14860,
+          "posY": 121,
+          "posZ": 5999,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 521,
+          "description": "Speak to Castien",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 181,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        87
+      ],
+      "questID": 311
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:red_flower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 7
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Perfect Tulip Found",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You think you have found exaclty what Castien was looking for so take it back!"
+        }
+      },
+      "tasks": [
+        {
+          "name": "Rivendell Forge",
+          "posX": 14860,
+          "posY": 121,
+          "posZ": 5999,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 182,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:fertile_lilypad",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "xreliquary:potion",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 1,
+                    "potency:3": 1,
+                    "id:3": 23
+                  }
+                },
+                "hasPotion:1": 1,
+                "splash:1": 1
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        311
+      ],
+      "questID": 312
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "bloodmagic:ItemPotionFlask",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pungent Herbs I",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Someone in Edhellond is looking for help with a task."
+        }
+      },
+      "tasks": [
+        {
+          "name": "Edhellond",
+          "posX": 13900,
+          "posY": 40,
+          "posZ": 14993,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 523,
+          "description": "Speak to Bald-bri",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 183,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        236
+      ],
+      "questID": 313
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:potion",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "lingering:1": 1,
+              "effects:9": {
+                "10": {
+                  "duration:3": 6250,
+                  "potency:3": 1,
+                  "id:3": 10
+                }
+              },
+              "hasPotion:1": 1
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pungent Herbs II",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Time to seek out the herbs Bald-bri requested and take them back.  Wonder what kind of potion he is making?"
+        }
+      },
+      "tasks": [
+        {
+          "npcQuestID": 184,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 0
+        },
+        {
+          "name": "Bald-bri",
+          "posX": 13914,
+          "posY": 40,
+          "posZ": 14931,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "lingering:1": 1,
+                "effects:9": {
+                  "10": {
+                    "duration:3": 6250,
+                    "potency:3": 1,
+                    "id:3": 10
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            },
+            {
+              "id": "xreliquary:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "lingering:1": 1,
+                "effects:9": {
+                  "10": {
+                    "duration:3": 7500,
+                    "potency:3": 2,
+                    "id:3": 21
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            },
+            {
+              "id": "xreliquary:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "lingering:1": 1,
+                "effects:9": {
+                  "10": {
+                    "duration:3": 7500,
+                    "potency:3": 2,
+                    "id:3": 22
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "command": "/noppes dialog unread VAR_NAME 526",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
+        },
+        {
+          "command": "/noppes dialog unread VAR_NAME 527",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
+        },
+        {
+          "command": "/noppes dialog unread VAR_NAME 528",
+          "hideCommand": true,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 3
+        }
+      ],
+      "preRequisites": [
+        313
+      ],
+      "questID": 314
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:spinachitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Herb Picked",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "You picked an herb!"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 526,
+          "description": "Pick the Herbs",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcHeart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {},
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§dIngredient used in potion brewing"
+                  },
+                  "Name:8": "§cPungent Herb"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        136,
+        236
+      ],
+      "questID": 315
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:spinachitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Herb Picked",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "You picked an herb!"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 527,
+          "description": "Pick the Herbs",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcHeart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {},
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§dIngredient used in potion brewing"
+                  },
+                  "Name:8": "§cPungent Herb"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        136,
+        236
+      ],
+      "questID": 316
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:spinachitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Herb Picked",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "You picked an herb!"
+        }
+      },
+      "tasks": [
+        {
+          "npcDialogID": 528,
+          "description": "Pick the Herbs",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "customnpcs:npcHeart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {},
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Lore:9": {
+                    "8": "§dIngredient used in potion brewing"
+                  },
+                  "Name:8": "§cPungent Herb"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        136,
+        236
+      ],
+      "questID": 317
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "HIDDEN",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 637
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Lands of Middle-earth Unlocked!",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": true,
+          "desc": "You can now use fast travel!"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        104
+      ],
+      "questID": 318
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 525
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Ancient Diviner",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Even the folks in Edoras are looking for help with tasks."
+        }
+      },
+      "tasks": [
+        {
+          "name": "The Ancient Diviner",
+          "posX": 14564,
+          "posY": 64,
+          "posZ": 12322,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcDialogID": 531,
+          "description": "Speak to Tolhe",
+          "taskID": "bq_npc_integration:npc_dialog",
+          "index": 1
+        },
+        {
+          "npcQuestID": 185,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        236
+      ],
+      "questID": 319
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "forestry:pollenFertile",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "IsAnalyzed:1": 0,
+              "Genome:10": {
+                "Chromosomes:9": {
+                  "10": {
+                    "UID1:8": "forestry.fireproofFalse",
+                    "UID0:8": "forestry.fireproofFalse",
+                    "Slot:1": 14
+                  }
+                }
+              }
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": 75600,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Hag Hops",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Return back to Tolhe with the hops he requested."
+        }
+      },
+      "tasks": [
+        {
+          "name": "The Ancient Diviner",
+          "posX": 14556,
+          "posY": 66,
+          "posZ": 12322,
+          "dimension": 0,
+          "range": 16,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 0
+        },
+        {
+          "npcQuestID": 186,
+          "taskID": "bq_npc_integration:npc_quest",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:lemonsmoothieitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:persimmonsmoothieitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "xreliquary:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "lingering:1": 1,
+                "effects:9": {
+                  "10": {
+                    "duration:3": 7000,
+                    "potency:3": 1,
+                    "id:3": 8
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        319
+      ],
+      "questID": 320
     }
   ],
   "questLines": [
@@ -18708,6 +19599,12 @@
         },
         {
           "size": 24,
+          "x": 0,
+          "y": 0,
+          "id": 318
+        },
+        {
+          "size": 24,
           "x": 528,
           "y": 468,
           "id": 63
@@ -18872,8 +19769,8 @@
       "quests": [
         {
           "size": 24,
-          "x": 84,
-          "y": 78,
+          "x": 78,
+          "y": 72,
           "id": 135
         },
         {
@@ -18884,26 +19781,26 @@
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 108,
+          "x": 78,
+          "y": 102,
           "id": 137
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 138,
+          "x": 78,
+          "y": 132,
           "id": 138
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 168,
+          "x": 78,
+          "y": 162,
           "id": 139
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 198,
+          "x": 78,
+          "y": 192,
           "id": 140
         },
         {
@@ -18932,51 +19829,105 @@
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 66,
+          "x": 108,
+          "y": 60,
           "id": 152
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 96,
+          "x": 108,
+          "y": 90,
           "id": 153
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 126,
+          "x": 108,
+          "y": 120,
           "id": 154
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 96,
+          "x": 162,
+          "y": 66,
           "id": 292
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 126,
+          "x": 192,
+          "y": 66,
           "id": 293
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 156,
+          "x": 222,
+          "y": 66,
           "id": 294
         },
         {
           "size": 24,
-          "x": 246,
+          "x": 480,
           "y": 156,
           "id": 295
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 186,
+          "x": 252,
+          "y": 66,
           "id": 296
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 150,
+          "id": 311
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 180,
+          "id": 312
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 306,
+          "id": 313
+        },
+        {
+          "size": 24,
+          "x": 348,
+          "y": 336,
+          "id": 314
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 186,
+          "id": 315
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 216,
+          "id": 316
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 246,
+          "id": 317
+        },
+        {
+          "size": 24,
+          "x": 378,
+          "y": 306,
+          "id": 319
+        },
+        {
+          "size": 24,
+          "x": 378,
+          "y": 336,
+          "id": 320
         },
         {
           "size": 24,
@@ -18986,32 +19937,32 @@
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 120,
+          "x": 48,
+          "y": 114,
           "id": 88
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 90,
+          "x": 48,
+          "y": 84,
           "id": 90
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 96,
+          "x": 138,
+          "y": 138,
           "id": 91
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 156,
+          "x": 138,
+          "y": 198,
           "id": 92
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 180,
+          "x": 48,
+          "y": 174,
           "id": 93
         },
         {
@@ -19022,20 +19973,20 @@
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 150,
+          "x": 48,
+          "y": 144,
           "id": 95
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 126,
+          "x": 138,
+          "y": 168,
           "id": 96
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 210,
+          "x": 48,
+          "y": 204,
           "id": 97
         },
         {
@@ -19046,20 +19997,20 @@
         },
         {
           "size": 24,
-          "x": 144,
-          "y": 54,
+          "x": 138,
+          "y": 48,
           "id": 231
         },
         {
           "size": 24,
-          "x": 144,
-          "y": 84,
+          "x": 138,
+          "y": 78,
           "id": 232
         },
         {
           "size": 24,
-          "x": 144,
-          "y": 114,
+          "x": 138,
+          "y": 108,
           "id": 233
         },
         {
@@ -19082,38 +20033,38 @@
         },
         {
           "size": 24,
-          "x": 378,
-          "y": 306,
+          "x": 408,
+          "y": 276,
           "id": 237
         },
         {
           "size": 24,
-          "x": 408,
-          "y": 294,
+          "x": 438,
+          "y": 276,
           "id": 238
         },
         {
           "size": 24,
-          "x": 348,
-          "y": 318,
+          "x": 378,
+          "y": 276,
           "id": 239
         },
         {
           "size": 24,
-          "x": 372,
-          "y": 114,
+          "x": 396,
+          "y": 78,
           "id": 240
         },
         {
           "size": 24,
-          "x": 402,
-          "y": 114,
+          "x": 426,
+          "y": 78,
           "id": 241
         },
         {
           "size": 24,
-          "x": 342,
-          "y": 114,
+          "x": 366,
+          "y": 78,
           "id": 242
         },
         {
@@ -19125,49 +20076,49 @@
         {
           "size": 24,
           "x": 336,
-          "y": 168,
+          "y": 108,
           "id": 244
         },
         {
           "size": 24,
           "x": 366,
-          "y": 168,
+          "y": 108,
           "id": 245
         },
         {
           "size": 24,
           "x": 396,
-          "y": 168,
+          "y": 108,
           "id": 246
         },
         {
           "size": 24,
-          "x": 336,
-          "y": 198,
+          "x": 426,
+          "y": 108,
           "id": 247
         },
         {
           "size": 24,
-          "x": 366,
-          "y": 198,
+          "x": 336,
+          "y": 138,
           "id": 248
         },
         {
           "size": 24,
-          "x": 396,
-          "y": 198,
+          "x": 366,
+          "y": 138,
           "id": 249
         },
         {
           "size": 24,
-          "x": 336,
-          "y": 228,
+          "x": 396,
+          "y": 138,
           "id": 250
         },
         {
           "size": 24,
-          "x": 366,
-          "y": 228,
+          "x": 426,
+          "y": 138,
           "id": 251
         },
         {

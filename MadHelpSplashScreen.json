@@ -1,13 +1,13 @@
 {
-	"revision": 48,
+	"revision": 50,
 	"infoText": [
 		"[c]Update to the map",
-		"TolkienCraft v1.0.1",
-		"Pack is being moved to full-release status! The major hitch was spawning of Mobs.  At this point I have done as much as I can so unless mods them selves update at this stage, there should not be any further pack updates, only the map going forward, enjoy!",
-		"Use domobspawn false if the mobs still overwhelm you, I have added additional NPC mobs in areas where I thought it would work best, still more to add however.",
-		"Chapter 7 is now live!  This will be the last chapter for awhile but should be a fitting intermission until I get working on the next chapter set.",
-		"Map has been updated.  I fixed the house in Rhovanion that was already owned, forgot it was in use on the dev server, sorry.  Also fixed a couple of other minor map issues I found.",
-		"Only update the Rhovanion part of the payer housing, DIM51, and only if you are aware it will overwrite EVERYTHING there!",
+		"TolkienCraft v1.1.2",
+		"Pack is being moved to full-release status! Some mod changes and quest bugs squashed!",
+		"Use domobspawn false if the mobs still overwhelm you or change difficulty to easy, I have added additional NPC mobs in areas where I thought it would work best, still more to add however.",
+		"New Job Board quests added.",
+		"Map has been updated.  Multiple minor map fixes found during play-through of myself and others",
+		"There has been a rework to an extent of the BQ book.  Found some issues that should not have been there and it should be more intuitive now for players starting out on what to do.  Also refactored some of the quests categories to be cleaner and hopefully make a bit more sense.",
 		"Thank you to all of you for your support and especially my Patrons on Patreon!",
 		"",
 		""
