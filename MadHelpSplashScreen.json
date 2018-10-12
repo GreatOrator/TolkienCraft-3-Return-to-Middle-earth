@@ -1,11 +1,11 @@
 {
-	"revision": 50,
+	"revision": 51,
 	"infoText": [
 		"[c]Update to the map",
-		"TolkienCraft v1.1.2",
+		"TolkienCraft v1.1.7",
 		"Pack is being moved to full-release status! Some mod changes and quest bugs squashed!",
 		"Use domobspawn false if the mobs still overwhelm you or change difficulty to easy, I have added additional NPC mobs in areas where I thought it would work best, still more to add however.",
-		"New Job Board quests added.",
+		"Fixed some bugs with the initial quests that was breaking progression and a few other map bugs reported.",
 		"Map has been updated.  Multiple minor map fixes found during play-through of myself and others",
 		"There has been a rework to an extent of the BQ book.  Found some issues that should not have been there and it should be more intuitive now for players starting out on what to do.  Also refactored some of the quests categories to be cleaner and hopefully make a bit more sense.",
 		"Thank you to all of you for your support and especially my Patrons on Patreon!",
