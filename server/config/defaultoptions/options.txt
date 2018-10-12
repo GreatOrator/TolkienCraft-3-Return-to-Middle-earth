@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -51,8 +51,8 @@ showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
 autoJump:false
-soundCategory_master:0.5
-soundCategory_music:1.0
+soundCategory_master:0.04304636
+soundCategory_music:0.20422535
 soundCategory_record:0.35915494
 soundCategory_weather:0.2535211
 soundCategory_block:0.2535211

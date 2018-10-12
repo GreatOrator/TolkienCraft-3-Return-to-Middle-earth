@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "hardcore": false,
       "home_image": "tolkiencraft:textures\\gui\\main_title.png",
-      "editMode": true,
+      "editMode": false,
       "home_offset_x": -500,
       "home_offset_y": 0
     }
