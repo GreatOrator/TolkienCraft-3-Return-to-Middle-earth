@@ -62,7 +62,7 @@
     "StandingState": 0,
     "AttackInvisible": 0b,
     "HurtTime": 0s,
-    "WalkingRange": 10,
+    "WalkingRange": 5,
     "ShotCount": 1,
     "pDur": 5,
     "AttackRange": 2,
@@ -131,7 +131,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 12404,
+    "HurtByTimestamp": 56245,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -178,7 +178,7 @@
             "Name": "generic.armorToughness"
         },
         {
-            "Base": 32.0d,
+            "Base": 48.0d,
             "Name": "generic.followRange"
         },
         {
@@ -206,6 +206,36 @@
         }
     ],
     "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 463,
+                "Title": "Dreulhara’s Hope I",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 466,
+                "Title": "Hero of Middle-earth I",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 1
+        },
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 482,
+                "Title": "Swift Change I",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 2
+        }
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
@@ -378,7 +408,7 @@
         "PlayerPersisted": {
         }
     },
-    "MovingState": 0,
+    "MovingState": 1,
     "MovingPos": 0,
     "PotionAmp": 0,
     "OnAttack": 0,
@@ -409,9 +439,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Dúnedain Ranger",
-    "TotalTicksAlive": 198588L,
+    "TotalTicksAlive": 519030L,
     "Rotation": [
-        269.08447f,
+        91.9162f,
         0.0f
     ],
     "ShowName": 0,

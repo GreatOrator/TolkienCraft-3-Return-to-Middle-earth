@@ -1,12 +1,15 @@
 {
-	"revision": 45,
+	"revision": 2,
 	"infoText": [
 		"[c]Update to the map",
-		"Beta 13.35 is out!",
-		"Primarily this update is to fix the download crash experienced by users with an update to MadHelp, Thanks Brandon3055!",
-		"Chapter 6 is now available!  Continue the journey and quest in new locations as you unravel the mystery of what is happening and help the Fellowship behind the scenes.",
+		"TolkienCraft v1.12.2-2.0.5",
+		"The port is officially complete!",
+		"You can now play TolkienCraft III in Minecraft version 1.12.2!",
+		"Tons of bug fixes for the map and some new content even! Thanks to everyone who submitted bug reports.",
+		"Most mods are the same as 1.10.2 with a few exceptions and also a few new mods.",
+		"Please keep in mind, the download link will only work in a browser (for the map) as the old host I had went belly up so had to move it to MediaFire. If you have issues, please let me know.",
+		"As always, please let me know if run in to any issues so I can address them.",
 		"Thank you to all of you for your support and especially my Patrons on Patreon!",
-		"",
 		""
 	]
 }

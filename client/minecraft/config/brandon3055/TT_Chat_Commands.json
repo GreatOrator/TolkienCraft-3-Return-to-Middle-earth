@@ -1,0 +1,12 @@
+[
+  {
+    "trigger": "dance",
+    "condition": "/testfor @a[name=<player>,r=16,x=8227,z=7811,score_WillowDance=0]",
+    "command": "/tell <player> Old Man Willow calms down a bit"
+  },
+  {
+    "trigger": "dance",
+    "condition": "/testfor @a[name=<player>,r=16,x=8227,z=7811,score_WillowDance=0]",
+    "command": "/scoreboard players set <player> WillowDance 2"
+  }
+]

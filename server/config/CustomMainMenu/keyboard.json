@@ -40,14 +40,14 @@
             "text" : "Main Menu",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
             "posX" : -75,
-            "posY" : -50,
+            "posY" : 150,
             "width" : 150,
             "height" : 30,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
-			"alignment" : "center",
+			"alignment" : "top_center",
             "action" :
             {
                 "type" : "openGui",
@@ -135,20 +135,11 @@
     {		
         "version":
         {
-            "text" : "v0.13.35 - beta",
-            "posX" : -100,
-            "posY" : -15,
+            "text" : "v2.0.2",
+            "posX" : 0,
+            "posY" : 135,
             "color" : 14329120,
-            "alignment" : "bottom_right"
-        },
-       
-    "greeting":
-        {
-            "text" : "#username# has returned!",
-            "posX" : 5,
-            "posY" : 5,
-            "color" : 14329120,
-            "alignment" : "top_left"
+            "alignment" : "top_center"
         }
     },    
     "other":

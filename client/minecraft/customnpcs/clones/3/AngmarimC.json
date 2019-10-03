@@ -3,57 +3,90 @@
     "NpcInv": [
         {
             "Slot": 0b,
-            "id": "thermalfoundation:coin",
-            "Count": 2b,
-            "tag": {
-                "RepairCost": 0,
-                "display": {
-                    "Lore": [
-                        "§6Use this at certain faction sellers to purchase powerful items."
-                    ],
-                    "Name": "§3Faction Coin"
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
                 }
             },
-            "Damage": 70s
+            "id": "tolkienmobs:item_coin2",
+            "Count": 2b,
+            "Damage": 0s
         },
         {
             "Slot": 1b,
-            "id": "tolkientweaks:silver_coin",
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tolkienmobs:item_coin_silver",
             "Count": 3b,
             "Damage": 0s
         },
         {
             "Slot": 2b,
-            "id": "tolkientweaks:brons_coin",
-            "Count": 31b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tolkienmobs:item_coin_bronze",
+            "Count": 32b,
             "Damage": 0s
         },
         {
             "Slot": 3b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "lootbags:itemlootbag",
             "Count": 1b,
             "Damage": 0s
         },
         {
             "Slot": 4b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "lootbags:itemlootbag",
             "Count": 1b,
             "Damage": 1s
         },
         {
             "Slot": 5b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "lootbags:itemlootbag",
             "Count": 1b,
             "Damage": 2s
         },
         {
             "Slot": 6b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "lootbags:itemlootbag",
             "Count": 1b,
             "Damage": 3s
         },
         {
             "Slot": 7b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "lootbags:itemlootbag",
             "Count": 1b,
             "Damage": 4s
@@ -81,7 +114,8 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 6,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
@@ -119,6 +153,10 @@
     "BurnInSun": 0b,
     "StandingState": 0,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "SpawnerDoesntDie": 1b,
     "WalkingRange": 10,
@@ -144,7 +182,6 @@
     "DeathTime": 0s,
     "pImpact": 0,
     "MoveState": 0,
-    "TargetType": 0,
     "pRender3D": 1b,
     "Motion": [
         0.0d,
@@ -168,7 +205,6 @@
         ]
     },
     "DespawnOnTargetLost": 1b,
-    "SpecialAggroRange": 14,
     "Fire": -1s,
     "ArmorItems": [
         {
@@ -193,32 +229,12 @@
             }
         ]
     },
-    "HurtByTimestamp": 419,
+    "HurtByTimestamp": 5239,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
         {
             "Base": 75.0d,
             "Name": "generic.maxHealth"
@@ -240,12 +256,20 @@
             "Name": "generic.armorToughness"
         },
         {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
             "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 6.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -260,6 +284,12 @@
     "Weapons": [
         {
             "Slot": 0b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "tconstruct:longsword",
             "Count": 1b,
             "tag": {
@@ -316,6 +346,12 @@
         },
         {
             "Slot": 2b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "thermalfoundation:tool.shield_lead",
             "Count": 1b,
             "Damage": 0s
@@ -329,29 +365,26 @@
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
         ],
-        "llibrary:ExtendedEntityDataCapability": {
-        },
-        "arsmagica2:ExtendedProp": {
-            "AM2": {
-                "CurrentBurnout": 0.0f,
-                "MarkX": 0.0d,
-                "HealCooldown": 0,
-                "TK_Distance": 8.0f,
-                "Shrunk": 0b,
-                "MarkY": 0.0d,
-                "MarkZ": 0.0d,
-                "FallProtection": 0.0f,
-                "AffinityHealCooldown": 0,
-                "CurrentLevel": 1,
-                "Contingency": {
-                    "Type": "null"
-                },
-                "CurrentSummons": 0,
-                "MarkDimensionId": -512,
-                "CurrentXP": 0.0f,
-                "Inverted": 0b,
-                "ManaShielding": 0.0f,
-                "CurrentMana": 500.85f
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
             }
         }
     },
@@ -493,6 +526,10 @@
     "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
         "PlayerPersisted": {
         }
     },
@@ -1001,57 +1038,90 @@
         "NpcInv": [
             {
                 "Slot": 0b,
-                "id": "thermalfoundation:coin",
-                "Count": 2b,
-                "tag": {
-                    "RepairCost": 0,
-                    "display": {
-                        "Lore": [
-                            "§6Use this at certain faction sellers to purchase powerful items."
-                        ],
-                        "Name": "§3Faction Coin"
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
                     }
                 },
-                "Damage": 70s
+                "id": "tolkienmobs:item_coin2",
+                "Count": 2b,
+                "Damage": 0s
             },
             {
                 "Slot": 1b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 3b,
                 "Damage": 0s
             },
             {
                 "Slot": 2b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 31b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 32b,
                 "Damage": 0s
             },
             {
                 "Slot": 3b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 4b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 1s
             },
             {
                 "Slot": 5b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 2s
             },
             {
                 "Slot": 6b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 3s
             },
             {
                 "Slot": 7b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 4s
@@ -1079,7 +1149,8 @@
         "TransformHasAI": 0b,
         "AttackStrenght": 6,
         "PersistenceRequired": 0b,
-        "id": "customnpcs.CustomNpc",
+        "id": "customnpcs:customnpc",
+        "IsStatue": 0b,
         "MovingPatern": 0,
         "NpcLines": {
             "Lines": [
@@ -1116,6 +1187,10 @@
         "BurnInSun": 0b,
         "StandingState": 0,
         "AttackInvisible": 0b,
+        "NpcInteractNPCLines": {
+            "Lines": [
+            ]
+        },
         "HurtTime": 0s,
         "WalkingRange": 10,
         "ShotCount": 1,
@@ -1127,7 +1202,7 @@
         },
         "PotionImmune": 0b,
         "AvoidsSun": 0b,
-        "Texture": "customnpcs:textures/CustomSkins/Mobs/AngmarOrc1.png",
+        "Texture": "customnpcs:textures/CustomSkins/Mobs/Angmarim1.png",
         "NpcJob": 0,
         "BurstCount": 1,
         "NpcAttackLines": {
@@ -1139,7 +1214,6 @@
         "DeathTime": 0s,
         "pImpact": 0,
         "MoveState": 0,
-        "TargetType": 0,
         "pRender3D": 1b,
         "Motion": [
             0.0d,
@@ -1162,7 +1236,6 @@
             "Lines": [
             ]
         },
-        "SpecialAggroRange": 14,
         "Fire": -1s,
         "ArmorItems": [
             {
@@ -1186,32 +1259,12 @@
                 }
             ]
         },
-        "HurtByTimestamp": 15707,
+        "HurtByTimestamp": 62,
         "pSpin": 0b,
         "NpcHurtSound": "minecraft:entity.player.hurt",
         "pTrail": 0,
         "CreatureType": 0,
         "Attributes": [
-            {
-                "Base": 1.0d,
-                "Name": "am2.burnoutReduction"
-            },
-            {
-                "Base": 1.0d,
-                "Name": "am2.manaRegenModifier"
-            },
-            {
-                "Base": 0.0d,
-                "Name": "am2.maxBurnoutBonus"
-            },
-            {
-                "Base": 0.0d,
-                "Name": "am2.maxManaBonus"
-            },
-            {
-                "Base": 1.0d,
-                "Name": "am2.xpMultiplier"
-            },
             {
                 "Base": 75.0d,
                 "Name": "generic.maxHealth"
@@ -1233,12 +1286,20 @@
                 "Name": "generic.armorToughness"
             },
             {
+                "Base": 1.0d,
+                "Name": "forge.swimSpeed"
+            },
+            {
                 "Base": 32.0d,
                 "Name": "generic.followRange"
             },
             {
                 "Base": 6.0d,
                 "Name": "generic.attackDamage"
+            },
+            {
+                "Base": 2.5d,
+                "Name": "generic.flyingSpeed"
             }
         ],
         "Invulnerable": 0b,
@@ -1253,6 +1314,12 @@
         "Weapons": [
             {
                 "Slot": 0b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "tconstruct:longsword",
                 "Count": 1b,
                 "tag": {
@@ -1309,6 +1376,12 @@
             },
             {
                 "Slot": 2b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "thermalfoundation:tool.shield_lead",
                 "Count": 1b,
                 "Damage": 0s
@@ -1322,29 +1395,26 @@
         "ForgeCaps": {
             "tinkertoolleveling:entityxp": [
             ],
-            "llibrary:ExtendedEntityDataCapability": {
-            },
-            "arsmagica2:ExtendedProp": {
-                "AM2": {
-                    "CurrentBurnout": 0.0f,
-                    "MarkX": 0.0d,
-                    "HealCooldown": 0,
-                    "TK_Distance": 8.0f,
-                    "Shrunk": 0b,
-                    "MarkY": 0.0d,
-                    "MarkZ": 0.0d,
-                    "FallProtection": 0.0f,
-                    "AffinityHealCooldown": 0,
-                    "CurrentLevel": 0,
-                    "Contingency": {
-                        "Type": "null"
-                    },
-                    "CurrentSummons": 0,
-                    "MarkDimensionId": -512,
-                    "CurrentXP": 0.0f,
-                    "Inverted": 0b,
-                    "ManaShielding": 0.0f,
-                    "CurrentMana": 500.0f
+            "llibrary:extendedentitydatacapability": {
+                "Ice And Fire - Player Property Tracker": {
+                    "DismountedDragon": 0b,
+                    "GauntletDamage": 0
+                },
+                "Ice And Fire - Siren Property Tracker": {
+                    "CharmedBySiren": 0b,
+                    "SirenID": 0
+                },
+                "Ice And Fire - Frozen Property Tracker": {
+                    "TicksUntilUnfrozen": 0,
+                    "IsFrozen": 0b
+                },
+                "Ice And Fire - Chain Property Tracker": {
+                    "ConnectedEntities": [
+                    ]
+                },
+                "Ice And Fire - Stone Property Tracker": {
+                    "StoneBreakLvl": 0,
+                    "TurnedToStone": 0b
                 }
             }
         },
@@ -1375,7 +1445,7 @@
                 "Pattern": 0b,
                 "Glint": 1b,
                 "Type": 0b,
-                "PositionY": 2,
+                "PositionY": 1,
                 "SkinColor": 11830381,
                 "PlayerTexture": 0b,
                 "Color": 16082439,
@@ -1484,6 +1554,10 @@
         "CanLeap": 0b,
         "TransformIsActive": 0b,
         "ForgeData": {
+            "cnpcmarkdata": {
+                "marks": [
+                ]
+            },
             "PlayerPersisted": {
             }
         },
@@ -1505,30 +1579,6 @@
         "Accuracy": 60,
         "MinExp": 15,
         "Armor": [
-            {
-                "Slot": 0b,
-                "id": "customnpcs:npcNanorumHead",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 1b,
-                "id": "customnpcs:npcNanorumChest",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 2b,
-                "id": "customnpcs:npcNanorumLegs",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 3b,
-                "id": "customnpcs:npcNanorumBoots",
-                "Count": 1b,
-                "Damage": 0s
-            }
         ],
         "CloakTexture": "",
         "GlowTexture": "",
@@ -1541,14 +1591,15 @@
         "MovingPause": 1b,
         "NpcDeathSound": "minecraft:entity.player.hurt",
         "FactionID": 9,
-        "Title": "Elite Orc Warrior",
-        "TotalTicksAlive": 16160L,
+        "Title": "Warrior",
+        "TotalTicksAlive": 20692L,
         "Rotation": [
             -271.6609f,
             0.0f
         ],
         "ShowName": 0,
         "npcInteracting": 1b,
+        "UpdateBlocked": 0b,
         "AvoidsWater": 0b,
         "NoLivingAnimation": 0b,
         "SpawnCycle": 0
@@ -1559,57 +1610,90 @@
         "NpcInv": [
             {
                 "Slot": 0b,
-                "id": "thermalfoundation:coin",
-                "Count": 2b,
-                "tag": {
-                    "RepairCost": 0,
-                    "display": {
-                        "Lore": [
-                            "§6Use this at certain faction sellers to purchase powerful items."
-                        ],
-                        "Name": "§3Faction Coin"
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
                     }
                 },
-                "Damage": 70s
+                "id": "tolkienmobs:item_coin2",
+                "Count": 2b,
+                "Damage": 0s
             },
             {
                 "Slot": 1b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 3b,
                 "Damage": 0s
             },
             {
                 "Slot": 2b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 31b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 32b,
                 "Damage": 0s
             },
             {
                 "Slot": 3b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 4b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 1s
             },
             {
                 "Slot": 5b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 2s
             },
             {
                 "Slot": 6b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 3s
             },
             {
                 "Slot": 7b,
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
+                    },
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "lootbags:itemlootbag",
                 "Count": 1b,
                 "Damage": 4s
@@ -1637,7 +1721,8 @@
         "TransformHasAI": 0b,
         "AttackStrenght": 6,
         "PersistenceRequired": 0b,
-        "id": "customnpcs.CustomNpc",
+        "id": "customnpcs:customnpc",
+        "IsStatue": 0b,
         "MovingPatern": 0,
         "NpcLines": {
             "Lines": [
@@ -1674,6 +1759,10 @@
         "BurnInSun": 0b,
         "StandingState": 0,
         "AttackInvisible": 0b,
+        "NpcInteractNPCLines": {
+            "Lines": [
+            ]
+        },
         "HurtTime": 0s,
         "WalkingRange": 10,
         "ShotCount": 1,
@@ -1697,7 +1786,6 @@
         "DeathTime": 0s,
         "pImpact": 0,
         "MoveState": 0,
-        "TargetType": 0,
         "pRender3D": 1b,
         "Motion": [
             0.0d,
@@ -1720,7 +1808,6 @@
             "Lines": [
             ]
         },
-        "SpecialAggroRange": 14,
         "Fire": -1s,
         "ArmorItems": [
             {
@@ -1744,34 +1831,14 @@
                 }
             ]
         },
-        "HurtByTimestamp": 15707,
+        "HurtByTimestamp": 3862,
         "pSpin": 0b,
         "NpcHurtSound": "minecraft:entity.player.hurt",
         "pTrail": 0,
         "CreatureType": 0,
         "Attributes": [
             {
-                "Base": 1.0d,
-                "Name": "am2.burnoutReduction"
-            },
-            {
-                "Base": 1.0d,
-                "Name": "am2.manaRegenModifier"
-            },
-            {
-                "Base": 0.0d,
-                "Name": "am2.maxBurnoutBonus"
-            },
-            {
-                "Base": 0.0d,
-                "Name": "am2.maxManaBonus"
-            },
-            {
-                "Base": 1.0d,
-                "Name": "am2.xpMultiplier"
-            },
-            {
-                "Base": 75.0d,
+                "Base": 65.0d,
                 "Name": "generic.maxHealth"
             },
             {
@@ -1791,12 +1858,20 @@
                 "Name": "generic.armorToughness"
             },
             {
+                "Base": 1.0d,
+                "Name": "forge.swimSpeed"
+            },
+            {
                 "Base": 32.0d,
                 "Name": "generic.followRange"
             },
             {
                 "Base": 6.0d,
                 "Name": "generic.attackDamage"
+            },
+            {
+                "Base": 2.5d,
+                "Name": "generic.flyingSpeed"
             }
         ],
         "Invulnerable": 0b,
@@ -1811,64 +1886,24 @@
         "Weapons": [
             {
                 "Slot": 0b,
-                "id": "tconstruct:longsword",
-                "Count": 1b,
-                "tag": {
-                    "StatsOriginal": {
-                        "AttackSpeedMultiplier": 1.0f,
-                        "MiningSpeed": 5.25f,
-                        "FreeModifiers": 3,
-                        "Durability": 266,
-                        "HarvestLevel": 1,
-                        "Attack": 4.0f
+                "ForgeCaps": {
+                    "astralsorcery:cap_item_amulet_holder": {
                     },
-                    "Stats": {
-                        "AttackSpeedMultiplier": 1.0f,
-                        "MiningSpeed": 5.25f,
-                        "FreeModifiers": 3,
-                        "Durability": 266,
-                        "HarvestLevel": 1,
-                        "Attack": 4.0f
-                    },
-                    "Special": {
-                        "Categories": [
-                            "weapon",
-                            "tool"
-                        ]
-                    },
-                    "TinkerData": {
-                        "Materials": [
-                            "lead",
-                            "lead",
-                            "lead"
-                        ],
-                        "Modifiers": [
-                            "toolleveling"
-                        ]
-                    },
-                    "Modifiers": [
-                        {
-                            "identifier": "poisonous",
-                            "color": -11712152,
-                            "level": 1
-                        },
-                        {
-                            "identifier": "toolleveling",
-                            "color": 16777215,
-                            "level": 1
-                        }
-                    ],
-                    "Traits": [
-                        "poisonous",
-                        "toolleveling"
-                    ]
+                    "customnpcs:itemscripteddata": {
+                    }
                 },
+                "id": "iceandfire:dragonbone_bow",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
-                "Slot": 2b,
-                "id": "thermalfoundation:tool.shield_lead",
-                "Count": 1b,
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:arrow",
+                "Count": 2b,
                 "Damage": 0s
             }
         ],
@@ -1880,29 +1915,26 @@
         "ForgeCaps": {
             "tinkertoolleveling:entityxp": [
             ],
-            "llibrary:ExtendedEntityDataCapability": {
-            },
-            "arsmagica2:ExtendedProp": {
-                "AM2": {
-                    "CurrentBurnout": 0.0f,
-                    "MarkX": 0.0d,
-                    "HealCooldown": 0,
-                    "TK_Distance": 8.0f,
-                    "Shrunk": 0b,
-                    "MarkY": 0.0d,
-                    "MarkZ": 0.0d,
-                    "FallProtection": 0.0f,
-                    "AffinityHealCooldown": 0,
-                    "CurrentLevel": 0,
-                    "Contingency": {
-                        "Type": "null"
-                    },
-                    "CurrentSummons": 0,
-                    "MarkDimensionId": -512,
-                    "CurrentXP": 0.0f,
-                    "Inverted": 0b,
-                    "ManaShielding": 0.0f,
-                    "CurrentMana": 500.0f
+            "llibrary:extendedentitydatacapability": {
+                "Ice And Fire - Player Property Tracker": {
+                    "DismountedDragon": 0b,
+                    "GauntletDamage": 0
+                },
+                "Ice And Fire - Siren Property Tracker": {
+                    "CharmedBySiren": 0b,
+                    "SirenID": 0
+                },
+                "Ice And Fire - Frozen Property Tracker": {
+                    "TicksUntilUnfrozen": 0,
+                    "IsFrozen": 0b
+                },
+                "Ice And Fire - Chain Property Tracker": {
+                    "ConnectedEntities": [
+                    ]
+                },
+                "Ice And Fire - Stone Property Tracker": {
+                    "StoneBreakLvl": 0,
+                    "TurnedToStone": 0b
                 }
             }
         },
@@ -1978,7 +2010,7 @@
         "SkinUrl": "",
         "CanSwim": 1b,
         "GroundSound": "minecraft:block.stone.break",
-        "MaxHealth": 75,
+        "MaxHealth": 65,
         "HideBodyWhenKilled": 0b,
         "AttackSpeed": 20,
         "PotionDuration": 5,
@@ -2033,7 +2065,7 @@
         },
         "pDamage": 4,
         "KilledTime": 0L,
-        "AimWhileShooting": 0b,
+        "AimWhileShooting": 1b,
         "CanPickUpLoot": 0b,
         "AttackOtherFactions": 1b,
         "CanDrown": 1b,
@@ -2042,6 +2074,10 @@
         "CanLeap": 0b,
         "TransformIsActive": 0b,
         "ForgeData": {
+            "cnpcmarkdata": {
+                "marks": [
+                ]
+            },
             "PlayerPersisted": {
             }
         },
@@ -2051,7 +2087,7 @@
         "OnAttack": 0,
         "TacticalRadius": 8,
         "FallFlying": 0b,
-        "MaxExp": 65,
+        "MaxExp": 50,
         "OrderedLines": 0b,
         "PortalCooldown": 0,
         "pGlows": 0b,
@@ -2060,33 +2096,9 @@
         "MovementType": 0,
         "FiringSound": "minecraft:entity.arrow.shoot",
         "ModRev": 18,
-        "Accuracy": 60,
+        "Accuracy": 75,
         "MinExp": 15,
         "Armor": [
-            {
-                "Slot": 0b,
-                "id": "customnpcs:npcNanorumHead",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 1b,
-                "id": "customnpcs:npcNanorumChest",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 2b,
-                "id": "customnpcs:npcNanorumLegs",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 3b,
-                "id": "customnpcs:npcNanorumBoots",
-                "Count": 1b,
-                "Damage": 0s
-            }
         ],
         "CloakTexture": "",
         "GlowTexture": "",
@@ -2094,19 +2106,20 @@
         "pXlr8": 0b,
         "Scripts": [
         ],
-        "Health": 75.0f,
+        "Health": 65.0f,
         "pStick": 0b,
         "MovingPause": 1b,
         "NpcDeathSound": "minecraft:entity.player.hurt",
         "FactionID": 9,
-        "Title": "Elite Orc Warrior",
-        "TotalTicksAlive": 16160L,
+        "Title": "Elite Orc Archer",
+        "TotalTicksAlive": 20122L,
         "Rotation": [
             -271.6609f,
             0.0f
         ],
         "ShowName": 0,
         "npcInteracting": 1b,
+        "UpdateBlocked": 0b,
         "AvoidsWater": 0b,
         "NoLivingAnimation": 0b,
         "SpawnCycle": 0
@@ -2129,30 +2142,6 @@
     "Accuracy": 60,
     "MinExp": 15,
     "Armor": [
-        {
-            "Slot": 0b,
-            "id": "customnpcs:npcNanorumHead",
-            "Count": 1b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 1b,
-            "id": "customnpcs:npcNanorumChest",
-            "Count": 1b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 2b,
-            "id": "customnpcs:npcNanorumLegs",
-            "Count": 1b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 3b,
-            "id": "customnpcs:npcNanorumBoots",
-            "Count": 1b,
-            "Damage": 0s
-        }
     ],
     "CloakTexture": "",
     "GlowTexture": "",
@@ -2166,13 +2155,14 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Elite Orc Warrior",
-    "TotalTicksAlive": 17843L,
+    "TotalTicksAlive": 23150L,
     "Rotation": [
-        -271.6609f,
-        -27.71579f
+        337.33044f,
+        0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
     "SpawnCycle": 0

@@ -24,7 +24,8 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
@@ -103,62 +104,102 @@
         "NpcMiscInv": [
             {
                 "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "minecraft:cactus",
                 "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 1b,
-                "id": "arsmagica2:wakebloom",
-                "Count": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:xpshard",
+                "Count": 11b,
                 "Damage": 0s
             },
             {
                 "Slot": 2b,
-                "id": "arsmagica2:infinity_orb",
-                "Count": 1b,
-                "Damage": 0s
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:shard",
+                "Count": 7b,
+                "Damage": 4s
             },
             {
                 "Slot": 4b,
-                "id": "arsmagica2:aum",
-                "Count": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:shard",
+                "Count": 11b,
                 "Damage": 0s
             },
             {
                 "Slot": 5b,
-                "id": "arsmagica2:infinity_orb",
-                "Count": 1b,
-                "Damage": 1s
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:shard",
+                "Count": 7b,
+                "Damage": 5s
             },
             {
                 "Slot": 7b,
-                "id": "arsmagica2:tarma_root",
-                "Count": 1b,
-                "Damage": 0s
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:shard",
+                "Count": 11b,
+                "Damage": 1s
             },
             {
                 "Slot": 8b,
-                "id": "arsmagica2:infinity_orb",
-                "Count": 1b,
-                "Damage": 2s
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:shard",
+                "Count": 7b,
+                "Damage": 6s
             },
             {
                 "Slot": 10b,
-                "id": "arsmagica2:desert_nova",
-                "Count": 1b,
-                "Damage": 0s
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:shard",
+                "Count": 11b,
+                "Damage": 2s
             },
             {
                 "Slot": 13b,
-                "id": "arsmagica2:cerublossom",
-                "Count": 1b,
-                "Damage": 0s
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:shard",
+                "Count": 9b,
+                "Damage": 3s
             }
         ]
     },
     "StandingState": 0,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "WalkingRange": 5,
     "ShotCount": 1,
@@ -183,7 +224,6 @@
     "DeathTime": 0s,
     "pImpact": 0,
     "MoveState": 0,
-    "TargetType": 0,
     "pRender3D": 1b,
     "Motion": [
         0.0d,
@@ -206,7 +246,6 @@
         "Lines": [
         ]
     },
-    "SpecialAggroRange": 14,
     "TraderMarket": "magician1",
     "Fire": -1s,
     "ArmorItems": [
@@ -266,108 +305,176 @@
             }
         ]
     },
-    "HurtByTimestamp": 3218,
+    "HurtByTimestamp": 4755,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
                 "Slot": 1b,
-                "id": "tolkientweaks:brons_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
                 "Count": 11b,
                 "Damage": 0s
             },
             {
                 "Slot": 2b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 7b,
                 "Damage": 0s
             },
             {
                 "Slot": 4b,
-                "id": "tolkientweaks:brons_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
                 "Count": 12b,
                 "Damage": 0s
             },
             {
                 "Slot": 5b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 14b,
                 "Damage": 0s
             },
             {
                 "Slot": 7b,
-                "id": "tolkientweaks:brons_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
                 "Count": 10b,
                 "Damage": 0s
             },
             {
                 "Slot": 8b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 21b,
                 "Damage": 0s
             },
             {
                 "Slot": 10b,
-                "id": "tolkientweaks:brons_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
                 "Count": 11b,
                 "Damage": 0s
             },
             {
                 "Slot": 13b,
-                "id": "tolkientweaks:brons_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
                 "Count": 10b,
                 "Damage": 0s
             },
             {
                 "Slot": 18b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 3b,
                 "Damage": 0s
             },
             {
                 "Slot": 19b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 2b,
                 "Damage": 0s
             },
             {
                 "Slot": 20b,
-                "id": "tolkientweaks:gold_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
                 "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 22b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 2b,
                 "Damage": 0s
             },
             {
                 "Slot": 23b,
-                "id": "tolkientweaks:gold_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
                 "Count": 2b,
                 "Damage": 0s
             },
             {
                 "Slot": 25b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 2b,
                 "Damage": 0s
             },
             {
                 "Slot": 26b,
-                "id": "tolkientweaks:gold_coin",
-                "Count": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 2b,
                 "Damage": 0s
             },
             {
                 "Slot": 28b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 2b,
                 "Damage": 0s
             },
             {
                 "Slot": 31b,
-                "id": "tolkientweaks:silver_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_silver",
                 "Count": 2b,
                 "Damage": 0s
             }
@@ -378,26 +485,6 @@
     "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
         {
             "Base": 2000.0d,
             "Name": "generic.maxHealth"
@@ -419,12 +506,20 @@
             "Name": "generic.armorToughness"
         },
         {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
             "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 5.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -446,29 +541,26 @@
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
         ],
-        "llibrary:ExtendedEntityDataCapability": {
-        },
-        "arsmagica2:ExtendedProp": {
-            "AM2": {
-                "CurrentBurnout": 0.0f,
-                "MarkX": 0.0d,
-                "HealCooldown": 0,
-                "TK_Distance": 8.0f,
-                "Shrunk": 0b,
-                "MarkY": 0.0d,
-                "MarkZ": 0.0d,
-                "FallProtection": 0.0f,
-                "AffinityHealCooldown": 0,
-                "CurrentLevel": 1,
-                "Contingency": {
-                    "Type": "null"
-                },
-                "CurrentSummons": 0,
-                "MarkDimensionId": -512,
-                "CurrentXP": 0.0f,
-                "Inverted": 0b,
-                "ManaShielding": 0.0f,
-                "CurrentMana": 500.85f
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
             }
         }
     },
@@ -609,6 +701,10 @@
     "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
         "PlayerPersisted": {
         }
     },
@@ -643,13 +739,14 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Arcanist",
-    "TotalTicksAlive": 108756L,
+    "TotalTicksAlive": 178034L,
     "Rotation": [
-        180.06487f,
+        8.175545f,
         0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
     "SpawnCycle": 0

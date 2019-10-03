@@ -151,7 +151,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 11332,
+    "HurtByTimestamp": 13833,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -198,7 +198,7 @@
             "Name": "generic.armorToughness"
         },
         {
-            "Base": 32.0d,
+            "Base": 48.0d,
             "Name": "generic.followRange"
         },
         {
@@ -400,9 +400,9 @@
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
-    "FactionID": 0,
+    "FactionID": 7,
     "Title": "",
-    "TotalTicksAlive": 27124L,
+    "TotalTicksAlive": 133662L,
     "Rotation": [
         -186.77173f,
         0.0f

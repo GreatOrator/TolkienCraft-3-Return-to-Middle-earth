@@ -1,0 +1,11 @@
+[
+  {
+    "trigger": "[some random conditional message]",
+    "condition": "/testfor @a[name=<player>,r=10,x=0,z=0]",
+    "command": "/tell <player> Hay! you found my secret conditional command!"
+  },
+  {
+    "trigger": "[some random non conditional message]",
+    "command": "/tell <player> Hay! you found my secret non-conditional command!"
+  }
+]

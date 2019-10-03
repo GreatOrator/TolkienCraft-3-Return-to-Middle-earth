@@ -3,13 +3,13 @@
 		"copper": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "thermalfoundation:ore",
+				"block": "embers:ore_copper",
 				"material": "stone",
 				"cluster-size": 8
 			},
 			"cluster-count": 8,
 			"min-height": 40,
-			"max-height": 75,
+			"max-height": 110,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -23,16 +23,13 @@
 		"tin": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"metadata": 1
-				},
+				"block": "embers:ore_tin",
 				"material": "stone",
 				"cluster-size": 8
 			},
 			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
+			"min-height": 30,
+			"max-height": 110,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -48,13 +45,11 @@
 			"generator": {
 				"block": [
 					{
-						"name": "thermalfoundation:ore",
-						"metadata": 2,
+						"name": "embers:ore_silver",
 						"weight": 80
 					},
 					{
-						"name": "thermalfoundation:ore",
-						"metadata": 3,
+						"name": "embers:ore_lead",
 						"weight": 20
 					}
 				],
@@ -79,13 +74,11 @@
 			"generator": {
 				"block": [
 					{
-						"name": "thermalfoundation:ore",
-						"metadata": 3,
+						"name": "embers:ore_lead",
 						"weight": 90
 					},
 					{
-						"name": "thermalfoundation:ore",
-						"metadata": 2,
+						"name": "embers:ore_silver",
 						"weight": 10
 					}
 				],
@@ -109,16 +102,13 @@
 		"aluminum": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"metadata": 4
-				},
+				"block": "embers:ore_aluminum",
 				"material": "stone",
 				"cluster-size": 8
 			},
 			"cluster-count": 7,
 			"min-height": 20,
-			"max-height": 55,
+			"max-height": 75,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -132,10 +122,7 @@
 		"nickel": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"metadata": 5
-				},
+				"block": "embers:ore_nickel",
 				"material": "stone",
 				"cluster-size": 4
 			},
@@ -174,55 +161,7 @@
 					1
 				]
 			}
-		},
-		"copper_ocean": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "thermalfoundation:ore",
-				"material": "stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 4,
-			"min-height": 20,
-			"max-height": 55,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "OCEAN"
-					}
-				]
-			},
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"copper_high": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "thermalfoundation:ore",
-				"material": "stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 8,
-			"min-height": 48,
-			"max-height": 96,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
+		}
 		"apatite": {
 			"distribution": "uniform",
 			"generator": {
@@ -233,8 +172,8 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 8,
-			"min-height": 40,
-			"max-height": 75,
+			"min-height": 55,
+			"max-height": 110,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -302,122 +241,8 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"topaz": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "arsmagica2:ore",
-					"metadata": 2
-				},
-				"material": "stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"chimerite": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "arsmagica2:ore",
-					"metadata": 1
-				},
-				"material": "stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"moonstone": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "arsmagica2:ore",
-					"metadata": 3
-				},
-				"material": "stone",
-				"cluster-size": 4
-			},
-			"cluster-count": 3,
-			"min-height": 1,
-			"max-height": 128,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"sunstone": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "arsmagica2:ore",
-					"metadata": 4
-				},
-				"material": "stone",
-				"cluster-size": 4
-			},
-			"cluster-count": 3,
-			"min-height": 1,
-			"max-height": 128,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"slate": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "betteragriculture:slate_ore",
-				}
-				"material": "stone",
-				"cluster-size": 6
-			},
-			"cluster-count": 5,
-			"min-height": 20,
-			"max-height": 55,
+			"min-height": 40,
+			"max-height": 75,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -438,40 +263,10 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
+			"min-height": 15,
+			"max-height": 45,
 			"retrogen": "true",
 			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"sapphire": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "iceandfire:sapphire_ore",
-				}
-				"material": "stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "OCEAN"
-					}
-				]
-			},
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -491,8 +286,94 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
+			"min-height": 5,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mithril": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 8
+				},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 50,
+			"max-height": 110,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"rosegold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "mca:rose_gold_ore",
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 35,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 7
+				},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 5,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"resonating": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "deepresonance:resonating_ore",
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 7,
+			"min-height": 2,
+			"max-height": 30,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
