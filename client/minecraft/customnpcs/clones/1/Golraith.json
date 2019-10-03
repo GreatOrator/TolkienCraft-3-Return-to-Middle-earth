@@ -215,8 +215,6 @@
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
         ],
-        "llibrary:ExtendedEntityDataCapability": {
-        },
         "arsmagica2:ExtendedProp": {
             "AM2": {
                 "CurrentBurnout": 0.0f,
@@ -228,7 +226,7 @@
                 "MarkZ": 0.0d,
                 "FallProtection": 0.0f,
                 "AffinityHealCooldown": 0,
-                "CurrentLevel": 1,
+                "CurrentLevel": 0,
                 "Contingency": {
                     "Type": "null"
                 },
@@ -237,7 +235,7 @@
                 "CurrentXP": 0.0f,
                 "Inverted": 0b,
                 "ManaShielding": 0.0f,
-                "CurrentMana": 500.85f
+                "CurrentMana": 500.0f
             }
         }
     },
@@ -251,7 +249,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.012000002f,
+            "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -288,7 +286,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": -0.0f,
+            "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -406,15 +404,15 @@
     "pXlr8": 0b,
     "Scripts": [
     ],
-    "Health": 2000.0f,
+    "Health": 1024.0f,
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 6,
     "Title": "Stable Master",
-    "TotalTicksAlive": 14261L,
+    "TotalTicksAlive": 14059L,
     "Rotation": [
-        176.86758f,
+        352.59225f,
         0.0f
     ],
     "ShowName": 0,

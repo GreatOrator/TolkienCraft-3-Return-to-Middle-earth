@@ -1,0 +1,566 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+            {
+                "Button": 0,
+                "Ticks": 224,
+                "Enabled": 0b,
+                "Name": "BrimigakDefeat",
+                "Lines": "2 animate normal
+3 equip main none
+4 command noppes dialog unread @p 262
+5 command noppes dialog unread @p 263
+6 command noppes dialog unread @p 264
+10 command noppes dialog read @p 269"
+            },
+            {
+                "Button": 0,
+                "Ticks": 10,
+                "Enabled": 0b,
+                "Name": "Chapter4ResetI",
+                "Lines": "2 animate crawl
+4 equip main tolkientweaks:palantir
+5 command noppes scene start Chapter4ResetII
+6 command noppes scene reset LaylesStart
+7 command noppes scene reset CromhesFall
+8 command noppes scene reset BrimigakDefeat
+9 command noppes scene reset LaylesContinue
+10 command noppes scene reset Chapter4ResetI"
+            },
+            {
+                "Button": 0,
+                "Ticks": 552,
+                "Enabled": 1b,
+                "Name": "BrimigakBattleA",
+                "Lines": "1 command tellraw @p {\"text\":\"Cromhes: Steel yourselves, as Brimigak will try many things to break our resolve.\",\"bold\":true}
+6 command noppes dialog read @p 372
+7 move to 13590 15 8917
+16 command tellraw @p {\"text\":\"Brimigak: Greetings.\",\"italic\":true}
+18 command tellraw @p {\"text\":\"Brimigak: After spending so much time in my care, I am surprised you have returned so quickly, Cromhes.\",\"italic\":true}
+23 command tellraw @p {\"text\":\"Brimigak: Have you spent so little time in mourning your daughter?\",\"italic\":true}
+25 command tellraw @p {\"text\":\"Cromhes: Villain! I would have died in her place!\",\"bold\":true}
+27 command tellraw @p {\"text\":\"Cromhes: And it would have been better for you if I had!\",\"bold\":true}
+28 command noppes scene start BrimigakBattleB
+34 command tellraw @p {\"text\":\"Brimigak: I can see that you have learned nothing from all my patient instruction.\",\"italic\":true}
+37 command tellraw @p {\"text\":\"Brimigak: Perhaps simply viewing others through the palantír was not enough.\",\"italic\":true}
+41 command tellraw @p {\"text\":\"Brimigak: Come now, Cromhes, let your lessons continue..\",\"italic\":true}
+43 command tellraw @p {\"text\":\"Cromhes: Follow me, friends!\",\"bold\":true}
+44 stats walking_speed 8
+44 move to 13580 14 8918
+48 command tellraw @p {\"text\":\"Brimigak: You see, Cromhes, over the long years of this age, many have tried to resist Angmar...\",\"italic\":true}
+51 command noppes scene start Sunno1
+53 command noppes scene start Alot1
+53 command tellraw @p {\"text\":\"Brimigak: All have failed.\",\"italic\":true}
+46 command noppes scene start Wiliame1
+48 command noppes scene start Belate1
+49 command tellraw @p {\"text\":\"Brimigak: Do you wish to join these countless failures in death?\",\"italic\":true}
+52 command tellraw @p {\"text\":\"Cromhes: Those fallen! They are but Brimigak's illusions! Do not let them break your resolve!\",\"bold\":true}
+54 command noppes scene start Etxeberri1
+56 command noppes scene start Gudula1
+56 command tellraw @p {\"text\":\"Brimigak: Others sought glory...\",\"italic\":true}
+57 command noppes scene start Ruald1
+59 command noppes scene start Joleicia1
+64 command tellraw @p {\"text\":\"Brimigak: And yet others sought revenge.\",\"italic\":true}
+66 command tellraw @p {\"text\":\"Brimigak: However, no matter what drove them, what flame burned in their hearts...\",\"italic\":true}
+67 command noppes scene start Sunno2
+68 command noppes scene start Alot2
+69 command noppes scene start Wiliame2
+70 command noppes scene start Belate
+71 command noppes scene start Etxeberri2
+72 command noppes scene start Gudula2
+73 command noppes scene start Ruald2
+74 command noppes scene start Joleicia2
+75 command tellraw @p {\"text\":\"Brimigak: ...that flame was extinguished.\",\"italic\":true}
+76 command tellraw @p {\"text\":\"Cromhes: Pay no heed to his words!\",\"bold\":true}
+79 command tellraw @p {\"text\":\"Brimigak: Even I, dear Cromhes, learned the folly of opposing the Witch-king.\",\"italic\":true}
+82 command tellraw @p {\"text\":\"Brimigak: A lesson I learned from his very hand...\",\"italic\":true}
+84 command tellraw @p {\"text\":\"Brimigak: As he \"instructed\" me, all was torn away...\",\"italic\":true}
+86 command tellraw @p {\"text\":\"Brimigak: Thoughts of family...\",\"italic\":true}
+89 command tellraw @p {\"text\":\"Brimigak: ...of brothers in arms...\",\"italic\":true}
+92 command tellraw @p {\"text\":\"Brimigak: ...of friends and companions...\",\"italic\":true}
+96 command tellraw @p {\"text\":\"Brimigak: Once my lessons were complete, the man I had been ...was gone.\",\"italic\":true}
+100 command tellraw @p {\"text\":\"Brimigak: Even I, one of the Witch-king's greatest foes, had become but his servant, a steward upon his throne.\",\"italic\":true}
+104 command tellraw @p {\"text\":\"Brimigak: So, Cromhes, if you still hold to your fool's hope, come forward...\",\"italic\":true}
+105 move to 13577 14 8918
+108 command tellraw @p {\"text\":\"Cromhes: Enough of your illusions and \"lessons!\"\",\"bold\":true}
+110 command noppes clone spawn Layless 4 13577,14,8916111 command playsound customnpcs:human.female.layles112 neutral @p
+112 command tellraw @p {\"text\":\"Layles: But father, there is one last lesson to be taught...\"}
+116 command tellraw @p {\"text\":\"Cromhes: What...no! No! You are not her! You are another illusion!\",\"bold\":true}117 command playsound customnpcs:human.female.layles119 neutral @p
+119 command tellraw @p {\"text\":\"Layles: Am I? Am I really, Father?\"}121 command playsound customnpcs:human.female.layles122 neutral @p
+122 command tellraw @p {\"text\":\"Layles: Does it truly matter?\"}124 command playsound customnpcs:human.female.layles125 neutral @p
+125 command tellraw @p {\"text\":\"Layles: Does it change all that has been lost in your futile attempts to shatter the Iron Crown?\"}127 command playsound customnpcs:human.female.layles128 neutral @p
+128 command tellraw @p {\"text\":\"Layles: Mother was lost...friends uncounted slain...\"}129 command playsound customnpcs:human.female.layles130 neutral @p
+130 command tellraw @p {\"text\":\"Layles: And for what?\"}133 command playsound customnpcs:human.female.layles134 neutral @p
+134 command tellraw @p {\"text\":\"Layles: Only for you to see your beloved daughter lying dead on the floor in Moria?\"}137 command playsound customnpcs:human.female.layles138 neutral @p
+138 command tellraw @p {\"text\":\"Layles: Give up in this vain pursuit, Father...It is folly to hold to your hope...\"}141 command playsound customnpcs:human.female.layles142 neutral @p
+142 command tellraw @p {\"text\":\"Layles: There is no shame in surrendering, when you have lost so very much...\"}
+147 command tellraw @p {\"text\":\"Cromhes: No...no...\",\"bold\":true}
+149 command tellraw @p {\"text\":\"Cromhes: My friends, please help me...dispel this horrible illusion!\",\"bold\":true}
+152 command tellraw @p {\"text\":\"Cromhes: This cannot be her...\",\"bold\":true}153 command playsound customnpcs:human.female.layles154 neutral @p
+154 command tellraw @p {\"text\":\"Layles: Father...Father...\"}156 command playsound customnpcs:human.female.layles157 neutral @p
+157 command tellraw @p {\"text\":\"Layles: The Shadow shall take you Father...\"}160 command playsound customnpcs:human.female.layles161 neutral @p
+161 command tellraw @p {\"text\":\"Layles: Father...Why did you let me die?\"}
+163 command tellraw @p {\"text\":\"Brimigak: Enough!\",\"italic\":true}
+164 command kill @e[type=customnpcs.CustomNpc,name=Layless]
+165 command tellraw @p {\"text\":\"Brimigak: Well Cromhes, it seems nothing will make you see the truth of my words.\",\"italic\":true}
+169 command tellraw @p {\"text\":\"Brimigak: And if my words cannot convince you of the folly of challenging Angmar...\",\"italic\":true}
+170 move to 13576 8918 14
+173 command noppes scene start BrimigakBattleC
+"
+            },
+            {
+                "Button": 0,
+                "Ticks": 349,
+                "Enabled": 0b,
+                "Name": "BrimigakBattleD",
+                "Lines": "2 command tellraw @p {\"text\":\"Cromhes: Base coward!\",\"bold\":true}
+5 command noppes clone spawn Nerea 4 13568,15,8914
+8 command tellraw @p {\"text\":\"Nerea Aubertin: Oh, you have done well, young ones!\",\"italic\":true}
+9 command tellraw @p {\"text\":\"Cromhes: Old woman, who are you? What are you doing here?\",\"bold\":true}
+12 command tellraw @p {\"text\":\"Nerea Aubertin: Your questions will be answered in time!\",\"italic\":true}
+15 command tellraw @p {\"text\":\"Nerea Aubertin: But for now, know that you have done me a great favour!\",\"italic\":true}
+18 command tellraw @p {\"text\":\"Nerea Aubertin: A great favour indeed...\",\"italic\":true}
+19 command kill @e[type=customnpcs.CustomNpc,name=Nerea]
+20 command tellraw @p {\"text\":\"Cromhes: She...She has taken the palantír!\",\"bold\":true}
+22 command tellraw @p {\"text\":\"Cromhes: It is gone and with no way to follow her!\",\"bold\":true}
+26 command tellraw @p {\"text\":\"Cromhes: I fear that we shall hear from that old woman again, and sooner than we would wish it!\",\"bold\":true}
+30 command noppes dialog read @p 373
+"
+            },
+            {
+                "Button": 0,
+                "Ticks": 69,
+                "Enabled": 1b,
+                "Name": "BrimigakReset",
+                "Lines": "2 move tp 13602 21 8912
+3 stats walking_speed 5
+4 equip main none
+5 equip off none
+4 command noppes scene start BrimigakSeated
+7 command noppes scene reset BrimigakBattleA
+8 command noppes scene reset BrimigakBattleB
+10 command noppes scene reset BrimigakBattleC
+11 command noppes scene reset BrimigakBattleD
+12 command noppes scene reset CromhesArm
+13 command noppes scene reset LaylessMove
+14 command noppes scene reset LaylessBack
+15 command noppes scene reset BrimigakRest
+"
+            },
+            {
+                "Button": 0,
+                "Ticks": 376,
+                "Enabled": 1b,
+                "Name": "CromhesArm",
+                "Lines": "1 equip main variedcommodities:mithril_sword
+2 equip off variedcommodities:mithril_shield_round"
+            }
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 195,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 3,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/CustomSkins/Rangers/RangerLord 4.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 100,
+    "NpcsTimers": [
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 12272,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 2000.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Cromhes",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 408,
+                "Title": "Brimigak's Fall VI",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        }
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 100,
+    "ForgeCaps": {
+        "tinkertoolleveling:entityxp": [
+        ],
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
+            }
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 5013401,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 2000,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "PlayerPersisted": {
+        }
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 2000.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 7,
+    "Title": "",
+    "TotalTicksAlive": 25754681L,
+    "Rotation": [
+        90.001724f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

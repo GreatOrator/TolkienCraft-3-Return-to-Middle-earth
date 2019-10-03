@@ -1,0 +1,46 @@
+{
+	"populate": {
+		"sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "iceandfire:sapphire_ore",
+				}
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 25,
+			"max-height": 65,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"emberquartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "embers:ore_quartz",
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 45,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

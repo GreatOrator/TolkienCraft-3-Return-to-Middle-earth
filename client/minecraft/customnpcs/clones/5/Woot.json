@@ -24,7 +24,8 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
@@ -63,98 +64,82 @@
         "NpcMiscInv": [
             {
                 "Slot": 0b,
-                "id": "woot:structure",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 1b,
-                "id": "woot:structure",
-                "Count": 1b,
-                "Damage": 5s
-            },
-            {
-                "Slot": 2b,
-                "id": "woot:controller",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 3b,
-                "id": "woot:structure",
-                "Count": 1b,
-                "Damage": 1s
-            },
-            {
-                "Slot": 4b,
-                "id": "woot:structure",
-                "Count": 1b,
-                "Damage": 6s
-            },
-            {
-                "Slot": 5b,
-                "id": "woot:factory",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 6b,
-                "id": "woot:structure",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:upgrade",
                 "Count": 1b,
                 "Damage": 2s
             },
             {
-                "Slot": 7b,
-                "id": "woot:structure",
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:upgradeb",
                 "Count": 1b,
-                "Damage": 7s
+                "Damage": 5s
             },
             {
-                "Slot": 8b,
-                "id": "woot:extender",
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:upgradeb",
                 "Count": 1b,
-                "Damage": 0s
+                "Damage": 2s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:upgrade",
+                "Count": 1b,
+                "Damage": 11s
             },
             {
                 "Slot": 9b,
-                "id": "woot:structure",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:upgrade",
                 "Count": 1b,
-                "Damage": 3s
+                "Damage": 5s
             },
             {
-                "Slot": 10b,
-                "id": "woot:structure",
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:upgrade",
                 "Count": 1b,
                 "Damage": 8s
             },
             {
-                "Slot": 11b,
-                "id": "woot:proxy",
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "woot:upgrade",
                 "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 12b,
-                "id": "woot:structure",
-                "Count": 1b,
-                "Damage": 4s
-            },
-            {
-                "Slot": 13b,
-                "id": "woot:prism",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 14b,
-                "id": "woot:layout",
-                "Count": 1b,
-                "Damage": 0s
+                "Damage": 14s
             }
         ]
     },
     "StandingState": 0,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "WalkingRange": 5,
     "ShotCount": 1,
@@ -167,7 +152,7 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/CustomSkins/Merchants/Apothecary2.png",
+    "Texture": "customnpcs:textures/CustomSkins/Merchants/Miner1.png",
     "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
@@ -179,7 +164,6 @@
     "DeathTime": 0s,
     "pImpact": 0,
     "MoveState": 0,
-    "TargetType": 0,
     "pRender3D": 1b,
     "Motion": [
         0.0d,
@@ -202,8 +186,7 @@
         "Lines": [
         ]
     },
-    "SpecialAggroRange": 14,
-    "TraderMarket": "woot",
+    "TraderMarket": "woot1",
     "Fire": -1s,
     "ArmorItems": [
         {
@@ -227,187 +210,147 @@
             }
         ]
     },
-    "HurtByTimestamp": 4008,
+    "HurtByTimestamp": 7009,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
                 "Slot": 0b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 8b,
                 "Damage": 0s
             },
             {
                 "Slot": 1b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 2b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 2b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 6b,
                 "Damage": 0s
             },
             {
                 "Slot": 3b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 3b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 4b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 3b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 5b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 7b,
                 "Damage": 0s
             },
             {
                 "Slot": 6b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 5b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 7b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 5b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 8b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 6b,
                 "Damage": 0s
             },
             {
                 "Slot": 9b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 6b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 10b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 4b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 11b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 9b,
                 "Damage": 0s
             },
             {
                 "Slot": 12b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 7b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 13b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 2b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 14b,
-                "id": "tolkientweaks:silver_coin",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 18b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 9b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 19b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 13b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 20b,
-                "id": "tolkientweaks:brons_coin",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
                 "Count": 6b,
                 "Damage": 0s
             },
             {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_bronze",
+                "Count": 6b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 18b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 19b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
                 "Slot": 21b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 9b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 22b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 13b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 23b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 24b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 9b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 25b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 12b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 26b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 27b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 9b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 28b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 12b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 29b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 30b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 1b,
                 "Damage": 0s
             },
             {
-                "Slot": 31b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 12b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 32b,
-                "id": "tolkientweaks:brons_coin",
-                "Count": 7b,
+                "Slot": 33b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tolkienmobs:item_coin_gold",
+                "Count": 1b,
                 "Damage": 0s
             }
         ]
@@ -417,26 +360,6 @@
     "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
         {
             "Base": 2000.0d,
             "Name": "generic.maxHealth"
@@ -458,12 +381,20 @@
             "Name": "generic.armorToughness"
         },
         {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
             "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 5.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -471,21 +402,20 @@
     "NoFallDamage": 0b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "Kamoku",
+    "Name": "Ladra'an",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
         {
             "Slot": 0b,
-            "id": "woot:prism",
-            "Count": 1b,
-            "tag": {
-                "mobName": "Woot:none:EnderDragon",
-                "displayName": "Ender Dragon",
-                "mobXpCost": 750
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
             },
-            "Damage": 0s
+            "id": "woot:upgradeb",
+            "Count": 1b,
+            "Damage": 5s
         }
     ],
     "NPCDialogOptions": [
@@ -496,29 +426,26 @@
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
         ],
-        "llibrary:ExtendedEntityDataCapability": {
-        },
-        "arsmagica2:ExtendedProp": {
-            "AM2": {
-                "CurrentBurnout": 0.0f,
-                "MarkX": 0.0d,
-                "HealCooldown": 0,
-                "TK_Distance": 8.0f,
-                "Shrunk": 0b,
-                "MarkY": 0.0d,
-                "MarkZ": 0.0d,
-                "FallProtection": 0.0f,
-                "AffinityHealCooldown": 0,
-                "CurrentLevel": 1,
-                "Contingency": {
-                    "Type": "null"
-                },
-                "CurrentSummons": 0,
-                "MarkDimensionId": -512,
-                "CurrentXP": 0.0f,
-                "Inverted": 0b,
-                "ManaShielding": 0.0f,
-                "CurrentMana": 500.85f
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
             }
         }
     },
@@ -659,13 +586,17 @@
     "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
         "PlayerPersisted": {
         }
     },
     "MovingState": 1,
     "MovingPos": 0,
     "PotionAmp": 0,
-    "OnAttack": 0,
+    "OnAttack": 3,
     "TacticalRadius": 8,
     "FallFlying": 0b,
     "MaxExp": 0,
@@ -693,13 +624,14 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Monster Hunter",
-    "TotalTicksAlive": 78004L,
+    "TotalTicksAlive": 195522L,
     "Rotation": [
-        104.1705f,
+        99.18439f,
         0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
     "SpawnCycle": 0

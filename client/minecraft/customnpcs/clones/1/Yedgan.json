@@ -49,7 +49,7 @@
         "Melee": 1.0f
     },
     "BossBar": 0b,
-    "RespawnTime": 20,
+    "RespawnTime": 200,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -127,7 +127,7 @@
         -0.0784000015258789d,
         0.0d
     ],
-    "CombatRegen": 100,
+    "CombatRegen": 0,
     "NpcsTimers": [
     ],
     "pEffect": 0,
@@ -167,7 +167,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 21992,
+    "HurtByTimestamp": 3087,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -194,7 +194,7 @@
             "Name": "am2.xpMultiplier"
         },
         {
-            "Base": 2000.0d,
+            "Base": 60.0d,
             "Name": "generic.maxHealth"
         },
         {
@@ -214,7 +214,7 @@
             "Name": "generic.armorToughness"
         },
         {
-            "Base": 32.0d,
+            "Base": 48.0d,
             "Name": "generic.followRange"
         },
         {
@@ -243,9 +243,176 @@
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
-    "HealthRegen": 100,
+    "HealthRegen": 5,
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
+            {
+                "player_uuidMost": -5622347594031346783L,
+                "player_uuidLeast": -9147900440633561618L,
+                "damage_data": [
+                    {
+                        "damage": 333.80792f,
+                        "item": {
+                            "id": "tconstruct:broadsword",
+                            "Count": 1b,
+                            "tag": {
+                                "StatsOriginal": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 5.0f
+                                },
+                                "Stats": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 11.816217f
+                                },
+                                "Special": {
+                                    "Categories": [
+                                        "weapon",
+                                        "tool"
+                                    ]
+                                },
+                                "TinkerData": {
+                                    "UsedModifiers": 3,
+                                    "Materials": [
+                                        "iron",
+                                        "iron",
+                                        "iron"
+                                    ],
+                                    "Modifiers": [
+                                        "toolleveling",
+                                        "sharpness"
+                                    ]
+                                },
+                                "Modifiers": [
+                                    {
+                                        "identifier": "magnetic",
+                                        "color": -3487030,
+                                        "level": 3,
+                                        "magnetic1": 1b,
+                                        "magnetic2": 1b
+                                    },
+                                    {
+                                        "identifier": "toolleveling",
+                                        "color": 16777215,
+                                        "level": 4,
+                                        "xp": 1520,
+                                        "bonus_modifiers": 3
+                                    },
+                                    {
+                                        "identifier": "sharpness",
+                                        "current": 216,
+                                        "color": 16774902,
+                                        "level": 3,
+                                        "max": 216,
+                                        "extraInfo": "215 / 216"
+                                    }
+                                ],
+                                "Traits": [
+                                    "magnetic1",
+                                    "magnetic2",
+                                    "toolleveling"
+                                ]
+                            },
+                            "Damage": 255s
+                        }
+                    }
+                ]
+            },
+            {
+                "player_uuidMost": -8534226136842678886L,
+                "player_uuidLeast": -8731494272233453284L,
+                "damage_data": [
+                    {
+                        "damage": 14.222927f,
+                        "item": {
+                            "id": "tconstruct:broadsword",
+                            "Count": 1b,
+                            "tag": {
+                                "StatsOriginal": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 5.0f
+                                },
+                                "Stats": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 2,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 11.816217f
+                                },
+                                "Special": {
+                                    "Categories": [
+                                        "weapon",
+                                        "tool"
+                                    ]
+                                },
+                                "TinkerData": {
+                                    "UsedModifiers": 4,
+                                    "Materials": [
+                                        "iron",
+                                        "iron",
+                                        "iron"
+                                    ],
+                                    "Modifiers": [
+                                        "toolleveling",
+                                        "sharpness",
+                                        "mending_moss"
+                                    ]
+                                },
+                                "Modifiers": [
+                                    {
+                                        "identifier": "magnetic",
+                                        "color": -3487030,
+                                        "level": 3,
+                                        "magnetic1": 1b,
+                                        "magnetic2": 1b
+                                    },
+                                    {
+                                        "identifier": "toolleveling",
+                                        "color": 16777215,
+                                        "level": 4,
+                                        "xp": 1549,
+                                        "bonus_modifiers": 3
+                                    },
+                                    {
+                                        "identifier": "sharpness",
+                                        "current": 216,
+                                        "color": 16774902,
+                                        "level": 3,
+                                        "max": 216,
+                                        "extraInfo": "215 / 216"
+                                    },
+                                    {
+                                        "identifier": "mending_moss",
+                                        "color": 4434738,
+                                        "stored_xp": 100,
+                                        "level": 1,
+                                        "heal_timestamp": 152591070L
+                                    }
+                                ],
+                                "Traits": [
+                                    "magnetic1",
+                                    "magnetic2",
+                                    "toolleveling",
+                                    "mending_moss"
+                                ]
+                            },
+                            "Damage": 190s
+                        }
+                    }
+                ]
+            }
         ],
         "llibrary:ExtendedEntityDataCapability": {
         },
@@ -345,7 +512,7 @@
     "SkinUrl": "",
     "CanSwim": 1b,
     "GroundSound": "minecraft:block.stone.break",
-    "MaxHealth": 2000,
+    "MaxHealth": 60,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
     "PotionDuration": 5,
@@ -437,16 +604,16 @@
     "pXlr8": 0b,
     "Scripts": [
     ],
-    "Health": 2000.0f,
+    "Health": 60.0f,
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Dourhand",
-    "TotalTicksAlive": 24774L,
+    "TotalTicksAlive": 196807L,
     "Rotation": [
-        6.042427f,
-        -40.0f
+        165.22327f,
+        0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,

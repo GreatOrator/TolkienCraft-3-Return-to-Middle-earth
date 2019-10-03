@@ -170,9 +170,9 @@
     "TargetType": 0,
     "pRender3D": 1b,
     "Motion": [
-        0.0d,
+        -0.06529904883714188d,
         -0.0784000015258789d,
-        0.0d
+        0.03407507233747338d
     ],
     "CombatRegen": 100,
     "NpcsTimers": [
@@ -230,7 +230,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 4270,
+    "HurtByTimestamp": 2759,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -329,7 +329,7 @@
             "Name": "generic.armorToughness"
         },
         {
-            "Base": 32.0d,
+            "Base": 48.0d,
             "Name": "generic.followRange"
         },
         {
@@ -523,7 +523,7 @@
         }
     },
     "MovingState": 2,
-    "MovingPos": 0,
+    "MovingPos": 5,
     "PotionAmp": 0,
     "OnAttack": 3,
     "TacticalRadius": 8,
@@ -553,9 +553,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Mining Specialist",
-    "TotalTicksAlive": 957970L,
+    "TotalTicksAlive": 1806381L,
     "Rotation": [
-        107.45297f,
+        62.411133f,
         0.0f
     ],
     "ShowName": 0,

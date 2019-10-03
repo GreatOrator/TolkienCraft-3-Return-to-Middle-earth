@@ -1,15 +1,15 @@
 {
-	"revision": 51,
+	"revision": 2,
 	"infoText": [
 		"[c]Update to the map",
-		"TolkienCraft v1.1.7",
-		"Pack is being moved to full-release status! Some mod changes and quest bugs squashed!",
-		"Use domobspawn false if the mobs still overwhelm you or change difficulty to easy, I have added additional NPC mobs in areas where I thought it would work best, still more to add however.",
-		"Fixed some bugs with the initial quests that was breaking progression and a few other map bugs reported.",
-		"Map has been updated.  Multiple minor map fixes found during play-through of myself and others",
-		"There has been a rework to an extent of the BQ book.  Found some issues that should not have been there and it should be more intuitive now for players starting out on what to do.  Also refactored some of the quests categories to be cleaner and hopefully make a bit more sense.",
+		"TolkienCraft v1.12.2-2.0.5",
+		"The port is officially complete!",
+		"You can now play TolkienCraft III in Minecraft version 1.12.2!",
+		"Tons of bug fixes for the map and some new content even! Thanks to everyone who submitted bug reports.",
+		"Most mods are the same as 1.10.2 with a few exceptions and also a few new mods.",
+		"Please keep in mind, the download link will only work in a browser (for the map) as the old host I had went belly up so had to move it to MediaFire. If you have issues, please let me know.",
+		"As always, please let me know if run in to any issues so I can address them.",
 		"Thank you to all of you for your support and especially my Patrons on Patreon!",
-		"",
 		""
 	]
 }

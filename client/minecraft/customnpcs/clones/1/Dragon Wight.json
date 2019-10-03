@@ -1,0 +1,829 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "iceandfire:dragonarmor_dragonsteel_ice",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "iceandfire:dragon_skull",
+            "Count": 1b,
+            "Damage": 1s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "iceandfire:dragonscales_blue",
+            "Count": 4b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "iceandfire:ice_dragon_flesh",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "iceandfire:ice_dragon_heart",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "iceandfire:ice_dragon_blood",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 2,
+    "PotionEffect": 0,
+    "Size": 30,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 2b,
+    "RespawnTime": 600,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 3,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 5,
+    "ShotCount": 1,
+    "pDur": 5,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "iceandfire:textures/models/icedragon/blue_1.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        0.0d,
+        0.0d
+    ],
+    "CombatRegen": 2,
+    "NpcsTimers": [
+    ],
+    "pEffect": 2,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 0b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 4452,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 200.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Dragon Wight",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 0b,
+    "HealthRegen": 0,
+    "ForgeCaps": {
+        "tinkertoolleveling:entityxp": [
+            {
+                "player_uuidMost": -1209877122038870998L,
+                "player_uuidLeast": -6725747101558654467L,
+                "damage_data": [
+                    {
+                        "damage": 196.65411f,
+                        "item": {
+                            "ForgeCaps": {
+                                "astralsorcery:cap_item_amulet_holder": {
+                                },
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "tconstruct:broadsword",
+                            "Count": 1b,
+                            "tag": {
+                                "StatsOriginal": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 5.0f
+                                },
+                                "Stats": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 2,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 11.816217f
+                                },
+                                "Special": {
+                                    "Categories": [
+                                        "weapon",
+                                        "tool"
+                                    ]
+                                },
+                                "TinkerData": {
+                                    "UsedModifiers": 3,
+                                    "Materials": [
+                                        "iron",
+                                        "iron",
+                                        "iron"
+                                    ],
+                                    "Modifiers": [
+                                        "toolleveling",
+                                        "sharpness"
+                                    ]
+                                },
+                                "Modifiers": [
+                                    {
+                                        "identifier": "magnetic",
+                                        "color": -3487030,
+                                        "level": 3,
+                                        "magnetic1": 1b,
+                                        "magnetic2": 1b
+                                    },
+                                    {
+                                        "identifier": "toolleveling",
+                                        "color": 16777215,
+                                        "level": 3,
+                                        "xp": 745,
+                                        "bonus_modifiers": 2
+                                    },
+                                    {
+                                        "identifier": "sharpness",
+                                        "current": 216,
+                                        "color": 16774902,
+                                        "level": 3,
+                                        "max": 216,
+                                        "extraInfo": "215 / 216"
+                                    }
+                                ],
+                                "Traits": [
+                                    "magnetic1",
+                                    "magnetic2",
+                                    "toolleveling"
+                                ]
+                            },
+                            "Damage": 29s
+                        }
+                    }
+                ]
+            },
+            {
+                "player_uuidMost": -8534226136842678886L,
+                "player_uuidLeast": -8731494272233453284L,
+                "damage_data": [
+                    {
+                        "damage": 22.776367f,
+                        "item": {
+                            "ForgeCaps": {
+                                "astralsorcery:cap_item_amulet_holder": {
+                                },
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "tconstruct:broadsword",
+                            "Count": 1b,
+                            "tag": {
+                                "StatsOriginal": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 5.0f
+                                },
+                                "Stats": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 303,
+                                    "HarvestLevel": 2,
+                                    "Attack": 11.816217f
+                                },
+                                "Special": {
+                                    "Categories": [
+                                        "weapon",
+                                        "tool"
+                                    ],
+                                    "RepairCount": 3
+                                },
+                                "TinkerData": {
+                                    "UsedModifiers": 4,
+                                    "Materials": [
+                                        "iron",
+                                        "iron",
+                                        "iron"
+                                    ],
+                                    "Modifiers": [
+                                        "toolleveling",
+                                        "sharpness",
+                                        "mending_moss"
+                                    ]
+                                },
+                                "Modifiers": [
+                                    {
+                                        "identifier": "magnetic",
+                                        "color": -3487030,
+                                        "level": 3,
+                                        "magnetic1": 1b,
+                                        "magnetic2": 1b
+                                    },
+                                    {
+                                        "identifier": "toolleveling",
+                                        "color": 16777215,
+                                        "level": 5,
+                                        "xp": 938,
+                                        "bonus_modifiers": 4
+                                    },
+                                    {
+                                        "identifier": "sharpness",
+                                        "current": 216,
+                                        "color": 16774902,
+                                        "level": 3,
+                                        "max": 216,
+                                        "extraInfo": "215 / 216"
+                                    },
+                                    {
+                                        "identifier": "mending_moss",
+                                        "color": 4434738,
+                                        "stored_xp": 100,
+                                        "level": 1,
+                                        "heal_timestamp": 152591070L
+                                    }
+                                ],
+                                "Traits": [
+                                    "magnetic1",
+                                    "magnetic2",
+                                    "toolleveling",
+                                    "mending_moss"
+                                ]
+                            },
+                            "Damage": 64s
+                        }
+                    },
+                    {
+                        "damage": 173.41995f,
+                        "item": {
+                            "ForgeCaps": {
+                                "astralsorcery:cap_item_amulet_holder": {
+                                },
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "tconstruct:arrow",
+                            "Count": 1b,
+                            "tag": {
+                                "StatsOriginal": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "Accuracy": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 204,
+                                    "HarvestLevel": 2,
+                                    "Attack": 6.0f
+                                },
+                                "Stats": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "Accuracy": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 204,
+                                    "HarvestLevel": 2,
+                                    "Attack": 6.0f,
+                                    "Broken": 1b
+                                },
+                                "Special": {
+                                    "Categories": [
+                                        "projectile",
+                                        "tool",
+                                        "no_melee"
+                                    ],
+                                    "RepairCount": 7
+                                },
+                                "TinkerData": {
+                                    "UsedModifiers": 2,
+                                    "Materials": [
+                                        "wood",
+                                        "iron",
+                                        "feather"
+                                    ],
+                                    "Modifiers": [
+                                        "toolleveling",
+                                        "mending_moss"
+                                    ]
+                                },
+                                "Modifiers": [
+                                    {
+                                        "identifier": "ecological",
+                                        "color": -7444965,
+                                        "level": 1
+                                    },
+                                    {
+                                        "identifier": "magnetic",
+                                        "color": -3487030,
+                                        "level": 3,
+                                        "magnetic1": 1b,
+                                        "magnetic2": 1b
+                                    },
+                                    {
+                                        "identifier": "toolleveling",
+                                        "color": 16777215,
+                                        "level": 3,
+                                        "xp": 48,
+                                        "bonus_modifiers": 2
+                                    },
+                                    {
+                                        "identifier": "mending_moss",
+                                        "color": 4434738,
+                                        "level": 2
+                                    }
+                                ],
+                                "Traits": [
+                                    "ecological",
+                                    "magnetic2",
+                                    "magnetic1",
+                                    "toolleveling",
+                                    "mending_moss"
+                                ]
+                            },
+                            "Damage": 197s
+                        }
+                    },
+                    {
+                        "damage": 244.57217f,
+                        "item": {
+                            "ForgeCaps": {
+                                "astralsorcery:cap_item_amulet_holder": {
+                                },
+                                "customnpcs:itemscripteddata": {
+                                }
+                            },
+                            "id": "tconstruct:arrow",
+                            "Count": 1b,
+                            "tag": {
+                                "StatsOriginal": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "Accuracy": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 204,
+                                    "HarvestLevel": 2,
+                                    "Attack": 6.0f
+                                },
+                                "Stats": {
+                                    "AttackSpeedMultiplier": 1.0f,
+                                    "Accuracy": 1.0f,
+                                    "MiningSpeed": 6.0f,
+                                    "FreeModifiers": 3,
+                                    "Durability": 204,
+                                    "HarvestLevel": 2,
+                                    "Attack": 6.0f
+                                },
+                                "Special": {
+                                    "Categories": [
+                                        "projectile",
+                                        "tool",
+                                        "no_melee"
+                                    ],
+                                    "RepairCount": 5
+                                },
+                                "TinkerData": {
+                                    "UsedModifiers": 1,
+                                    "Materials": [
+                                        "wood",
+                                        "iron",
+                                        "feather"
+                                    ],
+                                    "Modifiers": [
+                                        "toolleveling",
+                                        "mending_moss"
+                                    ]
+                                },
+                                "Modifiers": [
+                                    {
+                                        "identifier": "ecological",
+                                        "color": -7444965,
+                                        "level": 1
+                                    },
+                                    {
+                                        "identifier": "magnetic",
+                                        "color": -3487030,
+                                        "level": 3,
+                                        "magnetic1": 1b,
+                                        "magnetic2": 1b
+                                    },
+                                    {
+                                        "identifier": "toolleveling",
+                                        "color": 16777215,
+                                        "level": 2,
+                                        "xp": 98,
+                                        "bonus_modifiers": 1
+                                    },
+                                    {
+                                        "identifier": "mending_moss",
+                                        "color": 4434738,
+                                        "level": 1
+                                    }
+                                ],
+                                "Traits": [
+                                    "ecological",
+                                    "magnetic2",
+                                    "magnetic1",
+                                    "toolleveling",
+                                    "mending_moss"
+                                ]
+                            },
+                            "Damage": 169s
+                        }
+                    }
+                ]
+            }
+        ],
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
+            }
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 8339378,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "com.github.alexthe666.iceandfire.entity.EntityIceDragon",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+            "Flying": 1b,
+            "AttackDecision": 1b
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 200,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 30,
+            "Slot": 0
+        },
+        {
+            "Integer": 80,
+            "Slot": 1
+        },
+        {
+            "Integer": 75,
+            "Slot": 2
+        },
+        {
+            "Integer": 60,
+            "Slot": 3
+        },
+        {
+            "Integer": 90,
+            "Slot": 4
+        },
+        {
+            "Integer": 50,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 1b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "PlayerPersisted": {
+        }
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 100,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 1,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 50,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 200.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 9,
+    "Title": "",
+    "TotalTicksAlive": 232405L,
+    "Rotation": [
+        -91.82072f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

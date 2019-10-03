@@ -20,17 +20,7 @@
             "width" : 450,
             "height" : 128,
             "alignment" : "top_center"
-        },
-       
-        "a2game":
-		{
-			"image" : "textures:tolkiencraft/gui/A2G.png",
-            "posX" : -120,
-            "posY" : -78,
-            "width" : 100,
-            "height" : 57,
-            "alignment" : "bottom_right"
-		}
+        }
     },
     
     "buttons":
@@ -39,15 +29,15 @@
         {
             "text" : "gui.mad.download.button",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-            "posX" : -75,
-            "posY" : 10,
+            "posX" : 20,
+            "posY" : 200,
             "width" : 150,
             "height" : 30,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
-			"alignment" : "center",
+			"alignment" : "left",
 			"wrappedButton" : 426            
         },
 		
@@ -55,15 +45,15 @@
         {
             "text" : "menu.singleplayer",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-            "posX" : -75,
-            "posY" : 35,
-            "width" : 75,
+            "posX" : 20,
+            "posY" : 225,
+            "width" : 150,
             "height" : 30,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
-			"alignment" : "center",
+			"alignment" : "left",
             "action" :
             {
                 "type" : "openGui",
@@ -75,15 +65,15 @@
         {
             "text" : "menu.multiplayer",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-            "posX" : 0,
-            "posY" : 35,
-            "width" : 75,
+            "posX" : 20,
+            "posY" : 250,
+            "width" : 150,
             "height" : 30,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
-			"alignment" : "center",
+			"alignment" : "left",
             "action" :
             {
                 "type" : "openGui",
@@ -95,40 +85,20 @@
         {
             "text" : "Credits",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-            "posX" : -75,
-            "posY" : 60,
+            "posX" : 20,
+            "posY" : 275,
             "width" : 150,
             "height" : 30,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
-			"alignment" : "center",
+			"alignment" : "left",
             "action" :
             {
                 "type" : "openGui",
                 "gui" : "custom.thankyou"
             }
-        },
-		
-        "server":
-        {
-            "text" : "Server Download",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-            "posX" : -75,
-            "posY" : 85,
-            "width" : 150,
-            "height" : 30,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16711680,
-			"alignment" : "center",
-            "action" :
-                        {
-                "type" : "openLink",
-                                "link" : "https://github.com/GreatOrator/TolkienCraft-3-Return-to-Middle-earth/releases"
-			}
         },
 		
         "options":
@@ -211,58 +181,29 @@
     {		
         "version":
         {
-            "text" : "v1.1.7 - Full",
-            "posX" : -100,
+            "text" : "v2.0.2",
+            "posX" : 0,
+            "posY" : 135,
+            "color" : 14329120,
+            "alignment" : "top_center"
+        },
+       
+        "mods":
+        {
+            "text" : "#modsloaded# total mods with #modsactive# active",
+            "posX" : -175,
             "posY" : -15,
             "color" : 14329120,
             "alignment" : "bottom_right"
         },
        
-        "a2g1":
-        {
-            "text" : "Sponsored By",
-            "posX" : -105,
-            "posY" : -75,
-            "color" : 14329120,
-            "alignment" : "bottom_right",
-			"action" :
-                        {
-                "type" : "openLink",
-                                "link" : "http://tolkiencraft.a2g.gs"
-			}
-        },
-       
-        "a2g2":
-        {
-            "text" : "Aim2Game Hosting",
-            "posX" : -110,
-            "posY" : -30,
-            "color" : 14329120,
-            "alignment" : "bottom_right",
-			"action" :
-                        {
-                "type" : "openLink",
-                                "link" : "http://tolkiencraft.a2g.gs"
-			}
-        },
-       
-       
-        "mods":
-        {
-            "text" : "#modsloaded# total mods with #modsactive# active",
-            "posX" : -75,
-            "posY" : -15,
-            "color" : 14329120,
-            "alignment" : "bottom_center"
-        },
-       
         "greeting":
         {
             "text" : "#username# has returned!",
-            "posX" : 5,
-            "posY" : 5,
+            "posX" : 30,
+            "posY" : 190,
             "color" : 14329120,
-            "alignment" : "top_left"
+            "alignment" : "left"
         }
 		
     },

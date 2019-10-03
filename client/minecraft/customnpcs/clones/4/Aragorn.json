@@ -13,7 +13,7 @@
         "Melee": 1.0f
     },
     "BossBar": 0b,
-    "RespawnTime": 20,
+    "RespawnTime": 0,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -141,7 +141,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 1930,
+    "HurtByTimestamp": 250,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -471,7 +471,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "",
-    "TotalTicksAlive": 3655853L,
+    "TotalTicksAlive": 3656134L,
     "Rotation": [
         180.0f,
         0.0f
@@ -480,5 +480,5 @@
     "npcInteracting": 1b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
-    "SpawnCycle": 0
+    "SpawnCycle": 3
 }

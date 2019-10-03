@@ -131,7 +131,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 2721,
+    "HurtByTimestamp": 405,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -178,7 +178,7 @@
             "Name": "generic.armorToughness"
         },
         {
-            "Base": 32.0d,
+            "Base": 48.0d,
             "Name": "generic.followRange"
         },
         {
@@ -402,9 +402,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "Moria Stable Master",
-    "TotalTicksAlive": 768477L,
+    "TotalTicksAlive": 769818L,
     "Rotation": [
-        284.08133f,
+        94.33884f,
         0.0f
     ],
     "ShowName": 0,

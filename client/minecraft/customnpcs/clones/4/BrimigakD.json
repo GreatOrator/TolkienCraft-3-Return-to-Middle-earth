@@ -1,0 +1,562 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "iceandfire:dragon_stick",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tolkientweaks:brons_coin",
+            "Count": 21b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tolkientweaks:silver_coin",
+            "Count": 2b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tolkientweaks:gold_coin",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "lootbags:itemlootbag",
+            "Count": 1b,
+            "Damage": 1s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "lootbags:itemlootbag",
+            "Count": 1b,
+            "Damage": 2s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "lootbags:itemlootbag",
+            "Count": 1b,
+            "Damage": 3s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "lootbags:itemlootbag",
+            "Count": 1b,
+            "Damage": 4s
+        },
+        {
+            "Slot": 8b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "lootbags:itemlootbag",
+            "Count": 1b,
+            "Damage": 11s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 6,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.5633802f,
+        "Explosion": 2.0f,
+        "Knockback": 1.7042253f,
+        "Melee": 0.8873239f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "Who is to say who is the villain and who is the hero?",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "After all, there are things so much worse than death!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Your actions affect so many others than yourself. You will come to realize what little choice you have.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "You have destroyed so much. What is it, exactly, that you have created? Can you name even one thing? I thought not.",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+            {
+                "Button": 0,
+                "Ticks": 180,
+                "Enabled": 1b,
+                "Name": "CromhesFall",
+                "Lines": "2 animate normal
+2 command playsound customnpcs:human.male.evil.demon_laugh neutral @p
+9 command tellraw @p {\"text\":\"Brimigak: See, Cromhes. It is as I promised. Here is your daughter.\",\"italic\":true}
+12 command tellraw @p {\"text\":\"Brimigak: And here is the hero and all the others you have watched for so long.\",\"italic\":true}
+15 command tellraw @p {\"text\":\"Brimigak: You see, for a great many days, Cromhes has watched you from afar through a palantír.\",\"italic\":true}
+18 command tellraw @p {\"text\":\"Brimigak: I told him that seeing your failures would break his will.\",\"italic\":true}
+21 command tellraw @p {\"text\":\"Brimigak: Yet as he saw your successes, he thought me the fool.\",\"italic\":true}
+24 command tellraw @p {\"text\":\"Brimigak: Now though, as he sees your final defeat at my hands, he shall know true despair!\",\"italic\":true}
+27 command tellraw @p {\"text\":\"Brimigak: and in his despair, he shall abandon all hope and become a servant of Angmar!\",\"italic\":true}
+30 command tellraw @p {\"text\":\"Layles: Never!\",\"bold\":true}
+31 command tellraw @p {\"text\":\"Brimigak: Die.\",\"italic\":true}
+31 command noppes scene start LaylesDie
+33 command tellraw @p {\"text\":\"Cromhes: Layles!\"}
+34 command tellraw @p {\"text\":\"Brimigak: It is enough! I need not waste time with you fools any longer!\",\"italic\":true}
+36 command noppes quest start @p 81
+38 command tellraw @p {\"text\":\"Brimigak: Leave now and take Cromhes with you.\",\"italic\":true}
+40 command tellraw @p {\"text\":\"Brimigak: I have accomplished what I set out to do!\",\"italic\":true}
+42 move to 13610 21 8882
+44 command noppes scene start BrimigakDefeat
+45 command noppes dialog read @p 270
+47 move to 13606 21 8886
+49 command noppes dialog unread @p 27050 command noppes dialog read @p 271"
+            },
+            {
+                "Button": 0,
+                "Ticks": 10,
+                "Enabled": 1b,
+                "Name": "Chapter4ResetII",
+                "Lines": "2 command noppes dialog read @p 270
+3 move to 13611 21 8875
+8 command noppes dialog unread @p 270
+10 command noppes scene reset Chapter4ResetII"
+            }
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/CustomSkins/Mobs/DarkMage3.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 2,
+    "NpcsTimers": [
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 15163,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 200.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Brimigak",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 15,
+    "ForgeCaps": {
+        "tinkertoolleveling:entityxp": [
+        ],
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
+            }
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": -0.3016305f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.402174f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": -0.3016305f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 1b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 393986,
+            "PlayerTexture": 0b,
+            "Color": 7539960,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": -0.2711957f,
+            "TransX": -0.0f,
+            "ScaleY": 1.3043478f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": -0.3016305f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 200,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 40,
+            "Slot": 0
+        },
+        {
+            "Integer": 80,
+            "Slot": 1
+        },
+        {
+            "Integer": 50,
+            "Slot": 2
+        },
+        {
+            "Integer": 5,
+            "Slot": 3
+        },
+        {
+            "Integer": 45,
+            "Slot": 4
+        },
+        {
+            "Integer": 30,
+            "Slot": 5
+        },
+        {
+            "Integer": 20,
+            "Slot": 6
+        },
+        {
+            "Integer": 5,
+            "Slot": 7
+        },
+        {
+            "Integer": 5,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "PlayerPersisted": {
+        }
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 3,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 93,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 25,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 200.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 15,
+    "Title": "",
+    "TotalTicksAlive": 78222011L,
+    "Rotation": [
+        86.087524f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

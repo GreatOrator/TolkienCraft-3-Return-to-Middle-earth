@@ -40,14 +40,14 @@
             "text" : "Main Menu",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
             "posX" : -75,
-            "posY" : 10,
+            "posY" : 150,
             "width" : 150,
             "height" : 30,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
-			"alignment" : "center",
+			"alignment" : "top_center",
             "action" :
             {
                 "type" : "openGui",
@@ -135,11 +135,11 @@
     {		
         "version":
         {
-            "text" : "v1.1.7 - Full",
-            "posX" : -100,
-            "posY" : -15,
+            "text" : "v2.0.2",
+            "posX" : 0,
+            "posY" : 135,
             "color" : 14329120,
-            "alignment" : "bottom_right"
+            "alignment" : "top_center"
         },
 	
 	"musicheader":
@@ -199,20 +199,6 @@
             "alignment" : "center",
 			"hoverText" : "Thank you for your inspiration!"
 		},
-     "sponsor":
-        {
-            "text" : "Aim2Game Hosting",
-            "posX" : -145,
-            "posY" : 126,
-            "color" : 14329120,
-            "alignment" : "center",
-			"hoverText" : "Game Server Hosting!",
-			"action" :
-                        {
-                "type" : "openLink",
-                                "link" : "http://tolkiencraft.a2g.gs"
-			}
-        },
         		
 	"sn0w":
         {
@@ -260,15 +246,6 @@
                 "type" : "openLink",
                                 "link" : "https://www.patreon.com/greatorator?ty=a"
 			}
-        },
-       
-    "greeting":
-        {
-            "text" : "#username# has returned!",
-            "posX" : 5,
-            "posY" : 5,
-            "color" : 14329120,
-            "alignment" : "top_left"
         }
     },
 		

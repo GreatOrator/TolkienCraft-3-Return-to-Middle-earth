@@ -19,8 +19,6 @@
       "centerX": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)",
       "centerY": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)"
     },
-    "antiqueatlas:EndCity": {},
-    "antiqueatlas:EndCity_Far": {},
     "antiqueatlas:bed": {},
     "antiqueatlas:diamond": {},
     "antiqueatlas:end_city": {},
@@ -35,7 +33,6 @@
     "antiqueatlas:sword": {},
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},
-    "antiqueatlas:unknown_marker": {},
     "antiqueatlas:village": {}
   }
 }

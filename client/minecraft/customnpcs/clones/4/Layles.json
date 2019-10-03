@@ -24,7 +24,8 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
@@ -38,51 +39,52 @@
         "Scenes": [
             {
                 "Button": 0,
-                "Ticks": 208,
+                "Ticks": 6421,
                 "Enabled": 1b,
                 "Name": "LaylesStart",
-                "Lines": "2 command tellraw @p {\"text\":\"Layles: Alright, let's see if all the hard work you did to get this key paid off.\",\"bold\":true}
-3 animate sneak
-4 command noppes dialog read @p 262
-5 animate normal
-7 command tellraw @p {\"text\":\"Layles: I have no insight into where exactly he may be…the rangers did not tell me where in here he would be found. We will have to make a careful search.\",\"bold\":true}
-12 command tellraw @p {\"text\":\"Layles: Stay close, who knows what lies ahead…\",\"bold\":true}
-13 animate normal
-15 move to 13574 37 8784
-28 command tellraw @p {\"text\":\"Layles: Tread carefully now…\",\"bold\":true}
-30 move to 13587 37 878139 stats walking_speed 8
-40 command tellraw @p {\"text\":\"Layles: There, a fallen Ranger!\",\"bold\":true}
-40 move to 13588 32 8758
-51 animate sneak
-51 command tellraw @p {\"text\":\"Layles: Please don't be him…\",\"bold\":true}52 stats walking_speed 5
-53 command tellraw @p {\"text\":\"Layles: I am sure now; this is not my father.\",\"bold\":true}
-54 animate normal
-55 move to 13614 38 8757
-68 command tellraw @p {\"text\":\"Layles: Hold, I will open this door…\",\"bold\":true}
-69 animate sneak
-70 command noppes dialog read @p 263
-71 animate normal
-72 command tellraw @p {\"text\":\"Layles: Be on your guard…\",\"bold\":true}
-72 move to 13621 39 8756
-77 command tellraw @p {\"text\":\"Layles: Help me!\",\"bold\":true}
-77 equip main minecraft:diamond_sword
-78  command noppes quest start @p 82"
+                "Lines": "2 move tp 13539 44 8797
+4 move to 13546 44 8786
+6 command tellraw @p {\"text\":\"Layles: Alright, let's see if all the hard work you did to get this key paid off.\",\"bold\":true}
+8 animate sneak
+10 command noppes dialog read @p 262
+11 animate normal
+13 command tellraw @p {\"text\":\"Layles: I have no insight into where exactly he may be…the rangers did not tell me where in here he would be found. We will have to make a careful search.\",\"bold\":true}
+18 command tellraw @p {\"text\":\"Layles: Stay close, who knows what lies ahead…\",\"bold\":true}
+21 animate normal
+23 move to 13574 37 8784
+36 command tellraw @p {\"text\":\"Layles: Tread carefully now…\",\"bold\":true}
+38 move to 13587 37 878139 stats walking_speed 8
+48 command tellraw @p {\"text\":\"Layles: There, a fallen Ranger!\",\"bold\":true}
+48 move to 13588 32 8758
+59 animate sneak
+59 command tellraw @p {\"text\":\"Layles: Please don't be him…\",\"bold\":true}52 stats walking_speed 5
+61 command tellraw @p {\"text\":\"Layles: I am sure now; this is not my father.\",\"bold\":true}
+72 animate normal
+63 move to 13614 38 8757
+76 command tellraw @p {\"text\":\"Layles: Hold, I will open this door…\",\"bold\":true}
+77 animate sneak
+78 command noppes dialog read @p 263
+79 animate normal
+80 command tellraw @p {\"text\":\"Layles: Be on your guard…\",\"bold\":true}
+80 move to 13621 39 8756
+85 command tellraw @p {\"text\":\"Layles: Help me!\",\"bold\":true}
+85 equip main minecraft:diamond_sword"
             },
             {
                 "Button": 0,
-                "Ticks": -1,
+                "Ticks": 1516,
                 "Enabled": 1b,
                 "Name": "LaylesContinue",
-                "Lines": "1 move tp 13621 39 87562 equip main none
+                "Lines": "1 move tp 13621 39 8756 equip main none
 3 command tellraw @p {\"text\":\"Layles: Thank you, I thought for sure that was the end.\",\"bold\":true}
 6 command tellraw @p {\"text\":\"Layles: Be on your guard…\",\"bold\":true}
-8 move to 13625 39 875912 stats walking_speed 8
+8 move to 13625 39 875912 stats walking_speed 8
 13 command tellraw @p {\"text\":\"Layles: There! Another Ranger!\",\"bold\":true}
 13 move to 13625 39 8776
 21 animate sneak
 22 command tellraw @p {\"text\":\"Layles: Father, is that you?\",\"bold\":true}
 24 animate normal
-25 command tellraw @p {\"text\":\"Layles: This poor soul is not my father…\",\"bold\":true}26 stats walking_speed 5
+25 command tellraw @p {\"text\":\"Layles: This poor soul is not my father…\",\"bold\":true}26 stats walking_speed 5
 27 command tellraw @p {\"text\":\"Layles: Come now, I feel we are nearing our goal!\",\"bold\":true}
 29 move to 13610 39 8788
 39 command tellraw @p {\"text\":\"Layles: Please be careful...\",\"bold\":true}
@@ -90,11 +92,23 @@
 43 move to 13610 21 8847
 66 command tellraw @p {\"text\":\"Layles: It is time to put this key to its final test…\",\"bold\":true}
 67 command noppes dialog read @p 264
-68 command tellraw @p {\"text\":\"Layles: Wait! The gate opens on its own!\",\"bold\":true}69 stats walking_speed 9
+68 command tellraw @p {\"text\":\"Layles: Wait! The gate opens on its own!\",\"bold\":true}69 stats walking_speed 9
 70 command tellraw @p {\"text\":\"Layles: Father!\",\"bold\":true}
 70 move to 13607 21 8874
 80 animate sneak
 81 command noppes scene start CromhesFall"
+            },
+            {
+                "Button": 0,
+                "Ticks": 65,
+                "Enabled": 1b,
+                "Name": "LaylesDie",
+                "Lines": "2 animate crawl
+3 command tellraw @p {\"text\":\"Layles: Ahhhhhhhhhh!\"}
+4 move tp 13550 38 8790
+6 animate normal
+
+"
             }
         ]
     },
@@ -582,6 +596,10 @@
     "BurnInSun": 0b,
     "StandingState": 0,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "WalkingRange": 10,
     "ShotCount": 1,
@@ -605,7 +623,6 @@
     "DeathTime": 0s,
     "pImpact": 0,
     "MoveState": 0,
-    "TargetType": 0,
     "pRender3D": 1b,
     "Motion": [
         0.0d,
@@ -628,7 +645,6 @@
         "Lines": [
         ]
     },
-    "SpecialAggroRange": 14,
     "Fire": -1s,
     "ArmorItems": [
         {
@@ -647,32 +663,12 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 4140,
+    "HurtByTimestamp": 35965,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
         {
             "Base": 2000.0d,
             "Name": "generic.maxHealth"
@@ -694,12 +690,20 @@
             "Name": "generic.armorToughness"
         },
         {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
             "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 5.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -721,29 +725,26 @@
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
         ],
-        "llibrary:ExtendedEntityDataCapability": {
-        },
-        "arsmagica2:ExtendedProp": {
-            "AM2": {
-                "CurrentBurnout": 0.0f,
-                "MarkX": 0.0d,
-                "HealCooldown": 0,
-                "TK_Distance": 8.0f,
-                "Shrunk": 0b,
-                "MarkY": 0.0d,
-                "MarkZ": 0.0d,
-                "FallProtection": 0.0f,
-                "AffinityHealCooldown": 0,
-                "CurrentLevel": 1,
-                "Contingency": {
-                    "Type": "null"
-                },
-                "CurrentSummons": 0,
-                "MarkDimensionId": -512,
-                "CurrentXP": 0.0f,
-                "Inverted": 0b,
-                "ManaShielding": 0.0f,
-                "CurrentMana": 500.85f
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
             }
         }
     },
@@ -834,6 +835,42 @@
     "ScriptEnabled": 0b,
     "Role": 0,
     "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
     ],
     "FactionPoints": {
         "DecreaseFaction1Points": 0b,
@@ -854,6 +891,10 @@
     "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
         "PlayerPersisted": {
         }
     },
@@ -888,13 +929,14 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 7,
     "Title": "",
-    "TotalTicksAlive": 15451133L,
+    "TotalTicksAlive": 15487133L,
     "Rotation": [
-        7.3514023f,
+        6.7681274f,
         0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
     "SpawnCycle": 3

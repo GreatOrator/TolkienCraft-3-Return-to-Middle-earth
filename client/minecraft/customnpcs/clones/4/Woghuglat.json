@@ -13,7 +13,7 @@
         "Melee": 1.0f
     },
     "BossBar": 0b,
-    "RespawnTime": 0,
+    "RespawnTime": 200,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -24,7 +24,8 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 7,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
@@ -61,6 +62,10 @@
     "BurnInSun": 0b,
     "StandingState": 0,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "WalkingRange": 10,
     "ShotCount": 1,
@@ -84,7 +89,6 @@
     "DeathTime": 0s,
     "pImpact": 0,
     "MoveState": 0,
-    "TargetType": 0,
     "pRender3D": 1b,
     "Motion": [
         0.0d,
@@ -107,7 +111,6 @@
         "Lines": [
         ]
     },
-    "SpecialAggroRange": 14,
     "Fire": -1s,
     "ArmorItems": [
         {
@@ -131,32 +134,12 @@
             }
         ]
     },
-    "HurtByTimestamp": 3477,
+    "HurtByTimestamp": 1337,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
         {
             "Base": 250.0d,
             "Name": "generic.maxHealth"
@@ -178,12 +161,20 @@
             "Name": "generic.armorToughness"
         },
         {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
             "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 7.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 2.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -198,13 +189,13 @@
     "Weapons": [
         {
             "Slot": 0b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "iceandfire:dragonbone_sword",
-            "Count": 1b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 2b,
-            "id": "customnpcs:npcCryscentShield",
             "Count": 1b,
             "Damage": 0s
         }
@@ -217,29 +208,26 @@
     "ForgeCaps": {
         "tinkertoolleveling:entityxp": [
         ],
-        "llibrary:ExtendedEntityDataCapability": {
-        },
-        "arsmagica2:ExtendedProp": {
-            "AM2": {
-                "CurrentBurnout": 0.0f,
-                "MarkX": 0.0d,
-                "HealCooldown": 0,
-                "TK_Distance": 8.0f,
-                "Shrunk": 0b,
-                "MarkY": 0.0d,
-                "MarkZ": 0.0d,
-                "FallProtection": 0.0f,
-                "AffinityHealCooldown": 0,
-                "CurrentLevel": 1,
-                "Contingency": {
-                    "Type": "null"
-                },
-                "CurrentSummons": 0,
-                "MarkDimensionId": -512,
-                "CurrentXP": 0.0f,
-                "Inverted": 0b,
-                "ManaShielding": 0.0f,
-                "CurrentMana": 500.85f
+        "llibrary:extendedentitydatacapability": {
+            "Ice And Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
             }
         }
     },
@@ -316,7 +304,7 @@
     "CanSwim": 1b,
     "GroundSound": "minecraft:block.stone.break",
     "MaxHealth": 250,
-    "HideBodyWhenKilled": 0b,
+    "HideBodyWhenKilled": 1b,
     "AttackSpeed": 20,
     "PotionDuration": 5,
     "maxDelay": 40,
@@ -379,6 +367,10 @@
     "CanLeap": 1b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
         "PlayerPersisted": {
         }
     },
@@ -402,18 +394,36 @@
     "Armor": [
         {
             "Slot": 1b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "iceandfire:armor_gray_chestplate",
             "Count": 1b,
             "Damage": 0s
         },
         {
             "Slot": 2b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "iceandfire:armor_gray_leggings",
             "Count": 1b,
             "Damage": 0s
         },
         {
             "Slot": 3b,
+            "ForgeCaps": {
+                "astralsorcery:cap_item_amulet_holder": {
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "iceandfire:armor_gray_boots",
             "Count": 1b,
             "Damage": 0s
@@ -431,14 +441,15 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 9,
     "Title": "Captain of the Guard",
-    "TotalTicksAlive": 3525L,
+    "TotalTicksAlive": 5029L,
     "Rotation": [
         262.47223f,
         0.0f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
     "NoLivingAnimation": 0b,
-    "SpawnCycle": 3
+    "SpawnCycle": 0
 }
