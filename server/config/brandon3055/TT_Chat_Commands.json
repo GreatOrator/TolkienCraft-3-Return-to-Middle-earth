@@ -1,11 +1,12 @@
 [
   {
-    "trigger": "[some random conditional message]",
-    "condition": "/testfor @a[name=<player>,r=10,x=0,z=0]",
-    "command": "/tell <player> Hay! you found my secret conditional command!"
+    "trigger": "dance",
+    "condition": "/testfor @a[name=<player>,r=16,x=8227,z=7811,score_WillowDance=0]",
+    "command": "/tell <player> Old Man Willow calms down a bit"
   },
   {
-    "trigger": "[some random non conditional message]",
-    "command": "/tell <player> Hay! you found my secret non-conditional command!"
+    "trigger": "dance",
+    "condition": "/testfor @a[name=<player>,r=16,x=8227,z=7811,score_WillowDance=0]",
+    "command": "/scoreboard players set <player> WillowDance 2"
   }
 ]

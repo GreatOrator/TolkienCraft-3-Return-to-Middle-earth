@@ -1,20 +1,20 @@
 {
   "inventory": {
-    "0:28": "tolkientweaks:brons_coin,64",
-    "1:3": "thermalfoundation:armor.helmet_platinum",
+    "0:34": "tolkientweaks:key_chain",
+    "0:27": "tolkienmobs:item_coin_silver,10",
+    "0:8": "minecraft:cooked_beef,64",
+    "0:0": "tconstruct:broadsword,1,0,{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:6.0f,FreeModifiers:3,Durability:303,HarvestLevel:2,Attack:5.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:6.0f,FreeModifiers:3,Durability:303,HarvestLevel:2,Attack:5.0f},Special:{Categories:[\"tool\",\"weapon\"]},TinkerData:{Materials:[\"iron\",\"iron\",\"iron\"],Modifiers:[\"toolleveling\"]},Modifiers:[{identifier:\"magnetic\",color:-3487030,level:3,magnetic1:1b,magnetic2:1b},{identifier:\"toolleveling\",color:16777215,level:1}],Traits:[\"magnetic1\",\"magnetic2\",\"toolleveling\"]}",
     "0:1": "thermalfoundation:tool.shield_platinum",
     "0:29": "improvedbackpacks:backpack,1,0,{UUIDMost:-1017991247496722943L,UUIDLeast:-8515370695834488330L,Tier:5,Items:[]}",
-    "0:32": "morphtool:tool,1,0,{morphtool:\"data:{extrautils2:{id:\\\"extrautils2:wrench\\\",Count:1b,Damage:0s},forestry:{id:\\\"forestry:wrench\\\",Count:1b,Damage:0s}}\"}",
-    "1:1": "thermalfoundation:armor.legs_platinum",
-    "0:27": "tolkientweaks:silver_coin,10",
-    "1:0": "thermalfoundation:armor.boots_platinum",
+    "1:2": "thermalfoundation:armor.plate_platinum",
+    "0:7": "tconstruct:stone_torch,64",
+    "0:28": "tolkienmobs:item_coin_bronze,64",
     "0:33": "tolkientweaks:coin_pouch",
     "0:31": "akashictome:tome,1,0,{akashictome:\"data:{tconstruct:{id:\\\"tconstruct:book\\\",Count:1b,tag:{akashictome:definedMod:\\\"tconstruct\\\"},Damage:0s},deepresonance:{id:\\\"deepresonance:dr_manual\\\",Count:1b,tag:{akashictome:definedMod:\\\"deepresonance\\\"},Damage:0s},draconicevolution:{id:\\\"draconicevolution:info_tablet\\\",Count:1b,tag:{akashictome:definedMod:\\\"draconicevolution\\\"},Damage:0s},bqt:{id:\\\"bqt:bqbook\\\",Count:1b,tag:{akashictome:definedMod:\\\"bqt\\\"},Damage:0s},extrautils2:{id:\\\"extrautils2:book\\\",Count:1b,tag:{akashictome:definedMod:\\\"extrautils2\\\"},Damage:0s},immersiveengineering:{id:\\\"immersiveengineering:tool\\\",Count:1b,tag:{akashictome:definedMod:\\\"immersiveengineering\\\"},Damage:3s}}\"}",
-    "0:7": "tconstruct:stone_torch,64",
-    "0:34": "tolkientweaks:key_chain",
-    "0:0": "tconstruct:broadsword",
-    "0:8": "minecraft:cooked_beef,64",
-    "1:2": "thermalfoundation:armor.plate_platinum",
-    "0:30": "draconicevolution:magnet"
+    "0:32": "morphtool:tool,1,0,{morphtool:\"data:{extrautils2:{id:\\\"extrautils2:wrench\\\",Count:1b,Damage:0s},forestry:{id:\\\"forestry:wrench\\\",Count:1b,Damage:0s}}\"}",
+    "1:1": "thermalfoundation:armor.legs_platinum",
+    "1:3": "thermalfoundation:armor.helmet_platinum",
+    "0:30": "draconicevolution:magnet",
+    "1:0": "thermalfoundation:armor.boots_platinum"
   }
 }
