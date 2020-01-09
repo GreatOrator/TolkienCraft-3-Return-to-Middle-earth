@@ -103,7 +103,7 @@
 		
         "options":
         {
-            "text" : "",
+            "text" : " ",
 						"texture" : "textures:tolkiencraft/buttons/buttonoption.png",
 			"posX" : 20,
             "posY" : -25,
@@ -122,7 +122,7 @@
 		       
         "keyboard":
         {
-            "text" : "",
+            "text" : " ",
                         "texture" : "textures:tolkiencraft/buttons/buttonkeyboard.png",
             "posX" : 80,
             "posY" : -25,
@@ -141,7 +141,7 @@
        
         "quit":
        {
-            "text" : "",
+            "text" : " ",
 						"texture" : "textures:tolkiencraft/buttons/buttonexit.png",
             "posX" : 110,
             "posY" : -25,
@@ -159,7 +159,7 @@
 
         "language":
         {
-            "text" : "",
+            "text" : " ",
 						"texture" : "textures:tolkiencraft/buttons/buttonlanguage.png",
             "posX" : 50,
             "posY" : -25,
@@ -181,7 +181,7 @@
     {		
         "version":
         {
-            "text" : "v2.0.5",
+            "text" : "v2.0.53",
             "posX" : 0,
             "posY" : 135,
             "color" : 14329120,

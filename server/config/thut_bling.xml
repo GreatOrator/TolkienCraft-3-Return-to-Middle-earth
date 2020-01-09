@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Items>
+    <Item id="minecraft:redstone" tex="minecraft:textures/items/redstone_dust.png"/>
+    <Item id="minecraft:diamond"/>
+    <Item id="minecraft:emerald"/>
+    <Item id="minecraft:nether_star"/>
+</Items>
